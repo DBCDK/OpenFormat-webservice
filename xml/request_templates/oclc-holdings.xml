@@ -186,40 +186,32 @@
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
             <os:ocn>fake ocn number</os:ocn>
-            <os:holdingsdbListResponse xmlns="http://oss.dbc.dk/ns/opensearch">
-              <holdings>
-                <holding>
-                  <pid>870970-basis:28712006</pid>
-                  <dataOwner>870970</dataOwner>
-                  <format>basis</format>
-                  <identifier>28712006</identifier>
-                  <materialOwner>765700</materialOwner>
-                  <state>a</state>
-                  <count>1</count>
-                  <lastModified>2013-03-14T11:54:40Z</lastModified>
-                </holding>
-                <holding>
-                  <pid>870970-basis:28712006</pid>
-                  <dataOwner>870970</dataOwner>
-                  <format>basis</format>
-                  <identifier>28712006</identifier>
-                  <materialOwner>746100</materialOwner>
-                  <state>a</state>
-                  <count>1</count>
-                  <lastModified>2013-03-14T11:54:03Z</lastModified>
-                </holding>
-                <holding>
-                  <pid>870970-basis:28712006</pid>
-                  <dataOwner>870970</dataOwner>
-                  <format>basis</format>
-                  <identifier>28712006</identifier>
-                  <materialOwner>737600</materialOwner>
-                  <state>a</state>
-                  <count>2</count>
-                  <lastModified>2013-03-14T11:53:49Z</lastModified>
-                </holding>
-              </holdings>
-            </os:holdingsdbListResponse>
+            <os:holdingsServiceResponse xmlns="http://oss.dbc.dk/ns/opensearch">
+              <response>
+                <timestamp>2013-05-08 13:09:35.181</timestamp>
+                <pid>820010-katalog:5515175</pid>
+                <result>
+                  <holding fedoraPid="820010-katalog:5515175">
+                    <agencyId>820010</agencyId>
+                    <note/>
+                    <codes/>
+                    <callNumber>USAMF B x 2-133-5771</callNumber>
+                    <localIdentifier>5515175</localIdentifier>
+                    <state>a</state>
+                    <lastModified>2013-05-02T12:07:49Z</lastModified>
+                  </holding>
+                  <holding fedoraPid="820010-katalog:5515175">
+                    <agencyId>125050</agencyId>
+                    <note/>
+                    <codes/>
+                    <callNumber>USAMF B x 2-133-5771</callNumber>
+                    <localIdentifier>5515175</localIdentifier>
+                    <state>a</state>
+                    <lastModified>2013-05-02T12:07:49Z</lastModified>
+                  </holding>
+                </result>
+              </response>
+            </os:holdingsServiceResponse>
           </os:object>
         </os:collection>
       </ns1:originalData>

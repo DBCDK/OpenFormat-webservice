@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords>
+<oclcRecord>
+<foxml:digitalObject VERSION="1.1" PID="870970-basis:29348022"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-23T05:42:04.021Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-23T05:42:05.429Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-23T05:42:04.021Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-23T05:42:05.429Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-23T05:42:04.081Z" MIMETYPE="text/xml" SIZE="1164">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>born this way</dc:title>
+  <dc:title>MATCH:Born t</dc:title>
+  <dc:creator>Lady GaGa</dc:creator>
+  <dc:creator>NOBIRTH: Lady GaGa</dc:creator>
+  <dc:creator>MATCHSTRING:Lady GaGa</dc:creator>
+  <dc:subject>dance</dc:subject>
+  <dc:subject>electronica</dc:subject>
+  <dc:subject>pop</dc:subject>
+  <dc:subject>r&amp;b</dc:subject>
+  <dc:subject>vokal</dc:subject>
+  <dc:subject>USA</dc:subject>
+  <dc:subject>2010-2019</dc:subject>
+  <dc:publisher>wise</dc:publisher>
+  <dc:publisher>MATCHSTRING:wise</dc:publisher>
+  <dc:contributor>MATCHSTRING:GaribayF</dc:contributor>
+  <dc:contributor>Fernando Garibay</dc:contributor>
+  <dc:date>2012</dc:date>
+  <dc:type>Node</dc:type>
+  <dc:type>WORK:sheetmusic</dc:type>
+  <dc:identifier>870970-basis:29348022</dc:identifier>
+  <dc:identifier>ISBN:9781780385990</dc:identifier>
+  <dc:language>Engelsk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-23T05:42:04.085Z" MIMETYPE="text/xml" SIZE="12861">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oso="http://oss.dbc.dk/ns/opensearchobjects" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dkabm:record>
+    <ac:identifier>29348022|870970</ac:identifier>
+    <ac:source>Bibliotekskatalog</ac:source>
+    <dc:title>Born this way</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Born this way : piano, vocal, guitar</dc:title>
+    <dc:creator> Lady GaGa</dc:creator>
+    <dc:creator xsi:type="oss:sort">Lady GaGa</dc:creator>
+    <dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">dance</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">electronica</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">pop</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">r&amp;b</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+    <dc:description>For sangstemme og klaver med becifring (med guitargreb)</dc:description>
+    <dc:description xsi:type="dkdcplus:series">Sangene fra cd&apos;en: Born this way</dc:description>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dcterms:audience>voksenmaterialer</dcterms:audience>
+    <dc:publisher>Wise</dc:publisher>
+    <dc:contributor>Fernando Garibay</dc:contributor>
+    <dc:date>2012</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Node</dc:type>
+    <dcterms:extent>119 sider</dcterms:extent>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9781780385990</dc:identifier>
+    <dc:identifier>AM 1004872</dc:identifier>
+    <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+    <dc:language>Engelsk</dc:language>
+    <dcterms:hasPart>Marry the night</dcterms:hasPart>
+    <dcterms:hasPart>Born this way</dcterms:hasPart>
+    <dcterms:hasPart>Government hooker</dcterms:hasPart>
+    <dcterms:hasPart>Judas</dcterms:hasPart>
+    <dcterms:hasPart>Americano</dcterms:hasPart>
+    <dcterms:hasPart>Hair</dcterms:hasPart>
+    <dcterms:hasPart>Scheisse</dcterms:hasPart>
+    <dcterms:hasPart>Bloody Mary</dcterms:hasPart>
+    <dcterms:hasPart>Bad kids</dcterms:hasPart>
+    <dcterms:hasPart>Highway unicorn</dcterms:hasPart>
+    <dcterms:hasPart>Heavy metal lover</dcterms:hasPart>
+    <dcterms:hasPart>Electric chapel</dcterms:hasPart>
+    <dcterms:hasPart>Yoü and I</dcterms:hasPart>
+    <dcterms:hasPart>The edge of glory</dcterms:hasPart>
+    <dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial>
+    <dcterms:temporal xsi:type="dkdcplus:DBCM">2010-2019</dcterms:temporal>
+  </dkabm:record>
+  <marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1">
+    <marcx:record format="danMARC2" type="Bibliographic">
+      <marcx:leader>000000000000000000000000</marcx:leader>
+      <marcx:datafield ind1="0" ind2="0" tag="001">
+        <marcx:subfield code="a">29348022</marcx:subfield>
+        <marcx:subfield code="b">870970</marcx:subfield>
+        <marcx:subfield code="c">20120430182438</marcx:subfield>
+        <marcx:subfield code="d">20120425</marcx:subfield>
+        <marcx:subfield code="f">a</marcx:subfield>
+        <marcx:subfield code="t">FAUST</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="004">
+        <marcx:subfield code="r">n</marcx:subfield>
+        <marcx:subfield code="a">e</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="005">
+        <marcx:subfield code="k">a</marcx:subfield>
+        <marcx:subfield code="k">b</marcx:subfield>
+        <marcx:subfield code="k">g</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="008">
+        <marcx:subfield code="t">s</marcx:subfield>
+        <marcx:subfield code="u">f</marcx:subfield>
+        <marcx:subfield code="a">2012</marcx:subfield>
+        <marcx:subfield code="b">gb</marcx:subfield>
+        <marcx:subfield code="l">eng</marcx:subfield>
+        <marcx:subfield code="v">0</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="009">
+        <marcx:subfield code="a">c</marcx:subfield>
+        <marcx:subfield code="g">xx</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="021">
+        <marcx:subfield code="e">9781780385990</marcx:subfield>
+        <marcx:subfield code="c">hf.</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="032">
+        <marcx:subfield code="x">BKM201218</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="100">
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Lady GaGa</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="245">
+        <marcx:subfield code="a">Born this way</marcx:subfield>
+        <marcx:subfield code="c">[\piano, vocal, guitar\]</marcx:subfield>
+        <marcx:subfield code="e">Lady GaGa</marcx:subfield>
+        <marcx:subfield code="e">words and music by Stefani Germanotta, Fernando Garibay ... [et al.]</marcx:subfield>
+        <marcx:subfield code="ø">Piano, vocal, guitar</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="260">
+        <marcx:subfield code="a">London</marcx:subfield>
+        <marcx:subfield code="b">Wise</marcx:subfield>
+        <marcx:subfield code="f">Bury St Edmunds, Suffolk</marcx:subfield>
+        <marcx:subfield code="g">exclusive distributors: Music Sales</marcx:subfield>
+        <marcx:subfield code="c">2012</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="300">
+        <marcx:subfield code="a">119 sider</marcx:subfield>
+        <marcx:subfield code="c">31 cm</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="509">
+        <marcx:subfield code="a">For sangstemme og klaver med becifring (med guitargreb)</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="526">
+        <marcx:subfield code="a">Sangene fra cd&apos;en: Born this way</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="529">
+        <marcx:subfield code="a">MySpace</marcx:subfield>
+        <marcx:subfield code="u">http://www.myspace.com/ladygaga</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="531">
+        <marcx:subfield code="a">Indhold:</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="538">
+        <marcx:subfield code="b">AM 1004872</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="652">
+        <marcx:subfield code="m">78.794</marcx:subfield>
+        <marcx:subfield code="v">5</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="666">
+        <marcx:subfield code="m">pop</marcx:subfield>
+        <marcx:subfield code="m">dance</marcx:subfield>
+        <marcx:subfield code="m">r&amp;b</marcx:subfield>
+        <marcx:subfield code="m">electronica</marcx:subfield>
+        <marcx:subfield code="n">vokal</marcx:subfield>
+        <marcx:subfield code="p">2010-2019</marcx:subfield>
+        <marcx:subfield code="l">USA</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="700">
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Garibay</marcx:subfield>
+        <marcx:subfield code="h">Fernando</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">11</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Marry the night</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">12</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Born this way</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">13</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Government hooker</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">14</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Judas</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">15</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Americano</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">16</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Hair</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">17</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Scheisse</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">18</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Bloody Mary</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">19</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Bad kids</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">20</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Highway unicorn</marcx:subfield>
+        <marcx:subfield code="u">Road to love</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">21</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Heavy metal lover</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">22</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Electric chapel</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">23</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Yoü and I</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="795">
+        <marcx:subfield code="å">24</marcx:subfield>
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">The ¤edge of glory</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="900">
+        <marcx:subfield code="0"></marcx:subfield>
+        <marcx:subfield code="a">Germanotta</marcx:subfield>
+        <marcx:subfield code="h">Stefani Gabriella</marcx:subfield>
+        <marcx:subfield code="x">se</marcx:subfield>
+        <marcx:subfield code="w">Lady GaGa</marcx:subfield>
+        <marcx:subfield code="z">100</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="996">
+        <marcx:subfield code="a">DBC</marcx:subfield>
+      </marcx:datafield>
+      <marcx:datafield ind1="0" ind2="0" tag="990">
+        <marcx:subfield code="o">201218</marcx:subfield>
+        <marcx:subfield code="b">v</marcx:subfield>
+        <marcx:subfield code="b">b</marcx:subfield>
+        <marcx:subfield code="n">D4</marcx:subfield>
+        <marcx:subfield code="u">nt</marcx:subfield>
+      </marcx:datafield>
+    </marcx:record>
+  </marcx:collection>
+  
+  <ln:links xmlns:ln="http://oss.dbc.dk/ns/links">
+    <ln:link>
+      <ln:localData>870970-basis</ln:localData>
+      <ln:access>free</ln:access>
+      <ln:accessType></ln:accessType>
+      <ln:linkTo>website</ln:linkTo>
+      <ln:relationType>dbcaddi:hasCreatorHomePage</ln:relationType>
+      <ln:url>http://www.myspace.com/ladygaga</ln:url>
+    </ln:link>
+  </ln:links>
+  <adminData>
+    <libraryType>none</libraryType>
+    <indexingAlias>danmarcxchange</indexingAlias>
+    <accessType>physical</accessType>
+  </adminData>
+</ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-23T05:42:04.085Z" MIMETYPE="text/xml" SIZE="17">
+<foxml:xmlContent>
+<EMPTY></EMPTY>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-23T05:42:05.429Z" MIMETYPE="application/rdf+xml" SIZE="309">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:29348022">
+    <isMemberOfUnit xmlns="info:fedora/">unit:1</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:1</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>
+<ocn>42</ocn>
+<holdingsServiceResponse>
+  <response>
+    <timestamp>2013-05-23 07:42:14.082</timestamp>
+    <pid>870970-basis:29348022</pid>
+    <result>
+    </result>
+  </response>
+</holdingsServiceResponse>
+</oclcRecord>
+</oclcRecords>
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+<ns1:trackingId>oclc_gaga.xml.PLACEHOLDER</ns1:trackingId>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

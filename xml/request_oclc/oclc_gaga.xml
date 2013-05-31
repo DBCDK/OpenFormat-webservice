@@ -338,12 +338,30 @@ xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/
 </foxml:digitalObject>
 <ocn>42</ocn>
 <holdingsServiceResponse>
-  <response>
-    <timestamp>2013-05-23 07:42:14.082</timestamp>
-    <pid>870970-basis:29348022</pid>
-    <result>
-    </result>
-  </response>
+              <response>
+                <timestamp>2013-05-08 13:09:35.181</timestamp>
+                <pid>870970-basis:29348022</pid>
+                <result>
+                  <holding fedoraPid="870970-basis:29348022">
+                    <agencyId>820010</agencyId>
+                    <note/>
+                    <codes/>
+                    <callNumber>USAMF B x 2-133-5771</callNumber>
+                    <localIdentifier>5515175</localIdentifier>
+                    <state>a</state>
+                    <lastModified>2013-05-02T12:07:49Z</lastModified>
+                  </holding>
+                  <holding fedoraPid="870970-basis:29348022">
+                    <agencyId>125050</agencyId>
+                    <note/>
+                    <codes/>
+                    <callNumber>USAMF B x 2-133-5771</callNumber>
+                    <localIdentifier>5515175</localIdentifier>
+                    <state>a</state>
+                    <lastModified>2013-05-02T12:07:49Z</lastModified>
+                  </holding>
+                </result>
+              </response>
 </holdingsServiceResponse>
 </oclcRecord>
 </oclcRecords>

@@ -316,6 +316,8 @@
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
+				<xs:element ref="bibdk:furtherSearches" minOccurs="0"/>
+				<xs:element ref="bibdk:reviewRatings" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -370,7 +372,15 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="format" type="xs:string"/>
+	<xs:element name="format">
+                <xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="punctuation" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+        </xs:element>
 	<xs:element name="forms">
 		<xs:complexType>
 			<xs:sequence>
@@ -382,6 +392,42 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="furtherSearchElement">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="furtherSearchFiction">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="furtherSearches">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:furtherSearchElement" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:furtherSearchFiction" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:furtherSearchType" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="furtherSearchType">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
 			<xs:attribute name="className" type="xs:string"/>
@@ -546,6 +592,7 @@
 	</xs:element>
 	<xs:element name="requestMethod" type="xs:string"/>
 	<xs:element name="restrictedUse" type="xs:string"/>
+	<xs:element name="reviewRatings" type="xs:string"/>
 	<xs:element name="searchCode">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -641,10 +688,12 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:titleFull"/>
+				<xs:element ref="bibdk:titleDependent" minOccurs="0"/>
 				<xs:element ref="bibdk:titleSpecific" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="titleDependent" type="xs:string"/>
 	<xs:element name="titleFull" type="xs:string"/>
 	<xs:element name="titleSpecific" type="xs:string"/>
 	<xs:element name="type">

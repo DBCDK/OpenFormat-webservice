@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:27502148"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:12.204Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:12.288Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:12.204Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:12.288Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:12.212Z" MIMETYPE="text/xml" SIZE="1275">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>farvel til slotsholmen</dc:title>
+  <dc:title>MATCH:farvel</dc:title>
+  <dc:creator>Hans Engell</dc:creator>
+  <dc:creator>NOBIRTH:Hans Engell</dc:creator>
+  <dc:creator>MATCHSTRING:Engellh</dc:creator>
+  <dc:subject>det konservative folkeparti</dc:subject>
+  <dc:subject>hans engell</dc:subject>
+  <dc:subject>engell hans</dc:subject>
+  <dc:subject>erindringer</dc:subject>
+  <dc:subject>historie</dc:subject>
+  <dc:subject>politik</dc:subject>
+  <dc:subject>politikere</dc:subject>
+  <dc:subject>politiske forhold</dc:subject>
+  <dc:subject>politiske partier</dc:subject>
+  <dc:subject>Danmark</dc:subject>
+  <dc:subject>1990-1999</dc:subject>
+  <dc:publisher>gyldendal</dc:publisher>
+  <dc:publisher>MATCHSTRING:gyldend</dc:publisher>
+  <dc:date>2008</dc:date>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:identifier>870970-basis:27502148</dc:identifier>
+  <dc:identifier>ISBN:9788702071177</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:12.213Z" MIMETYPE="text/xml" SIZE="9323">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>27502148|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Farvel til Slotsholmen</dc:title><dc:title xsi:type="dkdcplus:full">Farvel til Slotsholmen</dc:title><dc:creator xsi:type="dkdcplus:aut">Hans Engell</dc:creator><dc:creator xsi:type="oss:sort">Engell, Hans</dc:creator><dc:subject xsi:type="dkdcplus:DK5">99.4 Engell, Hans</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">Det Konservative Folkeparti</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">Hans Engell</dc:subject><dc:subject xsi:type="oss:sort">Engell, Hans</dc:subject><dc:subject xsi:type="dkdcplus:DBCO">erindringer</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">politik</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">politikere</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">politiske forhold</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">politiske partier</dc:subject><dcterms:abstract>Forfatteren (f. 1948) giver en personlig og dramatisk skildring af dansk politik i perioden 1993-2001, primært præget af Tamil-sagen, magtkampe i Det konservative Folkeparti og ikke mindst mødet med betonklodsen på Helsingørmotorvejen i 1996 og uheldets fatale følger</dcterms:abstract><dc:description xsi:type="dkdcplus:series">2. del af: På Slotsholmen</dc:description><dcterms:audience>voksenmaterialer</dcterms:audience><dkdcplus:version>1. udgave, 2. oplag</dkdcplus:version><dc:publisher>Gyldendal</dc:publisher><dc:date>2008</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dc:format>illustreret</dc:format><dcterms:extent>412 sider</dcterms:extent><dc:identifier xsi:type="dkdcplus:ISBN">9788702071177</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial><dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">27502148</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20111203170618</marcx:subfield><marcx:subfield code="d">20081111</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">r</marcx:subfield><marcx:subfield code="a">2008</marcx:subfield><marcx:subfield code="z">2008</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="k">a</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="x">06</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788702071177</marcx:subfield><marcx:subfield code="c">hf.</marcx:subfield><marcx:subfield code="d">kr. 299,00</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="x">ACC200846</marcx:subfield><marcx:subfield code="a">DBF200849</marcx:subfield><marcx:subfield code="x">BKM200849</marcx:subfield><marcx:subfield code="x">BKX200848</marcx:subfield><marcx:subfield code="x">DAT200904</marcx:subfield><marcx:subfield code="x">DAT991149</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Engell</marcx:subfield><marcx:subfield code="h">Hans</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Farvel til Slotsholmen</marcx:subfield><marcx:subfield code="e">Hans Engell</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="a">1. udgave</marcx:subfield><marcx:subfield code="b">÷</marcx:subfield><marcx:subfield code="x">2. oplag</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">[Kbh.]</marcx:subfield><marcx:subfield code="b">Gyldendal</marcx:subfield><marcx:subfield code="c">2008</marcx:subfield><marcx:subfield code="k">Narayana Press, Gylling</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">412 sider</marcx:subfield><marcx:subfield code="b">ill.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Forfatteren (f. 1948) giver en personlig og dramatisk skildring af dansk politik i perioden 1993-2001, primært præget af Tamil-sagen, magtkampe i Det konservative Folkeparti og ikke mindst mødet med betonklodsen på Helsingørmotorvejen i 1996 og uheldets fatale følger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">1. oplag</marcx:subfield><marcx:subfield code="c">2008</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="b">2. oplag</marcx:subfield><marcx:subfield code="c">2008</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="526"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="i">2. del af</marcx:subfield><marcx:subfield code="t">På Slotsholmen</marcx:subfield><marcx:subfield code="b">. Seriens indhold se denne</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="600"><marcx:subfield code="a">Engell</marcx:subfield><marcx:subfield code="h">Hans</marcx:subfield><marcx:subfield code="1"></marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="610"><marcx:subfield code="1"></marcx:subfield><marcx:subfield code="a">Det ¤Konservative Folkeparti</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">99.4</marcx:subfield><marcx:subfield code="a">Engell</marcx:subfield><marcx:subfield code="h">Hans</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="p">32.269</marcx:subfield><marcx:subfield code="a">Det ¤Konservative Folkeparti</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="p">96.72</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">politiske partier</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">politikere</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">politiske forhold</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1990-1999</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">politik</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">historie</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="e">Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="o">erindringer</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="o">200849</marcx:subfield><marcx:subfield code="b">l</marcx:subfield><marcx:subfield code="b">v</marcx:subfield><marcx:subfield code="c">a</marcx:subfield><marcx:subfield code="u">nt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="991"><marcx:subfield code="o">Ekspres 200848</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2008-11-11</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>nonfiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:12.214Z" MIMETYPE="text/xml" SIZE="2580">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="o">lhe</marcx:subfield><marcx:subfield code="o">pn</marcx:subfield><marcx:subfield code="k">psc</marcx:subfield><marcx:subfield code="o">lj</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">masserettet i forb. med tilføjelse af niveaukoder</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">MVB200849</marcx:subfield><marcx:subfield code="z">MVC200849</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">REX200902</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d31"><marcx:subfield code="b">156</marcx:subfield><marcx:subfield code="h">230</marcx:subfield><marcx:subfield code="t">26</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d32"><marcx:subfield code="b">154</marcx:subfield><marcx:subfield code="h">230</marcx:subfield><marcx:subfield code="t">25</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d33"><marcx:subfield code="c">b</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d35"><marcx:subfield code="a">I</marcx:subfield><marcx:subfield code="i">01</marcx:subfield><marcx:subfield code="n">07</marcx:subfield><marcx:subfield code="p">01</marcx:subfield><marcx:subfield code="q">07</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="x">200848</marcx:subfield><marcx:subfield code="b">l</marcx:subfield><marcx:subfield code="b">v</marcx:subfield><marcx:subfield code="c">a</marcx:subfield><marcx:subfield code="u">nt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f06"><marcx:subfield code="b">l</marcx:subfield><marcx:subfield code="b">v</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n51"><marcx:subfield code="a">20081201</marcx:subfield><marcx:subfield code="b">ejBKX</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20081111</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">TeamBo200846</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">masseret</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:12.288Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:27502148">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47983</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47983</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:27:27.948</timestamp>
+<pid>870970-basis:27502148</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="810015-katalog:008182582__1"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:29.471Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:29.592Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:29.471Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:29.514Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:29.592Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:29.478Z" MIMETYPE="text/xml" SIZE="1025">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>min kamp</dc:title>
+  <dc:title>MATCH:min ka</dc:title>
+  <dc:creator>Karl Ove Knausgård</dc:creator>
+  <dc:creator>NOBIRTH:Karl Ove Knausgård</dc:creator>
+  <dc:creator>MATCHSTRING:Knausgårdk</dc:creator>
+  <dc:creator>MATCHSTRING:Knausgårdk</dc:creator>
+  <dc:publisher>lindhardt og ringhof</dc:publisher>
+  <dc:publisher>MATCHSTRING:lindhar</dc:publisher>
+  <dc:contributor>sara koch</dc:contributor>
+  <dc:date>2010</dc:date>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:type>RECORD:multivolume</dc:type>
+  <dc:identifier>810015-katalog:008182582__1</dc:identifier>
+  <dc:identifier>ISBN:9788711427286</dc:identifier>
+  <dc:source>min kamp</dc:source>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:29.479Z" MIMETYPE="text/xml" SIZE="9096">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>008182582__1|810015</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Min kamp</dc:title><dc:title xsi:type="dkdcplus:full">Min kamp : roman</dc:title><dc:creator xsi:type="dkdcplus:aut">Karl Ove Knausgård</dc:creator><dc:creator xsi:type="oss:sort">Knausgård, Karl Ove</dc:creator><dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject><dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject><dcterms:audience>voksenmaterialer</dcterms:audience><dkdcplus:version>3. oplag</dkdcplus:version><dc:publisher>Lindhardt og Ringhof</dc:publisher><dc:contributor xsi:type="dkdcplus:trl">Sara Koch</dc:contributor><dc:date>2010</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dcterms:extent>487 sider</dcterms:extent><dc:identifier xsi:type="dkdcplus:ISBN">9788711427286</dc:identifier><dc:source>Min kamp</dc:source><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">008182582__1</marcx:subfield><marcx:subfield code="b">810015</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="002"><marcx:subfield code="d">2 832 949 0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="002"><marcx:subfield code="d">x928329490</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">r</marcx:subfield><marcx:subfield code="a">2010</marcx:subfield><marcx:subfield code="z">2010</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="d">x</marcx:subfield><marcx:subfield code="j">f</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="018"><marcx:subfield code="a">008182582</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788711427286</marcx:subfield><marcx:subfield code="c">ib.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="041"><marcx:subfield code="a">dan</marcx:subfield><marcx:subfield code="c">nor</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="080"><marcx:subfield code="a">8</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Knausgård</marcx:subfield><marcx:subfield code="h">Karl Ove</marcx:subfield><marcx:subfield code="4">aut</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="241"><marcx:subfield code="a">Min kamp</marcx:subfield><marcx:subfield code="r">norsk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Min kamp</marcx:subfield><marcx:subfield code="g">1. [bog]</marcx:subfield><marcx:subfield code="c">roman</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="248"><marcx:subfield code="g">1. [bog]</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="x">3. oplag</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">Kbh.</marcx:subfield><marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield><marcx:subfield code="c">2010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">487 sider</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="n">85</marcx:subfield><marcx:subfield code="z">26</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="o">sk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="720"><marcx:subfield code="o">Sara Koch</marcx:subfield><marcx:subfield code="4">trl</marcx:subfield></marcx:datafield></marcx:record><marcx:record format="danMARC2" type="BibliographicMain"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">008182582</marcx:subfield><marcx:subfield code="b">810015</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="002"><marcx:subfield code="d">2 832 949 0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="002"><marcx:subfield code="d">x928329490</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">r</marcx:subfield><marcx:subfield code="a">2010</marcx:subfield><marcx:subfield code="z">2010</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="d">x</marcx:subfield><marcx:subfield code="j">f</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788711427286</marcx:subfield><marcx:subfield code="c">ib.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="041"><marcx:subfield code="a">dan</marcx:subfield><marcx:subfield code="c">nor</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="080"><marcx:subfield code="a">8</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Knausgård</marcx:subfield><marcx:subfield code="h">Karl Ove</marcx:subfield><marcx:subfield code="4">aut</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="241"><marcx:subfield code="a">Min kamp</marcx:subfield><marcx:subfield code="r">norsk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Min kamp</marcx:subfield><marcx:subfield code="c">roman</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="248"><marcx:subfield code="g">1. [bog]</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="x">3. oplag</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">Kbh.</marcx:subfield><marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield><marcx:subfield code="c">2010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">487 sider</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="n">85</marcx:subfield><marcx:subfield code="z">26</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="o">sk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="720"><marcx:subfield code="o">Sara Koch</marcx:subfield><marcx:subfield code="4">trl</marcx:subfield></marcx:datafield></marcx:record><marcx:record format="danMARC2" type="BibliographicVolume"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">008182582__1</marcx:subfield><marcx:subfield code="b">810015</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">b</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="g">1. [bog]</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2012-04-04</creationDate><libraryType>research</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>fiktion</genre><collectionIdentifier>810015-katalog</collectionIdentifier><collectionIdentifier>870970-forsk</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-forsk" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-forsk.0" LABEL="" CREATED="2013-05-16T12:09:29.479Z" MIMETYPE="text/xml" SIZE="1297">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="u">Kan ikke hjemlånes</marcx:subfield><marcx:subfield code="r">a</marcx:subfield><marcx:subfield code="z">810015</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="595"><marcx:subfield code="a">InT2011</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="599"><marcx:subfield code="b">bkpl201126</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20120404</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="u">Kan ikke hjemlånes</marcx:subfield><marcx:subfield code="r">a</marcx:subfield><marcx:subfield code="z">810015</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="595"><marcx:subfield code="a">InT2011</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="599"><marcx:subfield code="b">bkpl201126</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20120404</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.2" LABEL="" CREATED="2013-05-16T12:09:29.592Z" MIMETYPE="application/rdf+xml" SIZE="323">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/810015-katalog:008182582__1">
+    <isMemberOfUnit xmlns="info:fedora/">unit:48131</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:48131</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:25:43.194</timestamp>
+<pid>810015-katalog:008182582__1</pid>
+<result>
+<holding fedoraPid="810015-katalog:008182582__1">
+<agencyId>810015</agencyId>
+<note>Kan ikke hjemlånes</note>
+<codes>a</codes>
+<callNumber/>
+<localIdentifier>008182582</localIdentifier>
+<state>a</state>
+<lastModified>2013-05-16T14:09:29Z</lastModified>
+</holding>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

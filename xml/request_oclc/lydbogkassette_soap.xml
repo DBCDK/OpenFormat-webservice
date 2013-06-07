@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:23317605"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:10.650Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:10.716Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:10.650Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:10.716Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:10.657Z" MIMETYPE="text/xml" SIZE="1057">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>soap</dc:title>
+  <dc:title>MATCH:soap</dc:title>
+  <dc:creator>Hanne Marie Svendsen f. 1933</dc:creator>
+  <dc:creator>NOBIRTH:Hanne Marie Svendsen</dc:creator>
+  <dc:creator>MATCHSTRING:Svendsenh</dc:creator>
+  <dc:subject>film</dc:subject>
+  <dc:subject>for læsesvage voksne</dc:subject>
+  <dc:publisher>modtryk</dc:publisher>
+  <dc:publisher>MATCHSTRING:modtryk</dc:publisher>
+  <dc:date>2001</dc:date>
+  <dc:type>Lydbog (bånd)</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:type>Sammensat materiale</dc:type>
+  <dc:type>WORK:none</dc:type>
+  <dc:identifier>870970-basis:23317605</dc:identifier>
+  <dc:identifier>NUMBER:7431</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:10.658Z" MIMETYPE="text/xml" SIZE="8058">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>23317605|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Soap</dc:title><dc:title xsi:type="dkdcplus:full">Soap</dc:title><dc:title xsi:type="dkdcplus:series">Letlæst for voksne (Århus)</dc:title><dc:creator>Hanne Marie Svendsen (f. 1933)</dc:creator><dc:creator xsi:type="oss:sort">Svendsen, Hanne Marie (f. 1933)</dc:creator><dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">film</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for læsesvage voksne</dc:subject><dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject><dcterms:abstract>Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</dcterms:abstract><dc:description>Kassettebånd Indlæst af: Dianna Vangsꜳ . Læsehastighed: Tilpasset</dc:description><dc:description>Bog: 2000</dc:description><dcterms:audience>voksenmaterialer</dcterms:audience><dkdcplus:version>Nyt oplag</dkdcplus:version><dc:publisher>Modtryk</dc:publisher><dc:date>2001</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (bånd)</dc:type><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dc:type xsi:type="dkdcplus:BibDK-Type">Sammensat materiale</dc:type><dc:format>2 kassettebånd, 1 bog</dc:format><dcterms:extent>2 t., 56 min., 101 sider</dcterms:extent><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">23317605</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20050707001935</marcx:subfield><marcx:subfield code="d">20010112</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">r</marcx:subfield><marcx:subfield code="a">2001</marcx:subfield><marcx:subfield code="z">2004</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="j">f</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">r</marcx:subfield><marcx:subfield code="g">xh</marcx:subfield><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="n">7431</marcx:subfield><marcx:subfield code="d">kr. 645,00</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="a">DLF200439</marcx:subfield><marcx:subfield code="x">SFA200439</marcx:subfield><marcx:subfield code="x">DAT200527</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Svendsen</marcx:subfield><marcx:subfield code="h">Hanne Marie</marcx:subfield><marcx:subfield code="c">f. 1933</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Soap</marcx:subfield><marcx:subfield code="e">Hanne Marie Svendsen</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="x">[Nyt oplag]</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">Århus</marcx:subfield><marcx:subfield code="b">Modtryk</marcx:subfield><marcx:subfield code="c">2004</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="n">2 kassettebånd</marcx:subfield><marcx:subfield code="l">2 t., 56 min.</marcx:subfield><marcx:subfield code="n">1 bog</marcx:subfield><marcx:subfield code="a">101 sider</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="440"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="&amp;">i</marcx:subfield><marcx:subfield code="a">Letlæst for voksne</marcx:subfield><marcx:subfield code="ø">Århus</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Molly får tilbudt en stor rolle i en soap-tvserie, men hun lader sig ikke imponere af det groteske og forlorne filmmiljø og træffer sit eget personlige valg</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="i">Kassettebånd</marcx:subfield><marcx:subfield code="e">Indlæst af: Dianna Vangsꜳ</marcx:subfield><marcx:subfield code="b">. Læsehastighed: Tilpasset</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Bog: 2000</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="520"><marcx:subfield code="a">Kassettebåndene er en gengivelse af bogen</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="520"><marcx:subfield code="a">Tidligere: 1. udgave. 2001. (1. oplag: Århus : Modtryk AV Bog+bånd)</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="520"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Bogens originaludgave: 2000</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">[1. oplag]</marcx:subfield><marcx:subfield code="c">2001</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="b">[Nyt oplag]</marcx:subfield><marcx:subfield code="c">2004</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="n">86</marcx:subfield><marcx:subfield code="z">06</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="o">sk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for læsesvage voksne</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">film</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="945"><marcx:subfield code="a">Letlæst for voksne</marcx:subfield><marcx:subfield code="ø">Modtryk</marcx:subfield><marcx:subfield code="z">440</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="a">SFA</marcx:subfield><marcx:subfield code="o">200439</marcx:subfield><marcx:subfield code="b">F</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="991"><marcx:subfield code="o">Tidligere optaget i Av-fortegnelse 200106</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="991"><marcx:subfield code="o">Bogen optaget i A-fortegnelse 200043 (2 314 290 2)</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2005-03-01</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:10.658Z" MIMETYPE="text/xml" SIZE="1026">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">bvl-cs (Modtryk AV i cop., men ikke på materialets dele) - bestillingsnr. tilf. 200529/bfj</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFA</marcx:subfield><marcx:subfield code="o">200106</marcx:subfield><marcx:subfield code="b">F</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f01"><marcx:subfield code="h">f</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20050301</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">BOGART200436</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">bfj</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:10.716Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:23317605">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47959</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47959</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:35:18.873</timestamp>
+<pid>870970-basis:23317605</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

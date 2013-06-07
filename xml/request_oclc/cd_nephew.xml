@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:25294424"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:10.953Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:11.018Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:10.953Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:11.018Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:10.962Z" MIMETYPE="text/xml" SIZE="1772">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>usadsb</dc:title>
+  <dc:title>MATCH:usadsb</dc:title>
+  <dc:creator>Nephew</dc:creator>
+  <dc:creator>NOBIRTH:Nephew</dc:creator>
+  <dc:subject>rock</dc:subject>
+  <dc:subject>vokal</dc:subject>
+  <dc:subject>Danmark</dc:subject>
+  <dc:subject>2000-2009</dc:subject>
+  <dc:publisher>copenhagen</dc:publisher>
+  <dc:publisher>MATCHSTRING:copenha</dc:publisher>
+  <dc:contributor>MATCHSTRING:Arnholts</dc:contributor>
+  <dc:contributor>MATCHSTRING:Denckert</dc:contributor>
+  <dc:contributor>MATCHSTRING:Erbsh</dc:contributor>
+  <dc:contributor>MATCHSTRING:Kvamms</dc:contributor>
+  <dc:contributor>MATCHSTRING:Riisk</dc:contributor>
+  <dc:contributor>MATCHSTRING:Sennenvaldth</dc:contributor>
+  <dc:contributor>MATCHSTRING:Thalundr</dc:contributor>
+  <dc:contributor>MATCHSTRING:Toustrupk</dc:contributor>
+  <dc:contributor>søren arnholt</dc:contributor>
+  <dc:contributor>tore dencker</dc:contributor>
+  <dc:contributor>hans christian ilskov erbs</dc:contributor>
+  <dc:contributor>simon kvamm</dc:contributor>
+  <dc:contributor>kristian riis</dc:contributor>
+  <dc:contributor>henriette sennenvaldt</dc:contributor>
+  <dc:contributor>rené munk thalund</dc:contributor>
+  <dc:contributor>kasper toustrup</dc:contributor>
+  <dc:date>2004</dc:date>
+  <dc:type>Cd (musik)</dc:type>
+  <dc:type>WORK:music</dc:type>
+  <dc:identifier>870970-basis:25294424</dc:identifier>
+  <dc:identifier>NUMBER:CopenhagenCPHREC 0004</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:10.962Z" MIMETYPE="text/xml" SIZE="10928">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>25294424|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>USADSB</dc:title><dc:title xsi:type="dkdcplus:full">USADSB</dc:title><dc:creator>Nephew</dc:creator><dc:creator xsi:type="oss:sort">Nephew</dc:creator><dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject><dc:subject xsi:type="dkdcplus:genre">rock</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject><dc:description>Indspillet i Århus</dc:description><dcterms:audience>børnematerialer</dcterms:audience><dcterms:audience>voksenmaterialer</dcterms:audience><dc:publisher>Copenhagen</dc:publisher><dc:contributor>Søren Arnholt</dc:contributor><dc:contributor>Tore Dencker</dc:contributor><dc:contributor>Hans Christian Ilskov Erbs</dc:contributor><dc:contributor>Simon Kvamm</dc:contributor><dc:contributor>Kristian Riis</dc:contributor><dc:contributor>Henriette Sennenvaldt</dc:contributor><dc:contributor>René Munk Thalund</dc:contributor><dc:contributor>Kasper Toustrup</dc:contributor><dc:date>2004</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type><dc:format>1 cd</dc:format><dc:identifier>Copenhagen CPHREC 0004</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:hasPart xsi:type="dkdcplus:track">Movie klip</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Superliga</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Blå &amp; black</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Milk &amp; wine</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Dårlig træning</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">En wannabe Darth Vader</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Worst/best case scenario</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Ordenspoliti</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">USA DSB</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Bazooka</dcterms:hasPart><dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial><dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">25294424</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20110329135259</marcx:subfield><marcx:subfield code="d">20040628</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">s</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">2004</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">s</marcx:subfield><marcx:subfield code="g">xc</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="020"><marcx:subfield code="a">dk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="d">kr. 159,00</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="023"><marcx:subfield code="a">5700771100040</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="a">DMO200428</marcx:subfield><marcx:subfield code="x">BØK200401</marcx:subfield><marcx:subfield code="x">SFG200428</marcx:subfield><marcx:subfield code="x">DAT201114</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="039"><marcx:subfield code="a">bef</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="110"><marcx:subfield code="a">Nephew</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">USADSB</marcx:subfield><marcx:subfield code="i">musik: Nephew</marcx:subfield><marcx:subfield code="i">ord: Simon Kvamm</marcx:subfield><marcx:subfield code="j">Nephew (Simon Kvamm, Kristian Riis, Kasper Toustrup, Søren Arnholt) ... [et al.]</marcx:subfield><marcx:subfield code="i">Nephew (Simon Kvamm, vokal, tangenter ; Kristian Riis, guitar, kor ; Kasper Toustrup, bas, kor ; Søren Arnholt, trommer, kor)</marcx:subfield><marcx:subfield code="i">produktion, mix: Carsten Heller</marcx:subfield><marcx:subfield code="i">teknik: Carsten Nielsen</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">[S.l.]</marcx:subfield><marcx:subfield code="b">Copenhagen</marcx:subfield><marcx:subfield code="c">p 2004</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="n">1 cd</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="&amp;">0</marcx:subfield><marcx:subfield code="a">Indspillet i Århus</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="531"><marcx:subfield code="a">Indhold:</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="538"><marcx:subfield code="f">Copenhagen</marcx:subfield><marcx:subfield code="g">CPHREC 0004</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">78.794</marcx:subfield><marcx:subfield code="v">5</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="m">rock</marcx:subfield><marcx:subfield code="n">vokal</marcx:subfield><marcx:subfield code="p">2000-2009</marcx:subfield><marcx:subfield code="l">Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Arnholt</marcx:subfield><marcx:subfield code="h">Søren</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="å">22</marcx:subfield><marcx:subfield code="a">Dencker</marcx:subfield><marcx:subfield code="h">Tore</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="å">4</marcx:subfield><marcx:subfield code="a">Erbs</marcx:subfield><marcx:subfield code="h">Hans Christian Ilskov</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Kvamm</marcx:subfield><marcx:subfield code="h">Simon</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Riis</marcx:subfield><marcx:subfield code="h">Kristian</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Sennenvaldt</marcx:subfield><marcx:subfield code="h">Henriette</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="å">1</marcx:subfield><marcx:subfield code="a">Thalund</marcx:subfield><marcx:subfield code="h">René Munk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Toustrup</marcx:subfield><marcx:subfield code="h">Kasper</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">11</marcx:subfield><marcx:subfield code="a">Movie klip</marcx:subfield><marcx:subfield code="a">Superliga</marcx:subfield><marcx:subfield code="a">Blå &amp; black</marcx:subfield><marcx:subfield code="i">Henriette Sennenvaldt, supplerende vokal</marcx:subfield><marcx:subfield code="a">Milk &amp; wine</marcx:subfield><marcx:subfield code="a">Dårlig træning</marcx:subfield><marcx:subfield code="i">Stefan Kvamm, violin</marcx:subfield><marcx:subfield code="a">En ¤wannabe Darth Vader</marcx:subfield><marcx:subfield code="a">Worst/best case scenario</marcx:subfield><marcx:subfield code="i">René Munk Thalund, supplerende tangenter</marcx:subfield><marcx:subfield code="a">Ordenspoliti</marcx:subfield><marcx:subfield code="i">Tore Hougꜳrd Dencker, basun</marcx:subfield><marcx:subfield code="i">Hans Christian Erbs, trompet</marcx:subfield><marcx:subfield code="a">USA DSB</marcx:subfield><marcx:subfield code="a">Bazooka</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="900"><marcx:subfield code="a">Hougꜳrd Dencker</marcx:subfield><marcx:subfield code="h">Tore</marcx:subfield><marcx:subfield code="z">700/22</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="900"><marcx:subfield code="a">Dencker</marcx:subfield><marcx:subfield code="h">Tore Hougꜳrd</marcx:subfield><marcx:subfield code="z">700/22</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="900"><marcx:subfield code="a">Munk Thalund</marcx:subfield><marcx:subfield code="h">René</marcx:subfield><marcx:subfield code="z">700/1</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="900"><marcx:subfield code="a">Erbs</marcx:subfield><marcx:subfield code="h">Hans Christian</marcx:subfield><marcx:subfield code="z">700/4</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="900"><marcx:subfield code="a">Ilskov Erbs</marcx:subfield><marcx:subfield code="h">Hans Christian</marcx:subfield><marcx:subfield code="z">700/4</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="a">SFG</marcx:subfield><marcx:subfield code="o">200428</marcx:subfield><marcx:subfield code="b">B</marcx:subfield><marcx:subfield code="c">C</marcx:subfield><marcx:subfield code="t">30.07.04</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="991"><marcx:subfield code="o">\(Diskodiagnoser 200428)\</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2005-03-02</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:10.962Z" MIMETYPE="text/xml" SIZE="1006">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="o">pst</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">MGA200428</marcx:subfield><marcx:subfield code="z">MGB200428</marcx:subfield><marcx:subfield code="z">MGC200428</marcx:subfield><marcx:subfield code="z">MGD200428</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f01"><marcx:subfield code="h">B</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20050302</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">MUSART200427</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">hlt</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:11.018Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:25294424">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47966</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47966</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:33:02.313</timestamp>
+<pid>870970-basis:25294424</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

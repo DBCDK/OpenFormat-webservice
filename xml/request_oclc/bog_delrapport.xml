@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:22223569"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:15.937Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:16.015Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:15.937Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:16.015Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:15.945Z" MIMETYPE="text/xml" SIZE="1137">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere</dc:title>
+  <dc:title>MATCH:evalue</dc:title>
+  <dc:publisher>center for rusmiddelforskning Ꜳrhus universitet</dc:publisher>
+  <dc:publisher>MATCHSTRING:center</dc:publisher>
+  <dc:contributor>MATCHSTRING:Pedersenm</dc:contributor>
+  <dc:contributor>MATCHSTRING:Ꜳrhus universitet</dc:contributor>
+  <dc:contributor>MATCHSTRING:narkoevalueringsgruppen i århus</dc:contributor>
+  <dc:contributor>mads uffe pedersen</dc:contributor>
+  <dc:contributor>Ꜳrhus universitet center for rusmiddelforskning</dc:contributor>
+  <dc:contributor>narkoevalueringsgruppen i århus</dc:contributor>
+  <dc:date>1997</dc:date>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:identifier>870970-basis:22223569</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:15.945Z" MIMETYPE="text/xml" SIZE="9370">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>22223569|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere</dc:title><dc:title xsi:type="dkdcplus:full">Evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere : på institutionerne Opbygningsgården, Hjulsøgård, Kråsiglund og Gunderuplund : Delrapport 1: Evalueringsmetoden, Delrapport2: Behandlerne og behandlingskulturerne</dc:title><dc:title xsi:type="dkdcplus:series">Evalueringsrapport / Center for Rusmiddelforskning, Ꜳrhus Universitet</dc:title><dcterms:alternative>Døgnbehandlingsindsatsen på Opbygningsgården, Hjulsøgård, Krågsiglund og Gunderuplund</dcterms:alternative><dc:subject xsi:type="dkdcplus:DK5">38.88</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Stofmisbrugere</dc:subject><dc:description>Omslagstitel: Døgnbehandlingsindsatsen på Opbygningsgården, Hjulsøgård, Kråsiglund og Gunderuplund</dc:description><dc:description xsi:type="dkdcplus:series">Samhørende: Evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere ; Mads Uffe Pedersen ; Stofmisbrugere i døgnbehandling ; Arbejdsalliancen mellem behandlere og stofmisbrugere i døgnbehandling ; Stofmisbrugere efter døgnbehandling ; Stofmisbrugere før, under, efter døgnbehandling ; Personlighed og stofmisbrug</dc:description><dc:description xsi:type="dkdcplus:series">Knytter sig til: Lasse Mølholm Hansen ; Opbygningsgården ; Hjulsøgård ; Helle Vibeke Dahl ; Døgnbehandlingen på Kråsiglund</dc:description><dcterms:audience>voksenmaterialer</dcterms:audience><dc:publisher>Center for Rusmiddelforskning, Ꜳrhus Universitet</dc:publisher><dc:contributor>Mads Uffe Pedersen</dc:contributor><dc:contributor>Ꜳrhus Universitet Center for Rusmiddelforskning</dc:contributor><dc:contributor>Narkoevalueringsgruppen i Århus</dc:contributor><dc:date>1997</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dc:format>illustreret</dc:format><dcterms:extent>Ca. 140 sider</dcterms:extent><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">22223569</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20111202224435</marcx:subfield><marcx:subfield code="d">19980921</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">1997</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="x">04</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="c">Hf.</marcx:subfield><marcx:subfield code="d">gratis</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="a">DBF199842</marcx:subfield><marcx:subfield code="x">SFD200023</marcx:subfield><marcx:subfield code="x">OPR199842</marcx:subfield><marcx:subfield code="x">DAT991149</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere</marcx:subfield><marcx:subfield code="c">på institutionerne Opbygningsgården, Hjulsøgård, Kråsiglund og Gunderuplund</marcx:subfield><marcx:subfield code="c">Delrapport 1: Evalueringsmetoden, Delrapport2: Behandlerne og behandlingskulturerne</marcx:subfield><marcx:subfield code="e">Narkoevalueringsgruppen i Århus</marcx:subfield><marcx:subfield code="e">Mads Uffe Pedersen ... [et al.]</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">[Risskov]</marcx:subfield><marcx:subfield code="b">Center for Rusmiddelforskning, Ꜳrhus Universitet</marcx:subfield><marcx:subfield code="c">1997</marcx:subfield><marcx:subfield code="k">KB</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">Ca. 140 sider</marcx:subfield><marcx:subfield code="b">ill.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="440"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="a">Evalueringsrapport</marcx:subfield><marcx:subfield code="æ">Center for Rusmiddelforskning, Ꜳrhus Universitet</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Omslagstitel: Døgnbehandlingsindsatsen på Opbygningsgården, Hjulsøgård, Kråsiglund og Gunderuplund</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="526"><marcx:subfield code="i">Samhørende</marcx:subfield><marcx:subfield code="t">Evaluering af døgnbehandlingsindsatsen overfor stofmisbrugere</marcx:subfield><marcx:subfield code="d">Mads Uffe Pedersen</marcx:subfield><marcx:subfield code="t">Stofmisbrugere i døgnbehandling</marcx:subfield><marcx:subfield code="t">Arbejdsalliancen mellem behandlere og stofmisbrugere i døgnbehandling</marcx:subfield><marcx:subfield code="t">Stofmisbrugere efter døgnbehandling</marcx:subfield><marcx:subfield code="t">Stofmisbrugere før, under, efter døgnbehandling</marcx:subfield><marcx:subfield code="x">Personlighed og stofmisbrug</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="526"><marcx:subfield code="i">Knytter sig til</marcx:subfield><marcx:subfield code="d">Lasse Mølholm Hansen</marcx:subfield><marcx:subfield code="t">Opbygningsgården</marcx:subfield><marcx:subfield code="t">Hjulsøgård</marcx:subfield><marcx:subfield code="d">Helle Vibeke Dahl</marcx:subfield><marcx:subfield code="t">Døgnbehandlingen på Kråsiglund</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="532"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">38.88</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Pedersen</marcx:subfield><marcx:subfield code="h">Mads Uffe</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="å">1</marcx:subfield><marcx:subfield code="a">Ꜳrhus Universitet</marcx:subfield><marcx:subfield code="c">Center for Rusmiddelforskning</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="a">Narkoevalueringsgruppen i Århus</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="745"><marcx:subfield code="a">Døgnbehandlingsindsatsen på Opbygningsgården, Hjulsøgård, Krågsiglund og Gunderuplund</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="910"><marcx:subfield code="a">Center for Rusmiddelforskning, Ꜳrhus Universitet</marcx:subfield><marcx:subfield code="z">710/1</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="c">H</marcx:subfield><marcx:subfield code="m">Rettelse, Dansk bogf.</marcx:subfield><marcx:subfield code="r">199902</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="c">H</marcx:subfield><marcx:subfield code="m">Samhørende-note udvidet. Note tilføjet (for nye titler i 200006).</marcx:subfield><marcx:subfield code="m">Rettelse, Dansk bogf.</marcx:subfield><marcx:subfield code="r">200005</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="c">H</marcx:subfield><marcx:subfield code="m">Samhørende-note udvidet.</marcx:subfield><marcx:subfield code="m">Rettelse 2</marcx:subfield><marcx:subfield code="r">200023</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2005-03-01</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>nonfiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:15.946Z" MIMETYPE="text/xml" SIZE="679">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">ej+bhn</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">masserettet i forb. med tilføjelse af niveaukoder</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20050301</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">masseret</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:16.015Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:22223569">
+    <isMemberOfUnit xmlns="info:fedora/">unit:48040</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:48040</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:26:29.011</timestamp>
+<pid>870970-basis:22223569</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

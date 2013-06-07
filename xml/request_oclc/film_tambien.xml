@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:29320071"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:15.190Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:15.247Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:15.190Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:15.247Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:15.196Z" MIMETYPE="text/xml" SIZE="1717">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>también la lluvia</dc:title>
+  <dc:title>MATCH:tambié</dc:title>
+  <dc:creator>Iciar Bollain</dc:creator>
+  <dc:creator>NOBIRTH:Iciar Bollain</dc:creator>
+  <dc:subject>drama</dc:subject>
+  <dc:subject>drikkevand</dc:subject>
+  <dc:subject>indianere</dc:subject>
+  <dc:subject>korruption</dc:subject>
+  <dc:subject>magtmisbrug</dc:subject>
+  <dc:subject>Bolivia</dc:subject>
+  <dc:subject>2000-2009</dc:subject>
+  <dc:publisher>pan vision</dc:publisher>
+  <dc:publisher>MATCHSTRING:pan vis</dc:publisher>
+  <dc:contributor>MATCHSTRING:Catalána</dc:contributor>
+  <dc:contributor>MATCHSTRING:Bollaíni</dc:contributor>
+  <dc:contributor>MATCHSTRING:Lavertyp</dc:contributor>
+  <dc:contributor>alex catalán</dc:contributor>
+  <dc:contributor>iciar bollaín</dc:contributor>
+  <dc:contributor>paul laverty</dc:contributor>
+  <dc:contributor>luis tosar</dc:contributor>
+  <dc:contributor>gael garcía bernal</dc:contributor>
+  <dc:contributor>juan carlos aduviri</dc:contributor>
+  <dc:contributor>karra elcjalde</dc:contributor>
+  <dc:contributor>raúl arévalo</dc:contributor>
+  <dc:contributor>carlos santos</dc:contributor>
+  <dc:contributor>cassandra ciaguerotti</dc:contributor>
+  <dc:date>2012</dc:date>
+  <dc:type>Dvd</dc:type>
+  <dc:type>WORK:movie</dc:type>
+  <dc:identifier>870970-basis:29320071</dc:identifier>
+  <dc:identifier>NUMBER:D 5900073</dc:identifier>
+  <dc:language>Spansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:15.197Z" MIMETYPE="text/xml" SIZE="10646">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>29320071|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>También la lluvia</dc:title><dc:title xsi:type="dkdcplus:full">También la lluvia</dc:title><dcterms:alternative>Even the rain</dcterms:alternative><dc:creator xsi:type="dkdcplus:drt">Iciar Bollain</dc:creator><dc:creator xsi:type="oss:sort">Bollain, Iciar</dc:creator><dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">drama</dc:subject><dc:subject xsi:type="dkdcplus:genre">drama</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">drikkevand</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">indianere</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">korruption</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">magtmisbrug</dc:subject><dcterms:abstract>Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie</dcterms:abstract><dc:description>Originalfilmen: Spanien : Morena Films : en coproducción con Vaca Films ; Frankrig : Mandarin Cinema ; Mexico : Alebrije Cine y Video ... et al., 2010</dc:description><dc:description>Af indholdet: Extras</dc:description><dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 15 år</dcterms:audience><dcterms:audience>voksenmaterialer</dcterms:audience><dc:publisher>Pan Vision</dc:publisher><dc:contributor>Alex Catalán</dc:contributor><dc:contributor>Iciar Bollaín</dc:contributor><dc:contributor>Paul Laverty</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Luis Tosar</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Gael García Bernal</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Juan Carlos Aduviri</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Karra Elcjalde</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Raúl Arévalo</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Carlos Santos</dc:contributor><dc:contributor xsi:type="dkdcplus:act">Cassandra Ciaguerotti</dc:contributor><dc:date>2012</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type><dc:format>1 dvd-video</dc:format><dcterms:extent>ca. 103 min.</dcterms:extent><dc:language xsi:type="dcterms:ISO639-2">spa</dc:language><dc:language>Spansk</dc:language><dc:language xsi:type="dkdcplus:subtitles">swe</dc:language><dc:language xsi:type="dkdcplus:subtitles">nor</dc:language><dc:language xsi:type="dkdcplus:subtitles">dan</dc:language><dc:language xsi:type="dkdcplus:subtitles">fin</dc:language><dcterms:spatial xsi:type="dkdcplus:DBCS">Bolivia</dcterms:spatial><dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">29320071</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20120507181129</marcx:subfield><marcx:subfield code="d">20120410</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="006"><marcx:subfield code="c">20120510</marcx:subfield><marcx:subfield code="2">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="006"><marcx:subfield code="d">15</marcx:subfield><marcx:subfield code="2">b</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">2012</marcx:subfield><marcx:subfield code="b">se</marcx:subfield><marcx:subfield code="l">spa</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">m</marcx:subfield><marcx:subfield code="g">th</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="b">Brugsretskategori: C+</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="023"><marcx:subfield code="a">7391970040664</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="x">ACC201215</marcx:subfield><marcx:subfield code="a">DBI201219</marcx:subfield><marcx:subfield code="x">BKM201219</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="041"><marcx:subfield code="a">spa</marcx:subfield><marcx:subfield code="u">swe</marcx:subfield><marcx:subfield code="u">nor</marcx:subfield><marcx:subfield code="u">dan</marcx:subfield><marcx:subfield code="u">fin</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">También la lluvia</marcx:subfield><marcx:subfield code="e">director de fotografía Alex Catalán</marcx:subfield><marcx:subfield code="f">producida por Juan Gordon</marcx:subfield><marcx:subfield code="e">escrita por Paul Laverty</marcx:subfield><marcx:subfield code="e">dirigida por Iciar Bollain</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">[Stockholm]</marcx:subfield><marcx:subfield code="b">Pan Vision</marcx:subfield><marcx:subfield code="c">2012</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="n">1 dvd-video</marcx:subfield><marcx:subfield code="l">ca. 103 min.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Bolivia år 2000. Indianeren Daniel får en rolle i en film om Columbus, men er samtidig involveret i en protestbevægelse, så han fængsles og prygles af regeringssoldater. Filmholdet får købt ham fri, men må opgive projektet, og har nu et ansvar for Daniel og hans familie</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="508"><marcx:subfield code="a">Spansk tale</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="508"><marcx:subfield code="a">Undertekster på svensk, norsk, dansk og finsk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="i">Titel på dvd-etiket og omslag</marcx:subfield><marcx:subfield code="t">Even the rain</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="i">Medvirkende</marcx:subfield><marcx:subfield code="e">Luis Tosar, Gael García Bernal, Juan Carlos Aduviri, Karra Elcjalde, Raúl Arévalo, Carlos Santos, Cassandra Ciaguerotti ... et al.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Originalfilmen: Spanien : Morena Films : en coproducción con Vaca Films ; Frankrig : Mandarin Cinema ; Mexico : Alebrije Cine y Video ... et al., 2010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="517"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Mærkning: Tilladt for børn over 15 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="534"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Af indholdet: Extras</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="538"><marcx:subfield code="a">D 5900073</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">77.7</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">drama</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">indianere</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">korruption</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">magtmisbrug</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">drikkevand</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="q">Bolivia</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">2000-2009</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Catalán</marcx:subfield><marcx:subfield code="h">Alex</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Bollaín</marcx:subfield><marcx:subfield code="h">Iciar</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Laverty</marcx:subfield><marcx:subfield code="h">Paul</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="o">201219</marcx:subfield><marcx:subfield code="b">n</marcx:subfield><marcx:subfield code="b">v</marcx:subfield><marcx:subfield code="u">nt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="991"><marcx:subfield code="o">Agenturholder: Scanbox</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2012-04-10</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>fiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:15.197Z" MIMETYPE="text/xml" SIZE="1111">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="o">wnn</marcx:subfield><marcx:subfield code="o">kpn</marcx:subfield><marcx:subfield code="k">amh</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f06"><marcx:subfield code="b">n</marcx:subfield><marcx:subfield code="b">v</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n51"><marcx:subfield code="a">20120507</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20120410</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">TeamBMV201217</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z98"><marcx:subfield code="a">Minus korrekturprint</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">kpn</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:15.247Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:29320071">
+    <isMemberOfUnit xmlns="info:fedora/">unit:48021</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:48021</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:34:45.986</timestamp>
+<pid>870970-basis:29320071</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

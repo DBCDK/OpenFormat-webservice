@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:44796872"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:13.539Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:13.606Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:13.539Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:13.606Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:13.551Z" MIMETYPE="text/xml" SIZE="1992">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>night castle</dc:title>
+  <dc:title>MATCH:night</dc:title>
+  <dc:creator>Trans-Siberian Orchestra</dc:creator>
+  <dc:creator>NOBIRTH:Trans-Siberian Orchestra</dc:creator>
+  <dc:subject>instrumental</dc:subject>
+  <dc:subject>pop</dc:subject>
+  <dc:subject>rock</dc:subject>
+  <dc:subject>symfonisk rock</dc:subject>
+  <dc:subject>vokal</dc:subject>
+  <dc:subject>USA</dc:subject>
+  <dc:subject>2000-2009</dc:subject>
+  <dc:publisher>atlantic</dc:publisher>
+  <dc:publisher>MATCHSTRING:atlanti</dc:publisher>
+  <dc:contributor>MATCHSTRING:O&apos;Neillp</dc:contributor>
+  <dc:contributor>MATCHSTRING:Kinkelr</dc:contributor>
+  <dc:contributor>MATCHSTRING:Olivaj</dc:contributor>
+  <dc:contributor>MATCHSTRING:Pitrellia</dc:contributor>
+  <dc:contributor>MATCHSTRING:Altenhoffc</dc:contributor>
+  <dc:contributor>MATCHSTRING:Butlerl</dc:contributor>
+  <dc:contributor>MATCHSTRING:Cafferyc</dc:contributor>
+  <dc:contributor>MATCHSTRING:Chongr</dc:contributor>
+  <dc:contributor>MATCHSTRING:Clarka</dc:contributor>
+  <dc:contributor>paul o&apos;neill</dc:contributor>
+  <dc:contributor>robert kinkel</dc:contributor>
+  <dc:contributor>jon oliva</dc:contributor>
+  <dc:contributor>al pitrelli</dc:contributor>
+  <dc:contributor>chris altenhoff</dc:contributor>
+  <dc:contributor>luci butler</dc:contributor>
+  <dc:contributor>chris caffery</dc:contributor>
+  <dc:contributor>roddy chong</dc:contributor>
+  <dc:contributor>angus clark</dc:contributor>
+  <dc:date>2009</dc:date>
+  <dc:type>Cd (musik)</dc:type>
+  <dc:type>WORK:music</dc:type>
+  <dc:identifier>870970-basis:44796872</dc:identifier>
+  <dc:identifier>NUMBER:Atlantic5202712</dc:identifier>
+  <dc:language>Engelsk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:13.552Z" MIMETYPE="text/xml" SIZE="13802">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>44796872|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Night castle</dc:title><dc:title xsi:type="dkdcplus:full">Night castle</dc:title><dc:creator>Trans-Siberian Orchestra</dc:creator><dc:creator xsi:type="oss:sort">Trans-Siberian Orchestra</dc:creator><dc:subject xsi:type="dkdcplus:DK5">78.794:5</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Rock (Beat). Moderne folkemusik (Folk)</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">pop</dc:subject><dc:subject xsi:type="dkdcplus:genre">pop</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">rock</dc:subject><dc:subject xsi:type="dkdcplus:genre">rock</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">symfonisk rock</dc:subject><dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject><dcterms:audience>børnematerialer</dcterms:audience><dcterms:audience>voksenmaterialer</dcterms:audience><dc:publisher>Atlantic</dc:publisher><dc:contributor>Paul O&apos;Neill</dc:contributor><dc:contributor>Robert Kinkel</dc:contributor><dc:contributor>Jon Oliva</dc:contributor><dc:contributor>Al Pitrelli</dc:contributor><dc:contributor>Chris Altenhoff</dc:contributor><dc:contributor>Luci Butler</dc:contributor><dc:contributor>Chris Caffery</dc:contributor><dc:contributor>Roddy Chong</dc:contributor><dc:contributor>Angus Clark</dc:contributor><dc:date>2009</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type><dc:format>2 cd&apos;er, 1 tekstbilag</dc:format><dc:identifier>Atlantic 5202712</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">eng</dc:language><dc:language>Engelsk</dc:language><dcterms:hasPart xsi:type="dkdcplus:track">Night enchanted</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Childhood dreams</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Sparks</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">The mountain</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Night castle</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Mozart and memories</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Another way you can die</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Toccata - Carpimus noctem</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">The lion&apos;s roar</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Dreams we conceive</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Mother and son</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">There was a life</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Moonlight and madness</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Time floats on</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Epiphany</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Bach lullaby</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Father, son &amp; holy ghost</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Remnants of a lullaby</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">The safest way into tomorrow (reprise)</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Embers</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Child of the night</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Believe</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Nutrocker</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Carmina Burana</dcterms:hasPart><dcterms:hasPart xsi:type="dkdcplus:track">Tracers</dcterms:hasPart><dcterms:spatial xsi:type="dkdcplus:DBCM">USA</dcterms:spatial><dcterms:temporal xsi:type="dkdcplus:DBCM">2000-2009</dcterms:temporal></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">44796872</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20100318101632</marcx:subfield><marcx:subfield code="d">20100318</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="002"><marcx:subfield code="b">710100</marcx:subfield><marcx:subfield code="c">92926567</marcx:subfield><marcx:subfield code="x">71010092926567</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">c</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="005"><marcx:subfield code="h">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">s</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">2009</marcx:subfield><marcx:subfield code="b">us</marcx:subfield><marcx:subfield code="l">eng</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">s</marcx:subfield><marcx:subfield code="g">xc</marcx:subfield><marcx:subfield code="b">a</marcx:subfield><marcx:subfield code="h">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="039"><marcx:subfield code="a">bef</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="110"><marcx:subfield code="a">Trans-Siberian Orchestra</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Night castle</marcx:subfield><marcx:subfield code="e">Trans-Siberian Orchestra (Paul O&apos;Neill, Robert Kinkel, Jon Oliva, Al Pitrelli, Chris Altenhoff, Luci Butler, Chris Caffery, Roddy Chong, Angus Clark ... [et al.])</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">New York</marcx:subfield><marcx:subfield code="b">Atlantic</marcx:subfield><marcx:subfield code="c">p 2009</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="n">2 cd&apos;er</marcx:subfield><marcx:subfield code="d">1 tekstbilag</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="531"><marcx:subfield code="a">Indhold:</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="538"><marcx:subfield code="f">Atlantic</marcx:subfield><marcx:subfield code="g">5202712</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">78.794</marcx:subfield><marcx:subfield code="v">5</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="m">rock</marcx:subfield><marcx:subfield code="m">pop</marcx:subfield><marcx:subfield code="m">symfonisk rock</marcx:subfield><marcx:subfield code="n">vokal</marcx:subfield><marcx:subfield code="n">instrumental</marcx:subfield><marcx:subfield code="p">2000-2009</marcx:subfield><marcx:subfield code="l">USA</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">O&apos;Neill</marcx:subfield><marcx:subfield code="h">Paul</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Kinkel</marcx:subfield><marcx:subfield code="h">Robert</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Oliva</marcx:subfield><marcx:subfield code="h">Jon</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Pitrelli</marcx:subfield><marcx:subfield code="h">Al</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Altenhoff</marcx:subfield><marcx:subfield code="h">Chris</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Butler</marcx:subfield><marcx:subfield code="h">Luci</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Caffery</marcx:subfield><marcx:subfield code="h">Chris</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Chong</marcx:subfield><marcx:subfield code="h">Roddy</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="700"><marcx:subfield code="a">Clark</marcx:subfield><marcx:subfield code="h">Angus</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">11</marcx:subfield><marcx:subfield code="a">Night enchanted</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">12</marcx:subfield><marcx:subfield code="a">Childhood dreams</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">13</marcx:subfield><marcx:subfield code="a">Sparks</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">14</marcx:subfield><marcx:subfield code="a">The ¤mountain</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">15</marcx:subfield><marcx:subfield code="a">Night castle</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">16</marcx:subfield><marcx:subfield code="a">The ¤safest way into tomorrow</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">17</marcx:subfield><marcx:subfield code="a">Mozart and memories</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">18</marcx:subfield><marcx:subfield code="a">Another way you can die</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">19</marcx:subfield><marcx:subfield code="a">Toccata - Carpimus noctem</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">20</marcx:subfield><marcx:subfield code="a">The ¤lion&apos;s roar</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">21</marcx:subfield><marcx:subfield code="a">Dreams we conceive</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">22</marcx:subfield><marcx:subfield code="a">Mother and son</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">23</marcx:subfield><marcx:subfield code="a">There was a life</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">24</marcx:subfield><marcx:subfield code="a">Moonlight and madness</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">25</marcx:subfield><marcx:subfield code="a">Time floats on</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">26</marcx:subfield><marcx:subfield code="a">Epiphany</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">27</marcx:subfield><marcx:subfield code="a">Bach lullaby</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">28</marcx:subfield><marcx:subfield code="A">father son and holy ghost</marcx:subfield><marcx:subfield code="a">Father, son &amp; holy ghost</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">29</marcx:subfield><marcx:subfield code="a">Remnants of a lullaby</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">30</marcx:subfield><marcx:subfield code="a">The ¤safest way into tomorrow (reprise)</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">31</marcx:subfield><marcx:subfield code="a">Embers</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">32</marcx:subfield><marcx:subfield code="a">Child of the night</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">33</marcx:subfield><marcx:subfield code="a">Believe</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">34</marcx:subfield><marcx:subfield code="a">Nutrocker</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">35</marcx:subfield><marcx:subfield code="a">Carmina Burana</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="795"><marcx:subfield code="å">36</marcx:subfield><marcx:subfield code="a">Tracers</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">710100</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2010-02-19</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:13.552Z" MIMETYPE="text/xml" SIZE="300">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20100219</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:13.606Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:44796872">
+    <isMemberOfUnit xmlns="info:fedora/">unit:48001</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:48001</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:33:05.822</timestamp>
+<pid>870970-basis:44796872</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

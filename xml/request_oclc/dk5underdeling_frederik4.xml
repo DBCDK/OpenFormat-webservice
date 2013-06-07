@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/ope
+nsearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standard
+s/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:d
+kdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="htt
+p://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://w
+ww.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:27208010"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:12.088Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:12.171Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:12.088Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:12.171Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:12.100Z" MIMETYPE="text/xml" SIZE="1384">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>frederik iv</dc:title>
+  <dc:title>MATCH:freder</dc:title>
+  <dc:creator>Hans Wagner f. 1972-12-03</dc:creator>
+  <dc:creator>NOBIRTH:Hans Wagner</dc:creator>
+  <dc:creator>MATCHSTRING:Wagnerh</dc:creator>
+  <dc:subject>frederik iv konge af danmark</dc:subject>
+  <dc:subject>frederik iv konge af danmark</dc:subject>
+  <dc:subject>for 13 år</dc:subject>
+  <dc:subject>for 14 år</dc:subject>
+  <dc:subject>for 15 år</dc:subject>
+  <dc:subject>historie</dc:subject>
+  <dc:subject>konger</dc:subject>
+  <dc:subject>Danmark</dc:subject>
+  <dc:subject>1680-1689</dc:subject>
+  <dc:subject>1690-1699</dc:subject>
+  <dc:subject>1700-1709</dc:subject>
+  <dc:subject>1710-1719</dc:subject>
+  <dc:subject>1720-1729</dc:subject>
+  <dc:subject>1670-1679</dc:subject>
+  <dc:publisher>flachs</dc:publisher>
+  <dc:publisher>MATCHSTRING:flachs</dc:publisher>
+  <dc:date>2008</dc:date>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:identifier>870970-basis:27208010</dc:identifier>
+  <dc:identifier>ISBN:9788762710498</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:12.101Z" MIMETYPE="text/xml" SIZE="9609">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>27208010|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Frederik IV</dc:title><dc:title xsi:type="dkdcplus:full">Frederik IV : konge i enevældens Danmark</dc:title><dc:title xsi:type="dkdcplus:series">Tilbageblik</dc:title><dc:creator xsi:type="dkdcplus:aut">Hans Wagner (f. 1972-12-03)</dc:creator><dc:creator xsi:type="oss:sort">Wagner, Hans (f. 1972-12-03)</dc:creator><dc:subject xsi:type="dkdcplus:DK5">99.4 Frederik, IV, konge af Danmark</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">Frederik IV konge af Danmark</dc:subject><dc:subject xsi:type="oss:sort">Frederik IV konge af Danmark</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 15 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject><dc:subject xsi:type="dkdcplus:DBCF">konger</dc:subject><dcterms:abstract>Om Frederik IV (1671-1730) og hans liv med rejser i Europa, slotsbyggeri, elskerinder og to koner på en gang, men også om livet for de fattige, bønder, borgere og adelige</dcterms:abstract><dcterms:audience>børnematerialer</dcterms:audience><dc:publisher>Flachs</dc:publisher><dc:date>2008</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dc:format>illustreret i farver</dc:format><dcterms:extent>48 sider</dcterms:extent><dc:identifier xsi:type="dkdcplus:ISBN">9788762710498</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial><dcterms:temporal xsi:type="dkdcplus:DBCP">1680-1689</dcterms:temporal><dcterms:temporal xsi:type="dkdcplus:DBCP">1690-1699</dcterms:temporal><dcterms:temporal xsi:type="dkdcplus:DBCP">1700-1709</dcterms:temporal><dcterms:temporal xsi:type="dkdcplus:DBCP">1710-1719</dcterms:temporal><dcterms:temporal xsi:type="dkdcplus:DBCP">1720-1729</dcterms:temporal><dcterms:temporal xsi:type="dkdcplus:DBCP">1670-1679</dcterms:temporal></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">27208010</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20121020201358</marcx:subfield><marcx:subfield code="d">20080407</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">2008</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="d">å</marcx:subfield><marcx:subfield code="d">y</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="o">b</marcx:subfield><marcx:subfield code="x">02</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788762710498</marcx:subfield><marcx:subfield code="c">ib.</marcx:subfield><marcx:subfield code="d">kr. 248,00</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="x">ACC200815</marcx:subfield><marcx:subfield code="a">DBF200819</marcx:subfield><marcx:subfield code="x">BKM200819</marcx:subfield><marcx:subfield code="x">DAT201225</marcx:subfield><marcx:subfield code="x">DAT991243</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Wagner</marcx:subfield><marcx:subfield code="h">Hans</marcx:subfield><marcx:subfield code="c">f. 1972-12-03</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="A">frederik 4</marcx:subfield><marcx:subfield code="a">Frederik IV</marcx:subfield><marcx:subfield code="c">konge i enevældens Danmark</marcx:subfield><marcx:subfield code="e">Hans Wagner</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Holte</marcx:subfield><marcx:subfield code="b">Flachs</marcx:subfield><marcx:subfield code="c">2008</marcx:subfield><marcx:subfield code="k">tr.i.udl.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">48 sider</marcx:subfield><marcx:subfield code="b">ill. i farver</marcx:subfield><marcx:subfield code="c">28 cm</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="440"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="a">Tilbageblik</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Om Frederik IV (1671-1730) og hans liv med rejser i Europa, slotsbyggeri, elskerinder og to koner på en gang, men også om livet for de fattige, bønder, borgere og adelige</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="b">[1. oplag]</marcx:subfield><marcx:subfield code="c">2008</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="532"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Med litteraturhenvisninger og internetadresser</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="600"><marcx:subfield code="1"></marcx:subfield><marcx:subfield code="a">Frederik</marcx:subfield><marcx:subfield code="E">4</marcx:subfield><marcx:subfield code="e">IV</marcx:subfield><marcx:subfield code="f">konge af Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">99.4</marcx:subfield><marcx:subfield code="a">Frederik</marcx:subfield><marcx:subfield code="E">4</marcx:subfield><marcx:subfield code="e">IV</marcx:subfield><marcx:subfield code="f">konge af Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="p">96.3</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">konger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="f">historie</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1680-1689</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1690-1699</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1700-1709</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1710-1719</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1720-1729</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="e">Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="i">1670-1679</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 13 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 14 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 15 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="o">200819</marcx:subfield><marcx:subfield code="b">l</marcx:subfield><marcx:subfield code="b">b</marcx:subfield><marcx:subfield code="b">s</marcx:subfield><marcx:subfield code="c">a</marcx:subfield><marcx:subfield code="u">nt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2008-04-07</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>nonfiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:12.101Z" MIMETYPE="text/xml" SIZE="2303">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="o">gc</marcx:subfield><marcx:subfield code="o">tb</marcx:subfield><marcx:subfield code="k">dra</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">masserettet i forb. med konvertering af aldersnoter</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">masserettet i forb. med tilføjelse af niveaukoder</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">MVB200819</marcx:subfield><marcx:subfield code="z">MVC200819</marcx:subfield><marcx:subfield code="z">MSA200819</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">REX200824</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d31"><marcx:subfield code="b">227</marcx:subfield><marcx:subfield code="h">275</marcx:subfield><marcx:subfield code="t">9</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d32"><marcx:subfield code="b">221</marcx:subfield><marcx:subfield code="h">270</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d35"><marcx:subfield code="a">P</marcx:subfield><marcx:subfield code="i">02</marcx:subfield><marcx:subfield code="n">10</marcx:subfield><marcx:subfield code="p">01</marcx:subfield><marcx:subfield code="q">10</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f06"><marcx:subfield code="b">l</marcx:subfield><marcx:subfield code="b">b</marcx:subfield><marcx:subfield code="b">s</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n51"><marcx:subfield code="a">20080505</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20080407</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">TeamBo200817</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">masseret</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:12.171Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:27208010">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47981</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47981</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:33:43.429</timestamp>
+<pid>870970-basis:27208010</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

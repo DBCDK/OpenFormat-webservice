@@ -363,7 +363,7 @@
 </oclcRecord>
 </oclcRecords>
 </ns1:originalData>
-<ns1:outputFormat>dm2ToOclcMarc21MarcXchange</ns1:outputFormat>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
    </ns1:formatRequest>
  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

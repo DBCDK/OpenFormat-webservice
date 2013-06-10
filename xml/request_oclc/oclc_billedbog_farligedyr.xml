@@ -3,10 +3,7 @@
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
-<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:05997283"
-xmlns:foxml="info:fedora/fedora-system:def/foxml#"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:05997283">
 <foxml:objectProperties>
 <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
 <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
@@ -87,9 +84,9 @@ Transformed record: TransformedRecordItem { holdings: "[Holding { symbol: "DKDLA
 2013-05-30 10:26:02.560,INFO,dk.dbc.oclc.wciru.FlowLog,870970-basis:29036748,FlowLog,flush Record: '870970-basis:29036748'
 RecordFilter result: PUSH
 Wrapped record: <oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:29036748"
-xmlns:foxml="info:fedora/fedora-system:def/foxml#"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+
+
+>
 <foxml:objectProperties>
 <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
 <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>

@@ -89,7 +89,7 @@
                   <marcx:subfield code="h">Jeppe</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="245" ind1="0" ind2="0">
-                  <marcx:subfield code="a">ISDN-bogen</marcx:subfield>
+                  <marcx:subfield code="a">ISDN-bogen\u003CTag\u003E</marcx:subfield>
                   <marcx:subfield code="e">Jeppe Rude</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="250" ind1="0" ind2="0">
@@ -106,6 +106,9 @@
                 <marcx:datafield tag="300" ind1="0" ind2="0">
                   <marcx:subfield code="a">112 sider</marcx:subfield>
                   <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield tag="300" ind1="0" ind2="0">
+                  <marcx:subfield code="a">222 sider</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="440" ind1="0" ind2="0">
                   <marcx:subfield code="0"/>

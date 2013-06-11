@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>27681794|870970</ac:identifier>
+                <dc:identifier>MSM 0011</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Lieder</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Lieder</dc:title>
+                <dc:creator>Johan Reuter</dc:creator>
+                <dc:creator xsi:type="oss:sort">Reuter, Johan</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5">78.611</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Antologier af vokalmusik for 1 solostemme</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">baryton</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">lied</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">nationalromantik</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">sange</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">senromantik</dc:subject>
+                <dc:subject xsi:type="dkdcplus:genre">solosang</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">vokal</dc:subject>
+                <dc:description>Indspillet i Berlin 29.-30. september 2008</dc:description>
+                <dc:description>Tekster på omslag</dc:description>
+                <dcterms:audience>børnematerialer</dcterms:audience>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Michael Storrs Music</dc:publisher>
+                <dc:contributor>Wilhelm Henzen</dc:contributor>
+                <dc:contributor>J. P. Jacobsen (f. 1847)</dc:contributor>
+                <dc:contributor>Tove Lønskov</dc:contributor>
+                <dc:contributor>Richard Strauss</dc:contributor>
+                <dc:contributor>Carl Nielsen (f. 1865)</dc:contributor>
+                <dc:contributor>Hakon Børresen</dc:contributor>
+                <dc:date>2008</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+                <dc:format>1 cd</dc:format>
+                <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+                <dc:language>Tysk</dc:language>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Sange, opus 10</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Zueignung</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Nichts</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Die Nacht</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Die Georgine</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Geduld</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Die Verschwiegenen</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Die Zeitlose</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Allerseelen</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Sange, opus 27</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Ruhe, meine Seele</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Cäcilie</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Heimliche Aufforderung</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Morgen</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Schlichte Weisen, opus 21</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">All' mein' Gedanken</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Du meines Herzens Krönelein</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Ach Lieb, ich muss nun scheiden</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Ach Weh mir unglückhaftem Mann</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Die Frauen sind oft fromm und still</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Musik til fem digte af J.P. Jacobsen, opus 4</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Viser og vers af J.P. Jacobsen, opus 6</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Sange, opus 8</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Lad våren komme</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Landskab</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">I seraillets have</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Marine</dcterms:hasPart>
+                <dcterms:spatial xsi:type="dkdcplus:DBCM">Tyskland</dcterms:spatial>
+                <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+                <dcterms:spatial xsi:type="dkdcplus:DBCM">Danmark</dcterms:spatial>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1880-1889</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1890-1899</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1890-1899</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1900-1909</dcterms:temporal>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>000000000000000000000000</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">27681794</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20090511180353</marcx:subfield>
+                    <marcx:subfield code="d">20090324</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                    <marcx:subfield code="t">FAUST</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="005">
+                    <marcx:subfield code="h">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">s</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2008</marcx:subfield>
+                    <marcx:subfield code="b">de</marcx:subfield>
+                    <marcx:subfield code="l">ger</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">s</marcx:subfield>
+                    <marcx:subfield code="g">xc</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="020">
+                    <marcx:subfield code="a">dk</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="021">
+                    <marcx:subfield code="d">Kr. 136,00</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="023">
+                    <marcx:subfield code="a">0879524001127</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DMO200920</marcx:subfield>
+                    <marcx:subfield code="x">BKM200920</marcx:subfield>
+                    <marcx:subfield code="a">DMO</marcx:subfield>
+                    <marcx:subfield code="x">BKM</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="039">
+                    <marcx:subfield code="a">voa</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Reuter</marcx:subfield>
+                    <marcx:subfield code="h">Johan</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Lieder</marcx:subfield>
+                    <marcx:subfield code="e">Johan Reuter, baryton</marcx:subfield>
+                    <marcx:subfield code="e">Tove Lønskov, klaver</marcx:subfield>
+                    <marcx:subfield code="i">produced by: Desmond Chewyn</marcx:subfield>
+                    <marcx:subfield code="i">sound engineering executive/mixer: Markus Mittermeyer</marcx:subfield>
+                    <marcx:subfield code="i">sound editor: Holger Kirchhoff</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="a">London</marcx:subfield>
+                    <marcx:subfield code="b">Michael Storrs Music</marcx:subfield>
+                    <marcx:subfield code="c">2008</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="n">1 cd</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Indspillet i Berlin 29.-30. september 2008</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Tekster på omslag</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="531">
+                    <marcx:subfield code="a">Indhold:</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="538">
+                    <marcx:subfield code="f">MSM</marcx:subfield>
+                    <marcx:subfield code="g">0011</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">78.611</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="å">13</marcx:subfield>
+                    <marcx:subfield code="i">78.61</marcx:subfield>
+                    <marcx:subfield code="v">3</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="m">senromantik</marcx:subfield>
+                    <marcx:subfield code="m">sange</marcx:subfield>
+                    <marcx:subfield code="m">lied</marcx:subfield>
+                    <marcx:subfield code="n">vokal</marcx:subfield>
+                    <marcx:subfield code="n">baryton</marcx:subfield>
+                    <marcx:subfield code="p">1880-1889</marcx:subfield>
+                    <marcx:subfield code="p">1890-1899</marcx:subfield>
+                    <marcx:subfield code="l">Tyskland</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="m">senromantik</marcx:subfield>
+                    <marcx:subfield code="m">nationalromantik</marcx:subfield>
+                    <marcx:subfield code="m">sange</marcx:subfield>
+                    <marcx:subfield code="n">vokal</marcx:subfield>
+                    <marcx:subfield code="n">baryton</marcx:subfield>
+                    <marcx:subfield code="p">1890-1899</marcx:subfield>
+                    <marcx:subfield code="l">Danmark</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="å">13</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="m">senromantik</marcx:subfield>
+                    <marcx:subfield code="m">nationalromantik</marcx:subfield>
+                    <marcx:subfield code="m">sange</marcx:subfield>
+                    <marcx:subfield code="n">vokal</marcx:subfield>
+                    <marcx:subfield code="n">baryton</marcx:subfield>
+                    <marcx:subfield code="p">1900-1909</marcx:subfield>
+                    <marcx:subfield code="l">Danmark</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Henzen</marcx:subfield>
+                    <marcx:subfield code="h">Wilhelm</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Jacobsen</marcx:subfield>
+                    <marcx:subfield code="h">J. P.</marcx:subfield>
+                    <marcx:subfield code="c">f. 1847</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Lønskov</marcx:subfield>
+                    <marcx:subfield code="h">Tove</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="770">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Strauss</marcx:subfield>
+                    <marcx:subfield code="h">Richard</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="770">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Nielsen</marcx:subfield>
+                    <marcx:subfield code="h">Carl</marcx:subfield>
+                    <marcx:subfield code="c">f. 1865</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="770">
+                    <marcx:subfield code="å">13</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Børresen</marcx:subfield>
+                    <marcx:subfield code="h">Hakon</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Sange, opus 10</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">Zueignung</marcx:subfield>
+                    <marcx:subfield code="a">Nichts</marcx:subfield>
+                    <marcx:subfield code="a">Die ¤Nacht</marcx:subfield>
+                    <marcx:subfield code="a">Die ¤Georgine</marcx:subfield>
+                    <marcx:subfield code="a">Geduld</marcx:subfield>
+                    <marcx:subfield code="a">Die ¤Verschwiegenen</marcx:subfield>
+                    <marcx:subfield code="a">Die ¤Zeitlose</marcx:subfield>
+                    <marcx:subfield code="a">Allerseelen</marcx:subfield>
+                    <marcx:subfield code="7">) ; </marcx:subfield>
+                    <marcx:subfield code="a">Sange, opus 27</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">Ruhe, meine Seele</marcx:subfield>
+                    <marcx:subfield code="a">Cäcilie</marcx:subfield>
+                    <marcx:subfield code="a">Heimliche Aufforderung</marcx:subfield>
+                    <marcx:subfield code="a">Morgen</marcx:subfield>
+                    <marcx:subfield code="7">) ; </marcx:subfield>
+                    <marcx:subfield code="a">Schlichte Weisen, opus 21</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">All' mein' Gedanken</marcx:subfield>
+                    <marcx:subfield code="a">Du meines Herzens Krönelein</marcx:subfield>
+                    <marcx:subfield code="a">Ach Lieb, ich muss nun scheiden</marcx:subfield>
+                    <marcx:subfield code="a">Ach Weh mir unglückhaftem Mann</marcx:subfield>
+                    <marcx:subfield code="a">Die ¤Frauen sind oft fromm und still</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Musik til fem digte af J.P. Jacobsen, opus 4</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="v">I seraillets have</marcx:subfield>
+                    <marcx:subfield code="p">Im Garten des Serails</marcx:subfield>
+                    <marcx:subfield code="v">Irmelin Rose</marcx:subfield>
+                    <marcx:subfield code="p">Irmelein Rose</marcx:subfield>
+                    <marcx:subfield code="v">Har dagen sanket al sin sorg</marcx:subfield>
+                    <marcx:subfield code="p">Und wenn der Tag all' Sorg und Qual</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                    <marcx:subfield code="i"> / Jens Peter Jacobsen</marcx:subfield>
+                    <marcx:subfield code="i">German versions by Wilhelm Henzen</marcx:subfield>
+                    <marcx:subfield code="7"> ; </marcx:subfield>
+                    <marcx:subfield code="a">Viser og vers af J.P. Jacobsen, opus 6</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="v">Silkesko over gylden læst</marcx:subfield>
+                    <marcx:subfield code="p">Seid'ner Schuh über Leisten von Gold</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                    <marcx:subfield code="i"> / Jens Peter Jacobsen</marcx:subfield>
+                    <marcx:subfield code="i">German versions by Wilhelm Henzen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">13</marcx:subfield>
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">Sange, opus 8</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">Lad våren komme</marcx:subfield>
+                    <marcx:subfield code="p">Den ¤Lenz lasst kommen</marcx:subfield>
+                    <marcx:subfield code="a">Landskab</marcx:subfield>
+                    <marcx:subfield code="p">Landschaft</marcx:subfield>
+                    <marcx:subfield code="a">I seraillets have</marcx:subfield>
+                    <marcx:subfield code="p">Im Garten des Serails</marcx:subfield>
+                    <marcx:subfield code="a">Marine</marcx:subfield>
+                    <marcx:subfield code="p">Marine</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                    <marcx:subfield code="i"> / Jens Peter Jacobsen</marcx:subfield>
+                    <marcx:subfield code="i">German versions by Wilhelm Henzen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">200920</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:27681794</os:identifier>
+              <os:creationDate>2009-03-25</os:creationDate>
+              <os:holdingsCount>22</os:holdingsCount>
+              <os:lendingLibraries>22</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>cd_lieder.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

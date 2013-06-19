@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:29465606">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:15.569Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:15.645Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:15.569Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:15.645Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:15.576Z" MIMETYPE="text/xml" SIZE="1437">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>stjerneliv</dc:title>
+  <dc:title>MATCH:stjern</dc:title>
+  <dc:creator>Sienna Mercer</dc:creator>
+  <dc:creator>NOBIRTH:Sienna Mercer</dc:creator>
+  <dc:creator>MATCHSTRING:Mercers</dc:creator>
+  <dc:subject>film</dc:subject>
+  <dc:subject>filmstjerner</dc:subject>
+  <dc:subject>for 10 år</dc:subject>
+  <dc:subject>for 11 år</dc:subject>
+  <dc:subject>for 12 år</dc:subject>
+  <dc:subject>for 13 år</dc:subject>
+  <dc:subject>kærlighed</dc:subject>
+  <dc:subject>piger</dc:subject>
+  <dc:subject>søstre</dc:subject>
+  <dc:subject>tvillinger</dc:subject>
+  <dc:subject>unge</dc:subject>
+  <dc:subject>vampyrer</dc:subject>
+  <dc:subject>Hollywood</dc:subject>
+  <dc:publisher>alvilda</dc:publisher>
+  <dc:publisher>MATCHSTRING:alvilda</dc:publisher>
+  <dc:contributor>lis andersen</dc:contributor>
+  <dc:contributor>nicole boyle rødtnes</dc:contributor>
+  <dc:date>2012</dc:date>
+  <dc:type>Ebog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:identifier>870970-basis:29465606</dc:identifier>
+  <dc:identifier>ISBN:9788771054286</dc:identifier>
+  <dc:source>star style</dc:source>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:15.577Z" MIMETYPE="text/xml" SIZE="9668">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>29465606|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Stjerneliv</dc:title><dc:title xsi:type="dkdcplus:full">Stjerneliv</dc:title><dc:title xsi:type="dkdcplus:series">Min søster, vampyren ; nr. 8</dc:title><dc:creator xsi:type="dkdcplus:aut">Sienna Mercer</dc:creator><dc:creator xsi:type="oss:sort">Mercer, Sienna</dc:creator><dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">film</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">filmstjerner</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 10 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">kærlighed</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">piger</dc:subject><dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">søstre</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">tvillinger</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">unge</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">vampyrer</dc:subject><dcterms:abstract>Menneskepigen Olivia og vampyrpigen Evy er tvillinger. Nu har Hollywood fået øje på dem og vil lave en film med dem begge. Olivia har store skuespillerdrømme, men Evy synes ikke, at det er noget for hende</dcterms:abstract><dc:description>Downloades i EPUB-format</dc:description><dc:description>Beskrivelsen baseret på det fysiske forlæg</dc:description><dcterms:audience>børnematerialer</dcterms:audience><dkdcplus:version>1. e-bogsudgave</dkdcplus:version><dc:publisher>Alvilda</dc:publisher><dc:contributor xsi:type="dkdcplus:trl">Lis Andersen</dc:contributor><dc:contributor xsi:type="dkdcplus:edt">Nicole Boyle Rødtnes</dc:contributor><dc:date>2012</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type><dcterms:extent>200 sider</dcterms:extent><dc:identifier xsi:type="dkdcplus:ISBN">9788771054286</dc:identifier><dc:source>Star style</dc:source><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:spatial xsi:type="dkdcplus:DBCS">Hollywood</dcterms:spatial></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">29465606</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20121031235633</marcx:subfield><marcx:subfield code="d">20120813</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">f</marcx:subfield><marcx:subfield code="a">2012</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="d">x</marcx:subfield><marcx:subfield code="j">f</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="n">b</marcx:subfield><marcx:subfield code="o">b</marcx:subfield><marcx:subfield code="v">5</marcx:subfield><marcx:subfield code="w">1</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xe</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788771054286</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="x">ACC201233</marcx:subfield><marcx:subfield code="a">DBF201235</marcx:subfield><marcx:subfield code="x">BKM201235</marcx:subfield><marcx:subfield code="x">DAT201245</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="041"><marcx:subfield code="a">dan</marcx:subfield><marcx:subfield code="c">eng</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Mercer</marcx:subfield><marcx:subfield code="h">Sienna</marcx:subfield><marcx:subfield code="4">aut</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="241"><marcx:subfield code="a">Star style</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Stjerneliv</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="a">1. e-bogsudgave</marcx:subfield><marcx:subfield code="b">÷</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="b">Alvilda</marcx:subfield><marcx:subfield code="g">[sælges på internettet]</marcx:subfield><marcx:subfield code="c">2012</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">200 sider</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="440"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="a">Min søster, vampyren</marcx:subfield><marcx:subfield code="V">8</marcx:subfield><marcx:subfield code="v">nr. 8</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Menneskepigen Olivia og vampyrpigen Evy er tvillinger. Nu har Hollywood fået øje på dem og vil lave en film med dem begge. Olivia har store skuespillerdrømme, men Evy synes ikke, at det er noget for hende</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Beskrivelsen baseret på det fysiske forlæg</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="n">83</marcx:subfield><marcx:subfield code="z">296</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="o">sk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">piger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">søstre</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">tvillinger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">vampyrer</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">unge</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">kærlighed</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">film</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">filmstjerner</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="q">Hollywood</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 10 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 11 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 12 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="u">for 13 år</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="720"><marcx:subfield code="o">Lis Andersen</marcx:subfield><marcx:subfield code="4">trl</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="720"><marcx:subfield code="o">Nicole Boyle Rødtnes</marcx:subfield><marcx:subfield code="4">edt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="o">201235</marcx:subfield><marcx:subfield code="b">b</marcx:subfield><marcx:subfield code="b">s</marcx:subfield><marcx:subfield code="u">nt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2012-08-13</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>online</accessType><genre>fiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:15.577Z" MIMETYPE="text/xml" SIZE="1789">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="o">dra</marcx:subfield><marcx:subfield code="k">ljl</marcx:subfield><marcx:subfield code="a">Fjernet fra eReolen 31/10/2012</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d70"><marcx:subfield code="b">Div</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f06"><marcx:subfield code="b">b</marcx:subfield><marcx:subfield code="b">s</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f21"><marcx:subfield code="a">http://samples.pubhub.dk/9788771054286.pdf</marcx:subfield><marcx:subfield code="l">Publizon</marcx:subfield><marcx:subfield code="f">http://images.pubhub.dk/originals/f583fb62-509a-4d4a-a9b8-a62f5b5cbef8.jpg</marcx:subfield><marcx:subfield code="n">9788771054286</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n01"><marcx:subfield code="v">20120625</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n51"><marcx:subfield code="a">20120827</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20120813</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">TeamBLY201233</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z98"><marcx:subfield code="a">Minus korrekturprint</marcx:subfield><marcx:subfield code="a">Minus korrekturprint</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">dra</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:15.645Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:29465606">
+    <isMemberOfUnit xmlns="info:fedora/">unit:48031</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:48031</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:34:21.955</timestamp>
+<pid>870970-basis:29465606</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

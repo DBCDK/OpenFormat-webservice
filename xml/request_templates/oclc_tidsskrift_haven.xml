@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:05972787">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:10.035Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:10.090Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:10.035Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:10.090Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:10.042Z" MIMETYPE="text/xml" SIZE="1231">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>haven</dc:title>
+  <dc:title>MATCH:haven</dc:title>
+  <dc:publisher>det danske haveselskab</dc:publisher>
+  <dc:publisher>MATCHSTRING:det dan</dc:publisher>
+  <dc:contributor>MATCHSTRING:det danske haveselskab</dc:contributor>
+  <dc:contributor>MATCHSTRING:det kongelige danske haveselskab</dc:contributor>
+  <dc:contributor>MATCHSTRING:det jydske haveselskab</dc:contributor>
+  <dc:contributor>MATCHSTRING:østifternes haveselskab</dc:contributor>
+  <dc:contributor>det danske haveselskab</dc:contributor>
+  <dc:contributor>det kongelige danske haveselskab</dc:contributor>
+  <dc:contributor>det jydske haveselskab</dc:contributor>
+  <dc:contributor>østifternes haveselskab</dc:contributor>
+  <dc:date>1900</dc:date>
+  <dc:type>Tidsskrift</dc:type>
+  <dc:type>WORK:periodica</dc:type>
+  <dc:identifier>870970-basis:05972787</dc:identifier>
+  <dc:identifier>ISSN:00178500</dc:identifier>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:10.042Z" MIMETYPE="text/xml" SIZE="7378">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>05972787|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Haven</dc:title><dc:title xsi:type="dkdcplus:full">Haven</dc:title><dcterms:alternative>Haven</dcterms:alternative><dc:subject xsi:type="dkdcplus:DK5">63.5</dc:subject><dc:subject xsi:type="dkdcplus:DK5-Text">Gartneri og havebrug</dc:subject><dc:description>Tidligere med udgiverbetegnelsen: De danske Haveselskaber</dc:description><dc:description>Tidligere udgivet af: Det Danske Haveselskab, herunder Det jyske Haveselskab, Det Kgl. danske Haveselskab og Østifternes Haveselskab</dc:description><dc:description>Størrelsen varierer</dc:description><dcterms:audience>voksenmaterialer</dcterms:audience><dc:publisher>Det Danske Haveselskab</dc:publisher><dc:contributor>Det Danske Haveselskab</dc:contributor><dc:contributor>Det Kongelige Danske Haveselskab</dc:contributor><dc:contributor>Det Jydske Haveselskab</dc:contributor><dc:contributor>Østifternes Haveselskab</dc:contributor><dc:date>1900</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type><dc:format>Ill. i farver</dc:format><dc:identifier xsi:type="dkdcplus:ISSN">0017-8500</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">05972787</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20010709141026</marcx:subfield><marcx:subfield code="d">19831005</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">c</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">p</marcx:subfield><marcx:subfield code="u">c</marcx:subfield><marcx:subfield code="a">1900</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="c">m</marcx:subfield><marcx:subfield code="h">p</marcx:subfield><marcx:subfield code="i">b</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="022"><marcx:subfield code="a">0017-8500</marcx:subfield><marcx:subfield code="c">hf.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="a">DPF197680</marcx:subfield><marcx:subfield code="x">DAT199521</marcx:subfield><marcx:subfield code="x">DAT200128</marcx:subfield><marcx:subfield code="x">DAT200128</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="082"><marcx:subfield code="a">635</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="210"><marcx:subfield code="a">Haven</marcx:subfield><marcx:subfield code="b">Frederiksberg</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="222"><marcx:subfield code="a">Haven</marcx:subfield><marcx:subfield code="b">Frederiksberg</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Haven</marcx:subfield><marcx:subfield code="e">Det Danske Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="255"><marcx:subfield code="a">[?]-</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">Lyngby</marcx:subfield><marcx:subfield code="b">Det Danske Haveselskab</marcx:subfield><marcx:subfield code="c">1900-</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="b">Ill. i farver</marcx:subfield><marcx:subfield code="c">30 cm</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="500"><marcx:subfield code="a">Månedlig</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Tidligere med udgiverbetegnelsen: De danske Haveselskaber</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Tidligere udgivet af: Det Danske Haveselskab, herunder Det jyske Haveselskab, Det Kgl. danske Haveselskab og Østifternes Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="512"><marcx:subfield code="a">Størrelsen varierer</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="526"><marcx:subfield code="i">Har supplement</marcx:subfield><marcx:subfield code="t">Havens særtryk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="526"><marcx:subfield code="i">Har supplement</marcx:subfield><marcx:subfield code="t">Åbne haver i Danmark</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="532"><marcx:subfield code="a">Hertil findes: Register 1989-1993</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="539"><marcx:subfield code="a">Nr. 5, 101. årgang (maj 2001)</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="m">63.5</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="å">1</marcx:subfield><marcx:subfield code="a">Det ¤Danske Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="a">Det ¤Kongelige Danske Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="å">2</marcx:subfield><marcx:subfield code="a">Det ¤Jydske Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="710"><marcx:subfield code="a">Østifternes Haveselskab</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="745"><marcx:subfield code="a">Haven</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="910"><marcx:subfield code="a">Det ¤Jyske Haveselskab</marcx:subfield><marcx:subfield code="z">710/2</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="910"><marcx:subfield code="a">Det ¤Kgl. Danske Haveselskab</marcx:subfield><marcx:subfield code="z">710/1</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">810010</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2005-03-01</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>nonfiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:10.043Z" MIMETYPE="text/xml" SIZE="750">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">es/lin 512</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">es/lin/es</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">es/lin/es</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20050301</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">kp</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:10.090Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:05972787">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47945</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47945</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:37:57.666</timestamp>
+<pid>870970-basis:05972787</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

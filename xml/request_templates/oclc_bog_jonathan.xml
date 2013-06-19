@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="870970-basis:05946719">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-05-16T12:09:10.064Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-05-16T12:09:10.139Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-05-16T12:09:10.064Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>RELS-SYS</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2013-05-16T12:09:10.139Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-05-16T12:09:10.070Z" MIMETYPE="text/xml" SIZE="1087">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>jonathan livingston havmåge</dc:title>
+  <dc:title>MATCH:jonath</dc:title>
+  <dc:creator>Richard Bach</dc:creator>
+  <dc:creator>NOBIRTH:Richard Bach</dc:creator>
+  <dc:creator>MATCHSTRING:Bachr</dc:creator>
+  <dc:subject>allegorier</dc:subject>
+  <dc:subject>dyrefortællinger</dc:subject>
+  <dc:subject>eventyrlige fortællinger</dc:subject>
+  <dc:publisher>lindhardt og ringhof</dc:publisher>
+  <dc:publisher>MATCHSTRING:lindhar</dc:publisher>
+  <dc:date>1983</dc:date>
+  <dc:type>Bog</dc:type>
+  <dc:type>WORK:literature</dc:type>
+  <dc:identifier>870970-basis:05946719</dc:identifier>
+  <dc:identifier>ISBN:8775605872</dc:identifier>
+  <dc:identifier>ISBN:9788775605873</dc:identifier>
+  <dc:source>jonathan livingston seagull</dc:source>
+  <dc:language>Dansk</dc:language>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-05-16T12:09:10.070Z" MIMETYPE="text/xml" SIZE="8594">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>05946719|870970</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Jonathan Livingston Havmåge</dc:title><dc:title xsi:type="dkdcplus:full">Jonathan Livingston Havmåge</dc:title><dc:creator xsi:type="dkdcplus:aut">Richard Bach</dc:creator><dc:creator xsi:type="oss:sort">Bach, Richard</dc:creator><dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">allegorier</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">dyrefortællinger</dc:subject><dc:subject xsi:type="dkdcplus:DBCS">eventyrlige fortællinger</dc:subject><dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject><dcterms:abstract>Allegorisk fortælling om en måge, der bliver udstødt af flokken, fordi den prøver at ændre de vaner og vilkår, mågerne lever under</dcterms:abstract><dcterms:audience>børnematerialer</dcterms:audience><dcterms:audience>voksenmaterialer</dcterms:audience><dkdcplus:version>1. i.e.2. udgave</dkdcplus:version><dc:publisher>Lindhardt og Ringhof</dc:publisher><dc:date>1983</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type><dc:format>illustreret</dc:format><dcterms:extent>93 sider</dcterms:extent><dc:identifier xsi:type="dkdcplus:ISBN">87-7560-587-2</dc:identifier><dc:identifier xsi:type="dkdcplus:ISBN">9788775605873</dc:identifier><dc:source>Jonathan Livingston Seagull</dc:source><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">05946719</marcx:subfield><marcx:subfield code="b">870970</marcx:subfield><marcx:subfield code="c">20101122180133</marcx:subfield><marcx:subfield code="d">19830729</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">n</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">m</marcx:subfield><marcx:subfield code="u">r</marcx:subfield><marcx:subfield code="a">1983</marcx:subfield><marcx:subfield code="z">2010</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="d">x</marcx:subfield><marcx:subfield code="j">f</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">0</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="e">9788775605873</marcx:subfield><marcx:subfield code="c">hf.</marcx:subfield><marcx:subfield code="d">kr. 99,95</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="021"><marcx:subfield code="a">87-7560-587-2</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="032"><marcx:subfield code="a">DBF201047</marcx:subfield><marcx:subfield code="x">BKM201047</marcx:subfield><marcx:subfield code="x">BØK200201</marcx:subfield><marcx:subfield code="x">SKO200601</marcx:subfield><marcx:subfield code="x">ACC200213</marcx:subfield><marcx:subfield code="x">ACC200324</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="041"><marcx:subfield code="a">dan</marcx:subfield><marcx:subfield code="c">eng</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="100"><marcx:subfield code="a">Bach</marcx:subfield><marcx:subfield code="h">Richard</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="241"><marcx:subfield code="a">Jonathan Livingston Seagull</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Jonathan Livingston Havmåge</marcx:subfield><marcx:subfield code="e">af Richard Bach</marcx:subfield><marcx:subfield code="f">fotografier af Russell Munson</marcx:subfield><marcx:subfield code="f">på dansk ved Henrik Nordbrandt</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="250"><marcx:subfield code="a">1. [i.e.2.] udgave</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">[Kbh.]</marcx:subfield><marcx:subfield code="b">Lindhardt og Ringhof</marcx:subfield><marcx:subfield code="c">1983</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="300"><marcx:subfield code="a">93 sider</marcx:subfield><marcx:subfield code="b">ill.</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="504"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Allegorisk fortælling om en måge, der bliver udstødt af flokken, fordi den prøver at ændre de vaner og vilkår, mågerne lever under</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="520"><marcx:subfield code="&amp;">1</marcx:subfield><marcx:subfield code="a">Originaludgave: 1970</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="520"><marcx:subfield code="a">Tidligere: 1. udgave. 1973</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">6. oplag</marcx:subfield><marcx:subfield code="c">1991</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">9. oplag</marcx:subfield><marcx:subfield code="c">1999</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">10. oplag</marcx:subfield><marcx:subfield code="c">2000</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">11. oplag</marcx:subfield><marcx:subfield code="c">2002</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">12. oplag</marcx:subfield><marcx:subfield code="c">2003</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">13. oplag</marcx:subfield><marcx:subfield code="c">2005</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">14. oplag</marcx:subfield><marcx:subfield code="c">2006</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="a">15. oplag</marcx:subfield><marcx:subfield code="c">2009</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="521"><marcx:subfield code="b">16. oplag</marcx:subfield><marcx:subfield code="c">2010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="n">83.8</marcx:subfield><marcx:subfield code="z">26</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="652"><marcx:subfield code="o">sk</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">allegorier</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">dyrefortællinger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="666"><marcx:subfield code="0"></marcx:subfield><marcx:subfield code="s">eventyrlige fortællinger</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="990"><marcx:subfield code="o">201047</marcx:subfield><marcx:subfield code="b">v</marcx:subfield><marcx:subfield code="u">op</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="996"><marcx:subfield code="a">DBC</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><creationDate>2005-03-01</creationDate><libraryType>none</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><genre>fiktion</genre><collectionIdentifier>870970-basis</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-basis" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-basis.0" LABEL="" CREATED="2013-05-16T12:09:10.071Z" MIMETYPE="text/xml" SIZE="3419">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="d08"><marcx:subfield code="a">bhn/vsj-nø</marcx:subfield><marcx:subfield code="o">osh</marcx:subfield><marcx:subfield code="o">bfj</marcx:subfield><marcx:subfield code="a">I kolofonen fejlagtigt: 1. udgave</marcx:subfield><marcx:subfield code="o">anh</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d09"><marcx:subfield code="z">REX200709</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d30"><marcx:subfield code="n">1</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d31"><marcx:subfield code="b">159</marcx:subfield><marcx:subfield code="h">213</marcx:subfield><marcx:subfield code="t">6</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d32"><marcx:subfield code="b">159</marcx:subfield><marcx:subfield code="h">213</marcx:subfield><marcx:subfield code="t">6</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="o">200922</marcx:subfield><marcx:subfield code="b">v</marcx:subfield><marcx:subfield code="c">a</marcx:subfield><marcx:subfield code="u">op</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="c">A</marcx:subfield><marcx:subfield code="o">200701</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="o">200515</marcx:subfield><marcx:subfield code="b">S</marcx:subfield><marcx:subfield code="b">B</marcx:subfield><marcx:subfield code="c">A</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="o">200329</marcx:subfield><marcx:subfield code="b">S</marcx:subfield><marcx:subfield code="b">B</marcx:subfield><marcx:subfield code="c">A</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="o">200217</marcx:subfield><marcx:subfield code="b">S</marcx:subfield><marcx:subfield code="b">B</marcx:subfield><marcx:subfield code="c">A</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="o">199927</marcx:subfield><marcx:subfield code="b">S</marcx:subfield><marcx:subfield code="c">A</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="d90"><marcx:subfield code="a">SFD</marcx:subfield><marcx:subfield code="o">200035</marcx:subfield><marcx:subfield code="c">A</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="f06"><marcx:subfield code="b">v</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n51"><marcx:subfield code="a">20101122</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20050301</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="s12"><marcx:subfield code="t">TeamBLY201045</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="z99"><marcx:subfield code="a">anh</marcx:subfield></marcx:datafield></marcx:record></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-05-16T12:09:10.139Z" MIMETYPE="application/rdf+xml" SIZE="317">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/870970-basis:05946719">
+    <isMemberOfUnit xmlns="info:fedora/">unit:47947</isMemberOfUnit>
+    <isPrimaryBibObjectFor xmlns="info:fedora/">unit:47947</isPrimaryBibObjectFor>
+  </rdf:Description>
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-05-30 10:30:42.31</timestamp>
+<pid>870970-basis:05946719</pid>
+<result>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

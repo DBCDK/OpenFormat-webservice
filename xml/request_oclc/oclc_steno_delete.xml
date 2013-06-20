@@ -214,7 +214,7 @@
 						<ting:localData xmlns:ting="http://www.dbc.dk/ting">
 							<marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal">
 								<marcx:datafield ind1="0" ind2="0" tag="096">
-									<marcx:subfield code="u">Kan ikke hjemlånes</marcx:subfield>
+									<marcx:subfield code="u">Kan ikke hjemlaanes</marcx:subfield>
 									<marcx:subfield code="z">810015</marcx:subfield>
 								</marcx:datafield>
 								<marcx:datafield ind1="0" ind2="0" tag="590">
@@ -253,7 +253,7 @@
 				<result>
 					<holding fedoraPid="810015-katalog:008544663">
 						<agencyId>810015</agencyId>
-						<note>Kan ikke hjemlånes</note>
+						<note>Kan ikke hjemlaaes</note>
 						<codes>a</codes>
 						<callNumber/>
 						<localIdentifier>008544663</localIdentifier>

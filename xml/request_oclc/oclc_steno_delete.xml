@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">  
+<SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords>
+	<oclcRecord>
+		<foxml:digitalObject VERSION="1.1" PID="810015-katalog:008544663">
+			<foxml:objectProperties>
+				<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+				<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+				<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+				<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-06-13T09:08:43.568Z"/>
+				<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-06-13T09:08:43.746Z"/>
+			</foxml:objectProperties>
+			<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+				<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-06-13T09:08:43.568Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+					<foxml:xmlContent>
+						<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+							<audit:record ID="AUDREC1">
+								<audit:process type="Fedora API-M"/>
+								<audit:action>modifyDatastreamByValue</audit:action>
+								<audit:componentID>RELS-SYS</audit:componentID>
+								<audit:responsibility>fedoraAdmin</audit:responsibility>
+								<audit:date>2013-06-13T09:08:43.746Z</audit:date>
+								<audit:justification/>
+							</audit:record>
+						</audit:auditTrail>
+					</foxml:xmlContent>
+				</foxml:datastreamVersion>
+			</foxml:datastream>
+			<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+				<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-06-13T09:08:43.575Z" MIMETYPE="text/xml" SIZE="1297">
+					<foxml:xmlContent>
+						<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+							<dc:title>nicolaus steno</dc:title>
+							<dc:title>MATCH:nicola</dc:title>
+							<dc:subject>anatomists</dc:subject>
+							<dc:subject>catholic church</dc:subject>
+							<dc:subject>earth sciences.</dc:subject>
+							<dc:subject>geography.</dc:subject>
+							<dc:subject>geologists</dc:subject>
+							<dc:subject>geology.</dc:subject>
+							<dc:subject>human anatomy.</dc:subject>
+							<dc:subject>nicolaus steno 1638-1686</dc:subject>
+							<dc:subject>steno nicolaus 1638-1686</dc:subject>
+							<dc:subject>scientists -- history -- 17th century</dc:subject>
+							<dc:publisher>springer</dc:publisher>
+							<dc:publisher>MATCHSTRING:springe</dc:publisher>
+							<dc:contributor>MATCHSTRING:Kardelt</dc:contributor>
+							<dc:contributor>MATCHSTRING:Maquetp</dc:contributor>
+							<dc:contributor>troels kardel</dc:contributor>
+							<dc:contributor>paul maquet</dc:contributor>
+							<dc:date>2013</dc:date>
+							<dc:type>Ebog</dc:type>
+							<dc:type>WORK:literature</dc:type>
+							<dc:identifier>810015-katalog:008544663</dc:identifier>
+							<dc:language>Engelsk</dc:language>
+						</oai_dc:dc>
+					</foxml:xmlContent>
+				</foxml:datastreamVersion>
+			</foxml:datastream>
+			<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+				<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-06-13T09:08:43.576Z" MIMETYPE="text/xml" SIZE="6560">
+					<foxml:xmlContent>
+						<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+							<dkabm:record>
+								<ac:identifier>008544663|810015</ac:identifier>
+								<ac:source>Bibliotekskatalog</ac:source>
+								<dc:title>Nicolaus Steno</dc:title>
+								<dc:title xsi:type="dkdcplus:full">Nicolaus Steno : biography and original papers of a 17th Century Scientist</dc:title>
+								<dc:subject xsi:type="dcterms:LCSH">Anatomists</dc:subject>
+								<dc:subject xsi:type="dkdcplus:DBCF">Catholic Church</dc:subject>
+								<dc:subject>Earth Sciences.</dc:subject>
+								<dc:subject>Geography.</dc:subject>
+								<dc:subject xsi:type="dcterms:LCSH">Geologists</dc:subject>
+								<dc:subject>Geology.</dc:subject>
+								<dc:subject>Human anatomy.</dc:subject>
+								<dc:subject xsi:type="dkdcplus:DBCF">Nicolaus Steno (1638-1686)</dc:subject>
+								<dc:subject xsi:type="oss:sort">Steno, Nicolaus (1638-1686)</dc:subject>
+								<dc:subject xsi:type="dcterms:LCSH">Scientists -- History -- 17th century</dc:subject>
+								<dcterms:audience>voksenmaterialer</dcterms:audience>
+								<dc:publisher>Springer</dc:publisher>
+								<dc:contributor>Troels Kardel</dc:contributor>
+								<dc:contributor>Paul Maquet</dc:contributor>
+								<dc:date>2013</dc:date>
+								<dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+								<dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+								<dc:language>Engelsk</dc:language>
+							</dkabm:record>
+							<marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1">
+								<marcx:record format="danMARC2" type="Bibliographic">
+									<marcx:leader>00000n    2200000   4500</marcx:leader>
+									<marcx:datafield ind1="0" ind2="0" tag="001">
+										<marcx:subfield code="a">008544663</marcx:subfield>
+										<marcx:subfield code="f">a</marcx:subfield>
+										<marcx:subfield code="b">810015</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="002">
+										<marcx:subfield code="d">SPREBocn823141650</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="002">
+										<marcx:subfield code="d">x23758078x</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="004">
+										<marcx:subfield code="r">n</marcx:subfield>
+										<marcx:subfield code="a">e</marcx:subfield>
+										<marcx:subfield code="n">w</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="008">
+										<marcx:subfield code="t">m</marcx:subfield>
+										<marcx:subfield code="a">2013</marcx:subfield>
+										<marcx:subfield code="b">de</marcx:subfield>
+										<marcx:subfield code="l">eng</marcx:subfield>
+										<marcx:subfield code="d">a</marcx:subfield>
+										<marcx:subfield code="d">y</marcx:subfield>
+										<marcx:subfield code="n">b</marcx:subfield>
+										<marcx:subfield code="w">1</marcx:subfield>
+										<marcx:subfield code="v">4</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="009">
+										<marcx:subfield code="a">a</marcx:subfield>
+										<marcx:subfield code="g">xe</marcx:subfield>
+										<marcx:subfield code="b">t</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="021">
+										<marcx:subfield code="x">9783642250781</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="043">
+										<marcx:subfield code="a">e-ne---</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="082">
+										<marcx:subfield code="a">610.92</marcx:subfield>
+										<marcx:subfield code="c">23</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="245">
+										<marcx:subfield code="a">Nicolaus Steno</marcx:subfield>
+										<marcx:subfield code="c">biography and original papers of a 17th Century Scientist</marcx:subfield>
+										<marcx:subfield code="e">Troels Kardel, Paul Maquet, editors</marcx:subfield>
+										<marcx:subfield code="e">edited and translated by Troels Kardel and Paul Maquet</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="260">
+										<marcx:subfield code="a">Berlin</marcx:subfield>
+										<marcx:subfield code="b">Springer</marcx:subfield>
+										<marcx:subfield code="c">2013</marcx:subfield>
+										<marcx:subfield code="a">New York</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="532">
+										<marcx:subfield code="a">Includes bibliographical references and indexes.</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="600">
+										<marcx:subfield code="a">Steno</marcx:subfield>
+										<marcx:subfield code="h">Nicolaus</marcx:subfield>
+										<marcx:subfield code="c">1638-1686</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="610">
+										<marcx:subfield code="a">Catholic Church</marcx:subfield>
+										<marcx:subfield code="v">Biography</marcx:subfield>
+										<marcx:subfield code="x">Bishops</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="631">
+										<marcx:subfield code="a">Geography.</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="631">
+										<marcx:subfield code="a">Geology.</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="631">
+										<marcx:subfield code="a">Human anatomy.</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="631">
+										<marcx:subfield code="a">Earth Sciences.</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="650">
+										<marcx:subfield code="a">Anatomists</marcx:subfield>
+										<marcx:subfield code="z">Netherlands</marcx:subfield>
+										<marcx:subfield code="v">Biography</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="650">
+										<marcx:subfield code="a">Geologists</marcx:subfield>
+										<marcx:subfield code="z">Netherlands</marcx:subfield>
+										<marcx:subfield code="v">Biography</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="650">
+										<marcx:subfield code="a">Scientists</marcx:subfield>
+										<marcx:subfield code="z">Netherlands</marcx:subfield>
+										<marcx:subfield code="x">History</marcx:subfield>
+										<marcx:subfield code="y">17th century</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="700">
+										<marcx:subfield code="a">Kardel</marcx:subfield>
+										<marcx:subfield code="h">Troels</marcx:subfield>
+									</marcx:datafield>
+									<marcx:datafield ind1="0" ind2="0" tag="700">
+										<marcx:subfield code="a">Maquet</marcx:subfield>
+										<marcx:subfield code="h">Paul</marcx:subfield>
+									</marcx:datafield>
+								</marcx:record>
+							</marcx:collection>
+							<adminData>
+								<libraryType>research</libraryType>
+								<indexingAlias>danmarcxchange</indexingAlias>
+								<accessType>online</accessType>
+								<genre>nonfiktion</genre>
+								<collectionIdentifier>810015-katalog</collectionIdentifier>
+								<collectionIdentifier>870970-forsk</collectionIdentifier>
+								<creationDate>2013-06-13</creationDate>
+							</adminData>
+						</ting:container>
+					</foxml:xmlContent>
+				</foxml:datastreamVersion>
+			</foxml:datastream>
+			<foxml:datastream ID="localData.870970-forsk" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+				<foxml:datastreamVersion ID="localData.870970-forsk.0" LABEL="" CREATED="2013-06-13T09:08:43.576Z" MIMETYPE="text/xml" SIZE="741">
+					<foxml:xmlContent>
+						<ting:localData xmlns:ting="http://www.dbc.dk/ting">
+							<marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal">
+								<marcx:datafield ind1="0" ind2="0" tag="096">
+									<marcx:subfield code="u">Kan ikke hjemlånes</marcx:subfield>
+									<marcx:subfield code="z">810015</marcx:subfield>
+								</marcx:datafield>
+								<marcx:datafield ind1="0" ind2="0" tag="590">
+									<marcx:subfield code="a">UMb201303</marcx:subfield>
+								</marcx:datafield>
+								<marcx:datafield ind1="0" ind2="0" tag="591">
+									<marcx:subfield code="a">dan</marcx:subfield>
+									<marcx:subfield code="c">NAT</marcx:subfield>
+								</marcx:datafield>
+								<marcx:datafield ind1="0" ind2="0" tag="593">
+									<marcx:subfield code="a">UM-EDI-DAW</marcx:subfield>
+								</marcx:datafield>
+							</marcx:record>
+						</ting:localData>
+					</foxml:xmlContent>
+				</foxml:datastreamVersion>
+			</foxml:datastream>
+			<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+				<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-06-13T09:08:43.746Z" MIMETYPE="application/rdf+xml" SIZE="318">
+					<foxml:xmlContent>
+						<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+							<rdf:Description rdf:about="info:fedora/810015-katalog:008544663">
+								<isMemberOfUnit xmlns="info:fedora/">unit:7066</isMemberOfUnit>
+								<isPrimaryBibObjectFor xmlns="info:fedora/">unit:7066</isPrimaryBibObjectFor>
+							</rdf:Description>
+						</rdf:RDF>
+					</foxml:xmlContent>
+				</foxml:datastreamVersion>
+			</foxml:datastream>
+		</foxml:digitalObject>
+		<ocn/>
+		<holdingsServiceResponse>
+			<response>
+				<timestamp>2013-06-20 08:55:53.115</timestamp>
+				<pid>810015-katalog:008544663</pid>
+				<result>
+					<holding fedoraPid="810015-katalog:008544663">
+						<agencyId>810015</agencyId>
+						<note>Kan ikke hjemlånes</note>
+						<codes>a</codes>
+						<callNumber/>
+						<localIdentifier>008544663</localIdentifier>
+						<state>a</state>
+						<lastModified>2013-05-16T13:45:35Z</lastModified>
+					</holding>
+				</result>
+			</response>
+		</holdingsServiceResponse>
+	</oclcRecord>
+</oclcRecords>
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

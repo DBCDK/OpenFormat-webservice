@@ -86,6 +86,22 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="aboutAuthor">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:aboutAuthorElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="aboutAuthorElement">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="abstractElement" type="xs:string"/>
 	<xs:element name="abstract">
 		<xs:complexType>
@@ -316,8 +332,9 @@
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
 				<xs:element ref="bibdk:abstract" minOccurs="0"/>
-				<xs:element ref="bibdk:furtherSearches" minOccurs="0"/>
 				<xs:element ref="bibdk:reviewRatings" minOccurs="0"/>
+				<xs:element ref="bibdk:furtherSearches" minOccurs="0"/>
+				<xs:element ref="bibdk:aboutAuthor" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Jensen,Jørgen, f. 1936-07-30
+T1  - Danmarks oldtid. Bind 1. Stenalder 13.000-2.000 f.Kr.
+SP  - 619 sider
+PB  - Gyldendal
+CY  - Kbh.
+Y1  - 2001
+SN  - 8700490385
+CN  - 91.15
+KW  - oldtiden
+KW  - historie
+KW  - Danmark
+KW  - stenalderen
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

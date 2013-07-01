@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>29977828|870970</ac:identifier>
+                <dc:identifier>Simax Classics PSC 1284</dc:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Prometheus</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Prometheus (Dausgaard)</dc:title>
+                <dc:title xsi:type="dkdcplus:series">The complete orchestral works of Ludwig van Beethoven ; volume 11</dc:title>
+                <dcterms:alternative>The creatures of Prometheus</dcterms:alternative>
+                <dc:creator>Ludwig van Beethoven</dc:creator>
+                <dc:creator xsi:type="oss:sort">Beethoven, Ludwig van</dc:creator>
+                <dc:subject xsi:type="dkdcplus:DK5">78.89</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Musik til balletter</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">balletmusik</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">klassik</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">orkester</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCM">wienerklassik</dc:subject>
+                <dc:description>Indspillet i Örebros Koncertsal, Sverige 19.-24. januar 2009</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Simax</dc:publisher>
+                <dc:contributor>Thomas Dausgaard</dc:contributor>
+                <dc:contributor>Ludwig van Beethoven</dc:contributor>
+                <dc:contributor>Det Svenske Kammerorkester</dc:contributor>
+                <dc:date>2013</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+                <dc:format>2 cd'er, 1 kommentarbilag</dc:format>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuetter for orkester, WoO 7</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, D-dur, WoO 7:1</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, B-dur, WoO 7:2</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, G-dur, WoO 7:3</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, Es-dur, WoO 7:4</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, C-dur, WoO 7:5</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, A-dur, WoO 7:6</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, D-dur, WoO 7:7</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, B-dur, WoO 7:8</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, G-dur, WoO 7:9</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, Es-dur, WoO 7:10</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, C-dur, WoO 7:11</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Menuet for orkester, F-dur, WoO 7:12</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tyske danse, WoO 8</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, C-dur, WoO 8:1</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, A-dur, WoO 8:2</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, F-dur, WoO 8:3</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, B-dur, WoO 8:4</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, Es-dur, WoO 8:5</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, G-dur, WoO 8:6</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, C-dur, WoO 8:7</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, A-dur, WoO 8:8</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, F-dur, WoO 8:9</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, D-dur, WoO 8:10</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, G-dur, WoO 8:11</dcterms:hasPart>
+                <dcterms:hasPart xsi:type="dkdcplus:track">Tysk dans, C-dur, WoO 8:12</dcterms:hasPart>
+                <dcterms:spatial xsi:type="dkdcplus:DBCM">Tyskland</dcterms:spatial>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1790-1799</dcterms:temporal>
+                <dcterms:temporal xsi:type="dkdcplus:DBCM">1800-1809</dcterms:temporal>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>00000n    2200000   4500</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">29977828</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20130617131209</marcx:subfield>
+                    <marcx:subfield code="d">20130521</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">s</marcx:subfield>
+                    <marcx:subfield code="u">f</marcx:subfield>
+                    <marcx:subfield code="a">2013</marcx:subfield>
+                    <marcx:subfield code="b">no</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">s</marcx:subfield>
+                    <marcx:subfield code="g">xc</marcx:subfield>
+                    <marcx:subfield code="b">a</marcx:subfield>
+                    <marcx:subfield code="h">xx</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="023">
+                    <marcx:subfield code="b">7033662012848</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="024">
+                    <marcx:subfield code="a">NO-FZS-12-84010</marcx:subfield>
+                    <marcx:subfield code="b">1. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84020</marcx:subfield>
+                    <marcx:subfield code="b">2. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84030</marcx:subfield>
+                    <marcx:subfield code="b">3. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84040</marcx:subfield>
+                    <marcx:subfield code="b">4. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84050</marcx:subfield>
+                    <marcx:subfield code="b">5. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84060</marcx:subfield>
+                    <marcx:subfield code="b">6. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84070</marcx:subfield>
+                    <marcx:subfield code="b">7. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84080</marcx:subfield>
+                    <marcx:subfield code="b">8. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84090</marcx:subfield>
+                    <marcx:subfield code="b">9. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84100</marcx:subfield>
+                    <marcx:subfield code="b">10. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84110</marcx:subfield>
+                    <marcx:subfield code="b">11. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84120</marcx:subfield>
+                    <marcx:subfield code="b">12. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84130</marcx:subfield>
+                    <marcx:subfield code="b">13. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84140</marcx:subfield>
+                    <marcx:subfield code="b">14. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84150</marcx:subfield>
+                    <marcx:subfield code="b">15. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84160</marcx:subfield>
+                    <marcx:subfield code="b">16. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84170</marcx:subfield>
+                    <marcx:subfield code="b">17. sats</marcx:subfield>
+                    <marcx:subfield code="a">NO-FZS-12-84180</marcx:subfield>
+                    <marcx:subfield code="b">18. sats</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="a">DMO201322</marcx:subfield>
+                    <marcx:subfield code="x">BKM201322</marcx:subfield>
+                    <marcx:subfield code="x">DAT201325</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="039">
+                    <marcx:subfield code="a">ork</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="100">
+                    <marcx:subfield code="a">Beethoven</marcx:subfield>
+                    <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="239">
+                    <marcx:subfield code="t">Prometheus</marcx:subfield>
+                    <marcx:subfield code="ø">Dausgaard</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">The ¤creatures of Prometheus</marcx:subfield>
+                    <marcx:subfield code="e">Beethoven</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">Simax</marcx:subfield>
+                    <marcx:subfield code="c">p 2013</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="300">
+                    <marcx:subfield code="n">2 cd'er</marcx:subfield>
+                    <marcx:subfield code="d">1 kommentarbilag</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="440">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="a">The ¤complete orchestral works of Ludwig van Beethoven</marcx:subfield>
+                    <marcx:subfield code="V">11</marcx:subfield>
+                    <marcx:subfield code="v">volume 11</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Indspillet i Örebros Koncertsal, Sverige 19.-24. januar 2009</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="513">
+                    <marcx:subfield code="e">Swedish Chamber Orchestra Örebro</marcx:subfield>
+                    <marcx:subfield code="e">dirigent: Thomas Dausgaard</marcx:subfield>
+                    <marcx:subfield code="i">producers: Andrew Keener</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="531">
+                    <marcx:subfield code="a">Indeholder også:</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="538">
+                    <marcx:subfield code="f">Simax Classics</marcx:subfield>
+                    <marcx:subfield code="g">PSC 1284</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">78.89</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="i">78.411</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="i">78.411</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="m">klassik</marcx:subfield>
+                    <marcx:subfield code="m">wienerklassik</marcx:subfield>
+                    <marcx:subfield code="m">balletmusik</marcx:subfield>
+                    <marcx:subfield code="n">instrumental</marcx:subfield>
+                    <marcx:subfield code="n">orkester</marcx:subfield>
+                    <marcx:subfield code="p">1790-1799</marcx:subfield>
+                    <marcx:subfield code="p">1800-1809</marcx:subfield>
+                    <marcx:subfield code="l">Tyskland</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="700">
+                    <marcx:subfield code="a">Dausgaard</marcx:subfield>
+                    <marcx:subfield code="h">Thomas</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="710">
+                    <marcx:subfield code="a">Det ¤Svenske Kammerorkester</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="770">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="a">Beethoven</marcx:subfield>
+                    <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="770">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="a">Beethoven</marcx:subfield>
+                    <marcx:subfield code="h">Ludwig van</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">11</marcx:subfield>
+                    <marcx:subfield code="a">Menuetter for orkester, WoO 7</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, D-dur, WoO 7:1</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84190</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, B-dur, WoO 7:2</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84200</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, G-dur, WoO 7:3</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84210</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, Es-dur, WoO 7:4</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84220</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, C-dur, WoO 7:5</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84230</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, A-dur, WoO 7:6</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84240</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, D-dur, WoO 7:7</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84250</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, B-dur, WoO 7:8</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84260</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, G-dur, WoO 7:9</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84270</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, Es-dur, WoO 7:10</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84280</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, C-dur, WoO 7:11</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84290</marcx:subfield>
+                    <marcx:subfield code="a">Menuet for orkester, F-dur, WoO 7:12</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84300</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="795">
+                    <marcx:subfield code="å">12</marcx:subfield>
+                    <marcx:subfield code="a">Tyske danse, WoO 8</marcx:subfield>
+                    <marcx:subfield code="7"> (</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, C-dur, WoO 8:1</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84310</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, A-dur, WoO 8:2</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84320</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, F-dur, WoO 8:3</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84330</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, B-dur, WoO 8:4</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84340</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, Es-dur, WoO 8:5</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84350</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, G-dur, WoO 8:6</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84360</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, C-dur, WoO 8:7</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84370</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, A-dur, WoO 8:8</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84380</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, F-dur, WoO 8:9</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84390</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, D-dur, WoO 8:10</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84400</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, G-dur, WoO 8:11</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84410</marcx:subfield>
+                    <marcx:subfield code="a">Tysk dans, C-dur, WoO 8:12</marcx:subfield>
+                    <marcx:subfield code="c">med coda</marcx:subfield>
+                    <marcx:subfield code="z">NO-FZS-12-84420</marcx:subfield>
+                    <marcx:subfield code="7">)</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="990">
+                    <marcx:subfield code="o">201322</marcx:subfield>
+                    <marcx:subfield code="b">v</marcx:subfield>
+                    <marcx:subfield code="u">nt</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:29977828</os:identifier>
+              <os:creationDate>2013-05-21</os:creationDate>
+              <os:holdingsCount>18</os:holdingsCount>
+              <os:lendingLibraries>18</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

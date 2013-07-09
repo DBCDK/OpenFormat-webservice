@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+              <dkabm:record>
+                <ac:identifier>22699997|870970</ac:identifier>
+                <ac:source>Bibliotekskatalog</ac:source>
+                <dc:title>Karen Blixen</dc:title>
+                <dc:title xsi:type="dkdcplus:full">Karen Blixen</dc:title>
+                <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen, Karen</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCF">Karen Blixen</dc:subject>
+                <dc:subject xsi:type="oss:sort">Blixen, Karen</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCO">biografier</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCF">dansk litteratur</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCF">forfattere</dc:subject>
+                <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                <dcterms:abstract>Hensigten med siden er at gøre oplysninger om Karen Blixen (1885-1962) let tilgængelige for studerende og forskere. Indeholder artikler og litteraturhenvisninger samt adgang til et chatroom kaldet Blixenania</dcterms:abstract>
+                <dc:description>Ajourføres</dc:description>
+                <dcterms:audience>voksenmaterialer</dcterms:audience>
+                <dc:publisher>Pia Vigh</dc:publisher>
+                <dc:date>1997</dc:date>
+                <dc:type xsi:type="dkdcplus:BibDK-Type">Netdokument</dc:type>
+                <dc:format>3.10.2002 konstateret utilgængelig på internet. URL: http://www.geocities.com/Athens/Forum/8168/</dc:format>
+                <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+                <dc:language>Engelsk</dc:language>
+                <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+                <dcterms:temporal xsi:type="dkdcplus:DBCP">1900-1999</dcterms:temporal>
+              </dkabm:record>
+              <marcx:collection>
+                <marcx:record format="danMARC2" type="Bibliographic">
+                  <marcx:leader>00000n    2200000   4500</marcx:leader>
+                  <marcx:datafield ind1="0" ind2="0" tag="001">
+                    <marcx:subfield code="a">22699997</marcx:subfield>
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="c">20021003130330</marcx:subfield>
+                    <marcx:subfield code="d">19971016</marcx:subfield>
+                    <marcx:subfield code="f">a</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="002">
+                    <marcx:subfield code="b">870970</marcx:subfield>
+                    <marcx:subfield code="d">I002052</marcx:subfield>
+                    <marcx:subfield code="x">870970I002052</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="004">
+                    <marcx:subfield code="r">n</marcx:subfield>
+                    <marcx:subfield code="a">e</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="008">
+                    <marcx:subfield code="t">m</marcx:subfield>
+                    <marcx:subfield code="u">o</marcx:subfield>
+                    <marcx:subfield code="a">1997</marcx:subfield>
+                    <marcx:subfield code="b">dk</marcx:subfield>
+                    <marcx:subfield code="l">eng</marcx:subfield>
+                    <marcx:subfield code="v">0</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="009">
+                    <marcx:subfield code="a">a</marcx:subfield>
+                    <marcx:subfield code="g">xe</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="032">
+                    <marcx:subfield code="x">IDU200241</marcx:subfield>
+                    <marcx:subfield code="x">DIT200241</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="245">
+                    <marcx:subfield code="a">Karen Blixen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="260">
+                    <marcx:subfield code="b">[Pia Vigh]</marcx:subfield>
+                    <marcx:subfield code="c">1997-</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="501">
+                    <marcx:subfield code="b">3.10.2002 konstateret utilgængelig på internet. URL: http://www.geocities.com/Athens/Forum/8168/</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="504">
+                    <marcx:subfield code="a">Hensigten med siden er at gøre oplysninger om Karen Blixen (1885-1962) let tilgængelige for studerende og forskere. Indeholder artikler og litteraturhenvisninger samt adgang til et chatroom kaldet Blixenania</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="512">
+                    <marcx:subfield code="a">Ajourføres</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="532">
+                    <marcx:subfield code="a">Med litteraturhenvisninger og Internetadresser</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="539">
+                    <marcx:subfield code="a">Beskrivelsen baseret på: Revised: November, 1997. - Katalogiseret 27.5.1998</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="600">
+                    <marcx:subfield code="a">Blixen</marcx:subfield>
+                    <marcx:subfield code="h">Karen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="m">99.4</marcx:subfield>
+                    <marcx:subfield code="a">Blixen</marcx:subfield>
+                    <marcx:subfield code="h">Karen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="q">81.65</marcx:subfield>
+                    <marcx:subfield code="z">99</marcx:subfield>
+                    <marcx:subfield code="a">Blixen</marcx:subfield>
+                    <marcx:subfield code="h">Karen</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="652">
+                    <marcx:subfield code="q">81.65</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="f">forfattere</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="f">dansk litteratur</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="f">litteratur</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="e">Danmark</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="i">1900-1999</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="666">
+                    <marcx:subfield code="0"/>
+                    <marcx:subfield code="o">biografier</marcx:subfield>
+                  </marcx:datafield>
+                  <marcx:datafield ind1="0" ind2="0" tag="996">
+                    <marcx:subfield code="a">DBC</marcx:subfield>
+                  </marcx:datafield>
+                </marcx:record>
+              </marcx:collection>
+              <os:identifier>870970-basis:22699997</os:identifier>
+              <os:creationDate>2005-03-02</os:creationDate>
+              <os:holdingsCount>12</os:holdingsCount>
+              <os:lendingLibraries>12</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>net_karen_blixen_unavailable.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

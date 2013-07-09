@@ -1,0 +1,32 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 29977828 *b 870970 *c 20130617131209 *d 20130521 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2013 *b no *v 0 
+009 00 *a s *g xc *b a *h xx 
+023 00 *b 7033662012848 
+024 00 *a NO-FZS-12-84010 *b 1. sats *a NO-FZS-12-84020 *b 2. sats *a NO-FZS-12-84030 *b 3. sats *a NO-FZS-12-84040 *b 4. sats *a NO-FZS-12-84050 *b 5. sats *a NO-FZS-12-84060 *b 6. sats *a NO-FZS-12-84070 *b 7. sats *a NO-FZS-12-84080 *b 8. sats *a NO-FZS-12-84090 *b 9. sats *a NO-FZS-12-84100 *b 10. sats *a NO-FZS-12-84110 *b 11. sats *a NO-FZS-12-84120 *b 12. sats *a NO-FZS-12-84130 *b 13. sats *a NO-FZS-12-84140 *b 14. sats *a NO-FZS-12-84150 *b 15. sats *a NO-FZS-12-84160 *b 16. sats *a NO-FZS-12-84170 *b 17. sats *a NO-FZS-12-84180 *b 18. sats 
+032 00 *a DMO201322 *x BKM201322 *x DAT201325 
+039 00 *a ork 
+100 00 *a Beethoven *h Ludwig van 
+239 00 *t Prometheus *ø Dausgaard 
+245 00 *a The ¤creatures of Prometheus *e Beethoven 
+260 00 *b Simax *c p 2013 
+300 00 *n 2 cd'er *d 1 kommentarbilag 
+440 00 *0 *a The ¤complete orchestral works of Ludwig van Beethoven *V 11 *v volume 11 
+512 00 *a Indspillet i Örebros Koncertsal, Sverige 19.-24. januar 2009 
+513 00 *e Swedish Chamber Orchestra Örebro *e dirigent: Thomas Dausgaard *i producers: Andrew Keener 
+531 00 *a Indeholder også: 
+538 00 *f Simax Classics *g PSC 1284 
+652 00 *m 78.89 
+652 00 *å 11 *i 78.411 
+652 00 *å 12 *i 78.411 
+666 00 *0 *m klassik *m wienerklassik *m balletmusik *n instrumental *n orkester *p 1790-1799 *p 1800-1809 *l Tyskland 
+700 00 *a Dausgaard *h Thomas 
+710 00 *a Det ¤Svenske Kammerorkester 
+770 00 *å 11 *a Beethoven *h Ludwig van 
+770 00 *å 12 *a Beethoven *h Ludwig van 
+795 00 *å 11 *a Menuetter for orkester, WoO 7 *7  ( *a Menuet for orkester, D-dur, WoO 7:1 *z NO-FZS-12-84190 *a Menuet for orkester, B-dur, WoO 7:2 *z NO-FZS-12-84200 *a Menuet for orkester, G-dur, WoO 7:3 *z NO-FZS-12-84210 *a Menuet for orkester, Es-dur, WoO 7:4 *z NO-FZS-12-84220 *a Menuet for orkester, C-dur, WoO 7:5 *z NO-FZS-12-84230 *a Menuet for orkester, A-dur, WoO 7:6 *z NO-FZS-12-84240 *a Menuet for orkester, D-dur, WoO 7:7 *z NO-FZS-12-84250 *a Menuet for orkester, B-dur, WoO 7:8 *z NO-FZS-12-84260 *a Menuet for orkester, G-dur, WoO 7:9 *z NO-FZS-12-84270 *a Menuet for orkester, Es-dur, WoO 7:10 *z NO-FZS-12-84280 *a Menuet for orkester, C-dur, WoO 7:11 *z NO-FZS-12-84290 *a Menuet for orkester, F-dur, WoO 7:12 *z NO-FZS-12-84300 *7 ) 
+795 00 *å 12 *a Tyske danse, WoO 8 *7  ( *a Tysk dans, C-dur, WoO 8:1 *z NO-FZS-12-84310 *a Tysk dans, A-dur, WoO 8:2 *z NO-FZS-12-84320 *a Tysk dans, F-dur, WoO 8:3 *z NO-FZS-12-84330 *a Tysk dans, B-dur, WoO 8:4 *z NO-FZS-12-84340 *a Tysk dans, Es-dur, WoO 8:5 *z NO-FZS-12-84350 *a Tysk dans, G-dur, WoO 8:6 *z NO-FZS-12-84360 *a Tysk dans, C-dur, WoO 8:7 *z NO-FZS-12-84370 *a Tysk dans, A-dur, WoO 8:8 *z NO-FZS-12-84380 *a Tysk dans, F-dur, WoO 8:9 *z NO-FZS-12-84390 *a Tysk dans, D-dur, WoO 8:10 *z NO-FZS-12-84400 *a Tysk dans, G-dur, WoO 8:11 *z NO-FZS-12-84410 *a Tysk dans, C-dur, WoO 8:12 *c med coda *z NO-FZS-12-84420 *7 ) 
+990 00 *o 201322 *b v *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

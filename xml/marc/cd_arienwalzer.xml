@@ -1,0 +1,84 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 20028122 *b 870970 *c 20030213081850 *d 19920715 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t s *v 0 
+009 00 *a s *g xc 
+021 00 *d kr. 238.00 
+032 00 *x SFG199231 *x DAT200307 *x SFG *x DAT 
+039 00 *a voa 
+100 00 *0 *a Streich *h Rita 
+245 00 *a Arien und Walzer *e Rita Streich, sopran 
+260 00 *b DGG 
+300 00 *n 1 cd *D 1 hæfte *d 1 kommentarhæfte 
+440 00 *a Dokumente 
+512 00 *a Indspillet i Berlin 1958-1965 
+531 00 *a Indhold: 
+538 00 *f DGG *g 435748-2 
+652 00 *m 78.611 
+652 00 *å 11 *i 78.81 *v 2 
+652 00 *å 12 *i 78.81 *v 2 *i 78.81 *v 2 
+652 00 *å 13 *i 78.81 *v 2 *i 78.81 *v 2 
+652 00 *å 14 *i 78.81 *v 2 *i 78.81 *v 2 *i 78.81 *v 2 
+652 00 *å 15 *i 78.81 *v 2 
+652 00 *å 16 *i 78.81 *v 2 
+652 00 *å 17 *i 78.81 *v 2 *i 78.81 *v 2 
+652 00 *å 18 *i 78.81 *v 2 
+652 00 *å 19 *i 78.61 *v 4 
+652 00 *å 20 *i 78.81 *v 2 
+652 00 *å 21 *i 78.81 *v 2 *i 78.61 *v 4 
+652 00 *å 22 *i 78.61 *v 4 
+652 00 *å 23 *i 78.81 *v 2 
+652 00 *å 24 *i 78.81 *v 2 
+652 00 *å 25 *i 78.81 *v 2 
+652 00 *å 26 *i 78.81 *v 2 
+652 00 *å 27 *i 78.81 *v 2 
+652 00 *å 28 *i 78.81 *v 2 
+700 00 *0 *a Gaebel *h Kurt 
+700 00 *0 *a Peters *h Reinhard 
+700 00 *0 *a Kraus *h Reinhard 
+710 00 *0 *a RIAS-Kammerkoret, Berlin 
+710 00 *0 *a Berlins Radiosymfoniorkester 
+710 00 *0 *a Den ¤Tyske Operas Kor, Vestberlin 
+710 00 *0 *a Den ¤Tyske Operas Orkester, Vestberlin 
+770 00 *å 11 *0 *a Mozart *h Wolfgang Amadeus 
+770 00 *å 12 *0 *a Donizetti *h Gaetano 
+770 00 *å 13 *0 *a Rimskij-Korsakov *h Nikolaj 
+770 00 *å 14 *0 *a Strauss *h Johann *c f. 1825 
+770 00 *å 15 *0 *a Nicolai *h Otto 
+770 00 *å 16 *0 *a Dvořák *h Antonín 
+770 00 *å 17 *0 *a Puccini *h Giacomo 
+770 00 *å 18 *0 *a Suppé *h Franz von 
+770 00 *å 19 *0 *a Saint-Säens *h Camille 
+770 00 *å 20 *0 *a Bellini *h Vincenzo 
+770 00 *å 21 *0 *a Verdi *h Giuseppe 
+770 00 *å 22 *0 *a Arditi *h Luigi 
+770 00 *å 23 *0 *a Meyerbeer *h Giacomo 
+770 00 *å 24 *0 *a Bizet *h Georges 
+770 00 *å 25 *0 *a Offenbach *h Jacques 
+770 00 *å 26 *0 *a Godard *h Benjamin 
+770 00 *å 27 *0 *a Massenet *h Jules 
+770 00 *å 28 *0 *a Delibes *h Léo 
+795 00 *å 11 *0 *a Figaros bryllup (Giunse alfin il momento ... Deh vieni, non tardar) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 12 *0 *a Lucia di Lammermoor (Regnava nel silenzio alta la notta e bruna ; Il dolce suono mi colpi di sua voce) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel *a Linda di Chamounix (Ah! tardai troppo ... O luce di quest'anima) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 13 *0 *a Guldhanen (Hymne til solen) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel *a Sadko (Son po berežku chodil, drema po lugu) *e Den Tyske Operas Orkester, Berlin *e dirigent: Reinhard Peters 
+795 00 *å 14 *0 *a G'schichten aus dem Wienerwald (Von fern des Lenzes Ruf erschallt) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel *a Frühlingsstimmen (Die Lerche in blaue Höh' entschwebt) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel *a Flagermusen (Mein Herr Marquis, ein Mann wie Sie ; Spiel' ich die Unschuld vom Lande) *e RIAS-Kammerkoret, Berlin *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 15 *0 *a De ¤lystige koner i Windsor (Nun eilt herbei, Witz, heitre Laune) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gabel 
+795 00 *å 16 *0 *a Rusalka *7  ( *v Měsíčku na nebi hlubokém *u Sangen til månen *7 ) /  *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 17 *0 *a Gianni Schicchi (O mio babbino, caro!) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters *a Turandot (Signore, ascolta) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 18 *0 *a Boccaccio (Hab' ich nur eine Liebe, die Treue brauch'ich nicht) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 19 *0 *a Le ¤rossignol et la rose *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 20 *0 *a I ¤Capuleti e i Montecchi (Eccomi in lieta vesta ... Oh! quante volte ti chiedo al ciel piangendo!) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 21 *0 *a Falstaff (Sul fil d'un soffio etesio scorrete, agili larve) *e Den Tyske Operas Kor og Orkester, Vestberlin *e dirigent: Reinhard Peters *a Lo ¤spazzacamino *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 22 *0 *a Parla-Walzer *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 23 *0 *a Dinorah (Ombra leggera, non te n'andar) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 24 *0 *a Perlefiskerne (Me voilà seule dans la nuit ... Comme autrefois, dans la nuit sombre) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 25 *0 *a Hoffmanns eventyr (Les oiseaux dans la charmille) *e RIAS-Kammerkoret, Berlin *e Berlins Radiosymfoniorkester *e dirigent: Richard Kraus 
+795 00 *å 26 *0 *a Jocelyn (Caché dans cet asile, un viux nous a conduits ... Oh, ne t'éveille pas encore) *e Berlins Radiosymfoniorkester *e dirigent: Kurt Gaebel 
+795 00 *å 27 *0 *a Manon (Obéissons, quand leur voix appelle, aux tendres amours ; Allons! Il le faut pour lui-même ... Adieu, notre petite table) *e Den Tyske Operas Kor og Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 28 *0 *a Lakmé (Les fleurs me paraissent plus belles ; Où va la jeune Indoue) *e Den Tyske Operas Orkester, Vestberlin *e dirigent: Reinhard Peters 
+795 00 *å 40 *0 *y 0 *a Giunse alfin il momento *a Deh vieni, non tardar *a Regnava nel silenzio alta la notta e bruna *a Il ¤dolce suono mi colpi di sua voce *a Ah! tardai troppo *a O luce di quest'anima *a Hymne til solen *a Son po berežku chodil, drema po lugu *a Von fern des Lenzes Ruf erschallt *a Die ¤Lerche in blaue Höh' entschwebt *a Mein Herr Marquis, ein Mann wie Sie *a Spiel' ich die Unschuld vom Lande *a O mio babbino, caro! *a Signore, ascolta *a Hab' ich nur eine Liebe, die Treue brauch'ich nicht *a Eccomi in lieta vesta *a Oh! quante volte ti chiedo al ciel piangendo! *a Sul fil d'un soffio etesio scorrete, agili larve *a Ombra leggera, non te n'andar 
+795 00 *å 41 *0 *y 0 *a Me voilà seule dans la nuit *a Comme autrefois, dans la nuit sombre *a Les ¤oiseaux dans la charmille *a Caché dans cet asile, un viux nous a conduits *a Oh, ne t'éveille pas encore *a Obéissons, quand leur voix appelle, aux tendres amours *a Allons! Il le faut pour lui-même *a Adieu, notre petite table *a Les ¤fleurs me paraissent plus belles *a Où va la jeune Indoue *a Nun eilt herbei, Witz, heitre Laune 
+900 00 *0 *a Korsakov *h Nikolaj Rimskij- *x se *w Rimskij-Korsakov, Nikolaj *z 770/13 
+900 00 *0 *a Säens *h Camille Saint- *x se *w Saint-Säens, Camille *z 770/19 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

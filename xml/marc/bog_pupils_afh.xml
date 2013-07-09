@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27295150 *b 870970 *c 20080721181051 *d 20080616 *f a *t FAUST 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2008 *b dk *l eng *v 0 
+009 00 *a a *g xx 
+011 00 *a 2 711 457 1 
+021 00 *e 9788702056563 *c spiralryg *d kr. 743,75 
+032 00 *a DBF200830 *a DBF 
+245 00 *a First choice for sjette *c pupil's book *e Gitte Frandsen, Tania Kristiansen *f illustrationer Lotte Nybo ... Claus Rye Schierbeck ... Lars Horneman *y Teacher's book *f illustrationer: Lotte Nybo ... [et al.] 
+250 00 *a 1. udgave *b ÷ *x 1. oplag 
+260 00 *a Kbh. *b Gyldendal *c 2008 *k Narayana Press, Gylling 
+300 00 *a 86, 67 sider *b ill. *c 30 cm 
+521 00 *b 1. oplag *c 2008 
+652 00 *m 89.3 
+700 00 *0 *a Frandsen *h Gitte 
+700 00 *0 *a Kristiansen *h Tania 
+745 00 *a 1. choice for sjette 
+745 00 *a First choice for 6. 
+745 00 *a 1. choice for 6. 
+990 00 *o 200830 *b s *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

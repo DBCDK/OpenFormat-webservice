@@ -1,0 +1,16 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 2692321 *b 820010 *c 201107120830 *d 20050110 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 2003 *l ita *v 4 
+009 00 *a a *g xx 
+245 00 *a Le ¤ceramiche impresse nel Neolitico Antico *c Italia e Mediterraneo *e a cura di M. A. Fugazzola Delpino, A. Pessina, V. Tiné 
+260 00 *a Roma *b Istituto Poligrafico e Zecca dello Stato *c 2003 
+300 00 *a 832 s. *b ill. 
+440 00 *a Studi di Paletnologia *v I *z 0392-5250 
+559 00 *a Øverst på titelbladet : Ministero per i Beni e la Attività Culturali 
+559 00 *a Øverst på titelbladet : Soprintendenza speciale al Museo Nazionale Prehistorico Etnografico "L. Pigorini" 
+700 00 *a Delpino *h M. A. Fugazzola 
+700 00 *a Pessina *h A. 
+700 00 *a Tinè *h V. 
+710 00 *s Italy *c Ministero per i beni e le attività culturali</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

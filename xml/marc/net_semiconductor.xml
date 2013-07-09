@@ -1,0 +1,34 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a ssj0006818 *b 820010 *c 20120615060120 *d 19781109 *f a 
+004 00 *r n *a e *n w 
+008 00 *t p *u d *a 1978 *z 2010 *b us *c m *h p *i a *l eng *n b *v 4 
+009 00 *a a *g xe *b t 
+022 00 *l 0163-3767 *x 0163-3767 
+030 00 *a SITLDD 
+036 00 *a 80644829 *z sn 78002101 
+050 00 *a TK7871.85 *b .S464 
+082 00 *a 621.3815 *b 2 *b 05 
+210 00 *a Semicond. int. 
+222 00 *a Semiconductor international 
+240 00 *a Semiconductor international *j Online 
+245 00 *a Semiconductor international *m electronic resource 
+255 00 *a Vol. 1 (Nov./Dec. 1978)- 
+255 00 *a Ceased in April 2010 
+260 00 *a Newton, MA, etc. *b Cahners Pub. Co., etc 
+500 00 *a Frequency varies (1978-Sept. 2003), Monthly, except semi-monthly in June (Oct. 2003-) 
+525 00 *a Semiconductor international. Technical product reference source 1994/98-, Product data source 1997-; and Semisource, 1999- 
+525 00 *a Absorbed: Electronic packaging and production 
+559 00 *a "Processing, assembly and testing." 
+559 00 *a Latest issue consulted: Vol. 28, no. 7 (Mid-June 2005) 
+650 00 *a Semiconductor industry *v Periodicals 
+650 00 *a Semiconductors *v Periodicals 
+856 00 *z Full text available from Factiva: 01/01/1994 to 04/30/2010 *u http://ez.statsbiblioteket.dk:2048/login?url=http://global.factiva.com/en/sess/login.asp?XSID=S00YWFo0HVpMDAo5DEs5DEoM9IqMTIsND3yMHn0YqYvMq382rbRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQQAA *u Kun adgang fra Statsbiblioteket og Aarhus Universitet 
+856 00 *z Full text available from ABI/INFORM Global: 09/01/1996 to 04/30/2010 *u http://ez.statsbiblioteket.dk:2048/login?url=http://search.proquest.com/publication/48708 *u Kun adgang fra Statsbiblioteket og Aarhus Universitet 
+856 00 *z Full text available from Science Journals: 09/01/1996 to 04/30/2010 *u http://ez.statsbiblioteket.dk:2048/login?url=http://search.proquest.com/publication/48708 *u Kun adgang fra Statsbiblioteket og Aarhus Universitet 
+856 00 *z Full text available from LexisNexis Academic Source Package (Europe): 09/01/2001 to 04/01/2010 *u http://ez.statsbiblioteket.dk:2048/login?url=http://www.lexisnexis.com/hottopics/lnacademic/?verb=srcsi=250138 *u Kun adgang fra Statsbiblioteket og Aarhus Universitet 
+860 00 *t Electronic packaging and production *z 0013-4945 
+865 00 *i Available in another form *z 0163-3767 
+871 00 *t Semiconductor international. SemiSource *z 1931-9657 
+871 00 *t Semiconductor international. Product data source 
+871 00 *t Semiconductor international. Technical products reference source</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

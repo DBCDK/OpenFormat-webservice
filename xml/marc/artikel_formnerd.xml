@@ -1,0 +1,21 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 34988129 *b 870971 *c 20120113121528 *d 20120113 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2012 *b dk *d y *l dan *v 0 *r an 
+009 00 *a a *g xx *g xe 
+016 00 *a 03361020 
+032 00 *a ABU201203 *a DAR201203 
+086 00 *a Biografier af enkelte personer 
+245 00 *a Formnørden *e Synne Rifbjerg, interview med Thomas Bentzen 
+300 00 *a Kultur, s. 3 *b ill. 
+504 00 *a Industriel designer Thomas Bentzen om at forny en traditionuden at forkaste den 
+557 00 *a Weekendavisen *j 2012 *z 0106-4142 *V 2012-01-13 *v 2012-01-13 
+600 00 *a Bentzen *h Thomas 
+652 00 *m 99.4 *a Bentzen *h Thomas 
+666 00 *0 *f møbler 
+666 00 *0 *f industriel design 
+666 00 *0 *f dansk møbelkunst 
+700 00 *a Rifbjerg *h Synne 
+700 00 *a Bentzen *h Thomas 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

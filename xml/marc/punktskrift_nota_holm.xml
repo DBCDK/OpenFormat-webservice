@@ -1,0 +1,34 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a DBB0410170 *b 874310 *c 20101216130248 *d 20101216 *f a 
+004 00 *r c *a e 
+008 00 *t m *u f *a 2010 *b dk *d x *j f *l dan *v 0 
+009 00 *a p *b a *g xx 
+021 00 *b Vær opmærksom på Notas vilkår for brug *d Gratis 
+100 00 *a Holm *h Gretelise *c f. 1946 
+245 00 *a Møgkællinger *e Gretelise Holm 
+260 00 *a Kbh. *b Nota *c 2010 
+300 00 *a 8 bind 
+320 00 *a R93S 
+440 00 *a En ¤Karin Sommer-krimi 
+504 00 *a Krimi. Journalist Karin Sommer er nu på efterløn og har haft en svær tid efter samleverens død. Hun involveres i en barok historie om kvindemord og en maskeret kvinde, der hævner sig på mænd. Et debatindlæg om mandssamfundet 
+520 00 *a Originaludgave: 2010 
+520 00 *a AutoBraille version af udgaven: Kbh. : Lindhardt og Ringhof, 2010 
+520 00 *a Også udgivet som: *u http://www.e17.dk/bog/710170 *y DTBook 
+526 00 *i Krimiserien med *t Karin Sommer ; 5 
+538 00 *i Masternr. *a 410170 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *s krimi 
+666 00 *s kvinder 
+666 00 *s mænd 
+666 00 *s mord 
+666 00 *s voldtægt 
+666 00 *s patriarkat 
+666 00 *s satire 
+666 00 *s ligestilling 
+666 00 *s magt 
+666 00 *i 2010-2019 
+666 00 *q Danmark 
+856 00 *u http://www.e17.dk/bog/410170 *z Adgangsmåde: Internet 
+945 00 *a Serien om Karin Sommer *w En ¤Karin Sommer-krimi *x se *z 440</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

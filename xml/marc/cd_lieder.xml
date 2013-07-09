@@ -1,0 +1,38 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27681794 *b 870970 *c 20090511180353 *d 20090324 *f a *t FAUST 
+004 00 *r n *a e 
+005 00 *h e 
+008 00 *t s *u f *a 2008 *b de *l ger *v 0 
+009 00 *a s *g xc 
+020 00 *a dk 
+021 00 *d Kr. 136,00 
+023 00 *a 0879524001127 
+032 00 *a DMO200920 *x BKM200920 *a DMO *x BKM 
+039 00 *a voa 
+100 00 *0 *a Reuter *h Johan 
+245 00 *a Lieder *e Johan Reuter, baryton *e Tove Lønskov, klaver *i produced by: Desmond Chewyn *i sound engineering executive/mixer: Markus Mittermeyer *i sound editor: Holger Kirchhoff 
+260 00 *a London *b Michael Storrs Music *c 2008 
+300 00 *n 1 cd 
+512 00 *a Indspillet i Berlin 29.-30. september 2008 
+512 00 *a Tekster på omslag 
+531 00 *a Indhold: 
+538 00 *f MSM *g 0011 
+652 00 *m 78.611 
+652 00 *å 11 *i 78.61 *v 3 *i 78.61 *v 3 *i 78.61 *v 3 
+652 00 *å 12 *i 78.61 *v 3 *i 78.61 *v 3 
+652 00 *å 13 *i 78.61 *v 3 
+666 00 *å 11 *0 *m senromantik *m sange *m lied *n vokal *n baryton *p 1880-1889 *p 1890-1899 *l Tyskland 
+666 00 *å 12 *0 *m senromantik *m nationalromantik *m sange *n vokal *n baryton *p 1890-1899 *l Danmark 
+666 00 *å 13 *0 *m senromantik *m nationalromantik *m sange *n vokal *n baryton *p 1900-1909 *l Danmark 
+700 00 *0 *a Henzen *h Wilhelm 
+700 00 *0 *a Jacobsen *h J. P. *c f. 1847 
+700 00 *0 *a Lønskov *h Tove 
+770 00 *å 11 *0 *a Strauss *h Richard 
+770 00 *å 12 *0 *a Nielsen *h Carl *c f. 1865 
+770 00 *å 13 *0 *a Børresen *h Hakon 
+795 00 *å 11 *0 *a Sange, opus 10 *7  ( *a Zueignung *a Nichts *a Die ¤Nacht *a Die ¤Georgine *a Geduld *a Die ¤Verschwiegenen *a Die ¤Zeitlose *a Allerseelen *7 ) ;  *a Sange, opus 27 *7  ( *a Ruhe, meine Seele *a Cäcilie *a Heimliche Aufforderung *a Morgen *7 ) ;  *a Schlichte Weisen, opus 21 *7  ( *a All' mein' Gedanken *a Du meines Herzens Krönelein *a Ach Lieb, ich muss nun scheiden *a Ach Weh mir unglückhaftem Mann *a Die ¤Frauen sind oft fromm und still *7 ) 
+795 00 *å 12 *0 *a Musik til fem digte af J.P. Jacobsen, opus 4 *7  ( *v I seraillets have *p Im Garten des Serails *v Irmelin Rose *p Irmelein Rose *v Har dagen sanket al sin sorg *p Und wenn der Tag all' Sorg und Qual *7 ) *i  / Jens Peter Jacobsen *i German versions by Wilhelm Henzen *7  ;  *a Viser og vers af J.P. Jacobsen, opus 6 *7  ( *v Silkesko over gylden læst *p Seid'ner Schuh über Leisten von Gold *7 ) *i  / Jens Peter Jacobsen *i German versions by Wilhelm Henzen 
+795 00 *å 13 *0 *a Sange, opus 8 *7  ( *a Lad våren komme *p Den ¤Lenz lasst kommen *a Landskab *p Landschaft *a I seraillets have *p Im Garten des Serails *a Marine *p Marine *7 ) *i  / Jens Peter Jacobsen *i German versions by Wilhelm Henzen 
+990 00 *o 200920 *b v *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

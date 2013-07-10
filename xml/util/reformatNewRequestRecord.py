@@ -18,15 +18,15 @@ f.close()
 
 fundet=False
 for templateline in templatelines:
-  if (templateline.rfind('<os:object') >= 0): fundet=True
-  if (templateline.rfind('<\/os:object') >= 0): fundet=False
-  if (fundet): 
+  if templateline.rfind('<os:object') >= 0: fundet=True
+  if templateline.rfind('<\/os:object') >= 0: fundet=False
+  if fundet: 
      tfundet=False
      fundet=False
      for fline in flines:
-        if (fline.rfind('<object') >= 0): tfundet=True
-        if (fline.rfind('</object') >= 0): tfundet=False
-        if (tfundet): 
+        if fline.rfind('<object') >= 0: tfundet=True
+        if fline.rfind('</object') >= 0: tfundet=False
+        if tfundet: 
 	  matchObj = re.match(r'<[^:>]*:|</[^:>]*:', fline)
           if matchObj:
              print fline

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>3786416|820010</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">0132354187</dc:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9780132354189</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.loc.gov/catdir/toc/ecip0725/2007034852.html</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Rapid GUI programming with Python and Qt</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Rapid GUI programming with Python and Qt : the definitive guide to PyQt programming</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Prentice Hall open source software development series</dc:title>
+              <dc:subject xsi:type="dcterms:LCSH">Graphical user interfaces (Computer systems)</dc:subject>
+              <dc:subject xsi:type="dcterms:LCSH">Python (Computer program language)</dc:subject>
+              <dc:subject>Qt (Electronic resource)</dc:subject>
+              <dc:description>Includes index</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>4th printing</dkdcplus:version>
+              <dc:publisher>Prentice Hall</dc:publisher>
+              <dc:contributor>Mark Summerfield</dc:contributor>
+              <dc:date>2008</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>xiv, 625 s.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">3786416</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">201303121542</marcx:subfield>
+                  <marcx:subfield code="d">20101001</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2008</marcx:subfield>
+                  <marcx:subfield code="z">2010</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9780132354189</marcx:subfield>
+                  <marcx:subfield code="b">hardcover : alk. paper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">0132354187</marcx:subfield>
+                  <marcx:subfield code="b">hardcover : alk. paper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="036">
+                  <marcx:subfield code="a">2007034852</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="050">
+                  <marcx:subfield code="a">QA76.9.U83</marcx:subfield>
+                  <marcx:subfield code="b">S89 2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Rapid GUI programming with Python and Qt</marcx:subfield>
+                  <marcx:subfield code="c">the definitive guide to PyQt programming</marcx:subfield>
+                  <marcx:subfield code="e">Mark Summerfield</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="x">4th printing</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Upper Saddle River, NJ</marcx:subfield>
+                  <marcx:subfield code="b">Prentice Hall</marcx:subfield>
+                  <marcx:subfield code="c">c2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">xiv, 625 s.</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                  <marcx:subfield code="c">24 cm.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Prentice Hall open source software development series</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="a">Includes bibliographical references and index.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="559">
+                  <marcx:subfield code="a">Includes index</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="645">
+                  <marcx:subfield code="c">Qt (Electronic resource)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Graphical user interfaces (Computer systems)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Python (Computer program language)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Summerfield</marcx:subfield>
+                  <marcx:subfield code="h">Mark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="3">Table of contents only</marcx:subfield>
+                  <marcx:subfield code="u">http://www.loc.gov/catdir/toc/ecip0725/2007034852.html</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:3786416</os:identifier>
+            <os:creationDate>2010-10-03</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_python_toc.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 007926870 *b 810010 *f a 
+002 00 *d ebr10233679 
+004 00 *r n *a e *n w 
+008 00 *t m *a 2005 *b gb *d y *l eng *n b *v 4 
+009 00 *a a *g xe *b t 
+021 00 *w 0199264015 
+021 00 *w 0199264023 *b pbk. 
+030 00 *a 0199264025 (pbk.) 
+036 00 *z 2005279908 
+050 00 *a P201 *b .F27 2005 
+082 00 *a 415 *c 22 
+245 00 *a Grammatical relations *m elektronisk materiale *e Patrick Farrell 
+260 00 *a Oxford *a New York *b Oxford University Press *c 2005 
+440 00 *a Oxford surveys in syntax and morphology *v 1 
+504 00 *a Printbegrænsninger: Der kan printes 10 sider ad gangen og max. 40 sider pr. session 
+529 00 *i Database *a Ebrary 
+532 00 *a Includes bibliographical references (p. [217]-229) and index. 
+650 00 *a Grammar, Comparative and general 
+700 00 *a Farrell *h Patrick *c 1953- 
+856 00 *u http://site.ebrary.com/lib/royallibrary/Doc?id=10233679</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -33,13 +33,13 @@ cat $TEMPLATE | sed -e s/PIDPLACE/$PID/ >$TMPFILENAME
 ## do the search request
 echo -e "Requesting pid=$PID from $SERVERNAME" >&2
 curl -s  -H "Content-type:text/xml; charset=utf8" -X 'POST' -d @"$TMPFILENAME" $SERVERNAME >$SEARCHRESULT
-rm $TMPFILENAME
+#rm $TMPFILENAME
 
 ## check if we got only one result
 ## if zero or more ask the user wheter he wants to quith
 
 HITCOUNT=`grep hitCount <(xmllint -format $SEARCHRESULT)`
-if [ $HITCOUNT != '<hitCount>1</hitCount>' ]
+if [ x"$HITCOUNT" != 'x<hitCount>1</hitCount>' ]
 then
   head <(xmllint -format $SEARCHRESULT) >&2
   echo -e "********** WARNING *********" >&2

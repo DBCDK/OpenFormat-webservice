@@ -38,12 +38,12 @@ curl -s  -H "Content-type:text/xml; charset=utf8" -X 'POST' -d @"$TMPFILENAME" $
 ## check if we got only one result
 ## if zero or more ask the user wheter he wants to quith
 
-HITCOUNT=`grep hitCount <(xmllint -format $SEARCHRESULT)`
-if [ x"$HITCOUNT" != 'x<hitCount>1</hitCount>' ]
+HITCOUNT=`grep hitCount <(xmllint -format $SEARCHRESULT)| sed -e 's/[^0-9]//g'`
+if [ x"$HITCOUNT" != 'x1' ]
 then
   head <(xmllint -format $SEARCHRESULT) >&2
   echo -e "********** WARNING *********" >&2
-  echo -e "*** hitCount less or more than 1 hit!!\n" >&2
+  echo -e "*** hitCount different from 1 hit!!\n" >&2
   echo "Quit? [y/n]:"
   read keyPress
   if [ $keyPress == 'y' -o $keyPress == 'Y' ]

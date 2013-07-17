@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>06008186|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">87-00-53072-7</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Samba-rytmer</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Samba-rytmer : noveller for unge voksne</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 15 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 16 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:description xsi:type="dkdcplus:series">Knytter sig til: Erik Villum: Læsning er andet end ord</dc:description>
+              <dc:description>Indhold: Søren Vagn Jacobsen: Samba-rytmer. Anne Strandvad: Elefanter til at sætte i håret. Svend Åge Madsen: Ude af sit gode skind. Ib Lucas: Marias the. Lene H. Bagger: Historien om de sidste mennesker. Gerd Rindel: Partisan. Maria Marcus: Den lilla pude. Bent Haller: Første blik. Inuk: En kærlighedshistorie</dc:description>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dc:publisher>Gyldendal</dc:publisher>
+              <dc:contributor>Jørn E. Albert</dc:contributor>
+              <dc:contributor>Thorsten Villum Hansen</dc:contributor>
+              <dc:contributor>Søren Vagn Jacobsen (f. 1946)</dc:contributor>
+              <dc:contributor>Anne Strandvad</dc:contributor>
+              <dc:contributor>Svend Åge Madsen (f. 1939)</dc:contributor>
+              <dc:contributor>Ib Lucas</dc:contributor>
+              <dc:contributor>Lene Bagger</dc:contributor>
+              <dc:contributor>Gerd Rindel</dc:contributor>
+              <dc:contributor>Maria Marcus</dc:contributor>
+              <dc:contributor>Bent Haller</dc:contributor>
+              <dc:contributor>Lotte Inuk</dc:contributor>
+              <dc:date>1983</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>105 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:hasPart>Samba-rytmer</dcterms:hasPart>
+              <dcterms:hasPart>Elefanter til at sætte i håret</dcterms:hasPart>
+              <dcterms:hasPart>Ude af sit gode skind</dcterms:hasPart>
+              <dcterms:hasPart>Marias the</dcterms:hasPart>
+              <dcterms:hasPart>Historien om de sidste mennesker</dcterms:hasPart>
+              <dcterms:hasPart>Partisan</dcterms:hasPart>
+              <dcterms:hasPart>Den lilla pude</dcterms:hasPart>
+              <dcterms:hasPart>Første blik</dcterms:hasPart>
+              <dcterms:hasPart>En kærlighedshistorie</dcterms:hasPart>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">06008186</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20121020054825</marcx:subfield>
+                  <marcx:subfield code="d">19831229</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                  <marcx:subfield code="o">c</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1983</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="j">j</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="o">b</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">87-00-53072-7</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 89.50</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF198403</marcx:subfield>
+                  <marcx:subfield code="x">SFD198403</marcx:subfield>
+                  <marcx:subfield code="x">BØK198403</marcx:subfield>
+                  <marcx:subfield code="x">SKO198301</marcx:subfield>
+                  <marcx:subfield code="x">DAT991243</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="044">
+                  <marcx:subfield code="a">F</marcx:subfield>
+                  <marcx:subfield code="b">08e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Samba-rytmer</marcx:subfield>
+                  <marcx:subfield code="c">noveller for unge voksne</marcx:subfield>
+                  <marcx:subfield code="e">redigeret af Jørn E. Albert og Thorsten Villum Hansen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                  <marcx:subfield code="c">1983</marcx:subfield>
+                  <marcx:subfield code="k">Narayana Pr., Gylling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">105 sider</marcx:subfield>
+                  <marcx:subfield code="c">20 cm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="a">Knytter sig til: Erik Villum: Læsning er andet end ord</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Indhold: Søren Vagn Jacobsen: Samba-rytmer. Anne Strandvad: Elefanter til at sætte i håret. Svend Åge Madsen: Ude af sit gode skind. Ib Lucas: Marias the. Lene H. Bagger: Historien om de sidste mennesker. Gerd Rindel: Partisan. Maria Marcus: Den lilla pude. Bent Haller: Første blik. Inuk: En kærlighedshistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">094</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="r">86.1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 14 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 15 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 16 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Albert</marcx:subfield>
+                  <marcx:subfield code="h">Jørn E.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Villum Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Thorsten</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="a">Jacobsen</marcx:subfield>
+                  <marcx:subfield code="h">Søren Vagn</marcx:subfield>
+                  <marcx:subfield code="c">f. 1946</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="a">Strandvad</marcx:subfield>
+                  <marcx:subfield code="h">Anne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="a">Madsen</marcx:subfield>
+                  <marcx:subfield code="h">Svend Åge</marcx:subfield>
+                  <marcx:subfield code="c">f. 1939</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="a">Lucas</marcx:subfield>
+                  <marcx:subfield code="h">Ib</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="a">Bagger</marcx:subfield>
+                  <marcx:subfield code="h">Lene</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="a">Rindel</marcx:subfield>
+                  <marcx:subfield code="h">Gerd</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="a">Marcus</marcx:subfield>
+                  <marcx:subfield code="h">Maria</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="a">Haller</marcx:subfield>
+                  <marcx:subfield code="h">Bent</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="a">Inuk</marcx:subfield>
+                  <marcx:subfield code="h">Lotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="a">Samba-rytmer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="a">Elefanter til at sætte i håret</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="a">Ude af sit gode skind</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="a">Marias the</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">15</marcx:subfield>
+                  <marcx:subfield code="a">Historien om de sidste mennesker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">16</marcx:subfield>
+                  <marcx:subfield code="a">Partisan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">17</marcx:subfield>
+                  <marcx:subfield code="a">Den ¤lilla pude</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">18</marcx:subfield>
+                  <marcx:subfield code="a">Første blik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">19</marcx:subfield>
+                  <marcx:subfield code="a">En ¤kærlighedshistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Thorsten Villum</marcx:subfield>
+                  <marcx:subfield code="z">700/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:06008186</os:identifier>
+            <os:creationDate>2005-03-01</os:creationDate>
+            <os:holdingsCount>15</os:holdingsCount>
+            <os:lendingLibraries>15</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+      <ns1:trackingId>bog_sambarytmer.xml.fullDisplay</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,42 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06008186 *b 870970 *c 20121020054825 *d 19831229 *f a *o c 
+004 00 *r n *a e 
+008 00 *t s *u f *a 1983 *b dk *j j *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-00-53072-7 *c hf. *d kr. 89.50 
+032 00 *a DBF198403 *x SFD198403 *x BØK198403 *x SKO198301 *x DAT991243 
+044 00 *a F *b 08e 
+245 00 *a Samba-rytmer *c noveller for unge voksne *e redigeret af Jørn E. Albert og Thorsten Villum Hansen 
+260 00 *&amp; 1 *a [Kbh.] *b Gyldendal *c 1983 *k Narayana Pr., Gylling 
+300 00 *a 105 sider *c 20 cm 
+526 00 *a Knytter sig til: Erik Villum: Læsning er andet end ord 
+530 00 *&amp; 1 *a Indhold: Søren Vagn Jacobsen: Samba-rytmer. Anne Strandvad: Elefanter til at sætte i håret. Svend Åge Madsen: Ude af sit gode skind. Ib Lucas: Marias the. Lene H. Bagger: Historien om de sidste mennesker. Gerd Rindel: Partisan. Maria Marcus: Den lilla pude. Bent Haller: Første blik. Inuk: En kærlighedshistorie 
+652 00 *n 86 *z 094 
+652 00 *r 86.1 
+652 00 *o sk 
+666 00 *0 *u for 14 år 
+666 00 *0 *u for 15 år 
+666 00 *0 *u for 16 år 
+700 00 *a Albert *h Jørn E. 
+700 00 *å 2 *a Villum Hansen *h Thorsten 
+770 00 *å 11 *a Jacobsen *h Søren Vagn *c f. 1946 
+770 00 *å 12 *a Strandvad *h Anne 
+770 00 *å 13 *a Madsen *h Svend Åge *c f. 1939 
+770 00 *å 14 *a Lucas *h Ib 
+770 00 *å 15 *a Bagger *h Lene 
+770 00 *å 16 *a Rindel *h Gerd 
+770 00 *å 17 *a Marcus *h Maria 
+770 00 *å 18 *a Haller *h Bent 
+770 00 *å 19 *a Inuk *h Lotte 
+795 00 *å 11 *a Samba-rytmer 
+795 00 *å 12 *a Elefanter til at sætte i håret 
+795 00 *å 13 *a Ude af sit gode skind 
+795 00 *å 14 *a Marias the 
+795 00 *å 15 *a Historien om de sidste mennesker 
+795 00 *å 16 *a Partisan 
+795 00 *å 17 *a Den ¤lilla pude 
+795 00 *å 18 *a Første blik 
+795 00 *å 19 *a En ¤kærlighedshistorie 
+900 00 *a Hansen *h Thorsten Villum *z 700/2 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

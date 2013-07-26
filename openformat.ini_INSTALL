@@ -68,6 +68,9 @@ js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 
+; timemout for js_server[] - defaults to 5
+;curl_timeout = 5
+
 ; logfile for verbose output
 logfile = /tmp/netpunkt_fvs/openformat.log
 

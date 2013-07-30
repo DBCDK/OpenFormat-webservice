@@ -1,0 +1,14 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 1264623 *b 820010 *c 200912171219 *d 20010817 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 1865 *z 1869 *b dk *l dan *v 4 
+009 00 *a a *g xx 
+245 00 *a Den ¤sindrige Adelsmand Don Quixote af la Manchas Levnet og Bedrivter *e Overs. af Charlotta Dorothea Biehl *e rev. af F. L. Liebenberg *e Med Billeder af W. Marstrand 
+250 00 *a 2. Udg. 
+260 00 *a Kbh. *c 1865-69 
+300 00 *a 2 D. 
+700 00 *a Cervantes Saavedra *h Miguel de *c 1547-1616 
+700 00 *a Biehl *h Charlotta Dorothea 
+700 00 *a Liebenberg *h F. L. 
+700 00 *a Marstrand *h W.</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

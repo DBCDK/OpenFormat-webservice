@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>1264623|820010</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Den sindrige Adelsmand Don Quixote af la Manchas Levnet og Bedrivter</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Den sindrige Adelsmand Don Quixote af la Manchas Levnet og Bedrivter</dc:title>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2. Udg.</dkdcplus:version>
+              <dc:contributor>Miguel de Cervantes Saavedra (1547-1616)</dc:contributor>
+              <dc:contributor>Charlotta Dorothea Biehl</dc:contributor>
+              <dc:contributor>F. L. Liebenberg</dc:contributor>
+              <dc:contributor>W. Marstrand</dc:contributor>
+              <dc:date>1869</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>2 D.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">1264623</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">200912171219</marcx:subfield>
+                  <marcx:subfield code="d">20010817</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">1865</marcx:subfield>
+                  <marcx:subfield code="z">1869</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Den ¤sindrige Adelsmand Don Quixote af la Manchas Levnet og Bedrivter</marcx:subfield>
+                  <marcx:subfield code="e">Overs. af Charlotta Dorothea Biehl</marcx:subfield>
+                  <marcx:subfield code="e">rev. af F. L. Liebenberg</marcx:subfield>
+                  <marcx:subfield code="e">Med Billeder af W. Marstrand</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">2. Udg.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="c">1865-69</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">2 D.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Cervantes Saavedra</marcx:subfield>
+                  <marcx:subfield code="h">Miguel de</marcx:subfield>
+                  <marcx:subfield code="c">1547-1616</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Biehl</marcx:subfield>
+                  <marcx:subfield code="h">Charlotta Dorothea</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Liebenberg</marcx:subfield>
+                  <marcx:subfield code="h">F. L.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Marstrand</marcx:subfield>
+                  <marcx:subfield code="h">W.</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:1264623</os:identifier>
+            <os:creationDate>2002-05-13</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_biehl_don_quixote.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

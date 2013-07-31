@@ -97,7 +97,8 @@
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>fullDisplay</ns1:outputFormat>
-      <ns1:trackingId>bog_biehl_don_quixote.xml.fullDisplay</ns1:trackingId>
+      <ns1:trackingId>bog_biehl_don_quixote.xml.PLACEHOLDER</ns1:trackingId>
+<!--Forskningsbibliotekspost med 4 forfattere i felt 700. Har 245e 3 gange. Bør vise Cervantes som forfatter. -->
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

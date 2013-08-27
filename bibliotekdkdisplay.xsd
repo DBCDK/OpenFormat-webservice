@@ -705,12 +705,12 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:titleFull"/>
-				<xs:element ref="bibdk:titleDependent" minOccurs="0"/>
+				<xs:element ref="bibdk:dependentTitle" minOccurs="0"/>
 				<xs:element ref="bibdk:titleSpecific" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="titleDependent" type="xs:string"/>
+	<xs:element name="dependentTitle" type="xs:string"/>
 	<xs:element name="titleFull" type="xs:string"/>
 	<xs:element name="titleSpecific" type="xs:string"/>
 	<xs:element name="type">

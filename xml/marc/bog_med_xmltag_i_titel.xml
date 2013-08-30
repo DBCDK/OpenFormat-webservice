@@ -1,0 +1,14 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 000145418 *b 830080 *f a 
+002 00 *d 0 016 676 6 
+004 00 *r n *a e 
+008 00 *t m *a ???? *b hk *l eng *v 3 
+009 00 *a a *g xx 
+041 00 *a eng 
+097 00 *a 01 
+245 00 *a Vision quest bookazine &lt;Game&gt; 
+260 00 *a Hong Kong *b VQ Publishing *c ? 
+300 00 *a upag *b ill. *c 33 cm. 
+630 00 *a grafisk design 
+745 00 *i omslagstitel: *a Game</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

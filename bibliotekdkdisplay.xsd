@@ -117,6 +117,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="accessMethodDescriptor" type="xs:string"/>
+	<xs:element name="accessMethodElement" type="xs:string"/>
+	<xs:element name="accessMethod">
+        	<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:accessMethodDescriptor" minOccurs="0"/>
+				<xs:element ref="bibdk:accessMethodElement"/>
+			</xs:sequence>
+		</xs:complexType>
+        </xs:element>
 	<xs:element name="accessUrl" type="xs:string"/>
 	<xs:element name="acquisitionInformation">
 		<xs:complexType>
@@ -315,7 +325,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="className" type="xs:string" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="creators">
@@ -363,6 +373,8 @@
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="bibdk:systemsDemands" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="bibdk:accessMethod" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:references" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:referencesExternal" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:originals" minOccurs="0" maxOccurs="unbounded"/>
@@ -584,10 +596,10 @@
 	<xs:element name="relatedSeries">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
-			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="className" type="xs:string" use="optional"/>
 			<xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
@@ -684,6 +696,16 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="systemDemandsDescriptor" type="xs:string"/>
+	<xs:element name="systemDemandsElement" type="xs:string"/>
+	<xs:element name="systemsDemands">
+        	<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:systemDemandsDescriptor" minOccurs="0"/>
+				<xs:element ref="bibdk:systemDemandsElement"/>
+			</xs:sequence>
+		</xs:complexType>
+        </xs:element>
 	<xs:element name="textLevel">
 		<xs:complexType>
 			<xs:sequence>

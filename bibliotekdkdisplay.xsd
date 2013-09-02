@@ -183,7 +183,7 @@
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:choice>
-			<xs:attribute name="className" type="xs:string"/>
+			<xs:attribute name="className" type="xs:string" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="analyticRestOfTitle" type="xs:string"/>
@@ -373,7 +373,7 @@
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
-                                <xs:element ref="bibdk:systemsDemands" minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element ref="bibdk:systemDemands" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:element ref="bibdk:accessMethod" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:references" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:referencesExternal" minOccurs="0" maxOccurs="unbounded"/>
@@ -698,7 +698,7 @@
 	</xs:element>
 	<xs:element name="systemDemandsDescriptor" type="xs:string"/>
 	<xs:element name="systemDemandsElement" type="xs:string"/>
-	<xs:element name="systemsDemands">
+	<xs:element name="systemDemands">
         	<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:systemDemandsDescriptor" minOccurs="0"/>

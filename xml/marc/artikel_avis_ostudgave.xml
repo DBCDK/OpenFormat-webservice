@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 33033044 *b 870971 *c 20080401101418 *d 20080401 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2008 *b dk *l dan *v 0 *r an 
+009 00 *a a *g xx 
+016 00 *a 03243796 
+032 00 *a ABU200815 *a DAR200815 
+086 00 *a Militærvæsen 
+245 00 *a NATO's tomme stole 
+300 00 *a International (østudgave), s. 4-5 *b ill. 
+504 00 *a USA og Østeuropa presser på, men det meste tyder på en koldskulder til Ukraine og Georgien på topmøde i Bukarest. HvorimodKroatien, Albanien og Makedonien synes på vej ind i varmen 
+557 00 *a Jyllands-posten *j 2008 *z 0109-1182 *V 2008-04-01 *v 2008-04-01 
+652 00 *m 35.5 
+666 00 *0 *e Østeuropa 
+666 00 *0 *f medlemslande 
+666 00 *0 *f forsvarspolitik 
+666 00 *0 *f militærvæsen 
+666 00 *0 *f sikkerhedspolitik 
+700 00 *a Kongstad *h Jesper 
+700 00 *a Ullerup *h Jørgen 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

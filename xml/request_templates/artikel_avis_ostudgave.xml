@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>33033044|870971</ac:identifier>
+              <ac:source>Avisartikler</ac:source>
+              <dc:title>NATO's tomme stole</dc:title>
+              <dc:title xsi:type="dkdcplus:full">NATO's tomme stole</dc:title>
+              <dc:creator>Jesper Kongstad</dc:creator>
+              <dc:creator xsi:type="oss:sort">Kongstad, Jesper</dc:creator>
+              <dc:creator>Jørgen Ullerup</dc:creator>
+              <dc:creator xsi:type="oss:sort">Ullerup, Jørgen</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">35.5</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Militærvæsen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forsvarspolitik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">medlemslande</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">militærvæsen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">sikkerhedspolitik</dc:subject>
+              <dcterms:abstract>USA og Østeuropa presser på, men det meste tyder på en koldskulder til Ukraine og Georgien på topmøde i Bukarest. HvorimodKroatien, Albanien og Makedonien synes på vej ind i varmen</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2008</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Avisartikel</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>International (østudgave), s. 4-5</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Jyllands-posten, 2008-04-01</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0109-1182</dcterms:isPartOf>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Østeuropa</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">33033044</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20080401101418</marcx:subfield>
+                  <marcx:subfield code="d">20080401</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2008</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="r">an</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">03243796</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU200815</marcx:subfield>
+                  <marcx:subfield code="a">DAR200815</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">Militærvæsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">NATO's tomme stole</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">International (østudgave), s. 4-5</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">USA og Østeuropa presser på, men det meste tyder på en koldskulder til Ukraine og Georgien på topmøde i Bukarest. HvorimodKroatien, Albanien og Makedonien synes på vej ind i varmen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Jyllands-posten</marcx:subfield>
+                  <marcx:subfield code="j">2008</marcx:subfield>
+                  <marcx:subfield code="z">0109-1182</marcx:subfield>
+                  <marcx:subfield code="V">2008-04-01</marcx:subfield>
+                  <marcx:subfield code="v">2008-04-01</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">35.5</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Østeuropa</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">medlemslande</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">forsvarspolitik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">militærvæsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">sikkerhedspolitik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Kongstad</marcx:subfield>
+                  <marcx:subfield code="h">Jesper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ullerup</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-avis:33033044</os:identifier>
+            <os:creationDate/>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=33033044&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>rest</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>webservice</os:linkTo>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:03243796</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>artikel_avis_ostudgave.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

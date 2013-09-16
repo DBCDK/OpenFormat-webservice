@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Body>
     <ns1:formatRequest>
       <ns1:originalData>
@@ -13,10 +13,12 @@
               <ac:source>Litteratursiden</ac:source>
               <dc:title>Anbefaling af: Skyggerne og regnen</dc:title>
               <dc:title xsi:type="dkdcplus:full">Anbefaling af: Skyggerne og regnen</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Else Nordlien</dc:creator>
+              <dc:creator xsi:type="oss:sort">Nordlien, Else</dc:creator>
               <dc:subject>Håkan Nesser</dc:subject>
               <dc:subject>Skyggerne og regnen</dc:subject>
-              <dc:subject xsi:type="dkdcplus:genre">nonfiktion</dc:subject>
               <dcterms:abstract>Skyggerne og regnen er en af mine yndlingsbøger. Den indeholder alt hvad der kan indeholdes i den kategori.</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
               <dc:publisher>Litteratursiden</dc:publisher>
               <dc:date>2009</dc:date>
               <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
@@ -25,7 +27,20 @@
               <dcterms:references xsi:type="dkdcplus:ISBN">9788773949740</dcterms:references>
             </dkabm:record>
             <os:identifier>150005-anmeld:76120</os:identifier>
-            <os:creationDate/>
+            <os:creationDate>2009-03-17</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.litteratursiden.dk/?q=node/76120</os:relationUri>
+                <os:linkObject>
+                  <os:accessType/>
+                  <os:access>free</os:access>
+                  <os:linkTo>website</os:linkTo>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
             <os:formatsAvailable>
               <os:format>dkabm</os:format>
             </os:formatsAvailable>
@@ -33,6 +48,7 @@
         </os:collection>
       </ns1:originalData>
       <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+      <ns1:trackingId>net_litteratursiden_anmeld.xml.fullDisplay</ns1:trackingId>
     </ns1:formatRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

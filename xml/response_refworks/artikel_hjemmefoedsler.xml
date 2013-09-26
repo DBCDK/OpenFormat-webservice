@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal, Electronic
 SR Electronic(1)
 A1 Mikkelsen,Conny
-T1 Hjemmefødslser på et oplyst grundlag. Ole og ketchupeffekten. Hellere blive hjemme end føde ambulant
+T1 Hjemmefødsler på et oplyst grundlag. Ole og ketchupeffekten. Hellere blive hjemme end føde ambulant
 VO 121
 IS 11
 SP 6
@@ -10,7 +10,7 @@ OP 10
 YR 2011
 JF Tidsskrift for jordemødre
 SN 0106-1836
-T2 Hjemmesfødsler
+T2 Hjemmefødsler
 CN 61.68
 K1 fødsel
 K1 hjemmefødsel

@@ -113,7 +113,8 @@
 	<xs:element name="accessInformation">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:accessUrl" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:accessUrl"/>
+				<xs:element ref="bibdk:accessUrlDescriptor" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -128,6 +129,7 @@
 		</xs:complexType>
         </xs:element>
 	<xs:element name="accessUrl" type="xs:string"/>
+	<xs:element name="accessUrlDescriptor" type="xs:string"/>
 	<xs:element name="acquisitionInformation">
 		<xs:complexType>
 			<xs:sequence>
@@ -239,6 +241,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="commonContributors" type="xs:string"/>
 	<xs:element name="content">
 		<xs:complexType>
 			<xs:sequence>
@@ -383,10 +386,11 @@
 				<xs:element ref="bibdk:identifiersISSN" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:identifiersISMN" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:identifiers" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:commonContributors" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:priceInformation" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:acquisitionInformation" minOccurs="0"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
-				<xs:element ref="bibdk:accessInformation" minOccurs="0"/>
+				<xs:element ref="bibdk:accessInformation" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>

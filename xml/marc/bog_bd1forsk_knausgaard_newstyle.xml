@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 008182582 *b 810015 *f a 
+002 00 *d 2 832 949 0 
+002 00 *d x928329490 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2010 *z 2010 *b dk *d x *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788711427286 *c ib. 
+041 00 *a dan *c nor 
+080 00 *a 8 
+100 00 *a Knausgård *h Karl Ove *4 aut 
+241 00 *a Min kamp *r norsk 
+245 00 *a Min kamp *c roman 
+248 00 *g 1. [bog] 
+250 00 *x 3. oplag 
+260 00 *a Kbh. *b Lindhardt og Ringhof *c 2010 
+300 00 *a 487 sider 
+652 00 *n 85 *z 26 
+652 00 *o sk 
+720 00 *o Sara Koch *4 trl 
+
+001 00 *a 008182582__1 *b 810015 *f a 
+004 00 *r n *a b 
+245 00 *g 1. [bog]</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

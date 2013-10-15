@@ -1,0 +1,33 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 23730391 *b 870970 *c 20050317125535 *d 20011016 *f a *t FAUST 
+004 00 *r n *a h 
+008 00 *b dk *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-00-39196-4 *b bind 1-4 *c ib. *d i subskription kr. 1596,00 
+100 00 *0 *a Jensen *h Jørgen *c f. 1936-07-30 
+245 00 *a Danmarks oldtid *e Jørgen Jensen *f temabilleder: fotos af Kirsten Klein 
+260 00 *a Kbh. *b Gyldendal 
+300 00 *a 4 bind *b ill. (nogle i farver) *c 28 cm 
+532 00 *a Med litteraturhenvisninger 
+652 00 *m 91.15 
+666 00 *0 *f oldtiden 
+666 00 *0 *f historie 
+666 00 *0 *e Danmark 
+
+001 00 *a 23718847 *b 870970 *c 20111203082114 *d 20011010 *f a *t FAUST 
+004 00 *r n *a b 
+008 00 *t m *u r *a 2001 *z 2004 *x 06 *v 0 
+014 00 *a 23730391 
+021 00 *a 87-00-49038-5 *d kr. 499,00 
+032 00 *a DBF200446 *x SFD200446 *x DAT991149 *a DBF *x SFD *x DAT 
+245 00 *g [Bind 1] *a Stenalder 13.000-2.000 f.Kr. *f billedredaktion: Jørgen Jensen *f korttegning: Truels Kort 
+250 00 *a 1. udgave *b ÷ *x 3. oplag 
+260 00 *c 2004 *k Nørhaven, Viborg 
+300 00 *a 619 sider 
+520 00 *a Tidligere: 1. udgave. 2001 
+521 00 *a 1. oplag *c 2001 
+521 00 *a 2. oplag *c 2001 
+521 00 *b 3. oplag *c 2004 
+666 00 *0 *f stenalderen 
+990 00 *a SFD *o 200446 *c A</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

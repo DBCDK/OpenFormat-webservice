@@ -1,0 +1,27 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 01201379 *b 870970 *c 19991122155457 *d 19760624 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 1968 *z 1999 *b dk *j f *l eng *o s *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-11-09152-5 *c hf. *d kr. 61,00 
+032 00 *a DBF199934 *x SKO200002 *x SFD199934 *x BØK196801 
+044 00 *a U *b 14b *c 3 *c 4 
+100 00 *a Sayers *h Dorothy L. 
+245 00 *a Murder must advertise *e Dorothy L. Sayers *f editors: Aage Salling, Erik Hvid *f illustrations: Oskar Jørgensen *ø Easy readers 
+250 00 *a [New edition] *b New edition 1968 *x [new impression] 
+260 00 *&amp; 1 *a Copenhagen *b Aschehoug *c [1999] *k Sangill, Holme Olstrup 
+300 00 *a 111 sider *b ill. 
+440 00 *a \Easy readers\ 
+440 00 *0 *å 1 *a Easy readers *n D *o Suspense 
+504 00 *&amp; 1 *a Kriminalroman hvori Lord Peter Wimsey søger ansættelse i et reklamebureau for at undersøge en medarbejders mystiske død og samtidig inddrages i medarbejdernes intriger 
+517 00 *&amp; 1 *a Fra 16 år 
+520 00 *a Tidligere: New edition. 1968. (1. impression: Copenhagen : Grafisk Forlag, 1968. 112 sider. (Easy readers. D)) 
+521 00 *a New edition *c 1968 
+521 00 *b [New impression] *c [1999] 
+652 00 *m 83 *z 06 
+840 00 *a Easy readers 
+840 00 *a Easy readers *n D 
+945 00 *a Suspense *z 440/1 
+990 00 *a SFD *b S *b B *c A *o 199934 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

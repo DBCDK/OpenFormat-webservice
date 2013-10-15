@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 1055033 *b 820030 *f a 
+004 00 *r n *a e 
+005 00 *i d 
+008 00 *t m *b dk *l dan *v 4 
+009 00 *a c *g xx 
+011 00 *a X275508960 
+041 00 *a dan 
+048 00 *a b 
+048 00 *b k04 
+048 00 *c ca01 
+048 00 *c cu01 
+100 00 *a Nielsen *h Carl 
+245 00 *a Morgendug, der sagte bæver *e [tekst] C. Hauch *a Nu er dagen fuld af sang *e [tekst] Jeppe ¿Okjær *e arrangeret af Hakon Andersen 
+260 00 *a Kbh. *b Wilhelm Hansen *c s.a. 
+300 00 *n 1 partitur [2 s.] 
+440 00 *a Wilhelm Hansen Kor-Bibliotek *o Blandet kor *v nr 140 
+509 00 *a For blandet kor SATB 
+652 00 *p 78.652 
+652 00 *p 78.652 
+700 00 *a Hauch *h Carsten 
+700 00 *a ¿Okjær *h Jeppe 
+700 00 *a Andersen *h Hakon 
+745 00 *a Nu er dagen fuld af sang</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

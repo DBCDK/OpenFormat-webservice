@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a DBB0108044 *b 874310 *c 20080918103624 *d 20080909 *f a 
+004 00 *r c *a e 
+008 00 *t m *u r *a 2008 *b dk *j f *l dan *v 0 
+009 00 *a p *b a *g xx 
+021 00 *b Vær opmærksom på Notas vilkår for brug *d Gratis 
+100 00 *a Leine *h Kim 
+245 00 *a Kalak *c erindringsroman *e Kim Leine 
+260 00 *a Kbh. *b Danmarks Blindebibliotek *c 2008 
+300 00 *a 8 bind 
+320 00 *a R93S 
+504 00 *a Kim kommer som 17-årig til København for at bo hos sin far, der udsætter ham for seksuelt misbrug camoufleret som kærlighed. Som færdiguddannet sygeplejerske kommer han til Grønland, som han falder totalt for, men opgøret med offerrollen bringer ham ud og ind af misbrug 
+520 00 *a Originaludgave: 2007 
+520 00 *a Overført efter udgaven: Kbh. : Gyldendal, 2007 
+538 00 *i Masternr. *a 108044 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *s incest 
+666 00 *s far-søn forholdet 
+666 00 *s stofmisbrug 
+666 00 *s kærlighed 
+666 00 *s sygepleje 
+666 00 *s mænd 
+666 00 *q Grønland</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

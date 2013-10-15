@@ -1,0 +1,25 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 008423815 *b 810010 *f a 
+002 00 *d x92012012373 
+004 00 *r n *a e 
+008 00 *t m *a 2012 *b us *d y *l eng *v 8 
+009 00 *a a *g xx 
+021 00 *e 9780415633765 *b hbk. 
+021 00 *e 9780415633772 *b pbk. 
+021 00 *e 9780203094839 *b ebk. 
+036 00 *a 2012012373 
+043 00 *a n-us--- 
+050 00 *a JK526 2008 *b .R45 2012 
+082 00 *a 324.973 *b 0931 *c 23 
+245 00 *a Religion, race, and Barack Obama's new democratic pluralism *e Gastón Espinosa, editor 
+260 00 *a New York *b Routledge *c 2012 
+300 00 *a p. cm. 
+440 00 *a Routledge research in American politics and governance *v 2 
+530 00 *a Preface -- Religion, politics, and American society / Gastón Espinosa -- Mainline Protestants and the 2008 election / Laura R. Olson, Adam L. Warber, Kevin R. den Dulk -- Evangelicals and the 2008 election / Corwin Smidt -- Catholics and the 2008 election / David C. Leege and Stephen T. Mockabee -- Jews and the 2008 election / Kenneth Wald -- Muslims and the 2008 election / Brian Calfano, Paul A. Djupe, John C. Green -- Seculars and the 2008 election / Lyman Kellstedt and James L. Guth -- Women, religion, and the 2008 election / Katherine Knutson -- African Americans, religion, and the 2008 election / Valerie Cooper and Corwin Smidt -- Latinos, religion, and the 2008 election / Gastón Espinosa -- Asian Americans, religion, and the 2008 election / So Young Kim and Russell Jeung -- Conclusion 
+600 00 *a Obama *h Barack 
+650 00 *a Presidents *z United States *x Election *y 2008 
+650 00 *a Religion and politics *z United States *x History *y 21st century 
+650 00 *a Cultural pluralism *z United States *x History *y 21st century 
+651 00 *a United States *x Race relations *x Political aspects *x History *y 21st century 
+700 00 *a Espinosa *h Gastón</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

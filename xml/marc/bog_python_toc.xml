@@ -1,0 +1,22 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 3786416 *b 820010 *c 201303121542 *d 20101001 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 2008 *z 2010 *u r *b us *d y *l eng *v 4 
+009 00 *a a *g xx 
+021 00 *e 9780132354189 *b hardcover : alk. paper 
+021 00 *a 0132354187 *b hardcover : alk. paper 
+036 00 *a 2007034852 
+050 00 *a QA76.9.U83 *b S89 2008 
+245 00 *a Rapid GUI programming with Python and Qt *c the definitive guide to PyQt programming *e Mark Summerfield 
+250 00 *x 4th printing 
+260 00 *a Upper Saddle River, NJ *b Prentice Hall *c c2008 
+300 00 *a xiv, 625 s. *b ill. *c 24 cm. 
+440 00 *a Prentice Hall open source software development series 
+532 00 *a Includes bibliographical references and index. 
+559 00 *a Includes index 
+645 00 *c Qt (Electronic resource) 
+650 00 *a Graphical user interfaces (Computer systems) 
+650 00 *a Python (Computer program language) 
+700 00 *a Summerfield *h Mark 
+856 00 *3 Table of contents only *u http://www.loc.gov/catdir/toc/ecip0725/2007034852.html</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,26 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 22699997 *b 870970 *c 20021003130330 *d 19971016 *f a 
+002 00 *b 870970 *d I002052 *x 870970I002052 
+004 00 *r n *a e 
+008 00 *t m *u o *a 1997 *b dk *l eng *v 0 
+009 00 *a a *g xe 
+032 00 *x IDU200241 *x DIT200241 
+245 00 *a Karen Blixen 
+260 00 *b [Pia Vigh] *c 1997- 
+501 00 *b 3.10.2002 konstateret utilgængelig på internet. URL: http://www.geocities.com/Athens/Forum/8168/ 
+504 00 *a Hensigten med siden er at gøre oplysninger om Karen Blixen (1885-1962) let tilgængelige for studerende og forskere. Indeholder artikler og litteraturhenvisninger samt adgang til et chatroom kaldet Blixenania 
+512 00 *a Ajourføres 
+532 00 *a Med litteraturhenvisninger og Internetadresser 
+539 00 *a Beskrivelsen baseret på: Revised: November, 1997. - Katalogiseret 27.5.1998 
+600 00 *a Blixen *h Karen 
+652 00 *m 99.4 *a Blixen *h Karen 
+652 00 *q 81.65 *z 99 *a Blixen *h Karen 
+652 00 *q 81.65 
+666 00 *0 *f forfattere 
+666 00 *0 *f dansk litteratur 
+666 00 *0 *f litteratur 
+666 00 *0 *e Danmark 
+666 00 *0 *i 1900-1999 
+666 00 *0 *o biografier 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

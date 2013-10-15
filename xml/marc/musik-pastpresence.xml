@@ -1,0 +1,31 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 001345018 *b 820050 *f a 
+002 00 *d x060408447 
+004 00 *r n *a e 
+008 00 *t m *a 2004 *v 4 
+009 00 *a s *g xc 
+245 00 *a Past presence *c tracing a line through 100 years of Danish music 
+260 00 *a Cph. *b Edition Wilhelm Hansen *b Dacapo Records *b Athelas Sinfonietta Copenhagen *c 2004 
+300 00 *a 1 *n compact disc 
+509 00 *a For symfoniorkester *b symph orch 
+530 00 *a Symphony no. 2, 4th Movement: Allegro sanguineo / Carl Nielsen. Prelude op. 174, no. 6: To the seagulls and the cormorants / Vagn Holmboe. Requiem for Nietzsche, part four: Ecce homo; Weimar / Vagn Holmboe. Borderlines - violin concerto no. 2, 1st Movement / Per Nørgård. Piano concerto, 1st Movement: Grazioso / Poul Ruders. Canon and chorale / Niels Rosing-Schow. On this planet: Lucid King: two mobiles. I'll buy you chocolate / Anders Nordentoft. Ritornelli al contrario: Calmo. Allegretto ritmico con moto / Karsten Fundal 
+538 00 *a Dacapo 8.224091 
+559 00 *a Dur.: 67:49 min. 
+631 00 *a Special edition CD in celebration of Denmark's opening of MIDEM, Cannes 2004 
+700 00 *a Nielsen *h Carl 
+700 00 *a Holmboe *h Vagn 
+700 00 *a Nørgård *h Per 
+700 00 *a Ruders *h Poul 
+700 00 *a Rosing-Schow *h Niels 
+700 00 *a Nordentoft *h Anders 
+700 00 *a Fundal *h Karsten 
+700 00 *a Schønwandt *h Michael *b (cond.) 
+700 00 *a Bellincampi *h Giordano *b (cond.) 
+700 00 *a Stenz *h Markus *b (cond.) 
+700 00 *a Latham-Koenig *h Jan *b (cond.) 
+700 00 *a Ryelund Sørensen *h Morten *b (cond.) 
+710 00 *a Danish National Radio Symphony Orchestra 
+710 00 *a Athelas Sinfonietta Copenhagen 
+710 00 *a Danish National Radio Choir 
+710 00 *a Copenhagen Philharmonic Orchestra</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

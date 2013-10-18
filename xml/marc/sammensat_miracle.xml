@@ -1,8 +1,8 @@
 =/home/nje/OpenFormat/request=
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
-001 00 *a 44291789 *b 870970 *c 20080131134809 *d 20080131 *f a *t FAUST 
-002 00 *b 710100 *c 9 255 384 1 *x 71010092553841 
-004 00 *r n *a e 
+001 00 *a 44291789 *b 870970 *c 20080131134809 *d 20080131 *f a 
+002 00 *b 710100 *c 92553841 *x 71010092553841 
+004 00 *r c *a e 
 008 00 *t s *u u *a 2004 *b us *l eng *v 0 
 009 00 *a a *g xx *a s *g xc *b m *h th 
 021 00 *a 0-7407-4696-0 *d $60,00 
@@ -20,12 +20,12 @@
 666 00 *o fotografier 
 666 00 *o billedværker 
 666 00 *m pop *m rock *m vuggevise *n vokal *p 2000-2009 *l Canada 
-700 00 *0 *a Geddes *h Anne 
-700 00 *0 *a Dion *h Céline 
-700 00 *0 *a Foster *h David 
-700 00 *0 *a Padilla *h Rafael 
-700 00 *0 *a Parks *h Dean 
-700 00 *0 *å 1 *A vandersaag *a Van Der Saag *h Jochem 
-795 00 *å 11 *0 *a Miracle *a Brahms' lullaby *a If I could *a Sleep tight *a What a wonderful world *a My precious one *a A ¤mother's prayer *a The ¤first time ever I saw your face *a Baby close your eyes *a Come to me *a Le ¤loup, la biche et le chevalier *u Une ¤chanson douce *a Beautiful boy *a In some small way 
-900 00 *0 *a Saag *h Jochem van der *x se *w Van Der Saag, Jochem *z 700/1 
-s10 00 *a 710100</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+700 00 *a Geddes *h Anne 
+700 00 *a Dion *h Céline 
+700 00 *a Foster *h David 
+700 00 *a Padilla *h Rafael 
+700 00 *a Parks *h Dean 
+700 00 *å 1 *A vandersaag *a Van Der Saag *h Jochem 
+795 00 *å 11 *a Miracle *a Brahms' lullaby *a If I could *a Sleep tight *a What a wonderful world *a My precious one *a A ¤mother's prayer *a The ¤first time ever I saw your face *a Baby close your eyes *a Come to me *a Le ¤loup, la biche et le chevalier *u Une ¤chanson douce *a Beautiful boy *a In some small way 
+900 00 *a Saag *h Jochem van der *z 700/1 
+996 00 *a 710100</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

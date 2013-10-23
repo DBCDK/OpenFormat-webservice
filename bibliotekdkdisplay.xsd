@@ -114,7 +114,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:accessUrl"/>
-				<xs:element ref="bibdk:accessUrlDescriptor" minOccurs="0"/>
+				<xs:element ref="bibdk:accessUrlDescriptor" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -153,6 +153,7 @@
 				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
+				<xs:element ref="bibdk:restrictionsMovie" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
@@ -215,7 +216,14 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="audienceAgeElement" type="xs:string"/>
-	<xs:element name="audienceMarked" type="xs:string"/>
+	<xs:element name="audienceMarked">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:audienceMarkedElement" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="audienceMarkedElement" type="xs:string"/>
 	<xs:element name="audiencePegi">
 		<xs:complexType>
 			<xs:sequence>
@@ -625,6 +633,7 @@
 	</xs:element>
 	<xs:element name="requestMethod" type="xs:string"/>
 	<xs:element name="restrictedUse" type="xs:string"/>
+	<xs:element name="restrictionsMovie" type="xs:string"/>
 	<xs:element name="reviewRatings" type="xs:string"/>
 	<xs:element name="searchCode">
 		<xs:complexType>

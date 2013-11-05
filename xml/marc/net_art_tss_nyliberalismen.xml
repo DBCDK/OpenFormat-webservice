@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 89477654 *b 870971 *c 20070413160841 *d 20070413 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2007 *b dk *l dan *v 0 *r ap 
+009 00 *a a *g xe 
+016 00 *a 49323697 
+032 00 *a ABU200716 *x IDA200716 
+086 00 *a Danmarks økonomiske forhold 
+245 00 *a Nyliberalismen i Danmark *c forudsætninger og konsekvenser 
+504 00 *a Nyliberalismens indflydelse i en dansk politisk-økonomisksammenhæng 
+557 00 *a Kritisk debat [online] *j 2007 *z 1604-4312 *V 2007, apr. *v 2007, apr. 
+652 00 *m 33.19 
+666 00 *0 *e Danmark 
+666 00 *0 *f politiske forhold 
+666 00 *0 *f nyliberalisme 
+666 00 *0 *f kapitalisme 
+666 00 *0 *f økonomiske forhold 
+666 00 *0 *f indkomst 
+700 00 *a Hadberg *h Anders 
+856 00 *z Adgangsmåde: Internet *u http://www.kritiskdebat.dk/artikel.php?i=d=441 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

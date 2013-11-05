@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>89477654|870971</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.kritiskdebat.dk/artikel.php?i=d=441</dc:identifier>
+              <ac:source>Tidsskriftsartikler</ac:source>
+              <dc:title>Nyliberalismen i Danmark</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Nyliberalismen i Danmark : forudsætninger og konsekvenser</dc:title>
+              <dc:creator>Anders Hadberg</dc:creator>
+              <dc:creator xsi:type="oss:sort">Hadberg, Anders</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">33.19</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Danmarks økonomiske forhold i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">indkomst</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kapitalisme</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">nyliberalisme</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">politiske forhold</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">økonomiske forhold</dc:subject>
+              <dcterms:abstract>Nyliberalismens indflydelse i en dansk politisk-økonomisksammenhæng</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2007</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Kritisk debat online, 2007, apr.</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1604-4312</dcterms:isPartOf>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">89477654</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20070413160841</marcx:subfield>
+                  <marcx:subfield code="d">20070413</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2007</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">49323697</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU200716</marcx:subfield>
+                  <marcx:subfield code="x">IDA200716</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">Danmarks økonomiske forhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Nyliberalismen i Danmark</marcx:subfield>
+                  <marcx:subfield code="c">forudsætninger og konsekvenser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Nyliberalismens indflydelse i en dansk politisk-økonomisksammenhæng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Kritisk debat [online]</marcx:subfield>
+                  <marcx:subfield code="j">2007</marcx:subfield>
+                  <marcx:subfield code="z">1604-4312</marcx:subfield>
+                  <marcx:subfield code="V">2007, apr.</marcx:subfield>
+                  <marcx:subfield code="v">2007, apr.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">33.19</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">politiske forhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">nyliberalisme</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">kapitalisme</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">økonomiske forhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">indkomst</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Hadberg</marcx:subfield>
+                  <marcx:subfield code="h">Anders</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://www.kritiskdebat.dk/artikel.php?i=d=441</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-tsart:89477654</os:identifier>
+            <os:creationDate/>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:49323697</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>net_art_tss_nyliberalismen.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

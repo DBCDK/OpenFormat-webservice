@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+<oclcRecords><oclcRecord><foxml:digitalObject VERSION="1.1" PID="820010-katalog:2671769">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE=""/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-10-17T13:35:06.928Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2013-10-17T13:35:07.052Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="DC.0" LABEL="" CREATED="2013-10-17T13:35:06.936Z" MIMETYPE="text/xml" SIZE="572">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>årsberetning</dc:title><dc:title>MATCH:årsber</dc:title><dc:date></dc:date><dc:type>Periodikum</dc:type><dc:type>WORK:periodica</dc:type><dc:identifier>820010-katalog:2671769</dc:identifier><dc:identifier>ISSN:19035802</dc:identifier><dc:language>Dansk</dc:language></oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="commonData" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="commonData.0" LABEL="" CREATED="2013-10-17T13:35:06.937Z" MIMETYPE="text/xml" SIZE="4549">
+<foxml:xmlContent>
+<ting:container xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:docbook="http://docbook.org/ns/docbook" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:ting="http://www.dbc.dk/ting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dkabm:record><ac:identifier>2671769|820010</ac:identifier><ac:source>Bibliotekskatalog</ac:source><dc:title>Årsberetning</dc:title><dc:title xsi:type="dkdcplus:full">Årsberetning</dc:title><dcterms:alternative>2003 m. tit. Årsberetning</dcterms:alternative><dcterms:audience>voksenmaterialer</dcterms:audience><dc:date>????</dc:date><dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type><dc:identifier xsi:type="dkdcplus:ISSN">1903-5802</dc:identifier><dc:language xsi:type="dcterms:ISO639-2">dan</dc:language><dc:language>Dansk</dc:language><dcterms:isReplacedBy>Årbog</dcterms:isReplacedBy></dkabm:record><marcx:collection xmlns:marcx="info:lc/xmlns/marcxchange-v1"><marcx:record format="danMARC2" type="Bibliographic"><marcx:leader>00000n    2200000   4500</marcx:leader><marcx:datafield ind1="0" ind2="0" tag="001"><marcx:subfield code="a">2671769</marcx:subfield><marcx:subfield code="b">820010</marcx:subfield><marcx:subfield code="c">201108301343</marcx:subfield><marcx:subfield code="d">20041110</marcx:subfield><marcx:subfield code="f">a</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="004"><marcx:subfield code="r">c</marcx:subfield><marcx:subfield code="a">e</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="008"><marcx:subfield code="t">p</marcx:subfield><marcx:subfield code="a">????</marcx:subfield><marcx:subfield code="b">dk</marcx:subfield><marcx:subfield code="l">dan</marcx:subfield><marcx:subfield code="v">4</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="009"><marcx:subfield code="a">a</marcx:subfield><marcx:subfield code="g">xx</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="022"><marcx:subfield code="a">1903-5802</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="z">125050</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="z">820010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="245"><marcx:subfield code="a">Årsberetning</marcx:subfield><marcx:subfield code="æ">Nordjyllands Historiske Museum</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="260"><marcx:subfield code="a">Ꜳlborg</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="745"><marcx:subfield code="i">2003 m. tit.</marcx:subfield><marcx:subfield code="a">Årsberetning</marcx:subfield><marcx:subfield code="æ">Ꜳlborg Historiske Museum</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="861"><marcx:subfield code="t">Årbog</marcx:subfield><marcx:subfield code="c">Nordjyllands Historiske Museum</marcx:subfield><marcx:subfield code="z">2245-0084</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="865"><marcx:subfield code="i">Også på internettet</marcx:subfield><marcx:subfield code="t">Årsberetning</marcx:subfield><marcx:subfield code="c">Nordjyllands Historiske Museum</marcx:subfield><marcx:subfield code="g">1903-5810</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="980"><marcx:subfield code="y">125050</marcx:subfield><marcx:subfield code="x">1</marcx:subfield><marcx:subfield code="d">2004-</marcx:subfield><marcx:subfield code="e">2009</marcx:subfield><marcx:subfield code="s">Afsluttet</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="980"><marcx:subfield code="y">820010</marcx:subfield><marcx:subfield code="x">1</marcx:subfield><marcx:subfield code="d">2003-</marcx:subfield><marcx:subfield code="e">2009</marcx:subfield><marcx:subfield code="s">Afsluttet</marcx:subfield></marcx:datafield></marcx:record></marcx:collection><adminData><recordStatus>active</recordStatus><creationDate>2004-11-14</creationDate><libraryType>research</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><workType>periodica</workType><collectionIdentifier>820010-katalog</collectionIdentifier><collectionIdentifier>870970-forsk</collectionIdentifier></adminData></ting:container>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="localData.870970-forsk" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="localData.870970-forsk.0" LABEL="" CREATED="2013-10-17T13:35:06.937Z" MIMETYPE="text/xml" SIZE="1474">
+<foxml:xmlContent>
+<ting:localData xmlns:ting="http://www.dbc.dk/ting"><marcx:record xmlns:marcx="info:lc/xmlns/marcxchange-v1" format="danMARC2" type="BibliographicLocal"><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="z">125050</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="096"><marcx:subfield code="z">820010</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="980"><marcx:subfield code="y">125050</marcx:subfield><marcx:subfield code="x">1</marcx:subfield><marcx:subfield code="d">2004-</marcx:subfield><marcx:subfield code="e">2009</marcx:subfield><marcx:subfield code="s">Afsluttet</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="980"><marcx:subfield code="y">820010</marcx:subfield><marcx:subfield code="x">1</marcx:subfield><marcx:subfield code="d">2003-</marcx:subfield><marcx:subfield code="e">2009</marcx:subfield><marcx:subfield code="s">Afsluttet</marcx:subfield></marcx:datafield><marcx:datafield ind1="0" ind2="0" tag="n55"><marcx:subfield code="a">20041114</marcx:subfield></marcx:datafield></marcx:record><adminData><recordStatus>active</recordStatus><creationDate>2004-11-14</creationDate><libraryType>research</libraryType><indexingAlias>danmarcxchange</indexingAlias><accessType>physical</accessType><workType>periodica</workType><collectionIdentifier>820010-katalog</collectionIdentifier><collectionIdentifier>870970-forsk</collectionIdentifier></adminData></ting:localData>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-SYS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="RELS-SYS.1" LABEL="" CREATED="2013-10-17T13:35:07.052Z" MIMETYPE="application/rdf+xml" SIZE="223">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="info:fedora/820010-katalog:2671769"><isMemberOfUnit xmlns="info:fedora/">unit:32963</isMemberOfUnit></rdf:Description></rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject><ocn></ocn><holdingsServiceResponse><response>
+<timestamp>2013-11-08 23:59:49.387</timestamp>
+<pid>820010-katalog:2671769</pid>
+<result>
+<holding fedoraPid="820010-katalog:2671769">
+<agencyId>820010</agencyId>
+<note>2004- 2009 2003- 2009</note>
+<codes/>
+<callNumber/>
+<localIdentifier>2671769</localIdentifier>
+<state>a</state>
+<lastModified>2013-10-17T15:35:07Z</lastModified>
+</holding>
+</result>
+</response></holdingsServiceResponse></oclcRecord></oclcRecords>
+</ns1:originalData>
+<ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+   </ns1:formatRequest>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

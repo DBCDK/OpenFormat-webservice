@@ -55,6 +55,7 @@
 </result>
 </response></holdingsServiceResponse></oclcRecord></oclcRecords>
 </ns1:originalData>
+<ns1:holdBackEndDate>131114</ns1:holdBackEndDate>
 <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
    </ns1:formatRequest>
  </SOAP-ENV:Body>

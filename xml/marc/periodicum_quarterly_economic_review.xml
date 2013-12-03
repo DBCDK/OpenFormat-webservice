@@ -1,0 +1,12 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 04811844 *b 820040 *d 19890130 *f a *o d 
+004 00 *r c *a e 
+008 00 *t p *u d *a ???? *z 9999 *b gb *l eng *v 3 
+009 00 *a a *g xx 
+022 00 *a 0481-1844 *b u 
+245 00 *a Quarterly economic review *o Pakistan, Afghanistan *e the Economist Intelligence Unit 
+260 00 *a London 
+710 00 *a Economist Intelligence Unit 
+745 00 *a Quarterly economic review. Pakistan, Afghanistan 
+861 00 *t QER. Pakistan, Bangladesh, Afghanistan *z 0306-2422</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

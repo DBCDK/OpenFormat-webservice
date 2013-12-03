@@ -1,0 +1,20 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 45034593 *b 870970 *c 20110408175119 *d 20110408 *f a 
+002 00 *b 756100 *c 90755390 *x 75610090755390 
+004 00 *r c *a e 
+008 00 *t m *a 2011 *u f *b gb *l eng *v 0 *d y *x 07 
+009 00 *a a *g xx 
+021 00 *e 9781844259007 
+100 00 *a Storey *h M. R. *4 aut 
+245 00 *a Ford C-Max *ø 2003-2010 
+260 00 *a Yeovil, Somerset *b Haynes *c 2011 
+300 00 *a 1 bind (flere pagineringer) *b ill. 
+440 00 *a Owners workshop manual *v 4900 
+512 00 *a På omslaget: Step-by-step maintenance and repair 
+512 00 *a Models covered: C-Max MPV models:Petrol: 1.6 litre (1596cc), 1.8 litre (1798cc) &amp; 2.0 litre (1998cc) ; Turbo-Diesel: 1.6 litre (1560cc), 1.8 litre (1753cc) &amp; 2.0 litre (1997cc/1998cc). Does NOT cover 1.8 litre "flex fuel" models, or CVT og "Powershift" transmissions. Does NOT cover new C-Max range introduced October 2010 
+512 00 *a På omslaget: Ford C-Max \2003 to 2010\ (53 to 60 reg) Petrol &amp; Diesel 
+652 00 *m 62.7221 *b Ford 
+666 00 *f biler 
+666 00 *o reparationshåndbøger 
+996 00 *a 756100</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,60 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 29840504 *b 870970 *c 20130311180714 *d 20130220 *f a 
+004 00 *r n *a e 
+006 00 *d 11 *2 b 
+006 00 *e 11 *2 d 
+008 00 *t m *u f *a 2013 *b dk *l mul *v 0 
+009 00 *a m *g th 
+017 00 *a 28623224 
+021 00 *b Brugsretskategori: C+ 
+023 00 *b 8717418342272 
+032 00 *a DBI201311 *x BKM201311 *x ACC201308 
+041 00 *a eng *s swe *s nor *s dan *s fin *s pol *s ice *u eng *u swe *u nor *u dan *u fin *u pol *u ice 
+239 00 *t Narnia *b løven, heksen og garderobeskabet 
+245 00 *a The ¤chronicles of Narnia *u The ¤lion, the witch and the wardrobe 
+260 00 *a [Kbh.] *b Walt Disney Studios Home Entertainment *c [2013] 
+300 00 *n 1 blu-ray disc *e blu-ray *l ca. 2 t., 20 min. 
+440 00 *0 *a Disney blu-ray 
+504 00 *&amp; 1 *a De fire søskende, Lucy, Edmund, Susan og Peter, er flyttet på landet hos en professor. Bag det gamle garderobeskab finder de landet, Narnia, der holdes i en forbandelse, som den hvide heks, har kastet over landet, der holdes i evig vinter. Et sagn fortæller, at de fire børn kan hjælpe med at bringe foråret og friheden tilbage. De bliver involveret i kampen om at befri Narnia sammen med løven Aslan og andre gode kræfter 
+508 00 *a Engelsk tale, samt synkronisering på svensk, norsk, dansk, finsk, polsk og islandsk 
+508 00 *a Undertekster på engelsk, svensk, norsk, dansk, finsk, polsk og islandsk 
+508 00 *a Tekstet for hørehæmmede på engelsk 
+512 00 *a Produktion: Walt Disney Pictures (USA), Walden Media (USA), 2005 
+517 00 *&amp; 1 *a Mærkning: Tilladt for børn over 11 år 
+534 00 *&amp; 1 *a Af indholdet: Bonusmateriale 
+538 00 *a BMY 6025615 
+652 00 *m 77.74 
+666 00 *0 *s eventyr 
+666 00 *0 *s det ¤gode 
+666 00 *0 *s det ¤onde 
+666 00 *0 *s parallelle verdener 
+666 00 *0 *o amerikanske film 
+666 00 *0 *u for 11 år 
+666 00 *0 *u for 12 år 
+666 00 *0 *u for 13 år 
+700 00 *a Lewis *h C. S. *4 ant 
+700 00 *A macalpine *a McAlpine *h Donald M. *4 cng 
+700 00 *a Peacock *h Ann *4 aus 
+700 00 *a Adamson *h Andrew *4 drt 
+710 00 *a Walt Disney *e firma 
+720 00 *o George Henley *4 act 
+720 00 *o Skandar Keynes *4 act 
+720 00 *o William Moseley *4 act 
+720 00 *o Anna Popplewell *4 act 
+720 00 *o Tilda Swinton *4 act 
+720 00 *o James McAvoy *4 act 
+720 00 *o Jim Broadbent *4 act 
+720 00 *o Tillie Bech *4 dkste 
+720 00 *o Christoffer Skov *4 dkste 
+720 00 *o Jasper Spanning *4 dkste 
+720 00 *o Amalie Dollerup *4 dkste 
+720 00 *o Maibritt Saerens *4 dkste 
+720 00 *o Caspar Phillipsen *4 dkste 
+720 00 *o Paul Hüttel *4 dkste 
+720 00 *o Jørgen Teytaud *4 dkste 
+720 00 *o Solbjørg Højfeldt *4 dkste 
+745 00 *a Løven, heksen og garderobeskabet 
+910 00 *a Disney *h Walt *e firma *z 710 
+990 00 *o 201311 *b b *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

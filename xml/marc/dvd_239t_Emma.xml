@@ -1,0 +1,13 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50806790 *b 870970 *c 20131113122016 *d 20131113 *f a 
+004 00 *r n *a e 
+008 00 *t m *v 7 
+009 00 *a m *g th 
+023 00 *b 7319980015212 
+032 00 *x ACC201346 *a DBI999999 
+245 00 *a A ¤woman of substance *ø dvd 
+260 00 *b Soul Media 
+300 00 *e dvd 
+652 00 *m NY TITEL 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

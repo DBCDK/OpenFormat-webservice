@@ -1,0 +1,30 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 49258216 *b 870970 *c 20120308105410 *d 20000316 *f a 
+004 00 *r n *a h 
+008 00 *u c *a 2000 *b dk *c a *d y *h z *i b *l dan *v 0 
+009 00 *a a *g xx 
+018 00 *a 49258208 
+022 00 *a 1600-0293 
+082 00 *a 362.948 9 *c 21 
+245 00 *a Social- &amp; sundhedssektorens håndbog *c hvem-hvad-hvor 
+255 00 *a 2000- 
+260 00 *&amp; 1 *a Asnæs *d Høve Stræde 1, 4550 *b Retail Institute Scandinavia, Stockmann *c 2000- 
+500 00 *a Årlig 
+505 00 *&amp; 1 *a Årspublikation 
+512 00 *i Omslagstitel *t Social- &amp; sundhedssektorens hvem, hvad, hvor 
+512 00 *i Varianttitel *t Social- og sundhedssektorens håndbog 
+526 00 *i Fortsættelse af *t Håndbog for social- og sundhedssektor 
+539 00 *a 2012, udgivet 2011 
+652 00 *m 38.4 
+
+001 00 *a 29836167 *b 870970 *c 20130311180022 *d 20130218 *f a 
+004 00 *r n *a b 
+008 00 *t p *v 0 
+014 00 *a 49258216 
+021 00 *e 9788792830067 *c hf. 
+032 00 *x ACC201308 *a DBF201311 *x BKM201311 
+245 00 *g [Årgang] 2013 
+260 00 *c 2013 *k Rex 
+300 00 *a 310 sider *c 30 cm 
+990 00 *o 201311 *b v *u nt</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

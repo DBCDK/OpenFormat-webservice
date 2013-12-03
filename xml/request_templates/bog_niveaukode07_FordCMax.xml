@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>45034593|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9781844259007</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Ford C-Max</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Ford C-Max (2003-2010)</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Owners workshop manual ; 4900</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">M. R. Storey</dc:creator>
+              <dc:creator xsi:type="oss:sort">Storey, M. R.</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">62.7221 Ford</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Værksteds- og instruktionsbøger for enkelte bilmærker. Test af enkelte bilmærker</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">biler</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">reparationshåndbøger</dc:subject>
+              <dc:description>På omslaget: Step-by-step maintenance and repair</dc:description>
+              <dc:description>Models covered: C-Max MPV models:Petrol: 1.6 litre (1596cc), 1.8 litre (1798cc) &amp; 2.0 litre (1998cc) ; Turbo-Diesel: 1.6 litre (1560cc), 1.8 litre (1753cc) &amp; 2.0 litre (1997cc/1998cc). Does NOT cover 1.8 litre "flex fuel" models, or CVT og "Powershift" transmissions. Does NOT cover new C-Max range introduced October 2010</dc:description>
+              <dc:description>På omslaget: Ford C-Max 2003 to 2010 (53 to 60 reg) Petrol &amp; Diesel</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Haynes</dc:publisher>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>1 bind (flere pagineringer)</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">45034593</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20110408175119</marcx:subfield>
+                  <marcx:subfield code="d">20110408</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="b">756100</marcx:subfield>
+                  <marcx:subfield code="c">90755390</marcx:subfield>
+                  <marcx:subfield code="x">75610090755390</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="x">07</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9781844259007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Storey</marcx:subfield>
+                  <marcx:subfield code="h">M. R.</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Ford C-Max</marcx:subfield>
+                  <marcx:subfield code="ø">2003-2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Yeovil, Somerset</marcx:subfield>
+                  <marcx:subfield code="b">Haynes</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">1 bind (flere pagineringer)</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Owners workshop manual</marcx:subfield>
+                  <marcx:subfield code="v">4900</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På omslaget: Step-by-step maintenance and repair</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Models covered: C-Max MPV models:Petrol: 1.6 litre (1596cc), 1.8 litre (1798cc) &amp; 2.0 litre (1998cc) ; Turbo-Diesel: 1.6 litre (1560cc), 1.8 litre (1753cc) &amp; 2.0 litre (1997cc/1998cc). Does NOT cover 1.8 litre "flex fuel" models, or CVT og "Powershift" transmissions. Does NOT cover new C-Max range introduced October 2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På omslaget: Ford C-Max \2003 to 2010\ (53 to 60 reg) Petrol &amp; Diesel</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">62.7221</marcx:subfield>
+                  <marcx:subfield code="b">Ford</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">biler</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="o">reparationshåndbøger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">756100</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:45034593</os:identifier>
+            <os:creationDate>2011-04-08</os:creationDate>
+            <os:holdingsCount>12</os:holdingsCount>
+            <os:lendingLibraries>12</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_niveaukode07_FordCMax.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

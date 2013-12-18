@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Historisk-Topografisk Selskab for Frederiksberg
+T1  - Frederiksberg gennem tiderne
+SP  - illustreret
+PB  - Historisk-Topografisk Selskab for Frederiksberg
+CY  - Frederiksberg
+Y1  - 1946
+SN  - 01088777
+N1  - Intet udkommet 1976-1984
+CN  - 46.37 Frederiksberg
+KW  - Årspublikation
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

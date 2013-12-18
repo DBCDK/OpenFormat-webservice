@@ -1,0 +1,21 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 06758908 *b 870970 *c 20110310093455 *d 19880902 *f a 
+002 00 *b 810010 *d 01088777 *x 81001001088777 
+004 00 *r c *a e 
+008 00 *t p *u c *a 1946 *b dk *c k *h z *i b *l dan *v 0 
+009 00 *a a *g xx 
+022 00 *a 0108-8777 
+032 00 *a DPF197680 *x DAT199943 *x DAT200418 *x DAT200607 *x DAT201112 
+082 00 *a 948.91 
+245 00 *a Frederiksberg gennem tiderne 
+255 00 *a 1 (1946)- 
+260 00 *a [Frederiksberg] *b Historisk-Topografisk Selskab for Frederiksberg *g eksp. Frederiksberg Kommunes Biblioteker *d Falkoner Plads 3, 2000 *c 1946- 
+300 00 *b Ill. 
+500 00 *a Uregelmæssig 
+505 00 *&amp; 1 *a Årspublikation 
+512 00 *a Intet udkommet 1976-1984 
+652 00 *m 46.37 *b Frederiksberg 
+652 00 *p 46.37 
+710 00 *a Historisk-Topografisk Selskab for Frederiksberg 
+996 00 *a 810010</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

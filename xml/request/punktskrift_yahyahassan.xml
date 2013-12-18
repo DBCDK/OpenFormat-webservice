@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>DBB0413404|874310</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.e17.dk/bog/413404</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Yahya Hassan</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Yahya Hassan : digte</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Yahya Hassan (f. 1995)</dc:creator>
+              <dc:creator xsi:type="oss:sort">Hassan, Yahya (f. 1995)</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">ghettoer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">indvandrere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kriminalitet</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">svigt</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">unge</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">vold</dc:subject>
+              <dcterms:abstract>Digte der med vrede, indignation og stor sproglig kraft sætter ord på hvordan det er at vokse op i en ghetto, hvor vold, svigt og kriminalitet er en del af virkeligheden</dcterms:abstract>
+              <dc:description>Indhold: Barndom ; Uden for døren ; Nyren ; Plastikblomst ; Den arabiske prins ; Ord ; Parabol ; Ramadan ; Ferieminder I ; Trælameller ; Masjid Salsabil ; Gemmeleg ; Møllen ; Natbus ; Fladfisk ; Salam Habibi ; Lige før lukketid ; Den fromme ; Morgenbøn i Libanon ; 12 år ; Mosters mand ; Mor til tre fremmede søskende ; Ferieminder II ; Tvangsfjernet ; Opkald fra Mellemøsten ; Flytning ; Sveriges skove ; Ferieminder III ; Dimission ; Morgen ; Pædagogisk diktatur ; Det sjette opholdssted ; 14 år ; Den nye dreng ; Dagfunktion ; Pisprøve ; Kontaktperson ; Kaffeholdet ; Legalt natarbejde ; Skunkposen og ghettobanken ; Hævn ; Arrestordre ; Anholdt ; Totenschlæger ; Politijagt I ; Indbrud ; Bekendelser ; Røveriforsøget ; Arresten ; Stevnsfortet ; Løsladt ; Politijagt II ; Banke banke på ; Allah er uvidenhed ; Eid ; Vennedigt ; En radius af 100 meter ; Til psykopaterne ; Far min ufødte søn ; Du kommer i helvede min bror ; Jetlagformørkelse ; Rullestolen ; Fødslen ; Utopien ; Man græmmes ; Skuffelsen ; Februaruforudsigelighed ; Ghettoguide ; Påmindelse ; Dommedagen ; Handicapskolen ; Athan ; Makkerpar ; Afløser ; Langdigt</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Nota</dc:publisher>
+              <dc:date>2013</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Punktskrift</dc:type>
+              <dcterms:extent>2 bind</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">DBB0413404</marcx:subfield>
+                  <marcx:subfield code="b">874310</marcx:subfield>
+                  <marcx:subfield code="c">20131204102946</marcx:subfield>
+                  <marcx:subfield code="d">20131204</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2013</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">å</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">p</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">p</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Vær opmærksom på Notas vilkår for brug</marcx:subfield>
+                  <marcx:subfield code="d">Gratis</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Hassan</marcx:subfield>
+                  <marcx:subfield code="h">Yahya</marcx:subfield>
+                  <marcx:subfield code="c">f. 1995</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Yahya Hassan</marcx:subfield>
+                  <marcx:subfield code="c">digte</marcx:subfield>
+                  <marcx:subfield code="e">Yahya Hassan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">Nota</marcx:subfield>
+                  <marcx:subfield code="c">2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">2 bind</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="320">
+                  <marcx:subfield code="a">R93S</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Digte der med vrede, indignation og stor sproglig kraft sætter ord på hvordan det er at vokse op i en ghetto, hvor vold, svigt og kriminalitet er en del af virkeligheden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Originaludgave: 2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">AutoBraille version af udgaven: Kbh. : Gyldendal, 2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Også udgivet som:</marcx:subfield>
+                  <marcx:subfield code="u">http://www.e17.dk/bog/713404</marcx:subfield>
+                  <marcx:subfield code="y">DTBook</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="i">Indhold</marcx:subfield>
+                  <marcx:subfield code="t">Barndom</marcx:subfield>
+                  <marcx:subfield code="t">Uden for døren</marcx:subfield>
+                  <marcx:subfield code="t">Nyren</marcx:subfield>
+                  <marcx:subfield code="t">Plastikblomst</marcx:subfield>
+                  <marcx:subfield code="t">Den ¤arabiske prins</marcx:subfield>
+                  <marcx:subfield code="t">Ord</marcx:subfield>
+                  <marcx:subfield code="t">Parabol</marcx:subfield>
+                  <marcx:subfield code="t">Ramadan</marcx:subfield>
+                  <marcx:subfield code="t">Ferieminder I</marcx:subfield>
+                  <marcx:subfield code="t">Trælameller</marcx:subfield>
+                  <marcx:subfield code="t">Masjid Salsabil</marcx:subfield>
+                  <marcx:subfield code="t">Gemmeleg</marcx:subfield>
+                  <marcx:subfield code="t">Møllen</marcx:subfield>
+                  <marcx:subfield code="t">Natbus</marcx:subfield>
+                  <marcx:subfield code="t">Fladfisk</marcx:subfield>
+                  <marcx:subfield code="t">Salam Habibi</marcx:subfield>
+                  <marcx:subfield code="t">Lige før lukketid</marcx:subfield>
+                  <marcx:subfield code="t">Den ¤fromme</marcx:subfield>
+                  <marcx:subfield code="t">Morgenbøn i Libanon</marcx:subfield>
+                  <marcx:subfield code="t">12 år</marcx:subfield>
+                  <marcx:subfield code="t">Mosters mand</marcx:subfield>
+                  <marcx:subfield code="t">Mor til tre fremmede søskende</marcx:subfield>
+                  <marcx:subfield code="t">Ferieminder II</marcx:subfield>
+                  <marcx:subfield code="t">Tvangsfjernet</marcx:subfield>
+                  <marcx:subfield code="t">Opkald fra Mellemøsten</marcx:subfield>
+                  <marcx:subfield code="t">Flytning</marcx:subfield>
+                  <marcx:subfield code="t">Sveriges skove</marcx:subfield>
+                  <marcx:subfield code="t">Ferieminder III</marcx:subfield>
+                  <marcx:subfield code="t">Dimission</marcx:subfield>
+                  <marcx:subfield code="t">Morgen</marcx:subfield>
+                  <marcx:subfield code="t">Pædagogisk diktatur</marcx:subfield>
+                  <marcx:subfield code="t">Det ¤sjette opholdssted</marcx:subfield>
+                  <marcx:subfield code="t">14 år</marcx:subfield>
+                  <marcx:subfield code="t">Den ¤nye dreng</marcx:subfield>
+                  <marcx:subfield code="t">Dagfunktion</marcx:subfield>
+                  <marcx:subfield code="t">Pisprøve</marcx:subfield>
+                  <marcx:subfield code="t">Kontaktperson</marcx:subfield>
+                  <marcx:subfield code="t">Kaffeholdet</marcx:subfield>
+                  <marcx:subfield code="t">Legalt natarbejde</marcx:subfield>
+                  <marcx:subfield code="t">Skunkposen og ghettobanken</marcx:subfield>
+                  <marcx:subfield code="t">Hævn</marcx:subfield>
+                  <marcx:subfield code="t">Arrestordre</marcx:subfield>
+                  <marcx:subfield code="t">Anholdt</marcx:subfield>
+                  <marcx:subfield code="t">Totenschlæger</marcx:subfield>
+                  <marcx:subfield code="t">Politijagt I</marcx:subfield>
+                  <marcx:subfield code="t">Indbrud</marcx:subfield>
+                  <marcx:subfield code="t">Bekendelser</marcx:subfield>
+                  <marcx:subfield code="t">Røveriforsøget</marcx:subfield>
+                  <marcx:subfield code="t">Arresten</marcx:subfield>
+                  <marcx:subfield code="t">Stevnsfortet</marcx:subfield>
+                  <marcx:subfield code="t">Løsladt</marcx:subfield>
+                  <marcx:subfield code="t">Politijagt II</marcx:subfield>
+                  <marcx:subfield code="t">Banke banke på</marcx:subfield>
+                  <marcx:subfield code="t">Allah er uvidenhed</marcx:subfield>
+                  <marcx:subfield code="t">Eid</marcx:subfield>
+                  <marcx:subfield code="t">Vennedigt</marcx:subfield>
+                  <marcx:subfield code="t">En ¤radius af 100 meter</marcx:subfield>
+                  <marcx:subfield code="t">Til psykopaterne</marcx:subfield>
+                  <marcx:subfield code="t">Far min ufødte søn</marcx:subfield>
+                  <marcx:subfield code="t">Du kommer i helvede min bror</marcx:subfield>
+                  <marcx:subfield code="t">Jetlagformørkelse</marcx:subfield>
+                  <marcx:subfield code="t">Rullestolen</marcx:subfield>
+                  <marcx:subfield code="t">Fødslen</marcx:subfield>
+                  <marcx:subfield code="t">Utopien</marcx:subfield>
+                  <marcx:subfield code="t">Man græmmes</marcx:subfield>
+                  <marcx:subfield code="t">Skuffelsen</marcx:subfield>
+                  <marcx:subfield code="t">Februaruforudsigelighed</marcx:subfield>
+                  <marcx:subfield code="t">Ghettoguide</marcx:subfield>
+                  <marcx:subfield code="t">Påmindelse</marcx:subfield>
+                  <marcx:subfield code="t">Dommedagen</marcx:subfield>
+                  <marcx:subfield code="t">Handicapskolen</marcx:subfield>
+                  <marcx:subfield code="t">Athan</marcx:subfield>
+                  <marcx:subfield code="t">Makkerpar</marcx:subfield>
+                  <marcx:subfield code="t">Afløser</marcx:subfield>
+                  <marcx:subfield code="t">Langdigt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="i">Masternr.</marcx:subfield>
+                  <marcx:subfield code="a">413404</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">01</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">indvandrere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">unge</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">ghettoer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">vold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">svigt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">kriminalitet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="u">http://www.e17.dk/bog/413404</marcx:subfield>
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>874310-katalog:DBB0413404</os:identifier>
+            <os:creationDate>2013-12-04</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35770151</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35783032</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-forfweb:35788735</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:50825949</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35821317</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35765727</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35780122</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35756159</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35815694</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:50792110</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35774335</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35802746</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35833463</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35825835</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35832076</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35823743</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35763562</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:50760480</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+      <ns1:trackingId>punktskrift_yahyahassan.xml.fullDisplay</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

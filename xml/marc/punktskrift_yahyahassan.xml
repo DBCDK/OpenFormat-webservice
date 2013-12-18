@@ -1,0 +1,27 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a DBB0413404 *b 874310 *c 20131204102946 *d 20131204 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2013 *b dk *d å *d x *j p *l dan *v 0 
+009 00 *a p *b a *g xx 
+021 00 *b Vær opmærksom på Notas vilkår for brug *d Gratis 
+100 00 *a Hassan *h Yahya *c f. 1995 
+245 00 *a Yahya Hassan *c digte *e Yahya Hassan 
+260 00 *a Kbh. *b Nota *c 2013 
+300 00 *a 2 bind 
+320 00 *a R93S 
+504 00 *a Digte der med vrede, indignation og stor sproglig kraft sætter ord på hvordan det er at vokse op i en ghetto, hvor vold, svigt og kriminalitet er en del af virkeligheden 
+520 00 *a Originaludgave: 2013 
+520 00 *a AutoBraille version af udgaven: Kbh. : Gyldendal, 2013 
+520 00 *a Også udgivet som: *u http://www.e17.dk/bog/713404 *y DTBook 
+530 00 *i Indhold *t Barndom *t Uden for døren *t Nyren *t Plastikblomst *t Den ¤arabiske prins *t Ord *t Parabol *t Ramadan *t Ferieminder I *t Trælameller *t Masjid Salsabil *t Gemmeleg *t Møllen *t Natbus *t Fladfisk *t Salam Habibi *t Lige før lukketid *t Den ¤fromme *t Morgenbøn i Libanon *t 12 år *t Mosters mand *t Mor til tre fremmede søskende *t Ferieminder II *t Tvangsfjernet *t Opkald fra Mellemøsten *t Flytning *t Sveriges skove *t Ferieminder III *t Dimission *t Morgen *t Pædagogisk diktatur *t Det ¤sjette opholdssted *t 14 år *t Den ¤nye dreng *t Dagfunktion *t Pisprøve *t Kontaktperson *t Kaffeholdet *t Legalt natarbejde *t Skunkposen og ghettobanken *t Hævn *t Arrestordre *t Anholdt *t Totenschlæger *t Politijagt I *t Indbrud *t Bekendelser *t Røveriforsøget *t Arresten *t Stevnsfortet *t Løsladt *t Politijagt II *t Banke banke på *t Allah er uvidenhed *t Eid *t Vennedigt *t En ¤radius af 100 meter *t Til psykopaterne *t Far min ufødte søn *t Du kommer i helvede min bror *t Jetlagformørkelse *t Rullestolen *t Fødslen *t Utopien *t Man græmmes *t Skuffelsen *t Februaruforudsigelighed *t Ghettoguide *t Påmindelse *t Dommedagen *t Handicapskolen *t Athan *t Makkerpar *t Afløser *t Langdigt 
+538 00 *i Masternr. *a 413404 
+652 00 *n 86 *z 01 
+652 00 *o sk 
+666 00 *s indvandrere 
+666 00 *s unge 
+666 00 *s ghettoer 
+666 00 *s vold 
+666 00 *s svigt 
+666 00 *s kriminalitet 
+856 00 *u http://www.e17.dk/bog/413404 *z Adgangsmåde: Internet</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

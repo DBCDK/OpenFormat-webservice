@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+T1 Evidens og systematiske reviews : en introduktion
+SP 151 sider
+PB Samfundslitteratur
+PP Frederiksberg
+YR 2013
+SN 9788759317600
+NO Indhold: Olaf Rieper: Hvad er systematisk review, og hvilke formål tjener det? Kontekster og situationer, hvori systematiske reviews indgår / Camilla Brørup Dyssegaard ... et al. Afgrænsning af population, intervention og effekter og formulering af forskningsspørgsmål / Forskningsdesign og protokoller ; Syntetisering : meta-analyser og narrative synteser / Niels Ole Pors og Carl Gustav Johannsen. Litteraturrsøgningens metodik / Hanne Munch Kristiansen og Birger Hjørland. Inklusion og eksklusion af forskningsresultater / Camilla Brørup Dyssegaard ... et al.. Carl Gustav Johannsen: Formidling. Evidens og praksis / Maia Lindstrøm, Camilla Brørup Dyssegaard og Michael Søgaard Larsen
+CN 19.01
+K1 forskning
+K1 evidens
+K1 måling
+K1 evaluering
+K1 evidensbaseret forskning</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

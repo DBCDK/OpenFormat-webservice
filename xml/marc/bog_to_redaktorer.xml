@@ -1,0 +1,25 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50752356 *b 870970 *c 20131118180634 *d 20131017 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2013 *b dk *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788759317600 *c hf. 
+032 00 *a DBF201347 *x BKM201347 *x ACC201342 
+245 00 *a Evidens og systematiske reviews *c en introduktion 
+250 00 *a 1. udgave *b ÷ 
+260 00 *&amp; 1 *a Frederiksberg *b Samfundslitteratur *c 2013 
+300 00 *a 151 sider 
+521 00 *b 1. oplag *c 2013 *k Narayana pr., Gylling 
+530 00 *&amp; 1 *a Indhold: Olaf Rieper: Hvad er systematisk review, og hvilke formål tjener det? Kontekster og situationer, hvori systematiske reviews indgår / Camilla Brørup Dyssegaard ... [et al]. Afgrænsning af population, intervention og effekter og formulering af forskningsspørgsmål / Forskningsdesign og protokoller ; Syntetisering : meta-analyser og narrative synteser / Niels Ole Pors og Carl Gustav Johannsen. Litteraturrsøgningens metodik / Hanne Munch Kristiansen og Birger Hjørland. Inklusion og eksklusion af forskningsresultater / Camilla Brørup Dyssegaard ... et al.. Carl Gustav Johannsen: Formidling. Evidens og praksis / Maia Lindstrøm, Camilla Brørup Dyssegaard og Michael Søgaard Larsen 
+532 00 *&amp; 1 *a Med litteraturhenvisninger og links 
+652 00 *m 19.01 
+666 00 *0 *f forskning 
+666 00 *0 *f evidens 
+666 00 *0 *f måling 
+666 00 *0 *f evaluering 
+666 00 *0 *f evidensbaseret forskning 
+700 00 *a Pors *h Niels Ole *4 edt 
+700 00 *a Johannsen *h Carl Gustav *4 edt 
+990 00 *o 201347 *b l *b v *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

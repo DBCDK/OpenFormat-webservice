@@ -1,0 +1,25 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 85885715 *b 870971 *c 20010116153654 *d 20001214 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2000 *b dk *l dan *v 0 *r ap 
+009 00 *a a *g xx 
+016 00 *a 03301044 
+032 00 *a ABU200103 *a DAR200012 
+041 00 *a dan *d eng 
+086 00 *a Bevægeapparatets sygdomme 
+245 00 *a Aggresiv fibromatose 
+300 00 *a S. 6676-6678 
+508 00 *a Med engelsk resume 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Ugeskrift for læger *j 2000 *z 0041-5782 *V Årg. 0162, nr. 0049 (2000) *v Årg. 162, nr. 49 (2000) 
+652 00 *m 61.65 
+666 00 *0 *f fibromatose 
+666 00 *0 *f bindevævssygdomme 
+666 00 *0 *f svulster 
+700 00 *a Sørensen *h Annemette 
+700 00 *a Keller *h Johnny Ø. 
+700 00 *a Nielsen *h Ole Steen 
+700 00 *å 1 *a Myhre Jensen *h Olaf 
+900 00 *a Jensen *h Olaf Myhre *z 700/1 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

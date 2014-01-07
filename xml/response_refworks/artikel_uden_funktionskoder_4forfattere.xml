@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
+SR Print(0)
+A1 Sørensen,Annemette
+A1 Keller,Johnny Ø.
+A1 Nielsen,Ole Steen
+A1 Myhre Jensen,Olaf
+T1 Aggresiv fibromatose
+VO 162
+IS 49
+SP 6676
+OP 6678
+YR 2000
+JF Ugeskrift for læger
+SN 0041-5782
+CN 61.65
+K1 fibromatose
+K1 bindevævssygdomme
+K1 svulster</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

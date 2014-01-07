@@ -1,0 +1,23 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 85857673 *b 870971 *c 20050721132445 *d 20001127 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2000 *b dk *l dan *v 0 *r an 
+009 00 *a a *g xx 
+016 00 *a 03242617 
+032 00 *a ABU200530 *a DAR200011 
+086 00 *a Virksomhedsledelse i alm. Organisationsteori 
+245 00 *a Spild af penge på pension og frynsegoder *e Susanne Tholstrup, interview med Henning Ryberg Nielsen, Holger Hjortlund *x Grænseløse frynser hos Navision *e Susanne Tholstrup 
+300 00 *a KarriereJob, s. 4-5 
+504 00 *a Analyse foretaget af konsulentvirksomheden William M. Mercer viser at hverken virksomhed eller ansatte har nytte af de frynsegoder og pensionsordninger, som hvert år koster virksomhederne store summer 
+557 00 *a Børsen *j 2000 *z 0105-0729 *V 2000-11-24 *v 2000-11-24 
+652 00 *m 60.1 
+666 00 *0 *f lønmodtagere 
+666 00 *0 *f personalegoder 
+666 00 *0 *f personalegoder 
+666 00 *0 *f virksomheder 
+700 00 *a Tholstrup *h Susanne 
+700 00 *å 1 *a Ryberg Nielsen *h Henning 
+700 00 *a Hjortlund *h Holger 
+900 00 *a Nielsen *h Henning Ryberg *z 700/1 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

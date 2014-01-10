@@ -155,10 +155,12 @@
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictionsMovie" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:requestButton" minOccurs="1"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:orsOrderMaterialType" minOccurs="0"/>
 				<xs:element ref="bibdk:webArchive" minOccurs="0"/>
+				<xs:element ref="bibdk:specifyArticleData" minOccurs="1"/>
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
@@ -478,14 +480,33 @@
 	<xs:element name="holdbackEndDate" type="xs:date"/>
 	<xs:element name="hostPublication">
 		<xs:complexType>
-			<xs:simpleContent>
-				<xs:extension base="xs:string">
-					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
-				</xs:extension>
-			</xs:simpleContent>
+			<xs:sequence>
+				<xs:element ref="bibdk:hostPublicationSeries" minOccurs="0"/>
+				<xs:element ref="bibdk:hostPublicationElement" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		        <xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="hostPublicationID" type="xs:string"/>
+	<xs:element name="hostPublicationElement">
+        	<xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="punctuation" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+        </xs:element>
+	<xs:element name="hostPublicationSeries">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:searchCode"/>
+				<xs:element ref="bibdk:display"/>
+			</xs:sequence>
+			<xs:attribute name="className" type="xs:string"/>
+		        <xs:attribute name="punctuation" type="xs:string"/>
+		</xs:complexType>
+        </xs:element>
 	<xs:element name="identifier" type="xs:string"/>
 	<xs:element name="identifierDescriptor" type="xs:string"/>
 	<xs:element name="identifiers">
@@ -631,6 +652,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="requestButton" type="xs:string"/>
 	<xs:element name="requestMethod" type="xs:string"/>
 	<xs:element name="restrictedUse" type="xs:string"/>
 	<xs:element name="restrictionsMovie" type="xs:string"/>
@@ -746,6 +768,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="dependentTitle" type="xs:string"/>
+	<xs:element name="specifyArticleData" type="xs:string"/>
 	<xs:element name="titleFull" type="xs:string"/>
 	<xs:element name="titleSpecific" type="xs:string"/>
 	<xs:element name="type">

@@ -351,6 +351,7 @@
 	<xs:element name="description">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:hostPublicationLink" minOccurs="0"/>
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:language" minOccurs="0"/>
 				<xs:element ref="bibdk:subjects" minOccurs="0"/>
@@ -478,13 +479,21 @@
 	</xs:element>
 	<xs:element name="genre" type="xs:string"/>
 	<xs:element name="holdbackEndDate" type="xs:date"/>
-	<xs:element name="hostPublication">
+	<xs:element name="hostPublicationLink">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:hostPublicationSeries" minOccurs="0"/>
 				<xs:element ref="bibdk:hostPublicationElement" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
-		        <xs:attribute name="punctuation" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hostPublication">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="hostPublicationID" type="xs:string"/>
@@ -588,6 +597,7 @@
 	<xs:element name="publicationDetails">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="bibdk:hostPublicationLink" minOccurs="0"/>
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:edition" minOccurs="0"/>

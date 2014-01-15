@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
 A1  - Sonne,Laust
+A2  - Braager,Rune
+A2  - Juel,Nikolaj
+A2  - Molbech,Nicolai
+A2  - Sonne,Kristoffer
+A2  - Torp Larsen,Nikolaj
+A2  - Winther-John,Marcus
 T1  - Laust Sonne
 SP  - 1 cd + 1 bilag
 ET  - 2012 version

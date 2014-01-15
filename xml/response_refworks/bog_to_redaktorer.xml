@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Print(0)
+A2 Pors,Niels Ole
+A2 Johannsen,Carl Gustav
 T1 Evidens og systematiske reviews : en introduktion
 SP 151 sider
 PB Samfundslitteratur

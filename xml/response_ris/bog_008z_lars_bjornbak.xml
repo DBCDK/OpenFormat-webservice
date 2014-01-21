@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Bjørnbak,Viggo
+T1  - Lars Bjørnbak, hans Liv og Virken
+SP  - 262 s.
+CY  - En historisk Fremstilling af B. Århus
+Y1  - 1880
+N1  - Katalogpost fra trykt bibliografi 14288. - Uafsluttet føljeton til Aarhus Amtstidende
+KW  - Lars BjØrnbak, 1824-1878, højskoleforstander, politiker
+KW  - Biografier af enkelte personer
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

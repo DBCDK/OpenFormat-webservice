@@ -1,0 +1,16 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a ADL134781 *b 159014 *f a 
+004 00 *r n *a e 
+008 00 *t m *a 1880 *z 1882 *b dk *l dan *v 9 
+009 00 *a a *g xx 
+032 00 *x DLB 
+033 00 *a 751 *b �rhus Kommune 
+100 00 *a Bjørnbak *h Viggo 
+245 00 *a Lars Bjørnbak, hans Liv og Virken 
+260 00 *a En historisk Fremstilling af B. Århus *c 1880-1882 
+300 00 *a 262 s. 
+512 00 *a Katalogpost fra trykt bibliografi *b 14288 
+530 00 *a Uafsluttet føljeton til Aarhus Amtstidende 
+600 00 *a BjØrnbak *h Lars *c 1824-1878 *f højskoleforstander, politiker 
+631 00 *a Biografier af enkelte personer</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

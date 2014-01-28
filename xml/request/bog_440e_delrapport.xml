@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>22713566|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">87-7862-064-3</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.oem.dk/publikationer/2000udvalget/d1_samlet.pdf</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.statensnet.dk/pligtarkiv/fremvis.pl?vaerkid=3028&amp;reprid=0&amp;iarkiv=1</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>IT-udviklingen og den finansielle sektor</dc:title>
+              <dc:title xsi:type="dkdcplus:full">IT-udviklingen og den finansielle sektor</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Delrapport (Økonomiministeriets udvalg om den finansielle sektor efter år 2000) ; nr. 1</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">33.21</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">IT</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Penge- og kapitalmarkedet</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">banker</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">elektronisk betalingsformidling</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">finanssektoren</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">pengeinstitutter</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">udvikling</dc:subject>
+              <dc:description>Kapitlerne kan nedtages enkeltvis i pdf-format på http://195.184.36.226/pub/2000udvalget/index1.html</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Økonomiministeriet</dc:publisher>
+              <dc:publisher>afgivet af Økonomiministeriets udvalg om den finansielle sektor efter år 2000</dc:publisher>
+              <dc:contributor>Økonomiministeriet Udvalget om den Finansielle Sektor efter år 2000</dc:contributor>
+              <dc:date>1999</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">22713566</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20130119045209</marcx:subfield>
+                  <marcx:subfield code="d">19990921</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="d">I003902</marcx:subfield>
+                  <marcx:subfield code="x">870970I003902</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1999</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="e">2</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="w">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">87-7862-064-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">IDO199950</marcx:subfield>
+                  <marcx:subfield code="x">DIT200206</marcx:subfield>
+                  <marcx:subfield code="x">SNE200445</marcx:subfield>
+                  <marcx:subfield code="x">DIT200517</marcx:subfield>
+                  <marcx:subfield code="x">DIT200535</marcx:subfield>
+                  <marcx:subfield code="x">DAT991304</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">IT-udviklingen og den finansielle sektor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">[Økonomiministeriet]</marcx:subfield>
+                  <marcx:subfield code="c">1999</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Delrapport</marcx:subfield>
+                  <marcx:subfield code="e">afgivet af Økonomiministeriets udvalg om den finansielle sektor efter år 2000</marcx:subfield>
+                  <marcx:subfield code="ø">Økonomiministeriets udvalg om den finansielle sektor efter år 2000</marcx:subfield>
+                  <marcx:subfield code="V">1</marcx:subfield>
+                  <marcx:subfield code="v">nr. 1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Kapitlerne kan nedtages enkeltvis i pdf-format på</marcx:subfield>
+                  <marcx:subfield code="u">http://195.184.36.226/pub/2000udvalget/index1.html</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="a">Hovedrapport med titel: Den finansielle sektor efter år 2000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">33.21</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">finanssektoren</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">udvikling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">IT</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">banker</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">pengeinstitutter</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">elektronisk betalingsformidling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="c">Økonomiministeriet</marcx:subfield>
+                  <marcx:subfield code="c">Udvalget om den Finansielle Sektor efter år 2000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://www.oem.dk/publikationer/2000udvalget/d1_samlet.pdf</marcx:subfield>
+                  <marcx:subfield code="s">1046 kB</marcx:subfield>
+                  <marcx:subfield code="z">Kræver læseprogrammet Acrobat Reader</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til version i Statens Netbibliotek</marcx:subfield>
+                  <marcx:subfield code="u">http://www.statensnet.dk/pligtarkiv/fremvis.pl?vaerkid=3028&amp;reprid=0&amp;iarkiv=1</marcx:subfield>
+                  <marcx:subfield code="y">PDF-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="c">Udvalget om den Finansielle Sektor efter år 2000, Økonomiministeriet</marcx:subfield>
+                  <marcx:subfield code="z">710</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:22713566</os:identifier>
+            <os:creationDate>2005-03-01</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+      <ns1:trackingId>bog_440e_delrapport.xml.fullDisplay</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

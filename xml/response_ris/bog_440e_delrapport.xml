@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A2  - Økonomiministeriet. Udvalget om den Finansielle Sektor efter år 2000
+T1  - IT-udviklingen og den finansielle sektor
+PB  - Økonomiministeriet
+Y1  - 1999
+SN  - 8778620643
+T3  - Delrapport (Økonomiministeriets udvalg om den finansielle sektor efter år 2000), nr. 1
+N1  - Kapitlerne kan nedtages enkeltvis i pdf-format på: http://195.184.36.226/pub/2000udvalget/index1.html
+CN  - 33.21
+KW  - finanssektoren
+KW  - udvikling
+KW  - IT
+KW  - banker
+KW  - pengeinstitutter
+KW  - elektronisk betalingsformidling
+KW  - Danmark
+UR  - http://www.oem.dk/publikationer/2000udvalget/d1_samlet.pdf
+UR  - http://www.statensnet.dk/pligtarkiv/fremvis.pl?vaerkid=3028&amp;reprid=0&amp;iarkiv=1
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 22713566 *b 870970 *c 20130119045209 *d 19990921 *f a 
+002 00 *b 870970 *d I003902 *x 870970I003902 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1999 *b dk *e 2 *l dan *v 0 *w 1 
+009 00 *a a *g xe 
+021 00 *a 87-7862-064-3 
+032 00 *a IDO199950 *x DIT200206 *x SNE200445 *x DIT200517 *x DIT200535 *x DAT991304 
+245 00 *a IT-udviklingen og den finansielle sektor 
+260 00 *b [Økonomiministeriet] *c 1999 
+440 00 *0 *a Delrapport *e afgivet af Økonomiministeriets udvalg om den finansielle sektor efter år 2000 *ø Økonomiministeriets udvalg om den finansielle sektor efter år 2000 *V 1 *v nr. 1 
+512 00 *a Kapitlerne kan nedtages enkeltvis i pdf-format på *u http://195.184.36.226/pub/2000udvalget/index1.html 
+526 00 *a Hovedrapport med titel: Den finansielle sektor efter år 2000 
+652 00 *m 33.21 
+666 00 *0 *f finanssektoren 
+666 00 *0 *f udvikling 
+666 00 *0 *f IT 
+666 00 *0 *f banker 
+666 00 *0 *f pengeinstitutter 
+666 00 *0 *f elektronisk betalingsformidling 
+666 00 *0 *e Danmark 
+710 00 *c Økonomiministeriet *c Udvalget om den Finansielle Sektor efter år 2000 
+856 00 *z Adgangsmåde: Internet *u http://www.oem.dk/publikationer/2000udvalget/d1_samlet.pdf *s 1046 kB *z Kræver læseprogrammet Acrobat Reader 
+856 00 *z Adgang til version i Statens Netbibliotek *u http://www.statensnet.dk/pligtarkiv/fremvis.pl?vaerkid=3028&amp;reprid=0&amp;iarkiv=1 *y PDF-format 
+910 00 *c Udvalget om den Finansielle Sektor efter år 2000, Økonomiministeriet *z 710 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

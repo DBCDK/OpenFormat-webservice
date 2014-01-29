@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EJOUR
+T1  - Semiconductor international
+PB  - Cahners Pub. Co., etc
+CY  - Newton, MA, etc.
+Y1  - 1978
+N1  - "Processing, assembly and testing.". - Latest issue consulted: Vol. 28, no. 7 (Mid-June 2005)
+KW  - Semiconductor industry, Periodicals
+KW  - Semiconductors, Periodicals
+UR  - http://ez.statsbiblioteket.dk:2048/login?url=http://global.factiva.com/en/sess/login.asp?XSID=S00YWFo0HVpMDAo5DEs5DEoM9IqMTIsND3yMHn0YqYvMq382rbRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQQAA
+UR  - http://ez.statsbiblioteket.dk:2048/login?url=http://search.proquest.com/publication/48708
+UR  - http://ez.statsbiblioteket.dk:2048/login?url=http://search.proquest.com/publication/48708
+UR  - http://ez.statsbiblioteket.dk:2048/login?url=http://www.lexisnexis.com/hottopics/lnacademic/?verb=srcsi=250138
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

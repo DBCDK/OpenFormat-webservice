@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Delpino,M. A. Fugazzola
+A2  - Pessina,A.
+A2  - Tinè,V.
+A2  - Italy. Ministero per i beni e le attività culturali
+T1  - Le ceramiche impresse nel Neolitico Antico : Italia e Mediterraneo
+SP  - 832 s., illustreret
+PB  - Istituto Poligrafico e Zecca dello Stato
+CY  - Roma
+Y1  - 2003
+SN  - 03925250
+T3  - Studi di Paletnologia, I
+N1  - Øverst på titelbladet : Ministero per i Beni e la Attività Culturali. - Øverst på titelbladet : Soprintendenza speciale al Museo Nazionale Prehistorico Etnografico "L. Pigorini"
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

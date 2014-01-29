@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Reymont,W. S.
+A1  - Bjørn,Agnethe
+T1  - Bønderne. Bind 4:1. Sommeren
+SP  - 6 kassetter
+PB  - Den grimme Ælling
+CY  - Odense
+Y1  - 1987
+N1  - Roman om polske bønder. - Oversat af Valdemar Rørdam ; revideret af Kristine Netteberg. - Spilletid: Bind 1: 570 min. Bind 2: 570 min. Bind 3: 715 min. Bind 4: 620 min.
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

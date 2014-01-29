@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Sayers,Dorothy L.
+T1  - Murder must advertise
+SP  - 111 sider, illustreret
+ET  - New edition
+PB  - Aschehoug
+CY  - Copenhagen
+Y1  - 1968
+SN  - 8711091525
+T3  - Easy readers. D, Suspense
+T3  - Easy readers
+T3  - Easy readers. D
+N1  - Kriminalroman hvori Lord Peter Wimsey søger ansættelse i et reklamebureau for at undersøge en medarbejders mystiske død og samtidig inddrages i medarbejdernes intriger
+CN  - 83
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

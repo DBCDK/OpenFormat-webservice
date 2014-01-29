@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Espinosa,Gastón
+T1  - Religion, race, and Barack Obama's new democratic pluralism
+SP  - p. cm.
+PB  - Routledge
+CY  - New York
+Y1  - 2012
+SN  - 9780415633765, 9780415633772, 9780203094839
+T3  - Routledge research in American politics and governance, 2
+N1  - Preface -- Religion, politics, and American society / Gastón Espinosa -- Mainline Protestants and the 2008 election / Laura R. Olson, Adam L. Warber, Kevin R. den Dulk -- Evangelicals and the 2008 election / Corwin Smidt -- Catholics and the 2008 election / David C. Leege and Stephen T. Mockabee -- Jews and the 2008 election / Kenneth Wald -- Muslims and the 2008 election / Brian Calfano, Paul A. Djupe, John C. Green -- Seculars and the 2008 election / Lyman Kellstedt and James L. Guth -- Women, religion, and the 2008 election / Katherine Knutson -- African Americans, religion, and the 2008 election / Valerie Cooper and Corwin Smidt -- Latinos, religion, and the 2008 election / Gastón Espinosa -- Asian Americans, religion, and the 2008 election / So Young Kim and Russell Jeung -- Conclusion
+KW  - Barack Obama
+KW  - Presidents, United States, Election, 2008
+KW  - Religion and politics, United States, History, 21st century
+KW  - Cultural pluralism, United States, History, 21st century
+KW  - United States, Race relations, Political aspects, History, 21st century
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

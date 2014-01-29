@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Beethoven,Ludwig van
+A1  - Dausgaard,Thomas
+A1  - Det Svenske Kammerorkester
+T1  - Prometheus
+SP  - 2 cd'er + 1 kommentarbilag
+PB  - Simax
+Y1  - 2013
+SN  - Simax Classics PSC 1284
+T3  - The complete orchestral works of Ludwig van Beethoven, volume 11
+N1  - Indspillet i Örebros Koncertsal, Sverige 19.-24. januar 2009
+KW  - klassik
+KW  - wienerklassik
+KW  - balletmusik
+KW  - instrumental
+KW  - orkester
+KW  - 1790-1799
+KW  - 1800-1809
+KW  - Tyskland
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

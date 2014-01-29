@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - JOUR
+A1  - Elbech,Mikkel
+A1  - Cohen,Adam
+T1  - Hvad fatter gør...
+VL  - 2011
+IS  - 10
+SP  - 34
+EP  - 35
+Y1  - 2011
+JF  - Gaffa
+SN  - 0109-0097
+N1  - Med sit nye album læggger Adam Cohen ikke længere afstand til sin far. Tværtimod er albummet en hyldest til faderen. - I anledning af albummet "Like a man"
+CN  - 99.4 Cohen, Adam
+KW  - Adam Cohen
+KW  - Canada
+KW  - folk
+KW  - singer/songwriter
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

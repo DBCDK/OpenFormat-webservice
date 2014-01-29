@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Salinger,J. D.
+T1  - Griberen i rugen
+PB  - Danmarks Blindebibliotek
+Y1  - 2005
+SN  - 704170
+N1  - En 17-årig amerikansk ung mands konflikt med sig selv og de voksnes verden. - DTBook
+CN  - skønlitteratur
+KW  - unge
+KW  - identitet
+KW  - kriser
+KW  - USA
+UR  - http://www.e17.dk/portalen/laeserum/findogbestil.aspx?pid=infoxml.e17&amp;xml=704170
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

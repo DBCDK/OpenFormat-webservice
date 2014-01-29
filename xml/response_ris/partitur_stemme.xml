@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - MUSIC
+A1  - Jones,Mason
+T1  - The horn collection : 14 pieces by 11 composers : easy to intermediate level
+SP  - 1 partitur og klaverpartitur, 32 sider + 1 stemme + 1 cd + 1 installationsvejledning
+PB  - Schirmer
+CY  - New York, N.Y.
+Y1  - 2009
+SN  - 9781423406501, HL 50486136, Hal Leonard 63009893
+T3  - The G. Schirmer instrumental library
+N1  - Cd: The horn collection / Bernhard Scully, horn, med Vincent Fuh. New York, N.Y. : Schirmer ; Milwaukee, Wis. : distributed by Hal Leonard, p 2009. 1 cd : stereo. Gennemspilning af stykkerne i nodehæftet med og uden horn. Indspillet efter music-minus-one-princippet. Cd-rom-indhold: Amazing slow downer software, som kan regulere musikkens afspilningshastighed uden at ændre tonehøjden. Bestillingsnr.: 63009893. - For horn og klaver. - For horn i F. - Med noter til de enkelte stykker. - Med spillevejledning
+CN  - 78.435
+KW  - barok
+KW  - klassik
+KW  - wienerklassik
+KW  - romantik
+KW  - senromantik
+KW  - instrumental
+KW  - horn
+KW  - 1700-1799
+KW  - 1800-1899
+KW  - Tyskland
+KW  - Østrig
+KW  - England
+KW  - Italien
+KW  - for let øvede
+KW  - music minus one
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

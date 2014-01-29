@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A2  - Viborg Kommune
+T1  - Område til almene formål og boliger ved Gl. Banevej i Karup, lokalplan
+SP  - 32 sider, illustreret
+PB  - Viborg Kommune
+CY  - Viborg
+Y1  - 2012
+T3  - Lokalplan (Viborg kommune), nr. 393
+N1  - Vedtaget af Viborg byråd den 25. januar 2012
+CN  - 71.9564 Karup
+KW  - Karup
+KW  - Gl. Banevej, Karup
+UR  - http://viborg.dk/db/Plan.nsf/pdf/393_vedtaget/$File/393_vedtaget.pdf
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

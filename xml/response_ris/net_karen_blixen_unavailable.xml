@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+T1  - Karen Blixen
+PB  - Pia Vigh
+Y1  - 1997
+N1  - Hensigten med siden er at gøre oplysninger om Karen Blixen (1885-1962) let tilgængelige for studerende og forskere. Indeholder artikler og litteraturhenvisninger samt adgang til et chatroom kaldet Blixenania. - Ajourføres
+CN  - 99.4 Blixen, Karen
+KW  - Karen Blixen
+KW  - forfattere
+KW  - dansk litteratur
+KW  - litteratur
+KW  - Danmark
+KW  - 1900-1999
+KW  - biografier
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

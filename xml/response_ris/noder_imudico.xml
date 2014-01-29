@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - MUSIC
+A1  - Rasmussen,John, f. 1937
+T1  - Imudico's melodibog 73 : for el-orgel, klaver og guitar med becifring og akkord-diagrammer
+SP  - 54, VIII sider
+PB  - Imudico
+CY  - Kbh.
+Y1  - 2005
+N1  - Akkorder vist i klaviatur. - For sangstemme med becifring. - Med sangtekster. - Med alfabetisk register til bind 1-73
+CN  - 78.797
+KW  - pop
+KW  - rock
+KW  - vokal
+KW  - 1900-1999
+KW  - 2000-2009
+KW  - Danmark
+KW  - Sverige
+KW  - England
+KW  - Tyskland
+KW  - USA
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Marenco,Susan
+A1  - Walt Disney (firma)
+T1  - Snehvide og bjørneungen
+SP  - 28 sider, illustreret i farver
+PB  - Disneyklubberne
+CY  - Kbh.
+Y1  - 2007
+SN  - 9788770620185
+T3  - Disney princess bogklub
+N1  - På omslaget: Egmont Kids
+CN  - skønlitteratur
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

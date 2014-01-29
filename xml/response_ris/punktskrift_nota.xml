@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Field,John
+T1  - Nocturner for klaver
+SP  - 13 sider
+PB  - Danmarks Blindebibliotek
+CY  - Kbh.
+Y1  - 2009
+SN  - 812331
+N1  - Overført i ?. - Digital punktnode. - 1 bind, 27 sider. - For klaver
+UR  - http://www.e17.dk/bog/812331
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

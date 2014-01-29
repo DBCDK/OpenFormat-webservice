@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - GEN
+A1  - Else Nordlien
+T1  - Anbefaling af: Skyggerne og regnen
+PB  - Litteratursiden
+Y1  - 2009
+N1  - Skyggerne og regnen er en af mine yndlingsbøger. Den indeholder alt hvad der kan indeholdes i den kategori.
+KW  - Håkan Nesser
+KW  - Skyggerne og regnen
+UR  - http://www.litteratursiden.dk/?q=node/76120
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EJOUR
+A1  - Anne Mette Liedecke
+T1  - Analyse af: Vita Andersen - Hva'for en hånd vil du ha'
+PB  - Litteratursiden
+Y1  - 2002
+N1  - Vita Andersen er blandt de kvindelige forfattere, der tegner det nye billede af den moderne kvinde. I Hva'for en hånd vil du ha' fokuserer hun på mor-barnforholdet.
+KW  - Hva'for en hånd vil du ha'
+KW  - Vita Andersen
+KW  - nonfiktion
+KW  - litteraturanalyse
+UR  - http://www.litteratursiden.dk/?q=node/58841
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

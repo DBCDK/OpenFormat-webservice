@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Reuter,Johan
+A2  - Henzen,Wilhelm
+A2  - Jacobsen,J. P., f. 1847
+A2  - Lønskov,Tove
+T1  - Lieder
+SP  - 1 cd
+PB  - Michael Storrs Music
+CY  - London
+Y1  - 2008
+SN  - MSM 0011
+N1  - Indspillet i Berlin 29.-30. september 2008. - Tekster på omslag
+KW  - senromantik
+KW  - sange
+KW  - lied
+KW  - vokal
+KW  - baryton
+KW  - 1880-1889
+KW  - 1890-1899
+KW  - Tyskland
+KW  - nationalromantik
+KW  - Danmark
+KW  - 1900-1909
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

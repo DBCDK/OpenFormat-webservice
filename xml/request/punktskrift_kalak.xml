@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>DBB0108044|874310</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Kalak</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Kalak : erindringsroman</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Kim Leine</dc:creator>
+              <dc:creator xsi:type="oss:sort">Leine, Kim</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">far-søn forholdet</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">incest</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kærlighed</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">mænd</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">stofmisbrug</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">sygepleje</dc:subject>
+              <dcterms:abstract>Kim kommer som 17-årig til København for at bo hos sin far, der udsætter ham for seksuelt misbrug camoufleret som kærlighed. Som færdiguddannet sygeplejerske kommer han til Grønland, som han falder totalt for, men opgøret med offerrollen bringer ham ud og ind af misbrug</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Danmarks Blindebibliotek</dc:publisher>
+              <dc:date>2008</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Punktskrift</dc:type>
+              <dcterms:extent>8 bind</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Grønland</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">DBB0108044</marcx:subfield>
+                  <marcx:subfield code="b">874310</marcx:subfield>
+                  <marcx:subfield code="c">20080918103624</marcx:subfield>
+                  <marcx:subfield code="d">20080909</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2008</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">p</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Vær opmærksom på Notas vilkår for brug</marcx:subfield>
+                  <marcx:subfield code="d">Gratis</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Leine</marcx:subfield>
+                  <marcx:subfield code="h">Kim</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Kalak</marcx:subfield>
+                  <marcx:subfield code="c">erindringsroman</marcx:subfield>
+                  <marcx:subfield code="e">Kim Leine</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">Danmarks Blindebibliotek</marcx:subfield>
+                  <marcx:subfield code="c">2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">8 bind</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="320">
+                  <marcx:subfield code="a">R93S</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Kim kommer som 17-årig til København for at bo hos sin far, der udsætter ham for seksuelt misbrug camoufleret som kærlighed. Som færdiguddannet sygeplejerske kommer han til Grønland, som han falder totalt for, men opgøret med offerrollen bringer ham ud og ind af misbrug</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Originaludgave: 2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Overført efter udgaven: Kbh. : Gyldendal, 2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="i">Masternr.</marcx:subfield>
+                  <marcx:subfield code="a">108044</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">06</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">incest</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">far-søn forholdet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">stofmisbrug</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">kærlighed</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">sygepleje</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="s">mænd</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="q">Grønland</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>874310-katalog:DBB0108044</os:identifier>
+            <os:creationDate>2008-09-22</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:89364728</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:89368243</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-forfweb:89889634</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:89393795</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:33319495</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:33420048</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:33353979</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:34721378</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35070087</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35070419</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35080228</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35078274</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35078150</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35091351</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35080821</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35286772</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35496831</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35505598</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35478612</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35467254</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>150005-anmeld:62298</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>fullDisplay</ns1:outputFormat>
+      <ns1:trackingId>punktskrift_kalak.xml.fullDisplay</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>24687899|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">87-7553-969-1</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Succesmagerne</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Succesmagerne : ni veje til succes</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Annemarie Østergaard</dc:creator>
+              <dc:creator xsi:type="oss:sort">Østergaard, Annemarie</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">15.2</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Praktisk etik i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">personlig udvikling</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">succes</dc:subject>
+              <dcterms:abstract>Ni interview med udvalgte danske succesmagere inden for erhvervsliv, teknologi, design og litteratur kortlægger de personlighedstræk der fører til persontyper med succesmagerevner</dcterms:abstract>
+              <dc:description>Interview med: Søren Ejlersen, Jacob Jensen, Lars Kolind, Lars Larsen, Peter Lassen, Marie Poulsen, Charlotte Sparre, Lars Thrane, Jane Aamund</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. udgave, 1. oplag</dkdcplus:version>
+              <dc:publisher>Børsen</dc:publisher>
+              <dc:contributor>Søren Ejlersen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ive">Søren Ejlersen ... [et al.]</dc:contributor>
+              <dc:date>2003</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret i farver</dc:format>
+              <dcterms:extent>288 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">24687899</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20111203121241</marcx:subfield>
+                  <marcx:subfield code="d">20030610</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2003</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">87-7553-969-1</marcx:subfield>
+                  <marcx:subfield code="c">ib.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 455,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF200329</marcx:subfield>
+                  <marcx:subfield code="x">SFD200329</marcx:subfield>
+                  <marcx:subfield code="x">ACC200324</marcx:subfield>
+                  <marcx:subfield code="x">DAT991149</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Østergaard</marcx:subfield>
+                  <marcx:subfield code="h">Annemarie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Succesmagerne</marcx:subfield>
+                  <marcx:subfield code="c">ni veje til succes</marcx:subfield>
+                  <marcx:subfield code="e">Annemarie Østergaard</marcx:subfield>
+                  <marcx:subfield code="e">med interview med Søren Ejlersen ... [et al.]</marcx:subfield>
+                  <marcx:subfield code="f">foto: Jørgen True</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. udgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                  <marcx:subfield code="x">1. oplag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">Børsen</marcx:subfield>
+                  <marcx:subfield code="c">2003</marcx:subfield>
+                  <marcx:subfield code="k">Nordisk Bogpr.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">288 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill. i farver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Ni interview med udvalgte danske succesmagere inden for erhvervsliv, teknologi, design og litteratur kortlægger de personlighedstræk der fører til persontyper med succesmagerevner</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Interview med: Søren Ejlersen, Jacob Jensen, Lars Kolind, Lars Larsen, Peter Lassen, Marie Poulsen, Charlotte Sparre, Lars Thrane, Jane Aamund</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">15.2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">succes</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">personlig udvikling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ejlersen</marcx:subfield>
+                  <marcx:subfield code="h">Søren</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="a">SFD</marcx:subfield>
+                  <marcx:subfield code="o">200329</marcx:subfield>
+                  <marcx:subfield code="b">L</marcx:subfield>
+                  <marcx:subfield code="c">A</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:24687899</os:identifier>
+            <os:creationDate>2005-03-01</os:creationDate>
+            <os:holdingsCount>45</os:holdingsCount>
+            <os:lendingLibraries>45</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:87689271</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:30423097</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_fag_med_100.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

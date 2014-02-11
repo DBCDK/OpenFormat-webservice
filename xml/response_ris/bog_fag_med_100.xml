@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Østergaard,Annemarie
+A2  - Ejlersen,Søren
+T1  - Succesmagerne : ni veje til succes
+SP  - 288 sider, illustreret i farver
+PB  - Børsen
+CY  - Kbh.
+Y1  - 2003
+SN  - 8775539691
+N1  - Ni interview med udvalgte danske succesmagere inden for erhvervsliv, teknologi, design og litteratur kortlægger de personlighedstræk der fører til persontyper med succesmagerevner. - Interview med: Søren Ejlersen, Jacob Jensen, Lars Kolind, Lars Larsen, Peter Lassen, Marie Poulsen, Charlotte Sparre, Lars Thrane, Jane Aamund
+CN  - 15.2
+KW  - succes
+KW  - personlig udvikling
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 24687899 *b 870970 *c 20111203121241 *d 20030610 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2003 *b dk *l dan *x 06 *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-7553-969-1 *c ib. *d kr. 455,00 
+032 00 *a DBF200329 *x SFD200329 *x ACC200324 *x DAT991149 
+100 00 *a Østergaard *h Annemarie 
+245 00 *a Succesmagerne *c ni veje til succes *e Annemarie Østergaard *e med interview med Søren Ejlersen ... [et al.] *f foto: Jørgen True 
+250 00 *a 1. udgave *b ÷ *x 1. oplag 
+260 00 *&amp; 1 *a Kbh. *b Børsen *c 2003 *k Nordisk Bogpr. 
+300 00 *a 288 sider *b ill. i farver 
+504 00 *&amp; 1 *a Ni interview med udvalgte danske succesmagere inden for erhvervsliv, teknologi, design og litteratur kortlægger de personlighedstræk der fører til persontyper med succesmagerevner 
+512 00 *&amp; 1 *a Interview med: Søren Ejlersen, Jacob Jensen, Lars Kolind, Lars Larsen, Peter Lassen, Marie Poulsen, Charlotte Sparre, Lars Thrane, Jane Aamund 
+532 00 *&amp; 1 *a Med litteraturhenvisninger 
+652 00 *m 15.2 
+666 00 *0 *f succes 
+666 00 *0 *f personlig udvikling 
+700 00 *a Ejlersen *h Søren 
+990 00 *a SFD *o 200329 *b L *c A 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -155,6 +155,7 @@
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
 				<xs:element ref="bibdk:restrictionsMovie" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:restrictedUse" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:messageCategory" minOccurs="1"/>
 				<xs:element ref="bibdk:requestButton" minOccurs="1"/>
 				<xs:element ref="bibdk:holdbackEndDate" minOccurs="0"/>
 				<xs:element ref="bibdk:typeGroup" minOccurs="1" maxOccurs="unbounded"/>
@@ -565,6 +566,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="latestReprintElement" type="xs:string"/>
+	<xs:element name="messageCategory" type="xs:string"/>
 	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
 		<xs:complexType>

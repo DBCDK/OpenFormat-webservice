@@ -1,0 +1,41 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50639924 *b 870970 *c 20140226180428 *d 20130822 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2013 *z 2013 *b dk *d x *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788702150674 *c hf. 
+032 00 *x ACC201334 *a DBF201410 *x BKM201410 
+100 00 *a Gazan *h Sissel-Jo Reid *4 aut 
+245 00 *a Svalens graf *c roman 
+250 00 *a 1. udgave *b ÷ 
+260 00 *&amp; 1 *a [Kbh.] *b Gyldendal *c 2013 
+300 00 *a 470 sider 
+504 00 *&amp; 1 *a Krimi. Den ansete professor i immunologi og infektionssygdomme, Kristian Storm, har tilsyneladende begået selvmord, men kan det virkelig passe? Hans forskning stod over for et stort gennembrud. Hans assistent, Marie Skov, får overbevist kriminalkommissær Søren Marhauge om at sagen bør tages op igen 
+520 00 *a Originaludgave: 2013 
+521 00 *a 2. oplag *c 2013 *i (1. oplag ikke registreret i: Dansk bogfortegnelse) 
+521 00 *a 5. oplag *c 2013 
+521 00 *b 6. oplag *c 2013 
+526 00 *&amp; 1 *i Krimiserien med *t Søren Marhauge ; 2 
+610 00 *a World Health Organization 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *0 *i 2010-2019 
+666 00 *0 *q København 
+666 00 *0 *q Danmark 
+666 00 *0 *q Guinea-Bissau 
+666 00 *0 *q Afrika 
+666 00 *0 *s krimi 
+666 00 *0 *s naturvidenskab 
+666 00 *0 *s videnskab 
+666 00 *0 *s forskning 
+666 00 *0 *s medicinalindustri 
+666 00 *0 *s vacciner 
+666 00 *0 *s vaccination 
+666 00 *0 *s familien 
+666 00 *0 *s hemmeligheder 
+900 00 *a Gazan *h Sissel-Jo *z 100 
+900 00 *a Gazan *h Sissel-Jo *x se også under det senere navn *z 100 
+900 00 *a Reid Gazan *h Sidsel-Jo *z 100 
+990 00 *o 201410 *b v *u op 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

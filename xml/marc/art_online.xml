@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 35890203 *b 870971 *c 20140127164605 *d 20140116 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2014 *b dk *d m *d y *l eng *v 0 *r ap *n a 
+009 00 *a a *g xe 
+016 00 *a 49398123 
+032 00 *a ABU201406 *a DAR201404 *x ARK201404 
+086 00 *a !!! INGEN DK5-POST TIL KLASSEMÆRKE 
+245 00 *a Assessment of postural balance in community-dwelling older adults *c methodological aspects and effects of biofeedback-based Nintendo Wii trainin 
+557 00 *a Danish medical journal [online] *j 2014 *z 2245-1919 *V Vol. 0061, nr. 0001 (2014) *v Vol. 61, nr. 1 (2014) 
+652 00 *m 61.542 
+666 00 *0 *f balance 
+666 00 *0 *f behandling 
+666 00 *0 *f balancetræning 
+666 00 *0 *f wii 
+666 00 *0 *f ældre 
+666 00 *0 *f plejehjem 
+700 00 *a Grønbech Jørgensen *h Martin *4 aut 
+856 00 *z Adgangsmåde: Internet *u http://www.danmedj.dk/portal/pls/portal/!PORTAL.wwpob_page.show?_docname=10495044.PDF 
+900 00 *a Jørgensen *h Martin Grønbech *z 700 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

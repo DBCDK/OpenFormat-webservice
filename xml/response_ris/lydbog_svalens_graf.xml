@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Gazan,Sissel-Jo Reid
+A2  - Tulinius,Grete
+T1  - Svalens graf
+SP  - 1 cd (mp3) (15 t.)
+PB  - Gyldendal Lyd
+CY  - Kbh.
+Y1  - 2013
+SN  - 9788702151244
+T3  - Krimiserien med Søren Marhauge, 2
+N1  - Krimi. Den ansete professor i immunologi og infektionssygdomme, Kristian Storm, har tilsyneladende begået selvmord, men kan det virkelig passe? Hans forskning stod over for et stort gennembrud. Hans assistent, Marie Skov, får overbevist kriminalkommissær Søren Marhauge om at sagen bør tages op igen
+KW  - World Health Organization
+KW  - krimi
+KW  - naturvidenskab
+KW  - videnskab
+KW  - forskning
+KW  - medicinalindustri
+KW  - vacciner
+KW  - vaccination
+KW  - familien
+KW  - hemmeligheder
+KW  - København
+KW  - Danmark
+KW  - Guinea-Bissau
+KW  - Afrika
+KW  - 2010-2019
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal, Electronic
+SR Electronic(1)
+A1 Grønbech Jørgensen,Martin
+T1 Assessment of postural balance in community-dwelling older adults : methodological aspects and effects of biofeedback-based Nintendo Wii trainin
+VO 61
+IS 1
+YR 2014
+JF Danish medical journal online
+SN 2245-1919
+CN 61.542
+K1 balance
+K1 behandling
+K1 balancetræning
+K1 wii
+K1 ældre
+K1 plejehjem
+LK http://www.danmedj.dk/portal/pls/portal/!PORTAL.wwpob_page.show?_docname=10495044.PDF</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

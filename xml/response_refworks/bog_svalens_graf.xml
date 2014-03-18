@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Gazan,Sissel-Jo Reid
+T1 Svalens graf : roman
+SP 470 sider
+PB Gyldendal
+PP Kbh.
+YR 2013
+SN 9788702150674
+T2 Krimiserien med Søren Marhauge, 2
+NO Krimi. Den ansete professor i immunologi og infektionssygdomme, Kristian Storm, har tilsyneladende begået selvmord, men kan det virkelig passe? Hans forskning stod over for et stort gennembrud. Hans assistent, Marie Skov, får overbevist kriminalkommissær Søren Marhauge om at sagen bør tages op igen
+CN skønlitteratur
+K1 World Health Organization
+K1 2010-2019
+K1 København
+K1 Danmark
+K1 Guinea-Bissau
+K1 Afrika
+K1 krimi
+K1 naturvidenskab
+K1 videnskab
+K1 forskning
+K1 medicinalindustri
+K1 vacciner
+K1 vaccination
+K1 familien
+K1 hemmeligheder</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

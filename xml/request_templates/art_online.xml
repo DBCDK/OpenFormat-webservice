@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>35890203|870971</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.danmedj.dk/portal/pls/portal/!PORTAL.wwpob_page.show?_docname=10495044.PDF</dc:identifier>
+              <ac:source>Tidsskriftsartikler</ac:source>
+              <dc:title>Assessment of postural balance in community-dwelling older adults</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Assessment of postural balance in community-dwelling older adults : methodological aspects and effects of biofeedback-based Nintendo Wii trainin</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Martin Grønbech Jørgensen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Grønbech Jørgensen, Martin</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">61.542</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Fysiske behandlingsformer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">balance</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">balancetræning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">behandling</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">plejehjem</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">wii</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">ældre</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dcterms:isPartOf>Danish medical journal online, Vol. 61, nr. 1 (2014)</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">2245-1919</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">35890203</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20140127164605</marcx:subfield>
+                  <marcx:subfield code="d">20140116</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">m</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                  <marcx:subfield code="n">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">49398123</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU201406</marcx:subfield>
+                  <marcx:subfield code="a">DAR201404</marcx:subfield>
+                  <marcx:subfield code="x">ARK201404</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">!!! INGEN DK5-POST TIL KLASSEMÆRKE</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Assessment of postural balance in community-dwelling older adults</marcx:subfield>
+                  <marcx:subfield code="c">methodological aspects and effects of biofeedback-based Nintendo Wii trainin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Danish medical journal [online]</marcx:subfield>
+                  <marcx:subfield code="j">2014</marcx:subfield>
+                  <marcx:subfield code="z">2245-1919</marcx:subfield>
+                  <marcx:subfield code="V">Vol. 0061, nr. 0001 (2014)</marcx:subfield>
+                  <marcx:subfield code="v">Vol. 61, nr. 1 (2014)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">61.542</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">balance</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">behandling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">balancetræning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">wii</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">ældre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">plejehjem</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Grønbech Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Martin</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://www.danmedj.dk/portal/pls/portal/!PORTAL.wwpob_page.show?_docname=10495044.PDF</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Martin Grønbech</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-tsart:35890203</os:identifier>
+            <os:creationDate>20140116</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:49398123</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>art_online.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

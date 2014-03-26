@@ -1,0 +1,36 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27978371 *b 870970 *c 20140305151241 *d 20091023 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2009 *z 2010 *b dk *d x *j f *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788702063950 *c hf. 
+032 00 *x ACC200943 *a DBF201109 *x BKM201109 *x DAT201412 
+100 00 *a Ejersbo *h Jakob *4 aut 
+245 00 *a Liberty *c roman 
+250 00 *a 1. udgave *b ÷ 
+260 00 *&amp; 1 *a [Kbh.] *b Gyldendal *c 2009 
+300 00 *a 711 sider 
+504 00 *&amp; 1 *a 13-årige Christian kommer til Tanzania med sin far og bliver venner med den indfødte Marcus. Da han efter et ophold i Danmark vender tilbage for at realisere drømmen om et diskotek sammen med Marcus, får kulturforskellene fatale følger 
+520 00 *a Originaludgave: 2009 
+521 00 *a [1. oplag] *c 2009 
+521 00 *a 3. oplag *c 2009 
+521 00 *a 4. oplag *c 2009 
+521 00 *a 6. oplag *c 2010 
+521 00 *a 7. oplag *c 2010 
+521 00 *a 8. oplag *c 2010 
+521 00 *b 9. oplag *c 2010 
+526 00 *&amp; 1 *i Indgår i *t Afrika-trilogien 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *0 *i 1980-1989 
+666 00 *0 *q Afrika 
+666 00 *0 *q Tanzania 
+666 00 *0 *s venskab 
+666 00 *0 *s kulturforskelle 
+666 00 *0 *s unge 
+666 00 *0 *s kærlighed 
+666 00 *0 *s ulandsbistand 
+666 00 *0 *s samfundsforhold 
+990 00 *o 201109 *b v *u op 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

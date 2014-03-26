@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>27978371|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788702063950</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Liberty</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Liberty : roman</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Jakob Ejersbo</dc:creator>
+              <dc:creator xsi:type="oss:sort">Ejersbo, Jakob</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kulturforskelle</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kærlighed</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">samfundsforhold</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">ulandsbistand</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">unge</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">venskab</dc:subject>
+              <dcterms:abstract>13-årige Christian kommer til Tanzania med sin far og bliver venner med den indfødte Marcus. Da han efter et ophold i Danmark vender tilbage for at realisere drømmen om et diskotek sammen med Marcus, får kulturforskellene fatale følger</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. udgave</dkdcplus:version>
+              <dc:publisher>Gyldendal</dc:publisher>
+              <dc:date>2009</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>711 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Afrika</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Tanzania</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1980-1989</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">27978371</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140305151241</marcx:subfield>
+                  <marcx:subfield code="d">20091023</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2009</marcx:subfield>
+                  <marcx:subfield code="z">2010</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788702063950</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC200943</marcx:subfield>
+                  <marcx:subfield code="a">DBF201109</marcx:subfield>
+                  <marcx:subfield code="x">BKM201109</marcx:subfield>
+                  <marcx:subfield code="x">DAT201412</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Ejersbo</marcx:subfield>
+                  <marcx:subfield code="h">Jakob</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Liberty</marcx:subfield>
+                  <marcx:subfield code="c">roman</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. udgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">711 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">13-årige Christian kommer til Tanzania med sin far og bliver venner med den indfødte Marcus. Da han efter et ophold i Danmark vender tilbage for at realisere drømmen om et diskotek sammen med Marcus, får kulturforskellene fatale følger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Originaludgave: 2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">[1. oplag]</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">3. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">4. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">6. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">7. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">8. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">9. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="i">Indgår i</marcx:subfield>
+                  <marcx:subfield code="t">Afrika-trilogien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">06</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1980-1989</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Afrika</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Tanzania</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">venskab</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">kulturforskelle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">unge</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">kærlighed</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">ulandsbistand</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">samfundsforhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201109</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:27978371</os:identifier>
+            <os:creationDate>2009-10-23</os:creationDate>
+            <os:holdingsCount>98</os:holdingsCount>
+            <os:lendingLibraries>98</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:25707648</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:86852365</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:85547267</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:86844621</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:86852306</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:87213218</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:87134636</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:86852403</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:87053032</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:87177823</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:87408841</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:87825809</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:87739252</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:87057933</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:87948382</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:88274717</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:88535340</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-forfweb:89197112</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:33188528</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:33188595</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33855710</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33901291</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33855621</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33855583</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33855605</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33860013</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33858841</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:34097682</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:34084963</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:34218064</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:34159920</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:30837967</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasAnalysis</os:relationType>
+                <os:relationUri>150005-analyse:83150</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_ejersbo_med_526_it.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

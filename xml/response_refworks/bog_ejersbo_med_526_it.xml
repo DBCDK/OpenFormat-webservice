@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Ejersbo,Jakob
+T1 Liberty : roman
+SP 711 sider
+PB Gyldendal
+PP Kbh.
+YR 2009
+SN 9788702063950
+NO 13-årige Christian kommer til Tanzania med sin far og bliver venner med den indfødte Marcus. Da han efter et ophold i Danmark vender tilbage for at realisere drømmen om et diskotek sammen med Marcus, får kulturforskellene fatale følger
+CN skønlitteratur
+K1 1980-1989
+K1 Afrika
+K1 Tanzania
+K1 venskab
+K1 kulturforskelle
+K1 unge
+K1 kærlighed
+K1 ulandsbistand
+K1 samfundsforhold</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

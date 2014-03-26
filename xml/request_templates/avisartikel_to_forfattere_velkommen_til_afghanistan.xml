@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>35570241|870971</ac:identifier>
+              <ac:source>Avisartikler</ac:source>
+              <dc:title>Velkommen til Afghanistan</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Velkommen til Afghanistan</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Carsten Jensen i Afghanistan</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Carsten Jensen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Jensen, Carsten</dc:creator>
+              <dc:creator xsi:type="dkdcplus:aut">Anders Sømme Hammer</dc:creator>
+              <dc:creator xsi:type="oss:sort">Hammer, Anders Sømme</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">98.218</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Afghanistans historie</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Taliban</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">krige</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kvinder</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">politiske forhold</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">samfundsforhold</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">sikkerhedspolitik</dc:subject>
+              <dcterms:abstract>Rejsebeskrivelser fra landet, hvor Danmark har været militært til stede siden 2002</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2013</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Avisartikel</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>S. 20-22</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Information, 2013-05-01</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1602-2572</dcterms:isPartOf>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Afghanistan</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">35570241</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20130521110910</marcx:subfield>
+                  <marcx:subfield code="d">20130502</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2013</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="r">an</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">03243095</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU201322</marcx:subfield>
+                  <marcx:subfield code="a">DAR201319</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">Afghanistans historie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Velkommen til Afghanistan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">S. 20-22</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Carsten Jensen i Afghanistan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Rejsebeskrivelser fra landet, hvor Danmark har været militært til stede siden 2002</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Information</marcx:subfield>
+                  <marcx:subfield code="j">2013</marcx:subfield>
+                  <marcx:subfield code="z">1602-2572</marcx:subfield>
+                  <marcx:subfield code="V">2013-05-01</marcx:subfield>
+                  <marcx:subfield code="v">2013-05-01</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="610">
+                  <marcx:subfield code="a">Taliban</marcx:subfield>
+                  <marcx:subfield code="1"/>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">98.218</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Afghanistan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">krige</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">politiske forhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">samfundsforhold</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">historie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">kvinder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">sikkerhedspolitik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Jensen</marcx:subfield>
+                  <marcx:subfield code="h">Carsten</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Hammer</marcx:subfield>
+                  <marcx:subfield code="h">Anders Sømme</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Sømme Hammer</marcx:subfield>
+                  <marcx:subfield code="h">Anders</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-avis:35570241</os:identifier>
+            <os:creationDate>20130502</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=35570241&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>rest</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>webservice</os:linkTo>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:continuedIn</os:relationType>
+                <os:relationUri>870971-avis:35581510</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:continuedIn</os:relationType>
+                <os:relationUri>870971-avis:35581529</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:continuedIn</os:relationType>
+                <os:relationUri>870971-avis:35574646</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:continuedIn</os:relationType>
+                <os:relationUri>870971-avis:35591702</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:03243095</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>avisartikel_to_forfattere_velkommen_til_afghanistan.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

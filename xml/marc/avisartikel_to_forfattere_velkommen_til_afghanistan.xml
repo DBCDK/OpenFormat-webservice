@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 35570241 *b 870971 *c 20130521110910 *d 20130502 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2013 *b dk *d y *l dan *v 0 *r an *n b 
+009 00 *a a *g xx *g xe 
+016 00 *a 03243095 
+032 00 *a ABU201322 *a DAR201319 
+086 00 *a Afghanistans historie 
+245 00 *a Velkommen til Afghanistan 
+300 00 *a S. 20-22 *b ill. 
+440 00 *a Carsten Jensen i Afghanistan 
+504 00 *a Rejsebeskrivelser fra landet, hvor Danmark har været militært til stede siden 2002 
+557 00 *a Information *j 2013 *z 1602-2572 *V 2013-05-01 *v 2013-05-01 
+610 00 *a Taliban *1 
+652 00 *m 98.218 
+666 00 *0 *e Afghanistan 
+666 00 *0 *f krige 
+666 00 *0 *f politiske forhold 
+666 00 *0 *f samfundsforhold 
+666 00 *0 *f historie 
+666 00 *0 *f kvinder 
+666 00 *0 *f sikkerhedspolitik 
+700 00 *a Jensen *h Carsten *4 aut 
+700 00 *å 1 *a Hammer *h Anders Sømme *4 aut 
+900 00 *a Sømme Hammer *h Anders *z 700/1 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

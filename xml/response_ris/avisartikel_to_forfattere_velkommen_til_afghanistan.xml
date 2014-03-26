@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - NEWS
+A1  - Jensen,Carsten
+A1  - Hammer,Anders Sømme
+T1  - Velkommen til Afghanistan
+DA  - 2013/05/01
+Y1  - 2013/05/01
+SP  - 20
+EP  - 22
+JF  - Information
+SN  - 1602-2572
+T3  - Carsten Jensen i Afghanistan
+N1  - Rejsebeskrivelser fra landet, hvor Danmark har været militært til stede siden 2002
+CN  - 98.218
+KW  - Taliban
+KW  - Afghanistan
+KW  - krige
+KW  - politiske forhold
+KW  - samfundsforhold
+KW  - historie
+KW  - kvinder
+KW  - sikkerhedspolitik
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

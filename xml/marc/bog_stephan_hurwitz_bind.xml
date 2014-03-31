@@ -1,0 +1,23 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50022501 *b 870970 *c 19901107 *d 19761202 *f a *o c 
+004 00 *r n *a h 
+008 00 *b dk *v 0 
+009 00 *a a *g xx 
+100 00 *a Hurwitz *h Stephan 
+245 00 *a Den ¤danske kriminalret *e [af] Stephan Hurwitz 
+260 00 *&amp; 1 *a Kbh. *b Gad 
+300 00 *a 2 bind *c 23 cm 
+652 00 *m 34.3 
+
+001 00 *a 05087805 *b 870970 *c 19901107 *d 19761202 *f a *o c 
+004 00 *r n *a b 
+008 00 *t m *u r *a 1971 *v 0 *z 1976 *l dan 
+014 00 *a 50022501 
+021 00 *a 87-12-34269-6 *c hf. *d kr. 139.15 
+032 00 *a DBF197652 *x SFD197652 *x DIS197400 
+245 00 *a Almindelig del 
+250 00 *a 4. reviderede udgave *x [uændret optryk] *b 4. udgave *d ved Knud Waaben 
+260 00 *&amp; 1 *c 1976 *k Fr. Bagge 
+300 00 *a XIX, 607 sider 
+520 00 *a Tidligere: 4. udgave 1971</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

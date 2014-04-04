@@ -1,0 +1,34 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50967166 *b 870970 *c 20140402181140 *d 20140327 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2014 *b dk *d x *j f *l dan *n b *v 5 *w 1 
+009 00 *a a *g xe 
+021 00 *e 9788771071184 
+032 00 *x ACC201413 *a DBF201415 *x BKM201415 *x EBI201415 *x ERE201415 
+041 00 *a dan *c eng 
+100 00 *a Christer *h Sam *4 aut 
+241 00 *a The ¤Turin shroud secret 
+245 00 *a Torinoklædets hemmelighed 
+260 00 *b Jentas *g [sælges på internettet] *c 2014 
+300 00 *a 399 sider 
+504 00 *&amp; 1 *a En seriemorder i Los Angeles. En myrdet filmmanuskriptforfatter og et legendarisk ligklæde i Torino. Handlingen springer fra Californien til Italien mens LA-politifolk skal forsøge at stoppe en morder og løse en gåde, der vækker genklang helt til Vatikanet 
+512 00 *a Downloades i EPUB-format 
+512 00 *i Sam Christer pseudonym for *e Mike Morley 
+512 00 *a Beskrivelsen baseret på det fysiske forlæg 
+652 00 *n 83 *z 26 
+652 00 *o sk 
+666 00 *0 *q Los Angeles 
+666 00 *0 *q Torino 
+666 00 *0 *q USA 
+666 00 *0 *q Italien 
+666 00 *0 *s religion 
+666 00 *0 *s seriemordere 
+666 00 *0 *s spændende bøger 
+720 00 *o Anne Mette Poulsen *4 trl 
+720 00 *o Rasmus Klitgaard Hansen *4 edt 
+856 00 *z Adgang til lån hos ebib.dk *u https://www.ebib.dk/Pages/BookDetails.html#9788771071184 
+856 00 *z Adgang til lån hos eReolen.dk *u https://ereolen.dk/ting/object/150028:50967166 
+900 00 *a Morley *h Mike *x se også *z 100 
+990 00 *o 201415 *b v *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>50967166|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788771071184</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">https://www.ebib.dk/Pages/BookDetails.html#9788771071184</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/150028:50967166</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:source>The Turin shroud secret</dc:source>
+              <dc:title>Torinoklædets hemmelighed</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Torinoklædets hemmelighed</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Sam Christer</dc:creator>
+              <dc:creator xsi:type="oss:sort">Christer, Sam</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">religion</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">seriemordere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">spændende bøger</dc:subject>
+              <dcterms:abstract>En seriemorder i Los Angeles. En myrdet filmmanuskriptforfatter og et legendarisk ligklæde i Torino. Handlingen springer fra Californien til Italien mens LA-politifolk skal forsøge at stoppe en morder og løse en gåde, der vækker genklang helt til Vatikanet</dcterms:abstract>
+              <dc:description>Downloades i EPUB-format</dc:description>
+              <dc:description>Sam Christer pseudonym for Mike Morley</dc:description>
+              <dc:description>Beskrivelsen baseret på det fysiske forlæg</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Jentas</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:trl">Anne Mette Poulsen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:edt">Rasmus Klitgaard Hansen</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dcterms:extent>399 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Los Angeles</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Torino</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">USA</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Italien</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50967166</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140402181140</marcx:subfield>
+                  <marcx:subfield code="d">20140327</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="v">5</marcx:subfield>
+                  <marcx:subfield code="w">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788771071184</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201413</marcx:subfield>
+                  <marcx:subfield code="a">DBF201415</marcx:subfield>
+                  <marcx:subfield code="x">BKM201415</marcx:subfield>
+                  <marcx:subfield code="x">EBI201415</marcx:subfield>
+                  <marcx:subfield code="x">ERE201415</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Christer</marcx:subfield>
+                  <marcx:subfield code="h">Sam</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="241">
+                  <marcx:subfield code="a">The ¤Turin shroud secret</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Torinoklædets hemmelighed</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Jentas</marcx:subfield>
+                  <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">399 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">En seriemorder i Los Angeles. En myrdet filmmanuskriptforfatter og et legendarisk ligklæde i Torino. Handlingen springer fra Californien til Italien mens LA-politifolk skal forsøge at stoppe en morder og løse en gåde, der vækker genklang helt til Vatikanet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Sam Christer pseudonym for</marcx:subfield>
+                  <marcx:subfield code="e">Mike Morley</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Beskrivelsen baseret på det fysiske forlæg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">83</marcx:subfield>
+                  <marcx:subfield code="z">26</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Los Angeles</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Torino</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">USA</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Italien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">religion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">seriemordere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">spændende bøger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Anne Mette Poulsen</marcx:subfield>
+                  <marcx:subfield code="4">trl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Rasmus Klitgaard Hansen</marcx:subfield>
+                  <marcx:subfield code="4">edt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til lån hos ebib.dk</marcx:subfield>
+                  <marcx:subfield code="u">https://www.ebib.dk/Pages/BookDetails.html#9788771071184</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til lån hos eReolen.dk</marcx:subfield>
+                  <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:50967166</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Morley</marcx:subfield>
+                  <marcx:subfield code="h">Mike</marcx:subfield>
+                  <marcx:subfield code="x">se også</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201415</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:50967166</os:identifier>
+            <os:creationDate>2014-03-27</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>ebog_ereolen_ebib_torinoklaedets_hemmelighed.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

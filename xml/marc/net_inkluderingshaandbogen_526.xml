@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50652602 *b 870970 *c 20130909082937 *d 20130829 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2007 *b dk *d y *l dan *n a *v 0 *w 1 
+009 00 *a a *g xe 
+032 00 *x ACC201335 *a DBF201337 *x ARK201338 
+041 00 *a dan *c eng 
+241 00 *a Index for inclusion *ø Early years and childcare 
+245 00 *a Inkluderingshåndbogen *c udvikling af leg, læring og deltagelse i dagtilbud *ø Dagtilbud 
+260 00 *b BUPL *c 2007 
+512 00 *a CSIE: Centre for Studies on Inclusive Education 
+526 00 *i Hertil findes bilag *u http://www.bupl.dk/iwfile/BALG-8V8HRF/$file/Inkluderingshåndbogen%20-%20Del%203%20og%204%20-%20okt.%202007.pdf *y PDF-format 
+652 00 *m 37.21 
+700 00 *a Booth *h Tony *4 aut *4 oth 
+700 00 *a Ainscow *h Mel *4 aut 
+720 00 *o Kirsten Baltzer *g 1 *4 trl *4 dkbea 
+720 00 *o Denise Kingston *4 oth 
+720 00 *o Jens Hasse *4 pht 
+856 00 *z Adgangsmåde:Internet *u http://www.bupl.dk/iwfile/AGMD-7VQJWF/$file/inkluderingshaandbogen_07.pdf *y PDF-format 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

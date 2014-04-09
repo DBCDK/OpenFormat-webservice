@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50695328 *b 870970 *c 20131111084034 *d 20130920 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2013 *b dk *d y *l dan *n a *v 0 *e 2 *x 04 *w 1 
+009 00 *a a *g xe 
+021 00 *e 9788792776754 
+032 00 *x ACC201338 *x ARK201339 *a DBF201348 
+245 00 *a De ¤skjulte helte *c produktivitetssucceser i dansk industri *c innovation: Analyse og evaluering - 09/2013 
+260 00 *b Styrelsen for Forskning og Innovation *c 2013 
+512 00 *i Hertil findes *u http://fivu.dk/publikationer/2013/filer-2013/de-skjulte-helte_bilag-2_-virksomhedscases.pdf *t Bilag 2, Virksomhedscases 
+652 00 *m 33.19 
+710 00 *å 1 *c Styrelsen for Forskning og Innovation 
+710 00 *å 2 *a Teknologisk Institut *c Center for Analyse og Erhvervsfremme *4 aut 
+856 00 *z Adgangsmåde: Internet *u http://fivu.dk/publikationer/2013/filer-2013/de-skjulte-helte-020913.pdf *y PDF-format 
+910 00 *å 1 *c Ministeriet for Forskning, Innovation og Videregående Uddannelser *c Styrelsen for Forskning og Innovation *z 710/1 
+910 00 *å 2 *c Ministeriet for Videnskab, Teknologi og Udvikling *c Forsknings- og Innovationsstyrelsen *z 910/1(c1) 
+910 00 *c Uddannelsesministeriet *z 910/1(c1) 
+910 00 *c Videnskabsministeriet *z 910/2(c1) 
+910 00 *a Center for Analyse og Erhvervsfremme, Teknologisk Institut *z 710/2 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>50998673|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Den uendelige historie 2</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Den uendelige historie 2</dc:title>
+              <dcterms:alternative>The neverending story II : the next chapter</dcterms:alternative>
+              <dcterms:alternative>L'histoire sans fin II</dcterms:alternative>
+              <dcterms:alternative>Die uendliche Gechichte II</dcterms:alternative>
+              <dcterms:alternative>La historia interminable II</dcterms:alternative>
+              <dc:creator xsi:type="dkdcplus:drt">George Miller</dc:creator>
+              <dc:creator xsi:type="oss:sort">Miller, George (f. 1945)</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">adventurefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">adventurefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">amerikanske film</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">eventyr</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">eventyr</dc:subject>
+              <dcterms:abstract>Bastian opdager en dag, at en bog kalder på ham. Der er fare på færde i eventyrlandet Fantásien, hvor Tomheden er ved at få magten. Bastian hopper ind i bogen og får efter mange strabadser bugt med Tomheden både i eventyret og sit eget liv</dcterms:abstract>
+              <dc:description>Produktion: Warner Bros. (USA), 1989</dc:description>
+              <dc:description>Af indholdet: Special features</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 11 år</dcterms:audience>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Warner Home Video Denmark</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:cng">Dave Connell</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:aus">Karin Howard</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ant">Michael Ende</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Jonathan Brandis</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Kenny Morrison</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Clarissa Burt</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Martin Umbach</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">John Wesley Shipp</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+              <dc:format>1 dvd-video</dc:format>
+              <dcterms:extent>86 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ger</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">spa</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">dut</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ara</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">swe</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">nor</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">dan</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">fin</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">por</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">heb</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">pol</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">gre</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">cze</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">fre</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ita</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50998673</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140321134039</marcx:subfield>
+                  <marcx:subfield code="d">20140306</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="d">11</marcx:subfield>
+                  <marcx:subfield code="2">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="c">20140602</marcx:subfield>
+                  <marcx:subfield code="2">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">th</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">24022552</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5051895270028</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201410</marcx:subfield>
+                  <marcx:subfield code="a">DBI201415</marcx:subfield>
+                  <marcx:subfield code="x">BKM201415</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="s">fre</marcx:subfield>
+                  <marcx:subfield code="s">ger</marcx:subfield>
+                  <marcx:subfield code="s">spa</marcx:subfield>
+                  <marcx:subfield code="u">eng</marcx:subfield>
+                  <marcx:subfield code="u">ger</marcx:subfield>
+                  <marcx:subfield code="u">spa</marcx:subfield>
+                  <marcx:subfield code="u">dut</marcx:subfield>
+                  <marcx:subfield code="u">ara</marcx:subfield>
+                  <marcx:subfield code="u">swe</marcx:subfield>
+                  <marcx:subfield code="u">nor</marcx:subfield>
+                  <marcx:subfield code="u">dan</marcx:subfield>
+                  <marcx:subfield code="u">fin</marcx:subfield>
+                  <marcx:subfield code="u">por</marcx:subfield>
+                  <marcx:subfield code="u">heb</marcx:subfield>
+                  <marcx:subfield code="u">pol</marcx:subfield>
+                  <marcx:subfield code="u">gre</marcx:subfield>
+                  <marcx:subfield code="u">cze</marcx:subfield>
+                  <marcx:subfield code="u">fre</marcx:subfield>
+                  <marcx:subfield code="u">ita</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="239">
+                  <marcx:subfield code="t">Den ¤uendelige historie 2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="A">the ¤neverending story 2</marcx:subfield>
+                  <marcx:subfield code="a">The ¤neverending story II</marcx:subfield>
+                  <marcx:subfield code="c">the next chapter</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Frederiksberg]</marcx:subfield>
+                  <marcx:subfield code="b">Warner Home Video Denmark</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+                  <marcx:subfield code="l">86 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Bastian opdager en dag, at en bog kalder på ham. Der er fare på færde i eventyrlandet Fantásien, hvor Tomheden er ved at få magten. Bastian hopper ind i bogen og får efter mange strabadser bugt med Tomheden både i eventyret og sit eget liv</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Engelsk tale og samt synkronisering på fransk, tysk og spansk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Undertekster på engelsk, tysk, spansk, hollandsk, arabisk, svensk, norsk, dansk, finsk, portugisisk, hebraisk, polsk, græsk, tjekkisk, fransk og italiensk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Alternative titlet</marcx:subfield>
+                  <marcx:subfield code="T">l'¤histoire sans fin 2</marcx:subfield>
+                  <marcx:subfield code="t">L'¤histoire sans fin II</marcx:subfield>
+                  <marcx:subfield code="T">die ¤uendliche geschichte 2</marcx:subfield>
+                  <marcx:subfield code="t">Die ¤uendliche Gechichte II</marcx:subfield>
+                  <marcx:subfield code="T">la ¤historia interminable 2</marcx:subfield>
+                  <marcx:subfield code="t">La ¤historia interminable II</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: Warner Bros. (USA), 1989</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for børn over 11 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="i">Udgivet samlet i boks</marcx:subfield>
+                  <marcx:subfield code="t">Den ¤uendelige historie</marcx:subfield>
+                  <marcx:subfield code="n">50998657</marcx:subfield>
+                  <marcx:subfield code="t">Den ¤uendelige historie 2</marcx:subfield>
+                  <marcx:subfield code="n">50998673</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Baseret på bogen</marcx:subfield>
+                  <marcx:subfield code="t">The ¤neverinding story</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="534">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Af indholdet: Special features</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">77.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">amerikanske film</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">adventurefilm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">eventyr</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Connell</marcx:subfield>
+                  <marcx:subfield code="h">Dave</marcx:subfield>
+                  <marcx:subfield code="4">cng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Howard</marcx:subfield>
+                  <marcx:subfield code="h">Karin</marcx:subfield>
+                  <marcx:subfield code="4">aus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ende</marcx:subfield>
+                  <marcx:subfield code="h">Michael</marcx:subfield>
+                  <marcx:subfield code="4">ant</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Miller</marcx:subfield>
+                  <marcx:subfield code="h">George</marcx:subfield>
+                  <marcx:subfield code="c">f. 1945</marcx:subfield>
+                  <marcx:subfield code="4">drt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Jonathan Brandis</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Kenny Morrison</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Clarissa Burt</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Martin Umbach</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">John Wesley Shipp</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:50998673</os:identifier>
+            <os:creationDate>2014-03-06</os:creationDate>
+            <os:holdingsCount>10</os:holdingsCount>
+            <os:lendingLibraries>10</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>dvd_den_uendelige_historie_hold_back_date.xml.fullDisplay</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

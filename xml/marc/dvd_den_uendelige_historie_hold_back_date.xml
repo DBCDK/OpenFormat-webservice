@@ -1,0 +1,38 @@
+=/home/hes/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50998673 *b 870970 *c 20140321134039 *d 20140306 *f a 
+004 00 *r n *a e 
+006 00 *d 11 *2 b 
+008 00 *t m *u u *a 2014 *b dk *l mul *v 0 
+009 00 *a m *g th 
+017 00 *a 24022552 
+023 00 *b 5051895270028 
+032 00 *x ACC201410 *a DBI201415 *x BKM201415 
+041 00 *a eng *s fre *s ger *s spa *u eng *u ger *u spa *u dut *u ara *u swe *u nor *u dan *u fin *u por *u heb *u pol *u gre *u cze *u fre *u ita 
+239 00 *t Den ¤uendelige historie 2 
+245 00 *A the ¤neverending story 2 *a The ¤neverending story II *c the next chapter 
+260 00 *a [Frederiksberg] *b Warner Home Video Denmark *c 2014 
+300 00 *n 1 dvd-video *l 86 min. 
+504 00 *&amp; 1 *a Bastian opdager en dag, at en bog kalder på ham. Der er fare på færde i eventyrlandet Fantásien, hvor Tomheden er ved at få magten. Bastian hopper ind i bogen og får efter mange strabadser bugt med Tomheden både i eventyret og sit eget liv 
+508 00 *a Engelsk tale og samt synkronisering på fransk, tysk og spansk 
+508 00 *a Undertekster på engelsk, tysk, spansk, hollandsk, arabisk, svensk, norsk, dansk, finsk, portugisisk, hebraisk, polsk, græsk, tjekkisk, fransk og italiensk 
+512 00 *i Alternative titlet *T l'¤histoire sans fin 2 *t L'¤histoire sans fin II *T die ¤uendliche geschichte 2 *t Die ¤uendliche Gechichte II *T la ¤historia interminable 2 *t La ¤historia interminable II 
+512 00 *a Produktion: Warner Bros. (USA), 1989 
+517 00 *&amp; 1 *a Mærkning: Tilladt for børn over 11 år 
+520 00 *i Udgivet samlet i boks *t Den ¤uendelige historie *n 50998657 *t Den ¤uendelige historie 2 *n 50998673 
+526 00 *i Baseret på bogen *t The ¤neverinding story 
+534 00 *&amp; 1 *a Af indholdet: Special features 
+652 00 *m 77.7 
+666 00 *0 *o amerikanske film 
+666 00 *0 *s adventurefilm 
+666 00 *0 *s eventyr 
+700 00 *a Connell *h Dave *4 cng 
+700 00 *a Howard *h Karin *4 aus 
+700 00 *a Ende *h Michael *4 ant 
+700 00 *a Miller *h George *c f. 1945 *4 drt 
+720 00 *o Jonathan Brandis *4 act 
+720 00 *o Kenny Morrison *4 act 
+720 00 *o Clarissa Burt *4 act 
+720 00 *o Martin Umbach *4 act 
+720 00 *o John Wesley Shipp *4 act 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

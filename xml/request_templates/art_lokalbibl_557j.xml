@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>98040994|159011</ac:identifier>
+              <ac:source>Lokalbibliografi</ac:source>
+              <dc:title>Kansas fyrer 53 trods overskud</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Kansas fyrer 53 trods overskud</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Jesper Helgaard</dc:creator>
+              <dc:creator xsi:type="oss:sort">Helgaard, Jesper</dc:creator>
+              <dc:creator>Ellen Hansen (tillidsrepræsentant)</dc:creator>
+              <dc:creator xsi:type="oss:sort">Hansen, Ellen tillidsrepræsentant</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">68.81</dc:subject>
+              <dc:subject>Hedensted Kommune</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Kansas Tørring</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skrædderhåndværk. Konfektionsindustri</dc:subject>
+              <dc:subject>Tørring-Uldum Kommune</dc:subject>
+              <dc:subject>Vejle Kommune</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">afskedigelser</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">beklædningsindustri</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">konfektionsindustri</dc:subject>
+              <dcterms:abstract>30 år gammel systue i Tørring lukker.</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:contributor xsi:type="dkdcplus:ive">Ellen Hansen ... (et al.).</dc:contributor>
+              <dc:date>481997</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Stof &amp; saks, Nr. 9, 21 : ill. i farver</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0901-0173</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">98040994</marcx:subfield>
+                  <marcx:subfield code="b">159011</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1997</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">03318885</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">DLB</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="033">
+                  <marcx:subfield code="a">630</marcx:subfield>
+                  <marcx:subfield code="b">Vejle Kommune</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="033">
+                  <marcx:subfield code="a">766</marcx:subfield>
+                  <marcx:subfield code="b">Hedensted Kommune</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="033">
+                  <marcx:subfield code="a">627</marcx:subfield>
+                  <marcx:subfield code="b">Tørring-Uldum Kommune</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="033">
+                  <marcx:subfield code="a">630</marcx:subfield>
+                  <marcx:subfield code="b">Vejle Kommune</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="033">
+                  <marcx:subfield code="a">766</marcx:subfield>
+                  <marcx:subfield code="b">Hedensted Kommune</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Helgaard</marcx:subfield>
+                  <marcx:subfield code="h">Jesper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Kansas fyrer 53 trods overskud</marcx:subfield>
+                  <marcx:subfield code="e">Jesper Heldgaard, interview med Ellen Hansen ... (et al.).</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">30 år gammel systue i Tørring lukker.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="z">0901-0173</marcx:subfield>
+                  <marcx:subfield code="a">Stof &amp; saks</marcx:subfield>
+                  <marcx:subfield code="j">Årg. 48 (1997)</marcx:subfield>
+                  <marcx:subfield code="v">Nr. 9</marcx:subfield>
+                  <marcx:subfield code="k">21 : ill. i farver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="610">
+                  <marcx:subfield code="a">Kansas Tørring</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">68.81</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">afskedigelser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">beklædningsindustri</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">konfektionsindustri</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Ellen</marcx:subfield>
+                  <marcx:subfield code="f">tillidsrepræsentant</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">Tørring Konfektion</marcx:subfield>
+                  <marcx:subfield code="z">610</marcx:subfield>
+                  <marcx:subfield code="w">Kansas Tørring</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>159011-lokalbibl:98040994</os:identifier>
+            <os:creationDate>2008-08-15</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:03318885</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:29415234</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:29939225</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:45507971</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>art_lokalbibl_557j.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

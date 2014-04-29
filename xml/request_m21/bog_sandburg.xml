@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+<mx:collection xmlns:mx="http://www.loc.gov/MARC21/slim">
+  <mx:record format="MARC21" type="Bibliographic">
+    <mx:leader>01142cam 2200301 a 4500</mx:leader>
+    <mx:controlfield tag="001"> 92005291 </mx:controlfield>
+    <mx:controlfield tag="003">DLC</mx:controlfield>
+    <mx:controlfield tag="005">19930521155141.9</mx:controlfield>
+    <mx:controlfield tag="008">920219s1993 caua j 000 0 eng </mx:controlfield>
+    <mx:datafield tag="010" ind1=" " ind2=" ">
+      <mx:subfield code="a"> 92005291 </mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="020" ind1=" " ind2=" ">
+      <mx:subfield code="a">0152038655 :</mx:subfield>
+      <mx:subfield code="c">$15.95</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="040" ind1=" " ind2=" ">
+      <mx:subfield code="a">DLC</mx:subfield>
+      <mx:subfield code="c">DLC</mx:subfield>
+      <mx:subfield code="d">DLC</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="042" ind1=" " ind2=" ">
+      <mx:subfield code="a">lcac</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="050" ind1="0" ind2="0">
+      <mx:subfield code="a">PS3537.A618</mx:subfield>
+      <mx:subfield code="b">A88 1993</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="082" ind1="0" ind2="0">
+      <mx:subfield code="a">811/.52</mx:subfield>
+      <mx:subfield code="2">20</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="100" ind1="1" ind2=" ">
+      <mx:subfield code="a">Sandburg, Carl,</mx:subfield>
+      <mx:subfield code="d">1878-1967.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="245" ind1="1" ind2="0">
+      <mx:subfield code="a">Arithmetic /</mx:subfield>
+      <mx:subfield code="c">Carl Sandburg ; illustrated as an anamorphic adventure by Ted Rand.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="250" ind1=" " ind2=" ">
+      <mx:subfield code="a">1st ed.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="260" ind1=" " ind2=" ">
+      <mx:subfield code="a">San Diego :</mx:subfield>
+      <mx:subfield code="b">Harcourt Brace Jovanovich,</mx:subfield>
+      <mx:subfield code="c">c1993.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="300" ind1=" " ind2=" ">
+      <mx:subfield code="a">1 v. (unpaged) :</mx:subfield>
+      <mx:subfield code="b">ill. (some col.) ;</mx:subfield>
+      <mx:subfield code="c">26 cm.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="500" ind1=" " ind2=" ">
+      <mx:subfield code="a">One Mylar sheet included in pocket.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="520" ind1=" " ind2=" ">
+      <mx:subfield code="a">A poem about numbers and their characteristics. Features anamorphic, or distorted, drawings which can be restored to normal by viewing from a particular angle or by viewing the image's reflection in the provided Mylar cone.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="0">
+      <mx:subfield code="a">Arithmetic</mx:subfield>
+      <mx:subfield code="x">Juvenile poetry.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="0">
+      <mx:subfield code="a">Children's poetry, American.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="1">
+      <mx:subfield code="a">Arithmetic</mx:subfield>
+      <mx:subfield code="x">Poetry.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="1">
+      <mx:subfield code="a">American poetry.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="1">
+      <mx:subfield code="a">Visual perception.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="700" ind1="1" ind2=" ">
+      <mx:subfield code="a">Rand, Ted,</mx:subfield>
+      <mx:subfield code="e">ill.</mx:subfield>
+    </mx:datafield>
+  </mx:record>
+</mx:collection>
+</os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

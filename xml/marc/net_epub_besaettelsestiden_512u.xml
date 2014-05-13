@@ -1,0 +1,19 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50894711 *b 870970 *c 20140403150747 *d 20140109 *f a 
+004 00 *r n *a e 
+008 00 *t m *u u *a 2013 *b dk *d y *n a *l dan *v 0 *x 06 *w 1 
+009 00 *a a *g xe 
+021 00 *e 9788799676705 
+032 00 *x ACC201402 *a DBF201413 *x DAT201415 
+245 00 *a Besættelsestiden 1940-1945 på egnen omkring Slagslunde-Ganløse og Stenløse-Veksø 
+250 00 *a 2. udgave 
+260 00 *a *b Stenløse Lokalarkivs Forlag *c 2013 
+512 00 *a Kan downloades i EPUB-format *u http://www.stenlosearkiv.dk/Boger/boger.htm *y her 
+520 00 *a Tidligere: 1. udgave. 2012 (Ikke registreret i: Dansk bogfortegnelse) 
+532 00 *&amp; 1 *a Med litteraturhenvisninger og links 
+652 00 *m 46.4 *b Stenløse 
+652 00 *p 96.71 
+700 00 *a Odgaard *h Hugo *4 edt 
+856 00 *z Adgangsmåde: Internet *u http://www.stenlosearkiv.dk/Boger/ebog/Besaettelsen%20lokalt%202.%20udg%20-%20Hugo%20Odgaard.pdf *y PDF-format 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Electronic(1)
+A2 Odgaard,Hugo
+T1 Besættelsestiden 1940-1945 på egnen omkring Slagslunde-Ganløse og Stenløse-Veksø
+ED 2
+PB Stenløse Lokalarkivs Forlag
+YR 2013
+SN 9788799676705
+NO Kan downloades i EPUB-format. - http://www.stenlosearkiv.dk/Boger/boger.htm
+CN 46.4 Stenløse
+LK http://www.stenlosearkiv.dk/Boger/ebog/Besaettelsen%20lokalt%202.%20udg%20-%20Hugo%20Odgaard.pdf</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

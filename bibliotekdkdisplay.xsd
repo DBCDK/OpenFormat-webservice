@@ -115,6 +115,7 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:accessUrl"/>
 				<xs:element ref="bibdk:accessUrlDescriptor" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:accessUrlDisplay"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -130,6 +131,7 @@
         </xs:element>
 	<xs:element name="accessUrl" type="xs:string"/>
 	<xs:element name="accessUrlDescriptor" type="xs:string"/>
+	<xs:element name="accessUrlDisplay" type="xs:string"/>
 	<xs:element name="acquisitionInformation">
 		<xs:complexType>
 			<xs:sequence>
@@ -218,7 +220,15 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="audienceAgeElement" type="xs:string"/>
+	<xs:element name="audienceAgeElement">
+ <xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="htmlClass" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+	</xs:element>
 	<xs:element name="audienceMarked">
 		<xs:complexType>
 			<xs:sequence>
@@ -226,7 +236,15 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="audienceMarkedElement" type="xs:string"/>
+	<xs:element name="audienceMarkedElement">
+ <xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="htmlClass" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+	</xs:element>
 	<xs:element name="audiencePegi">
 		<xs:complexType>
 			<xs:sequence>
@@ -364,6 +382,18 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="descriptionNote" type="xs:string"/>
+	<xs:element name="descriptionNoteElement" type="xs:string"/>
+	<xs:element name="descriptionNoteUrl" type="xs:string"/>
+	<xs:element name="descriptionNoteUrlDisplay" type="xs:string"/>
+	<xs:element name="descriptionNoteLink">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bibdk:descriptionNoteElement" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteUrl" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteUrlDisplay" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="details">
 		<xs:complexType>
 			<xs:sequence>
@@ -388,6 +418,7 @@
 				<xs:element ref="bibdk:usedLanguage" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:actorNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:descriptionNote" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:descriptionNoteLink" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:element ref="bibdk:systemDemands" minOccurs="0" maxOccurs="unbounded"/>
                                 <xs:element ref="bibdk:accessMethod" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:references" minOccurs="0" maxOccurs="unbounded"/>
@@ -789,7 +820,15 @@
 	</xs:element>
 	<xs:element name="dependentTitle" type="xs:string"/>
 	<xs:element name="specifyArticleData" type="xs:string"/>
-	<xs:element name="titleFull" type="xs:string"/>
+	<xs:element name="titleFull">
+ 		<xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="htmlClass" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+        </xs:element>
 	<xs:element name="titleSpecific" type="xs:string"/>
 	<xs:element name="type">
 		<xs:complexType>

@@ -179,7 +179,7 @@
                   <marcx:subfield code="h">Kasper</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield tag="795" ind1="0" ind2="0">
-                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="å">11</marcx::subfield>
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Movie klip</marcx:subfield>
                   <marcx:subfield code="a">Superliga</marcx:subfield>

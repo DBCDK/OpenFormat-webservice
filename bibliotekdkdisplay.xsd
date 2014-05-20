@@ -177,6 +177,7 @@
 	</xs:element>
 	<xs:element name="alternativeTitleElement" type="xs:string"/>
 	<xs:element name="alternativeTitleDescriptor" type="xs:string"/>
+	<xs:element name="analyticContentDescriptor" type="xs:string"/>
 	<xs:element name="analyticContent">
 		<xs:complexType>
 			<xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -382,15 +383,17 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="descriptionNote" type="xs:string"/>
-	<xs:element name="descriptionNoteElement" type="xs:string"/>
-	<xs:element name="descriptionNoteUrl" type="xs:string"/>
-	<xs:element name="descriptionNoteUrlDisplay" type="xs:string"/>
+	<xs:element name="descriptionNoteLinkDescriptor" type="xs:string"/>
+	<xs:element name="descriptionNoteLinkElement" type="xs:string"/>
+	<xs:element name="descriptionNoteLinkUrl" type="xs:string"/>
+	<xs:element name="descriptionNoteLinkUrlDisplay" type="xs:string"/>
 	<xs:element name="descriptionNoteLink">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:descriptionNoteElement" minOccurs="0"/>
-				<xs:element ref="bibdk:descriptionNoteUrl" minOccurs="0"/>
-				<xs:element ref="bibdk:descriptionNoteUrlDisplay" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteLinkElement" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteLinkUrl" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteLinkUrlDisplay" minOccurs="0"/>
+				<xs:element ref="bibdk:descriptionNoteLinkDescriptor" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>

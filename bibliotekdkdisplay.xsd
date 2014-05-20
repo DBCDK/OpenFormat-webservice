@@ -177,7 +177,6 @@
 	</xs:element>
 	<xs:element name="alternativeTitleElement" type="xs:string"/>
 	<xs:element name="alternativeTitleDescriptor" type="xs:string"/>
-	<xs:element name="analyticContentDescriptor" type="xs:string"/>
 	<xs:element name="analyticContent">
 		<xs:complexType>
 			<xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -277,11 +276,13 @@
 			<xs:sequence>
 				<xs:element ref="bibdk:contentNote" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contentPartialNote" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:contentDescriptor" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:analyticContent" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:contentTitle" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="contentDescriptor" type="xs:string"/>
 	<xs:element name="contentNote">
 		<xs:complexType>
 			<xs:sequence>

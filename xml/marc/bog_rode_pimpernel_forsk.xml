@@ -1,0 +1,12 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 1256950 *b 820010 *c 200912171219 *d 20010817 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 1958 *b dk *l dan *v 4 
+009 00 *a a *g xx 
+245 00 *a Den ¤røde Pimpernel *e på dansk ved Gerda Christensen 
+250 00 *a (6. opl. Overs. fra engelsk efter The scarlet Pimpernel). 
+260 00 *a Kbh. *c 1958 
+300 00 *a 190 s. 
+700 00 *a Orczy *f baronesse 
+700 00 *a Christensen *h Gerda</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

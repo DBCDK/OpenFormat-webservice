@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 35871578 *b 870971 *c 20140105164422 *d 20140105 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2014 *b dk *d y *l dan *v 0 *r an *n b 
+009 00 *a a *g xx *g xe 
+016 00 *a 03243850 
+032 00 *a ABU201402 *a DAR201403 
+086 00 *a Biografier af enkelte personer 
+245 00 *a Uden lineal 
+300 00 *a Sektion 3, s. 6-10 *b ill. 
+504 00 *a Flemming Quist Møller har aldrig været til det regelrette, pæne og normale. Snarere til det skæve, finurlige og antiautoritære. Derfor kan han i dag kalde sig musiker, forfatter, tegner og meget mere 
+507 00 *a I anledning af udstillingen "Plakattapetet" på Charlottenborg - blandt andet 
+557 00 *a Politiken *j 2014 *z 0907-1814 *V 2014-01-04 *v 2014-01-04 
+600 00 *a Quist Møller *h Flemming *1 
+652 00 *m 99.4 *a Quist Møller *h Flemming 
+666 00 *0 *e Danmark 
+666 00 *0 *f musik 
+666 00 *0 *f dansk teater 
+666 00 *0 *f dansk film 
+666 00 *0 *f dansk kunst 
+666 00 *0 *f dansk litteratur 
+700 00 *å 1 *a Bech-Danielsen *h Anne *4 ivr 
+700 00 *å 2 *a Quist Møller *h Flemming 
+900 00 *a Danielsen *h Anne Bech- *z 700/1 
+900 00 *a Møller *h Flemming Quist *z 700/2 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

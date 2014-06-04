@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - NEWS
+A2  - Bech-Danielsen,Anne
+A2  - Quist Møller,Flemming
+T1  - Uden lineal
+SE  - 3
+DA  - 2014/01/04
+Y1  - 2014/01/04
+SP  - 6
+EP  - 10
+JF  - Politiken
+SN  - 0907-1814
+N1  - Flemming Quist Møller har aldrig været til det regelrette, pæne og normale. Snarere til det skæve, finurlige og antiautoritære. Derfor kan han i dag kalde sig musiker, forfatter, tegner og meget mere. - I anledning af udstillingen "Plakattapetet" på Charlottenborg - blandt andet
+CN  - 99.4 Quist Møller, Flemming
+KW  - Flemming Quist Møller
+KW  - Danmark
+KW  - musik
+KW  - dansk teater
+KW  - dansk film
+KW  - dansk kunst
+KW  - dansk litteratur
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

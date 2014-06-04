@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
-A1  - Ebstrub,Erik
-A2  - Houmøller,Sven
-T1  - Frederiksbilleder : bidrag til en bibliografi over billeder med frederiksbergske motiver gengivet i danske bøger og tidsskrifter
-SP  - 386 s.
-PB  - Historisk-Topografisk Selskab for Frederiksberg
-Y1  - 1963
-T3  - Frederiksberg gennem tiderne, 9, 2
+A1  - Orczy,baronesse
+A2  - Christensen,Gerda
+T1  - Den røde Pimpernel
+SP  - 190 s.
+ET  - (6. opl. Overs. fra engelsk efter The scarlet Pimpernel).
+CY  - Kbh.
+Y1  - 1958
 ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

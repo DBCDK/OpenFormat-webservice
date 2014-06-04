@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/opensearch">
   <SOAP-ENV:Body>
-    <ns1:searchRequest>
-      <ns1:query>rec.id=PIDPLACE</ns1:query>
+    <ns1:getObjectRequest>
+      <ns1:identifier>PIDPLACE</ns1:identifier>
       <ns1:agency>100200</ns1:agency>
       <ns1:includeHoldingsCount>1</ns1:includeHoldingsCount>
       <ns1:profile>test</ns1:profile>
@@ -11,6 +11,6 @@
       <ns1:objectFormat>dkabm</ns1:objectFormat>
       <ns1:objectFormat>marcxchange</ns1:objectFormat>
       <ns1:relationData>uri</ns1:relationData>
-    </ns1:searchRequest>
+    </ns1:getObjectRequest>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

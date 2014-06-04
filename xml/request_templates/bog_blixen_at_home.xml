@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>008207779|810010</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788740000740</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:source>Karen Blixens gæstebud</dc:source>
+              <dc:title>Karen Blixen at home</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Karen Blixen at home : scenes from Rungstedlund</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">99.4 Blixen, Karen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Karen Blixen (1885-1962)</dc:subject>
+              <dc:subject xsi:type="oss:sort">Blixen, Karen (1885-1962)</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. edition</dkdcplus:version>
+              <dc:publisher>Politiken</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:aut">Ebbe Mørk (1940-)</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:pht">Jens Lindhe</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:trl">John Kendall</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:edt">Majbrit Hansen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:edt">Marianne Wirenfeldt Asmussen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:oth">Jens Bertelsen</dc:contributor>
+              <dc:date>2011</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret i farver, portr.</dc:format>
+              <dcterms:extent>298 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">008207779</marcx:subfield>
+                  <marcx:subfield code="b">810010</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="d">x928954905</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2011</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="k">b</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788740000740</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="c">dan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="241">
+                  <marcx:subfield code="a">Karen Blixens gæstebud</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Karen Blixen at home</marcx:subfield>
+                  <marcx:subfield code="c">scenes from Rungstedlund</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. edition</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">Politiken</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">298 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill. i farver, portr.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                  <marcx:subfield code="k">Clemenstrykkeriet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="600">
+                  <marcx:subfield code="a">Blixen</marcx:subfield>
+                  <marcx:subfield code="h">Karen</marcx:subfield>
+                  <marcx:subfield code="c">1885-1962</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Blixen</marcx:subfield>
+                  <marcx:subfield code="h">Karen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">46.4</marcx:subfield>
+                  <marcx:subfield code="b">Rungstedlund</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">81.65</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Mørk</marcx:subfield>
+                  <marcx:subfield code="h">Ebbe</marcx:subfield>
+                  <marcx:subfield code="c">1940-</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Lindhe</marcx:subfield>
+                  <marcx:subfield code="h">Jens</marcx:subfield>
+                  <marcx:subfield code="4">pht</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">John Kendall</marcx:subfield>
+                  <marcx:subfield code="4">trl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Majbrit Hansen</marcx:subfield>
+                  <marcx:subfield code="4">edt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Marianne Wirenfeldt Asmussen</marcx:subfield>
+                  <marcx:subfield code="4">edt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Jens Bertelsen</marcx:subfield>
+                  <marcx:subfield code="4">oth</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>810010-katalog:008207779</os:identifier>
+            <os:creationDate>2013-04-19</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_blixen_at_home.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

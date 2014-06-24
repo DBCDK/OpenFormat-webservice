@@ -1,0 +1,38 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 27173101 *b 870970 *c 20110114101202 *d 20080306 *f a 
+004 00 *r n *a h 
+008 00 *u c *a 2008 *b dk *c k *d y *h m *i b *l mul *x 05 *x 04 *v 0 
+009 00 *a a *g xe 
+245 00 *a DTU Aqua-rapport 
+255 00 *a Nr. 177- 
+260 00 *b DTU Aqua, Danmarks Tekniske Universitet *c 2008- 
+500 00 *a Uregelmæssig 
+505 00 *a Serie 
+512 00 *i Engelsksprogede numre med titel *t DTU Aqua report 
+526 00 *i Fortsættelse af *t DFU rapport 
+539 00 *a Nr. 197 
+652 00 *m 63.907 
+652 00 *p 55.9 
+710 00 *a Danmarks Tekniske Universitet *c DTU Aqua 
+856 00 *z Adgangsmåde: Internet *u http://www.aqua.dtu.dk/Publikationer/Forskningsrapporter.aspx 
+910 00 *a DTU *z 710(a) 
+910 00 *a Danmarks Tekniske Universitet *c DTU Aqua - Institut for Akvatiske Ressourcer *z 710 
+910 00 *a DTU Aqua - Institut for Akvatiske Ressourcer, Danmarks Tekniske Universitet *z 710 
+910 00 *a DTU Aqua, Technical University of Denmark *z 710 
+910 00 *a DTU Aqua, Technical University of Denmark - National Institute of Aquatic Resources *z 710 
+910 00 *a DTU Aqua, Danmarks Tekniske Universitet *z 710 
+910 00 *a Technical University of Denmark *c DTU Aqua *z 710 
+
+001 00 *a 28122098 *b 870970 *c 20101201084911 *d 20100203 *f a 
+004 00 *r n *a b 
+008 00 *t p *n a *v 0 
+014 00 *a 27173101 
+021 00 *e 9788774810896 
+032 00 *a IDO201006 *x ACC201005 *x DIT991007 *x ARK201012 
+041 00 *a dan 
+245 00 *G 199 *g Nr. 199 *a Udvikling af produktionsmetoder til intensivt opdræt af sandartyngel *c projektrapport 
+260 00 *c 2008 
+700 00 *a Steenfeldt *h Svend *4 aut 
+700 00 *a Lund *h Ivar *c f. 1966-07-09 *4 aut 
+856 00 *z Adgangsmåde: Internet *u http://www.difres.dk/dk/publication/files/21112008$199_08_elektronisk_samlet.pdf *y PDF-format *s 0,5 MB</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

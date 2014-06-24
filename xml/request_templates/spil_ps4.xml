@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51051785|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Dynasty warriors 8 - xtreme legends</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Dynasty warriors 8 - xtreme legends (Playstation 4)</dc:title>
+              <dcterms:alternative>Xtreme legends  - dynasty warriors 8</dcterms:alternative>
+              <dcterms:alternative>Dynasty warriors 8 - extreme legends</dcterms:alternative>
+              <dcterms:alternative>Xtreme legends</dcterms:alternative>
+              <dcterms:alternative>Extreme legends</dcterms:alternative>
+              <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">actionspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">actionspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
+              <dcterms:abstract>Actionspil. Dynasty Warriors 8 inklusive tillægspakken Xtreme Legends med historien om General Lü Bu, kan nu nydes på Playstation 4. Du kan nu vælge mellem 82 forskellige figurer i over 200 forskellige slag fra middelalderens Kina. De forskellige figurer har hver deres unikke combo'er i de drabelige sværdkampe. Mulighed for online-spil og co-op med 2 spillere på samme Playstation eller PS Vita</dcterms:abstract>
+              <dc:description>Titlen hentet fra ryggen</dc:description>
+              <dc:description>Vejledning: Engelsk tekst med quickstart på svensk og finsk</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 16</dcterms:audience>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 13 år</dcterms:audience>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Complete edition</dkdcplus:version>
+              <dc:publisher>Tecmo Koei Europe</dc:publisher>
+              <dc:contributor>Tecmo Koei Games</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Playstation</dc:type>
+              <dc:format>1 blu-ray disc, blu-ray, playstation 4, 1 vejledning</dc:format>
+              <dc:format>Afspilningsudstyr Sony playstation 4; understøtter Playstation Vita; understøtter vibrationsfunktion. - Med multiplayerfunktion</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51051785</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140430181046</marcx:subfield>
+                  <marcx:subfield code="d">20140404</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="e">16</marcx:subfield>
+                  <marcx:subfield code="2">c</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="e">13</marcx:subfield>
+                  <marcx:subfield code="2">d</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="q">bg</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">t</marcx:subfield>
+                  <marcx:subfield code="g">to</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Til udlån og brug på stedet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5060327530869</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201414</marcx:subfield>
+                  <marcx:subfield code="x">BKM201419</marcx:subfield>
+                  <marcx:subfield code="x">BKX201418</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="e">swe</marcx:subfield>
+                  <marcx:subfield code="e">fin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Dynasty warriors 8 - xtreme legends</marcx:subfield>
+                  <marcx:subfield code="e">developed by Tecmo Koei Games Co. Ltd.</marcx:subfield>
+                  <marcx:subfield code="ø">Playstation 4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">Complete edition</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Letchworth Garden City, Herts.]</marcx:subfield>
+                  <marcx:subfield code="b">Tecmo Koei Europe</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 blu-ray disc</marcx:subfield>
+                  <marcx:subfield code="e">blu-ray</marcx:subfield>
+                  <marcx:subfield code="e">playstation 4</marcx:subfield>
+                  <marcx:subfield code="d">1 vejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="501">
+                  <marcx:subfield code="i">Afspilningsudstyr</marcx:subfield>
+                  <marcx:subfield code="a">Sony \playstation 4\; understøtter Playstation Vita; understøtter vibrationsfunktion. - Med multiplayerfunktion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Actionspil. Dynasty Warriors 8 inklusive tillægspakken Xtreme Legends med historien om General Lü Bu, kan nu nydes på Playstation 4. Du kan nu vælge mellem 82 forskellige figurer i over 200 forskellige slag fra middelalderens Kina. De forskellige figurer har hver deres unikke combo'er i de drabelige sværdkampe. Mulighed for online-spil og co-op med 2 spillere på samme Playstation eller PS Vita</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Spil for 1-2 spillere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Titlen hentet fra ryggen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Titel på dvd-etiket og omslag</marcx:subfield>
+                  <marcx:subfield code="t">Xtreme legends  - dynasty warriors 8</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Vejledning: Engelsk tekst med quickstart på svensk og finsk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">PEGI-mærkning: 16</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Fra 13 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">79.41</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">computerspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">actionspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Tecmo Koei Games</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="745">
+                  <marcx:subfield code="a">Dynasty warriors 8 - extreme legends</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="745">
+                  <marcx:subfield code="a">Xtreme legends</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="745">
+                  <marcx:subfield code="a">Extreme legends</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201419</marcx:subfield>
+                  <marcx:subfield code="b">m</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="b">b</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Ekspres 201418</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Agenturholder: Entertainment Trading</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51051785</os:identifier>
+            <os:creationDate>2014-04-04</os:creationDate>
+            <os:holdingsCount>24</os:holdingsCount>
+            <os:lendingLibraries>24</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>spil_ps4.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

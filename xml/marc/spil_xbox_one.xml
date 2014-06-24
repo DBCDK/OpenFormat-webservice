@@ -1,0 +1,33 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50990761 *b 870970 *c 20140326181005 *d 20140303 *f a 
+004 00 *r n *a e 
+006 00 *e 18 *2 c 
+006 00 *e 14 *2 d 
+008 00 *t m *u f *a 2014 *b gb *l mul *q bg *v 0 
+009 00 *a t *g to 
+021 00 *b Til udlån og brug på stedet 
+023 00 *b 5021290061040 
+032 00 *x ACC201410 *x BKM201414 *x BKX201413 
+041 00 *a eng *s fre *s ger *s ita *s spa *s pol *s rus *s ara *u eng *u fre *u ger *u ita *u spa *u por *u pol *u rus *u dut *u ara 
+245 00 *a Tomb raider *ø Xbox One 
+250 00 *a Definitive edition 
+260 00 *a London *b Square Enix *c 2014 
+300 00 *n 1 dvd-rom *e Xbox One *b lyd, farve 
+501 00 *i Afspilningsudstyr *a \Xbox One\; understøtter Kinect Motion; understøtter Kinect Voice. - Med multiplayerfunktion 
+504 00 *&amp; 1 *a Actionspil. Adventurespil. Prequel til Tomb raider-serien. En ung Lara forliser med et skib i havet ud for Japan. Hun driver i land på en hemmelighedsfuld ø, som viser sig at være det forsvundne rige Yamatai. Tag rollen som Lara, kæmp for livet på den uhyggelige ø, som er alt andet end gæstfri. Definitive edition betyder, at tidligere DLC-pakker er inkluderet her 
+505 00 *a Spil for 1 spiller 
+508 00 *a Engelsk tale, samt synkronisering på fransk, tysk, italiensk, spansk, polsk, russisk og arabisk 
+508 00 *a Menuer og undertekster på engelsk, fransk, tysk, italiensk, spansk, portugisisk, polsk, russisk, hollandsk og arabisk 
+512 00 *a Titlen hentet fra dvd-rometiketten 
+517 00 *&amp; 1 *a PEGI-mærkning: 18 
+517 00 *&amp; 1 *a Fra 14 år 
+652 00 *m 79.41 
+666 00 *0 *o actionspil 
+666 00 *0 *o adventurespil 
+666 00 *0 *o computerspil 
+710 00 *a Crystal Dynamics 
+990 00 *o 201414 *b m *b v *u nt 
+991 00 *o Ekspres 201413 
+991 00 *o Agenturholder: Namco Bandai 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

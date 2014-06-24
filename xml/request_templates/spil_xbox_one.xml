@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>50990761|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Tomb raider</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Tomb raider (Xbox One)</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">actionspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">actionspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">adventurespil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">adventurespil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
+              <dcterms:abstract>Actionspil. Adventurespil. Prequel til Tomb raider-serien. En ung Lara forliser med et skib i havet ud for Japan. Hun driver i land på en hemmelighedsfuld ø, som viser sig at være det forsvundne rige Yamatai. Tag rollen som Lara, kæmp for livet på den uhyggelige ø, som er alt andet end gæstfri. Definitive edition betyder, at tidligere DLC-pakker er inkluderet her</dcterms:abstract>
+              <dc:description>Titlen hentet fra dvd-rometiketten</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 18</dcterms:audience>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 14 år</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>Definitive edition</dkdcplus:version>
+              <dc:publisher>Square Enix</dc:publisher>
+              <dc:contributor>Crystal Dynamics</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Xbox</dc:type>
+              <dc:format>1 dvd-rom, Xbox One, lyd, farve</dc:format>
+              <dc:format>Afspilningsudstyr Xbox One; understøtter Kinect Motion; understøtter Kinect Voice. - Med multiplayerfunktion</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">eng</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">fre</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ger</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ita</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">spa</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">por</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">pol</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">rus</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">dut</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">ara</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50990761</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140326181005</marcx:subfield>
+                  <marcx:subfield code="d">20140303</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="e">18</marcx:subfield>
+                  <marcx:subfield code="2">c</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="e">14</marcx:subfield>
+                  <marcx:subfield code="2">d</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="q">bg</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">t</marcx:subfield>
+                  <marcx:subfield code="g">to</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Til udlån og brug på stedet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5021290061040</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201410</marcx:subfield>
+                  <marcx:subfield code="x">BKM201414</marcx:subfield>
+                  <marcx:subfield code="x">BKX201413</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                  <marcx:subfield code="s">fre</marcx:subfield>
+                  <marcx:subfield code="s">ger</marcx:subfield>
+                  <marcx:subfield code="s">ita</marcx:subfield>
+                  <marcx:subfield code="s">spa</marcx:subfield>
+                  <marcx:subfield code="s">pol</marcx:subfield>
+                  <marcx:subfield code="s">rus</marcx:subfield>
+                  <marcx:subfield code="s">ara</marcx:subfield>
+                  <marcx:subfield code="u">eng</marcx:subfield>
+                  <marcx:subfield code="u">fre</marcx:subfield>
+                  <marcx:subfield code="u">ger</marcx:subfield>
+                  <marcx:subfield code="u">ita</marcx:subfield>
+                  <marcx:subfield code="u">spa</marcx:subfield>
+                  <marcx:subfield code="u">por</marcx:subfield>
+                  <marcx:subfield code="u">pol</marcx:subfield>
+                  <marcx:subfield code="u">rus</marcx:subfield>
+                  <marcx:subfield code="u">dut</marcx:subfield>
+                  <marcx:subfield code="u">ara</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Tomb raider</marcx:subfield>
+                  <marcx:subfield code="ø">Xbox One</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">Definitive edition</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">London</marcx:subfield>
+                  <marcx:subfield code="b">Square Enix</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 dvd-rom</marcx:subfield>
+                  <marcx:subfield code="e">Xbox One</marcx:subfield>
+                  <marcx:subfield code="b">lyd, farve</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="501">
+                  <marcx:subfield code="i">Afspilningsudstyr</marcx:subfield>
+                  <marcx:subfield code="a">\Xbox One\; understøtter Kinect Motion; understøtter Kinect Voice. - Med multiplayerfunktion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Actionspil. Adventurespil. Prequel til Tomb raider-serien. En ung Lara forliser med et skib i havet ud for Japan. Hun driver i land på en hemmelighedsfuld ø, som viser sig at være det forsvundne rige Yamatai. Tag rollen som Lara, kæmp for livet på den uhyggelige ø, som er alt andet end gæstfri. Definitive edition betyder, at tidligere DLC-pakker er inkluderet her</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Spil for 1 spiller</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Engelsk tale, samt synkronisering på fransk, tysk, italiensk, spansk, polsk, russisk og arabisk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Menuer og undertekster på engelsk, fransk, tysk, italiensk, spansk, portugisisk, polsk, russisk, hollandsk og arabisk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Titlen hentet fra dvd-rometiketten</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">PEGI-mærkning: 18</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Fra 14 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">79.41</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">actionspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">adventurespil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">computerspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Crystal Dynamics</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201414</marcx:subfield>
+                  <marcx:subfield code="b">m</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Ekspres 201413</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Agenturholder: Namco Bandai</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:50990761</os:identifier>
+            <os:creationDate>2014-03-03</os:creationDate>
+            <os:holdingsCount>18</os:holdingsCount>
+            <os:lendingLibraries>18</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:35981748</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>spil_xbox_one.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

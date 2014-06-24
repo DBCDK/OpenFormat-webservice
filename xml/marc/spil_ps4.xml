@@ -1,0 +1,35 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 51051785 *b 870970 *c 20140430181046 *d 20140404 *f a 
+004 00 *r n *a e 
+006 00 *e 16 *2 c 
+006 00 *e 13 *2 d 
+008 00 *t m *u f *a 2014 *b gb *l eng *q bg *v 0 
+009 00 *a t *g to *b a *h xx 
+021 00 *b Til udlån og brug på stedet 
+023 00 *b 5060327530869 
+032 00 *x ACC201414 *x BKM201419 *x BKX201418 
+041 00 *a eng *e swe *e fin 
+245 00 *a Dynasty warriors 8 - xtreme legends *e developed by Tecmo Koei Games Co. Ltd. *ø Playstation 4 
+250 00 *a Complete edition 
+260 00 *a [Letchworth Garden City, Herts.] *b Tecmo Koei Europe *c 2014 
+300 00 *n 1 blu-ray disc *e blu-ray *e playstation 4 *d 1 vejledning 
+501 00 *i Afspilningsudstyr *a Sony \playstation 4\; understøtter Playstation Vita; understøtter vibrationsfunktion. - Med multiplayerfunktion 
+504 00 *&amp; 1 *a Actionspil. Dynasty Warriors 8 inklusive tillægspakken Xtreme Legends med historien om General Lü Bu, kan nu nydes på Playstation 4. Du kan nu vælge mellem 82 forskellige figurer i over 200 forskellige slag fra middelalderens Kina. De forskellige figurer har hver deres unikke combo'er i de drabelige sværdkampe. Mulighed for online-spil og co-op med 2 spillere på samme Playstation eller PS Vita 
+505 00 *a Spil for 1-2 spillere 
+512 00 *a Titlen hentet fra ryggen 
+512 00 *i Titel på dvd-etiket og omslag *t Xtreme legends  - dynasty warriors 8 
+512 00 *a Vejledning: Engelsk tekst med quickstart på svensk og finsk 
+517 00 *&amp; 1 *a PEGI-mærkning: 16 
+517 00 *&amp; 1 *a Fra 13 år 
+652 00 *m 79.41 
+666 00 *0 *o computerspil 
+666 00 *0 *o actionspil 
+710 00 *a Tecmo Koei Games 
+745 00 *a Dynasty warriors 8 - extreme legends 
+745 00 *a Xtreme legends 
+745 00 *a Extreme legends 
+990 00 *o 201419 *b m *b v *b b *u nt 
+991 00 *o Ekspres 201418 
+991 00 *o Agenturholder: Entertainment Trading 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+              <mx:collection>
+  <mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" format="MARC21" type="Bibliographic">
+    <mx:leader>00000cam a2200000 a 4500</mx:leader>
+    <mx:controlfield tag="001">   96827484 </mx:controlfield>
+    <mx:controlfield tag="003">DLC</mx:controlfield>
+    <mx:controlfield tag="005">20140623144458.0</mx:controlfield>
+    <mx:controlfield tag="008">960719r19901860nyuh          000 0 heb d</mx:controlfield>
+    <mx:datafield tag="010" ind1=" " ind2=" ">
+      <mx:subfield code="a">   96827484 </mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="035" ind1=" " ind2=" ">
+      <mx:subfield code="a">(CStRLIN)DCLH96-B2058</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="040" ind1=" " ind2=" ">
+      <mx:subfield code="a">MH</mx:subfield>
+      <mx:subfield code="c">MH</mx:subfield>
+      <mx:subfield code="d">CStRLIN</mx:subfield>
+      <mx:subfield code="d">NjP</mx:subfield>
+      <mx:subfield code="d">DLC-R</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="042" ind1=" " ind2=" ">
+      <mx:subfield code="a">lccopycat</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="050" ind1="0" ind2="0">
+      <mx:subfield code="a">BM695.H3</mx:subfield>
+      <mx:subfield code="b">H365 1990</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="066" ind1=" " ind2=" ">
+      <mx:subfield code="c">(2</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="245" ind1="0" ind2="0">
+      <mx:subfield code="6">880-01</mx:subfield>
+      <mx:subfield code="a">HÌÐamishah sefarim yahÌÐdavÌÐ metsumadim li-yeme HÌÐanukah.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="246" ind1="1" ind2="4">
+      <mx:subfield code="6">880-02</mx:subfield>
+      <mx:subfield code="a">HÌÐamishah sefarim nehÌÐmadim li-yeme HÌÐanukah</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="246" ind1="3" ind2=" ">
+      <mx:subfield code="6">880-03</mx:subfield>
+      <mx:subfield code="a">5 sefarim yahÌÐdavÌÐ metsumadim li-yeme HÌÐanukah</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="260" ind1=" " ind2=" ">
+      <mx:subfield code="6">880-04</mx:subfield>
+      <mx:subfield code="a">VÌÐilyamsburg :</mx:subfield>
+      <mx:subfield code="b">Torah or,</mx:subfield>
+      <mx:subfield code="c">751 [1990]</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="300" ind1=" " ind2=" ">
+      <mx:subfield code="a">1 v. (various pagings) :</mx:subfield>
+      <mx:subfield code="b">facsim. ;</mx:subfield>
+      <mx:subfield code="c">24 cm.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="500" ind1=" " ind2=" ">
+      <mx:subfield code="a">"KÌÐehÌÐu Ê»imakhem devarim--hÌÐamishah sefarim--pilpulim arukim u-kÌÐetsarim ... "</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="500" ind1=" " ind2=" ">
+      <mx:subfield code="a">Reprints of works originally published: 621-669 [1860 or 1861-1908 or 1909].</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="505" ind1="0" ind2=" ">
+      <mx:subfield code="a">Hod tehilah / Efrayim EliÊ»ezer Tsevi HÌÐarlap -- Nes la-shoshanim / HÌÐayim Meshulam KÌÐoifman ha-Kohen -- 12 derashot la-Riba : ... Ê»al HÌÐanukah / Yosef b.R. Aharon Mesing -- KÌÐuntÌÐres shaÊ»ashue raÊ»yonim / Barukh b.R. HÌÐayim LaznovÌÐskÌÐi -- KÌÐuntÌÐres ShaÊ»are orah : Ê»inyene HÌÐanukah / lukÌÐatÌÐ ... Ê»a. y. YitshÌÐakÌÐ Figenboim.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="0">
+      <mx:subfield code="a">Hanukkah.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="630" ind1="0" ind2="0">
+      <mx:subfield code="a">Talmud.</mx:subfield>
+      <mx:subfield code="p">Shabbat II, 21a-24b</mx:subfield>
+      <mx:subfield code="x">Commentaries.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="0">
+      <mx:subfield code="a">Hanukkah sermons</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="650" ind1=" " ind2="0">
+      <mx:subfield code="a">Jewish sermons, Hebrew.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">Hod tehilah.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">KÌÐuntÌÐres shaÊ»ashuÊ»e raÊ»yonim.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">ShaÊ»ashuÊ»e raÊ»yonim.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">KÌÐuntÌÐres shaÊ»are orah.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">ShaÊ»are orah.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">Yod bet derashot.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="740" ind1="0" ind2="2">
+      <mx:subfield code="a">Shetem Ê»esÌreh derashot.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="880" ind1="0" ind2="0">
+      <mx:subfield code="6">245-01/(2/r</mx:subfield>
+      <mx:subfield code="a">×××♭× ×Ł×Þ×·×× ××××× ××Œ××××× ×××× ×× ×××.</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="880" ind1="1" ind2="4">
+      <mx:subfield code="6">246-02/(2/r</mx:subfield>
+      <mx:subfield code="a">×××♭× ×Ł×Þ×·×× × ××××× ×××× ×× ×××</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="880" ind1="3" ind2=" ">
+      <mx:subfield code="6">246-03/(2/r</mx:subfield>
+      <mx:subfield code="a">5 ×Ł×Þ×·×× ××××× ××Œ××××× ××××× ×××× ×× ×××</mx:subfield>
+    </mx:datafield>
+    <mx:datafield tag="880" ind1=" " ind2=" ">
+      <mx:subfield code="6">260-04/(2/r</mx:subfield>
+      <mx:subfield code="a">××××××××Ł×××·× :</mx:subfield>
+      <mx:subfield code="b">×®××·× ×××·,</mx:subfield>
+      <mx:subfield code="c">751 [1990].</mx:subfield>
+    </mx:datafield>
+  </mx:record>
+              </mx:collection>
+                </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

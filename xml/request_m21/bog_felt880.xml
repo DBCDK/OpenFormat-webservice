@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+              <mx:collection>
+                <mx:record format="MARC21" type="Bibliographic">
+                  <mx:leader>00000cam  2200541   450 </mx:leader>
+                  <mx:controlfield tag="001">ocm31427656</mx:controlfield>
+                  <mx:controlfield tag="003">OCoLC</mx:controlfield>
+                  <mx:controlfield tag="005">20140625051706.0</mx:controlfield>
+                  <mx:controlfield tag="008">941219s1993    cc abf   b    000 0 chi d</mx:controlfield>
+                  <mx:datafield tag="010" ind1=" " ind2=" ">
+                    <mx:subfield code="a">   94453916</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="040" ind1=" " ind2=" ">
+                    <mx:subfield code="a">ICU-FE</mx:subfield>
+                    <mx:subfield code="b">eng</mx:subfield>
+                    <mx:subfield code="c">DLC</mx:subfield>
+                    <mx:subfield code="d">OCLCG</mx:subfield>
+                    <mx:subfield code="d">CSL</mx:subfield>
+                    <mx:subfield code="d">OCLCO</mx:subfield>
+                    <mx:subfield code="d">OCLCA</mx:subfield>
+                    <mx:subfield code="d">OCLCF</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="019" ind1=" " ind2=" ">
+                    <mx:subfield code="a">42627108</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="020" ind1=" " ind2=" ">
+                    <mx:subfield code="a">7805287600</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="020" ind1=" " ind2=" ">
+                    <mx:subfield code="a">9787805287607</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="035" ind1=" " ind2=" ">
+                    <mx:subfield code="a">(OCoLC)31427656</mx:subfield>
+                    <mx:subfield code="z">(OCoLC)42627108</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="042" ind1=" " ind2=" ">
+                    <mx:subfield code="a">lccopycat</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="043" ind1=" " ind2=" ">
+                    <mx:subfield code="a">a-cc---</mx:subfield>
+                    <mx:subfield code="a">a-kr---</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="050" ind1="0" ind2="0">
+                    <mx:subfield code="a">DS740.5.K6</mx:subfield>
+                    <mx:subfield code="b">Y37 1993</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="029" ind1="1" ind2=" ">
+                    <mx:subfield code="a">AU@@</mx:subfield>
+                    <mx:subfield code="b">000015002550</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="029" ind1="1" ind2=" ">
+                    <mx:subfield code="a">NZ1</mx:subfield>
+                    <mx:subfield code="b">14913336</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="100" ind1="1" ind2=" ">
+                    <mx:subfield code="6">880-01</mx:subfield>
+                    <mx:subfield code="a">Yang, Zhaoquan.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="245" ind1="1" ind2="0">
+                    <mx:subfield code="6">880-02</mx:subfield>
+                    <mx:subfield code="a">Zhong Chao bian jie shi /</mx:subfield>
+                    <mx:subfield code="c">Yang Zhaoquan, Sun Yumei.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="246" ind1="1" ind2=" ">
+                    <mx:subfield code="i">Colophon title also in pinyin:</mx:subfield>
+                    <mx:subfield code="a">Zhong Chao bien jie shi</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="250" ind1=" " ind2=" ">
+                    <mx:subfield code="6">880-03</mx:subfield>
+                    <mx:subfield code="a">Di 1 ban.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="260" ind1=" " ind2=" ">
+                    <mx:subfield code="6">880-04</mx:subfield>
+                    <mx:subfield code="a">Changchun Shi :</mx:subfield>
+                    <mx:subfield code="b">Jilin wen shi chu ban she,</mx:subfield>
+                    <mx:subfield code="c">1993.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="300" ind1=" " ind2=" ">
+                    <mx:subfield code="a">9, 2, 632 p., [5] leaves of plates :</mx:subfield>
+                    <mx:subfield code="b">ill., maps (some folded) ;</mx:subfield>
+                    <mx:subfield code="c">21 cm.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="490" ind1="1" ind2=" ">
+                    <mx:subfield code="6">880-05</mx:subfield>
+                    <mx:subfield code="a">Dongbei shi cong shu.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="500" ind1=" " ind2=" ">
+                    <mx:subfield code="6">880-06</mx:subfield>
+                    <mx:subfield code="a">"Guo jia she hui ke xue ji jin xiang mu"--t.p.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="504" ind1=" " ind2=" ">
+                    <mx:subfield code="a">Includes bibliographical references (p. 616-632).</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="0">
+                    <mx:subfield code="a">China</mx:subfield>
+                    <mx:subfield code="x">Relations</mx:subfield>
+                    <mx:subfield code="z">Korea.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="0">
+                    <mx:subfield code="a">Korea</mx:subfield>
+                    <mx:subfield code="x">Relations</mx:subfield>
+                    <mx:subfield code="z">China.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="0">
+                    <mx:subfield code="a">China</mx:subfield>
+                    <mx:subfield code="x">Boundaries</mx:subfield>
+                    <mx:subfield code="z">Korea.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="0">
+                    <mx:subfield code="a">Korea</mx:subfield>
+                    <mx:subfield code="x">Boundaries</mx:subfield>
+                    <mx:subfield code="z">China.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="650" ind1=" " ind2="7">
+                    <mx:subfield code="a">Boundaries.</mx:subfield>
+                    <mx:subfield code="2">fast</mx:subfield>
+                    <mx:subfield code="0">(OCoLC)fst00837076</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="650" ind1=" " ind2="7">
+                    <mx:subfield code="a">Relations.</mx:subfield>
+                    <mx:subfield code="2">fast</mx:subfield>
+                    <mx:subfield code="0">(OCoLC)fst01892706</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="7">
+                    <mx:subfield code="a">China.</mx:subfield>
+                    <mx:subfield code="2">fast</mx:subfield>
+                    <mx:subfield code="0">(OCoLC)fst01206073</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="651" ind1=" " ind2="7">
+                    <mx:subfield code="a">Korea.</mx:subfield>
+                    <mx:subfield code="2">fast</mx:subfield>
+                    <mx:subfield code="0">(OCoLC)fst01206434</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="700" ind1="1" ind2=" ">
+                    <mx:subfield code="6">880-07</mx:subfield>
+                    <mx:subfield code="a">Sun, Yumei,</mx:subfield>
+                    <mx:subfield code="d">1950-</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="776" ind1="0" ind2="8">
+                    <mx:subfield code="i">Online version:</mx:subfield>
+                    <mx:subfield code="a">Yang, Zhaoquan.</mx:subfield>
+                    <mx:subfield code="t">Zhong Chao bian jie shi.</mx:subfield>
+                    <mx:subfield code="b">Di 1 ban.</mx:subfield>
+                    <mx:subfield code="d">Changchun Shi : Jilin wen shi chu ban she, 1993</mx:subfield>
+                    <mx:subfield code="w">(OCoLC)741521469</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="830" ind1=" " ind2="0">
+                    <mx:subfield code="6">880-08</mx:subfield>
+                    <mx:subfield code="a">Dongbei shi cong shu.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1="1" ind2=" ">
+                    <mx:subfield code="6">100-01</mx:subfield>
+                    <mx:subfield code="a">@6768@662D@5168.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1="1" ind2="0">
+                    <mx:subfield code="6">245-02</mx:subfield>
+                    <mx:subfield code="a">@4E2D@671D@8FB9@754C@53F2 /</mx:subfield>
+                    <mx:subfield code="c">@6768@662D@5168,@5B59@7389@6885.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1=" " ind2=" ">
+                    <mx:subfield code="6">250-03</mx:subfield>
+                    <mx:subfield code="a">@7B2C1@7248.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1=" " ind2=" ">
+                    <mx:subfield code="6">260-04</mx:subfield>
+                    <mx:subfield code="a">@957F@6625@5E02 :</mx:subfield>
+                    <mx:subfield code="b">@5409@6797@6587@53F2@51FA@7248@793E,</mx:subfield>
+                    <mx:subfield code="c">1993.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1="1" ind2=" ">
+                    <mx:subfield code="6">490-05</mx:subfield>
+                    <mx:subfield code="a">@4E1C@5317@53F2@4E1B@4E66</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1=" " ind2=" ">
+                    <mx:subfield code="6">500-06</mx:subfield>
+                    <mx:subfield code="a">"@56FD@5BB6@793E@4F1A@79D1@5B66@57FA@91D1@9879@76EE"--t.p.</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1="1" ind2=" ">
+                    <mx:subfield code="6">700-07</mx:subfield>
+                    <mx:subfield code="a">@5B59@7389@6885,</mx:subfield>
+                    <mx:subfield code="d">1950-</mx:subfield>
+                  </mx:datafield>
+                  <mx:datafield tag="880" ind1=" " ind2="0">
+                    <mx:subfield code="6">830-08</mx:subfield>
+                    <mx:subfield code="a">@4E1C@5317@53F2@4E1B@4E66.</mx:subfield>
+                  </mx:datafield>
+                </mx:record>
+              </mx:collection>
+                </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

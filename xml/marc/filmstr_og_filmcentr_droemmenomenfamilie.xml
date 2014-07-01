@@ -1,0 +1,29 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 50796590 *b 870970 *c 20140219180423 *d 20131107 *f a 
+004 00 *r n *a e 
+006 00 *d 0 *2 b 
+008 00 *t m *u f *a 2014 *b dk *l dan *n b *v 0 
+009 00 *a m *g xe 
+032 00 *a DBI201409 *x BKM201409 *x FSC201409 *x FSB201409 *x FSF201409 
+245 00 *a Drømmen om en familie 
+260 00 *b [Det Danske Filminstitut] *c [2014] 
+300 00 *l 67 min. 
+440 00 *0 *a New Danish Screen 
+504 00 *&amp; 1 *a Per er 55 år og har været misbruger det meste af sit liv. Da han får datteren Ilse med Christina, der også er misbruger, bliver han stoffri, men magter ikke opgaven med Ilse, da Christina flytter. Da Per igen får kontakt til Christina og de forelsker sig, opstår drømmen om en familie igen. Under hele forløbet følges familien af Torben fra Socialforvaltningen 
+512 00 *i Alternative titler *t Dreaming of a family *t Projekt Far 
+512 00 *a Produktion: Plus Pictures (Danmark), 2013 
+517 00 *&amp; 1 *a Mærkning: Tilladt for alle 
+652 00 *m 30.175 
+652 00 *p 38.55 
+666 00 *0 *f børn 
+666 00 *0 *f forældre 
+666 00 *0 *f samvær 
+666 00 *0 *f familier 
+666 00 *0 *f børneforsorg 
+700 00 *a Jargil *h Mira *4 drt 
+856 00 *z Adgang til streaming for biblioteksbrugere og biblioteker i kommuner med abonnement på Filmstriben *u http://www.filmstriben.dk/?showfilm=9000000990 
+856 00 *z Adgang til streaming for skoler med abonnement på Filmcentralen *u http://filmcentralen.dk/grundskolen/film/droemmen-om-en-familie 
+856 00 *z Adgang til streaming for gymnasier med abonnement på Filmcentralen *u http://filmcentralen.dk/gymnasiet/film/droemmen-om-en-familie 
+990 00 *o 201409 *b v *u nt 
+996 00 *a DBC</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

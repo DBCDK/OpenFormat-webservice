@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - MPCT
+A2  - Jargil,Mira
+T1  - Drømmen om en familie
+SP  - 67 min.)
+PB  - Det Danske Filminstitut
+Y1  - 2014
+T3  - New Danish Screen
+N1  - Per er 55 år og har været misbruger det meste af sit liv. Da han får datteren Ilse med Christina, der også er misbruger, bliver han stoffri, men magter ikke opgaven med Ilse, da Christina flytter. Da Per igen får kontakt til Christina og de forelsker sig, opstår drømmen om en familie igen. Under hele forløbet følges familien af Torben fra Socialforvaltningen. - Produktion: Plus Pictures (Danmark), 2013
+KW  - børn
+KW  - forældre
+KW  - samvær
+KW  - familier
+KW  - børneforsorg
+UR  - http://www.filmstriben.dk/?showfilm=9000000990
+UR  - http://filmcentralen.dk/grundskolen/film/droemmen-om-en-familie
+UR  - http://filmcentralen.dk/gymnasiet/film/droemmen-om-en-familie
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -3,7 +3,8 @@
 ## save the result to filename given by option 2
 
 #SERVERNAME=http://lakiseks.dbc.dk/openbibdk/next/
-SERVERNAME=http://lakiseks.dbc.dk/openbibdk/0.8/
+#SERVERNAME=http://lakiseks.dbc.dk/openbibdk/0.8/
+SERVERNAME=http://opensearch.addi.dk/3.0/
 USAGE="\nusage:\n$0 pid outputfilenavn [search_url]\n\t pid of object\n\t outputfilename where to save the result\n\t search_url for server to request"
 
 if [ "$1"x == "x" ]

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>34348952|870971</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.ugeskriftet.dk/portal/page/portal/LAEGERDK/UGESKRIFT_FOR_LAEGER/Artikelvisning?pUrl=/UGESKRIFT_FOR_LAEGER/TIDLIGERE_NUMRE/2010/UFL_2010_42/UFL_2010_172_42_2888</dc:identifier>
+              <ac:source>Tidsskriftsartikler</ac:source>
+              <dc:title>Ufraktioneret og lavmolekylært heparin ved akutte koronare syndromer - en gennemgang af et Cochrane-review</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Ufraktioneret og lavmolekylært heparin ved akutte koronare syndromer - en gennemgang af et Cochrane-review</dc:title>
+              <dc:creator>Steen Elkjær Husted</dc:creator>
+              <dc:creator xsi:type="oss:sort">Husted, Steen Elkjær</dc:creator>
+              <dc:creator>Hans Kræmmer Nielsen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Kræmmer Nielsen, Hans</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">61.625</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Hjerte- og karsygdomme</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">angina pectoris</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">heparin</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">hjerteinfarkt</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2010</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dcterms:isPartOf>Ugeskrift for læger online, Årg. 172, nr. 42 (2010)</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1603-6824</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">34348952</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20140313145322</marcx:subfield>
+                  <marcx:subfield code="d">20101109</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2010</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">49312644</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU201412</marcx:subfield>
+                  <marcx:subfield code="x">IDA201046</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="d">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">Hjerte- og karsygdomme</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Ufraktioneret og lavmolekylært heparin ved akutte koronare syndromer - en gennemgang af et Cochrane-review</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Med engelsk resumé</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Ugeskrift for læger [online]</marcx:subfield>
+                  <marcx:subfield code="j">2010</marcx:subfield>
+                  <marcx:subfield code="z">1603-6824</marcx:subfield>
+                  <marcx:subfield code="V">Årg. 0172, nr. 0042 (2010)</marcx:subfield>
+                  <marcx:subfield code="v">Årg. 172, nr. 42 (2010)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">61.625</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">hjerteinfarkt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">heparin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">angina pectoris</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Husted</marcx:subfield>
+                  <marcx:subfield code="h">Steen Elkjær</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Kræmmer Nielsen</marcx:subfield>
+                  <marcx:subfield code="h">Hans</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://www.ugeskriftet.dk/portal/page/portal/LAEGERDK/UGESKRIFT_FOR_LAEGER/Artikelvisning?pUrl=/UGESKRIFT_FOR_LAEGER/TIDLIGERE_NUMRE/2010/UFL_2010_42/UFL_2010_172_42_2888</marcx:subfield>
+                  <marcx:subfield code="z">Adgang til netdokument eller til login eller køb</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Elkjær Husted</marcx:subfield>
+                  <marcx:subfield code="h">Steen</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Nielsen</marcx:subfield>
+                  <marcx:subfield code="h">Hans Kræmmer</marcx:subfield>
+                  <marcx:subfield code="z">700/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-tsart:34348952</os:identifier>
+            <os:creationDate>20101109</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=34348952&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>rest</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>webservice</os:linkTo>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:49312644</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>art_ufl_online_ej008nb.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

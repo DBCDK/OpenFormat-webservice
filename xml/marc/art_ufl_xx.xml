@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 33995237 *b 870971 *c 20100203131946 *d 20100203 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2010 *b dk *d y *l dan *v 0 *r ap 
+009 00 *a a *g xx 
+016 00 *a 03301044 
+032 00 *a ABU201006 *a DAR201006 
+086 00 *a !!! INGEN DK5-POST TIL KLASSEMÆRKE 
+245 00 *a Da omstændighederne tvang Herlev Hospital i knæ *c Hovedstadens mest produktive hospital og specialeplansvinderen Herlev Hospital har fyret 136 medarbejdere 
+300 00 *a S. 182-186 *b ill. 
+557 00 *a Ugeskrift for læger *j 2010 *z 0041-5782 *V Årg. 0172, nr. 0003 (2010) *v Årg. 172, nr. 3 (2010) 
+610 00 *1 *a Herlev Hospital 
+652 00 *m 61.94 
+666 00 *0 *f hospitaler 
+666 00 *0 *f afskedigelser 
+666 00 *0 *f besparelser 
+700 00 *å 1 *a Igum Rasmussen *h Lars 
+700 00 *a Steenberger *h Anne 
+900 00 *a Rasmussen *h Lars Igum *z 700/1 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

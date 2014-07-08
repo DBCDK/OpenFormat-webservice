@@ -1,0 +1,24 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 34348952 *b 870971 *c 20140313145322 *d 20101109 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2010 *b dk *d y *l dan *v 0 *r ap 
+009 00 *a a *g xe 
+016 00 *a 49312644 
+032 00 *a ABU201412 *x IDA201046 
+041 00 *d eng 
+086 00 *a Hjerte- og karsygdomme 
+245 00 *a Ufraktioneret og lavmolekylært heparin ved akutte koronare syndromer - en gennemgang af et Cochrane-review 
+508 00 *a Med engelsk resumé 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Ugeskrift for læger [online] *j 2010 *z 1603-6824 *V Årg. 0172, nr. 0042 (2010) *v Årg. 172, nr. 42 (2010) 
+652 00 *m 61.625 
+666 00 *0 *f hjerteinfarkt 
+666 00 *0 *f heparin 
+666 00 *0 *f angina pectoris 
+700 00 *å 1 *a Husted *h Steen Elkjær 
+700 00 *å 2 *a Kræmmer Nielsen *h Hans 
+856 00 *z Adgangsmåde: Internet *u http://www.ugeskriftet.dk/portal/page/portal/LAEGERDK/UGESKRIFT_FOR_LAEGER/Artikelvisning?pUrl=/UGESKRIFT_FOR_LAEGER/TIDLIGERE_NUMRE/2010/UFL_2010_42/UFL_2010_172_42_2888 *z Adgang til netdokument eller til login eller køb 
+900 00 *a Elkjær Husted *h Steen *z 700/1 
+900 00 *a Nielsen *h Hans Kræmmer *z 700/2 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

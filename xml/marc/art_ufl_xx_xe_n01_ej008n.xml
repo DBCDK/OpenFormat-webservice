@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 35936181 *b 870971 *c 20140218111032 *d 20140218 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2012 *b dk *d y *l dan *v 0 *r ap 
+009 00 *a a *g xx *g xe 
+016 00 *a 03301044 
+032 00 *a ABU201409 *a DAR201246 
+086 00 *a !!! INGEN DK5-POST TIL KLASSEMÆRKE 
+245 00 *a Patientcentreret praksis på danske sygehuse vil styrke kvaliteten 
+300 00 *a S. 2791-2795 *b ill. 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Ugeskrift for læger *j 2012 *z 0041-5782 *V Årg. 0174, nr. 0045 (2012) *v Årg. 174, nr. 45 (2012) 
+652 00 *m 61.9 
+666 00 *0 *f hospitaler 
+666 00 *0 *f kvalitet 
+666 00 *0 *f patientcentreret medicin 
+700 00 *å 1 *a Lehmann Knudsen *h Janne *4 aut 
+700 00 *å 2 *a Stentebjerg  Olsen *h Gitte *4 aut 
+900 00 *a Knudsen *h Janne Lehmann *z 700/1 
+900 00 *a Olsen *h Gitte Stentebjerg *z 700/2 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

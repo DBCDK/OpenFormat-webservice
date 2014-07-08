@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
+SR Electronic(1)
+A1 Lehmann Knudsen,Janne
+A1 Stentebjerg  Olsen,Gitte
+T1 Patientcentreret praksis på danske sygehuse vil styrke kvaliteten
+VO 174
+IS 45
+SP 2791
+OP 2795
+YR 2012
+JF Ugeskrift for læger
+SN 0041-5782
+CN 61.9
+K1 hospitaler
+K1 kvalitet
+K1 patientcentreret medicin</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

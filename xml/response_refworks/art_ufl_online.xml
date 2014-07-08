@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse><bibdk:workNullDisplay><bibdk:nullDisplay/></bibdk:workNullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal, Electronic
+SR Electronic(1)
+A1 Durakovic,Amal
+A1 Lander Rasmussen,Dorte
+A1 Kjærsgaard-Andersen,Anne Marie
+T1 Symptomscreening af patienter med KOL kan identificere patienter med behov for palliativ indsats
+FD 2. juni
+YR 2014
+JF Ugeskrift for læger online
+SN 1603-6824
+CN 61.62
+K1 kronisk obstruktiv lungesygdom
+K1 lungesygdomme
+K1 lindrende pleje
+K1 lungefunktion
+LK http://ugeskriftet.dk/videnskab/incontinentia-pigmenti-er-en-sjaelden-arvelig-sygdom-der-kan-diagnosticeres-tidligt</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

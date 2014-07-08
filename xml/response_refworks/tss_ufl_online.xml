@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse><bibdk:workNullDisplay><bibdk:nullDisplay/></bibdk:workNullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal, Electronic
+SR Electronic(1)
+A2 Den Almindelige Danske Lægeforening
+T1 Ugeskrift for læger
+PB Lægeforeningen
+PP København
+YR 199?
+SN 16036824
+NO Ældste nummer pr. 31.08.2009: Nr. 1, 4. januar 1999. - Nr. 36, 31. august 2009
+K1 Tidsskrift
+CN 61
+LK http://www.ugeskriftet.dk</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,24 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 35718249 *b 870971 *c 20130906125558 *d 20130906 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2013 *b dk *d y *l dan *v 0 *r ap *n b 
+009 00 *a a *g xx *g xe 
+016 00 *a 03301044 
+032 00 *a ABU201337 *a DAR201337 
+086 00 *a Neurokirurgi 
+245 00 *a Regionsrådsformandens lodrette ordre om en nyttesløs behandling 
+300 00 *a S. 1904-1905 *b ill. 
+504 00 *a Nye studier tyder på at trombektomibehandling af blodpropper i hjernen ikke er mere effektiv end trombolyse. Men politikere har tvunget det igennem 
+557 00 *a Ugeskrift for læger *j 2013 *z 0041-5782 *V Årg. 0175, nr. 0034 (2013) *v Årg. 175, nr. 34 (2013) 
+652 00 *m 61.661 
+666 00 *0 *f hjernen 
+666 00 *0 *f blodpropper 
+666 00 *0 *f apopleksi 
+666 00 *0 *f behandling 
+666 00 *0 *f trombolyse 
+666 00 *f trombektomi 
+666 00 *0 *o kronikker 
+700 00 *a Skyhøj Olsen *h Tom *4 aut 
+900 00 *a Olsen *h Tom Skyhøj *z 700 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - JOUR
+A1  - Skyhøj Olsen,Tom
+T1  - Regionsrådsformandens lodrette ordre om en nyttesløs behandling
+VL  - 175
+IS  - 34
+SP  - 1904
+EP  - 1905
+Y1  - 2013
+JF  - Ugeskrift for læger
+SN  - 0041-5782
+N1  - Nye studier tyder på at trombektomibehandling af blodpropper i hjernen ikke er mere effektiv end trombolyse. Men politikere har tvunget det igennem
+CN  - 61.661
+KW  - hjernen
+KW  - blodpropper
+KW  - apopleksi
+KW  - behandling
+KW  - trombolyse
+KW  - trombektomi
+KW  - kronikker
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,24 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 36077549 *b 870971 *c 20140612125604 *d 20140612 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2014 *b dk *d y *l dan *v 0 *r ap *n b 
+009 00 *a a *g xe 
+016 00 *a 49312644 
+032 00 *a ABU201425 *a DAR201425 
+041 00 *d eng 
+086 00 *a Sygdomme i lunger og kredsløbsorganer 
+245 00 *a Symptomscreening af patienter med KOL kan identificere patienter med behov for palliativ indsats 
+508 00 *a Med engelsk resumé 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Ugeskrift for læger [online] *j 2014 *z 1603-6824 *V 2014-06-02 *v 2014-06-02 
+652 00 *m 61.62 
+666 00 *0 *f kronisk obstruktiv lungesygdom 
+666 00 *0 *f lungesygdomme 
+666 00 *0 *f lindrende pleje 
+666 00 *0 *f lungefunktion 
+700 00 *a Durakovic *h Amal *4 aut 
+700 00 *a Lander Rasmussen *h Dorte *4 aut 
+700 00 *a Kjærsgaard-Andersen *h Anne Marie *4 aut 
+856 00 *z Adgangsmåde: Internet *u http://ugeskriftet.dk/videnskab/incontinentia-pigmenti-er-en-sjaelden-arvelig-sygdom-der-kan-diagnosticeres-tidligt *z Adgang til netdokument eller til login eller køb 
+996 00 *a IDX</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

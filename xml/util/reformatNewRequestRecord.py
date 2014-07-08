@@ -31,12 +31,27 @@ for templateline in templatelines:
     if fundet: 
         tfundet=False
         fundet=False
+        rfundet=False
+        pending=False
         # skip the line before object starts
         # and the lines after
         for fline in flines:
             if fline.rfind('<object') >= 0: tfundet=True
             if fline.rfind('</object') >= 0: tfundet=False
-            if tfundet: 
+
+            ## relations start the things all over again
+            ## test for the out relation-tags
+            if fline.rfind('<relation') >= 0: rfundet=True
+            if fline.rfind('</relation') >= 0: rfundet=True
+
+            ## allways output a ending object tag before relationObject
+            ## it is eaten by the test for ending object before this
+            if fline.rfind('</relationObject') >= 0: print '</os:object>'
+
+            if tfundet or rfundet: 
+                # reset the relation mark the actual one will be output here
+                # not the most elegant code - but it works!
+                rfundet = False
                 # check if namespace is in place
                 matchObj = re.match(r'<[^:>]+:|</[^:>]+:', fline)
                 if matchObj:

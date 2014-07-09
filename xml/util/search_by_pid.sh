@@ -5,7 +5,8 @@
 #SERVERNAME=http://lakiseks.dbc.dk/openbibdk/next/
 #SERVERNAME=http://lakiseks.dbc.dk/openbibdk/0.8/
 SERVERNAME=http://opensearch.addi.dk/3.0/
-USAGE="\nusage:\n$0 pid outputfilenavn [search_url]\n\t pid of object\n\t outputfilename where to save the result\n\t search_url for server to request"
+USAGE="\nusage:\n$0 pid outputfilenavn post_templatename [search_url]\n\t pid of object\n\t outputfilename where to save the result\n\t post_template name (post_template.xml or post_templateFull.xml)\n\t search_url for server to request"
+
 
 if [ "$1"x == "x" ]
 then
@@ -19,16 +20,24 @@ then
   echo -e $USAGE
   exit -1 
 fi
-if [ "$3"x != "x" ]
+
+if [ "$3"x == "x" ]
 then
-  SERVERNAME=$3
+  echo "Mandatory parameter missing: post_template name"
+  echo -e $USAGE
+  exit -1 
+fi
+
+if [ "$4"x != "x" ]
+then
+  SERVERNAME=$4
 fi
 
 PID=$1
 SEARCHRESULT=$2
 
 ## insert the pid from option 1 into the soap template
-TEMPLATE=post_template.xml
+TEMPLATE=$3
 TMPFILENAME=/tmp/post_template$$.xml
 cat $TEMPLATE | sed -e s/PIDPLACE/$PID/ >$TMPFILENAME
 

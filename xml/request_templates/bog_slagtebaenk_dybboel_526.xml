@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>27700748|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788702077568</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Slagtebænk Dybbøl</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Slagtebænk Dybbøl : 18. april 1864 : historien om et slag</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Tom Buk-Swienty</dc:creator>
+              <dc:creator xsi:type="oss:sort">Buk-Swienty, Tom</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">96.6</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Krigen 1864</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">de slesvigske krige</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">historie</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">krigen 1864</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">slaget ved Dybbøl</dc:subject>
+              <dcterms:abstract>Dokumentarisk beretning om Danmarks krig mod to tyske stormagter, Prøjsen og Østrig i 1864 - om vejen til Dybbøl og det politiske spil i København og Berlin under krigen. Men først og fremmest om de soldater, officerer, feltlæger og krigskorrespondenter, der oplevede krigen og det blodige slag</dcterms:abstract>
+              <dc:description xsi:type="dkdcplus:series">Samhørende: Slagtebænk Dybbøl ; 1864 - slagtebænk Dybbøl) ; Dommedag Als ; 1864 - dommedag Als)</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2. udgave</dkdcplus:version>
+              <dc:publisher>Gyldendal</dc:publisher>
+              <dc:date>2009</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>401 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Dybbøl</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Slesvig-Holsten</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Sønderjylland</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1860-1869</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">27700748</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140512151925</marcx:subfield>
+                  <marcx:subfield code="d">20090407</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2009</marcx:subfield>
+                  <marcx:subfield code="z">2010</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">27269184</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788702077568</marcx:subfield>
+                  <marcx:subfield code="c">ib.</marcx:subfield>
+                  <marcx:subfield code="d">kr. 199,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC200915</marcx:subfield>
+                  <marcx:subfield code="a">DBF201009</marcx:subfield>
+                  <marcx:subfield code="x">BKM201009</marcx:subfield>
+                  <marcx:subfield code="x">DAT201421</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68185955</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Buk-Swienty</marcx:subfield>
+                  <marcx:subfield code="h">Tom</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Slagtebænk Dybbøl</marcx:subfield>
+                  <marcx:subfield code="c">18. april 1864</marcx:subfield>
+                  <marcx:subfield code="c">historien om et slag</marcx:subfield>
+                  <marcx:subfield code="e">Tom Buk-Swienty</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">2. udgave</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">Gyldendal</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">401 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Dokumentarisk beretning om Danmarks krig mod to tyske stormagter, Prøjsen og Østrig i 1864 - om vejen til Dybbøl og det politiske spil i København og Berlin under krigen. Men først og fremmest om de soldater, officerer, feltlæger og krigskorrespondenter, der oplevede krigen og det blodige slag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Tidligere: 1. udgave. 2008. 396 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">[1. oplag]</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">2. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">3. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">4. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">5. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">6. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">7. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Samhørende</marcx:subfield>
+                  <marcx:subfield code="t">Slagtebænk Dybbøl</marcx:subfield>
+                  <marcx:subfield code="b"> (også med titel</marcx:subfield>
+                  <marcx:subfield code="t">1864 - slagtebænk Dybbøl)</marcx:subfield>
+                  <marcx:subfield code="t">Dommedag Als</marcx:subfield>
+                  <marcx:subfield code="b"> (også med titel</marcx:subfield>
+                  <marcx:subfield code="t">1864 - dommedag Als)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Hertil knytter sig hans</marcx:subfield>
+                  <marcx:subfield code="t">1864 i billeder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">96.6</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Dybbøl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Slesvig-Holsten</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Sønderjylland</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">de ¤slesvigske krige</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">krigen 1864</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">slaget ved Dybbøl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">historie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1860-1869</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Swienty</marcx:subfield>
+                  <marcx:subfield code="h">Tom</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Swienty</marcx:subfield>
+                  <marcx:subfield code="h">Tom Buk-</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201009</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:27700748</os:identifier>
+            <os:creationDate>2009-04-07</os:creationDate>
+            <os:holdingsCount>54</os:holdingsCount>
+            <os:lendingLibraries>54</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33133618</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33132182</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33268432</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33132239</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33137486</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:34277745</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:34430454</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:34455988</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:34850682</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:34897719</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35105697</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35251189</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35735356</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35732535</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35726950</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:35792546</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33175396</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33441371</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33431481</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33727763</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33716664</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33967152</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:30713060</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:35962387</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:35966528</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:45551644</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_slagtebaenk_dybboel_526.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

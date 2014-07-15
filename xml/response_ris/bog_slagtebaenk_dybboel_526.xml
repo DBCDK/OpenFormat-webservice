@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Buk-Swienty,Tom
+T1  - Slagtebænk Dybbøl : 18. april 1864 : historien om et slag
+SP  - 401 sider, illustreret
+ET  - 2
+PB  - Gyldendal
+CY  - Kbh.
+Y1  - 2009
+SN  - 9788702077568
+N1  - Dokumentarisk beretning om Danmarks krig mod to tyske stormagter, Prøjsen og Østrig i 1864 - om vejen til Dybbøl og det politiske spil i København og Berlin under krigen. Men først og fremmest om de soldater, officerer, feltlæger og krigskorrespondenter, der oplevede krigen og det blodige slag
+CN  - 96.6
+KW  - Danmark
+KW  - Dybbøl
+KW  - Slesvig-Holsten
+KW  - Sønderjylland
+KW  - de slesvigske krige
+KW  - krigen 1864
+KW  - slaget ved Dybbøl
+KW  - historie
+KW  - 1860-1869
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,31 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51035909 *b 870970 *c 20140430180827 *d 20140327 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2014 *b dk *d n *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788757415940 *c ib. 
+032 00 *a DBF201419 *x BKM201419 *x ACC201413 
+245 00 *a International købelov (CISG) med kommentarer 
+250 00 *a 1. udgave *b ÷ 
+260 00 *& 1 *a Kbh. *b Jurist- og Økonomforbundet *c 2014 
+300 00 *a 528 sider 
+512 00 *a CISG: The United Nations convention on contracts for the international sale of goods 
+521 00 *b 1. oplag *c 2014 *k Narayana Press, Gylling 
+526 00 *i Afløser *d Bernhard Gomard *t International købelov *b . 1990 
+532 00 *& 1 *a Med litteraturhenvisninger og links 
+652 00 *m 34.66 *b Køb 
+652 00 *p 34.53 
+666 00 *0 *f Convention on Contracts for the International Sale of Goods 
+666 00 *0 *f køberet 
+666 00 *0 *f international køberet 
+666 00 *0 *f international købelov 
+666 00 *0 *f konventioner 
+666 00 *0 *f lovgivning 
+666 00 *0 *o love 
+666 00 *0 *o konventioner 
+700 00 *5 870979 *6 68355435 *4 aut *0 *a Gomard *h Bernhard 
+700 00 *5 870979 *6 68428211 *4 aut *0 *a Henschel *h René Franz 
+990 00 *o 201419 *b v *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

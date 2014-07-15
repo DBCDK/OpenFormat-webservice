@@ -1,0 +1,20 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 23545713 *b 870970 *c 20111202234658 *d 20010618 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2001 *b dk *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+021 00 *a 87-7407-237-4 *c hf. *d kr. 448,00 
+032 00 *a DBF200129 *x SFD200129 *x ACC200125 *x DAT991149 
+100 00 *5 870979 *6 68656214 *0 *a Lund *h Nils-Ole *c f. 1930 
+245 00 *a Arkitekturteorier siden 1945 *e Nils-Ole Lund *e billedredaktion: Nils-Ole Lund 
+260 00 *& 1 *a [Kbh.] *b Arkitektens Forlag *c 2001 *k Bogtrykkeriet Skive 
+300 00 *a 246 sider *b ill. 
+526 00 *i Afløser hans *t Teoridannelser i arkitekturen *b . 3. udgave. 1985 
+530 00 *& 1 *a Indhold: Bruno Zevi og den organiske arkitektur ; Architectural Review og den funktionelle tradition ; Systemarkitekturen ; Strukturalisme og åben form ; Reynar Banham og brutalismen ; Louis Kahn og idealismen ; Christopher Alexander og den systematiske projektering ; Robert Venturi og den amerikanske postmodernisme ; Utopiske ideer og projekter ; 70ernes sociale opgør ; Aldo Rossi og den italienske nyrationalisme ; Dekonstruktivismen ; Stedet og den fænomenologiske inspiration 
+652 00 *m 71.17 
+666 00 *0 *f arkitekturteori 
+745 00 *a Arkitekturteorier 
+990 00 *a SFD *o 200129 *c H 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

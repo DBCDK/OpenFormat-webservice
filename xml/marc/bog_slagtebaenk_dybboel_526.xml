@@ -1,0 +1,41 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 27700748 *b 870970 *c 20140512151925 *d 20090407 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2009 *z 2010 *b dk *d y *l dan *x 06 *v 0 
+009 00 *a a *g xx 
+017 00 *a 27269184 
+021 00 *e 9788702077568 *c ib. *d kr. 199,00 
+032 00 *x ACC200915 *a DBF201009 *x BKM201009 *x DAT201421 
+100 00 *5 870979 *6 68185955 *0 *a Buk-Swienty *h Tom 
+245 00 *a Slagtebænk Dybbøl *c 18. april 1864 *c historien om et slag *e Tom Buk-Swienty 
+250 00 *a 2. udgave 
+260 00 *& 1 *a [Kbh.] *b Gyldendal *c 2009 
+300 00 *a 401 sider *b ill. 
+504 00 *& 1 *a Dokumentarisk beretning om Danmarks krig mod to tyske stormagter, Prøjsen og Østrig i 1864 - om vejen til Dybbøl og det politiske spil i København og Berlin under krigen. Men først og fremmest om de soldater, officerer, feltlæger og krigskorrespondenter, der oplevede krigen og det blodige slag 
+520 00 *a Tidligere: 1. udgave. 2008. 396 sider 
+521 00 *a [1. oplag] *c 2009 
+521 00 *a 2. oplag *c 2009 
+521 00 *a 3. oplag *c 2009 
+521 00 *a 4. oplag *c 2010 
+521 00 *a 5. oplag *c 2010 
+521 00 *a 6. oplag *c 2010 
+521 00 *b 7. oplag *c 2010 
+526 00 *i Samhørende *t Slagtebænk Dybbøl *b  (også med titel *t 1864 - slagtebænk Dybbøl) *t Dommedag Als *b  (også med titel *t 1864 - dommedag Als) 
+526 00 *i Hertil knytter sig hans *t 1864 i billeder 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 96.6 
+666 00 *0 *e Danmark 
+666 00 *0 *e Dybbøl 
+666 00 *0 *e Slesvig-Holsten 
+666 00 *0 *e Sønderjylland 
+666 00 *0 *f de ¤slesvigske krige 
+666 00 *0 *f krigen 1864 
+666 00 *0 *f slaget ved Dybbøl 
+666 00 *0 *f historie 
+666 00 *0 *i 1860-1869 
+900 00 *0 *a Swienty *h Tom *z 100 
+900 00 *0 *a Swienty *h Tom Buk- *z 100 
+990 00 *o 201009 *b v *u op 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

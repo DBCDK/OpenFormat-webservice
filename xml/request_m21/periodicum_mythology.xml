@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+<mx:collection xmlns:mx="http://www.loc.gov/MARC21/slim">
+            <mx:record format="MARC21" type="Bibliographic">
+              <mx:leader>00000nai  2200000 a 4500</mx:leader>
+              <mx:controlfield tag="001">EDZ0000134749</mx:controlfield>
+              <mx:controlfield tag="003">StDuBDS</mx:controlfield>
+              <mx:controlfield tag="005">20140508113009.0</mx:controlfield>
+              <mx:controlfield tag="006">m||||||||d||||||||</mx:controlfield>
+              <mx:controlfield tag="007">cr||||||||||||</mx:controlfield>
+              <mx:controlfield tag="008">100105c20009999nyu|||d|o|    0|||a2eng|d</mx:controlfield>
+              <mx:datafield tag="020" ind1=" " ind2=" ">
+                <mx:subfield code="a">9780199891191 (online resource)</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="040" ind1=" " ind2=" ">
+                <mx:subfield code="a">StDuBDS</mx:subfield>
+                <mx:subfield code="c">StDuBDS</mx:subfield>
+                <mx:subfield code="e">pn</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="050" ind1=" " ind2="4">
+                <mx:subfield code="a">BL2400</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="082" ind1="0" ind2="4">
+                <mx:subfield code="a">299.611303</mx:subfield>
+                <mx:subfield code="2">22</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="100" ind1="1" ind2=" ">
+                <mx:subfield code="a">Scheub, Harold.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="245" ind1="1" ind2="2">
+                <mx:subfield code="a">A dictionary of African mythology</mx:subfield>
+                <mx:subfield code="h">[electronic resource] /</mx:subfield>
+                <mx:subfield code="c">Harold Scheub.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="260" ind1=" " ind2=" ">
+                <mx:subfield code="a">[New York] :</mx:subfield>
+                <mx:subfield code="b">Oxford University Press,</mx:subfield>
+                <mx:subfield code="c">2000-</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="300" ind1=" " ind2=" ">
+                <mx:subfield code="a">1 online resource.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="500" ind1=" " ind2=" ">
+                <mx:subfield code="a">"Oxford Reference Online Premium."</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="500" ind1=" " ind2=" ">
+                <mx:subfield code="a">Title from home page (viewed on Dec. 21, 2009).</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="530" ind1=" " ind2=" ">
+                <mx:subfield code="a">Also issued in print format.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="520" ind1="8" ind2=" ">
+                <mx:subfield code="a">This collection of fascinating, mysterious, and revealing tales captures the immense sweep and diversity of African mythology. The stories touch on virtually every aspect of belief: gods and goddesses, epic heroes and divine tricksters, along with epics of the world's origins, the struggle between the human and the divine, and much more.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="650" ind1=" " ind2="0">
+                <mx:subfield code="a">Mythology, African</mx:subfield>
+                <mx:subfield code="v">Dictionaries.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="730" ind1="0" ind2=" ">
+                <mx:subfield code="a">Oxford reference online premium.</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="776" ind1="0" ind2="8">
+                <mx:subfield code="i">Print version</mx:subfield>
+                <mx:subfield code="z">9780195124569</mx:subfield>
+              </mx:datafield>
+              <mx:datafield tag="856" ind1="4" ind2="0">
+                <mx:subfield code="u">http://www.oxfordreference.com/view/10.1093/acref/9780195124569.001.0001/acref-9780195124569</mx:subfield>
+              </mx:datafield>
+            </mx:record>
+</mx:collection>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

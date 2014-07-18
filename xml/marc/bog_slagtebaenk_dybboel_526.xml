@@ -1,6 +1,6 @@
 =/home/hes/OpenFormat/marc=
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
-001 00 *a 27700748 *b 870970 *c 20140512151925 *d 20090407 *f a 
+001 00 *a 27700748 *b 870970 *c 20140716091003 *d 20090407 *f a 
 004 00 *r n *a e 
 008 00 *t m *u r *a 2009 *z 2010 *b dk *d y *l dan *x 06 *v 0 
 009 00 *a a *g xx 
@@ -21,7 +21,7 @@
 521 00 *a 5. oplag *c 2010 
 521 00 *a 6. oplag *c 2010 
 521 00 *b 7. oplag *c 2010 
-526 00 *i Samhørende *t Slagtebænk Dybbøl *b  (også med titel *t 1864 - slagtebænk Dybbøl) *t Dommedag Als *b  (også med titel *t 1864 - dommedag Als) 
+526 00 *i Samhørende *t Slagtebænk Dybbøl *b også med titel: *t 1864 - slagtebænk Dybbøl *t Dommedag Als *b også med titel: *t 1864 - dommedag Als 
 526 00 *i Hertil knytter sig hans *t 1864 i billeder 
 532 00 *& 1 *a Med litteraturhenvisninger 
 652 00 *m 96.6 

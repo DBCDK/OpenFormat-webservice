@@ -22,7 +22,7 @@
               <dc:subject xsi:type="dkdcplus:DBCF">krigen 1864</dc:subject>
               <dc:subject xsi:type="dkdcplus:DBCF">slaget ved Dybbøl</dc:subject>
               <dcterms:abstract>Dokumentarisk beretning om Danmarks krig mod to tyske stormagter, Prøjsen og Østrig i 1864 - om vejen til Dybbøl og det politiske spil i København og Berlin under krigen. Men først og fremmest om de soldater, officerer, feltlæger og krigskorrespondenter, der oplevede krigen og det blodige slag</dcterms:abstract>
-              <dc:description xsi:type="dkdcplus:series">Samhørende: Slagtebænk Dybbøl ; 1864 - slagtebænk Dybbøl) ; Dommedag Als ; 1864 - dommedag Als)</dc:description>
+              <dc:description xsi:type="dkdcplus:series">Samhørende: Slagtebænk Dybbøl ; 1864 - slagtebænk Dybbøl ; Dommedag Als ; 1864 - dommedag Als</dc:description>
               <dcterms:audience>voksenmaterialer</dcterms:audience>
               <dkdcplus:version>2. udgave</dkdcplus:version>
               <dc:publisher>Gyldendal</dc:publisher>
@@ -44,7 +44,7 @@
                 <marcx:datafield ind1="0" ind2="0" tag="001">
                   <marcx:subfield code="a">27700748</marcx:subfield>
                   <marcx:subfield code="b">870970</marcx:subfield>
-                  <marcx:subfield code="c">20140512151925</marcx:subfield>
+                  <marcx:subfield code="c">20140716091003</marcx:subfield>
                   <marcx:subfield code="d">20090407</marcx:subfield>
                   <marcx:subfield code="f">a</marcx:subfield>
                 </marcx:datafield>
@@ -145,11 +145,11 @@
                 <marcx:datafield ind1="0" ind2="0" tag="526">
                   <marcx:subfield code="i">Samhørende</marcx:subfield>
                   <marcx:subfield code="t">Slagtebænk Dybbøl</marcx:subfield>
-                  <marcx:subfield code="b"> (også med titel</marcx:subfield>
-                  <marcx:subfield code="t">1864 - slagtebænk Dybbøl)</marcx:subfield>
+                  <marcx:subfield code="b">også med titel:</marcx:subfield>
+                  <marcx:subfield code="t">1864 - slagtebænk Dybbøl</marcx:subfield>
                   <marcx:subfield code="t">Dommedag Als</marcx:subfield>
-                  <marcx:subfield code="b"> (også med titel</marcx:subfield>
-                  <marcx:subfield code="t">1864 - dommedag Als)</marcx:subfield>
+                  <marcx:subfield code="b">også med titel:</marcx:subfield>
+                  <marcx:subfield code="t">1864 - dommedag Als</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield ind1="0" ind2="0" tag="526">
                   <marcx:subfield code="i">Hertil knytter sig hans</marcx:subfield>

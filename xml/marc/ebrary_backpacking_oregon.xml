@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a ebr10513170 *b 150008 *d 20120105 *f a 
+004 00 *r n *a e 
+008 00 *t m *a 2007 *b us *d y *l eng *v 4 
+009 00 *a a *g xe *b t 
+021 00 *w 9780899974415 
+021 00 *e 9780899975412 *b e-book 
+043 00 *a n-us-or 
+050 00 *a GV199.42.O7 *b L67 2007eb 
+100 00 *a Lorain *h Douglas 
+245 00 *a Backpacking Oregon *m electronic resource *c from rugged coastline to mountain meadows *e Douglas Lorain 
+250 00 *a 2. ed. 
+260 00 *a Birmingham, Ala. *b Wilderness Press *c 2007 *j 2011 printing 
+300 00 *a xiv, 255 s., [16] s. of plates *b ill. (some col.), maps 
+559 00 *a Includes index 
+559 00 *a Electronic reproduction. Palo Alto, Calif. : ebrary, 2012. Available via World Wide Web. Access may be limited to ebrary affiliated libraries 
+650 00 *a Backpacking *z Oregon *v Guidebooks *2 2 
+650 00 *a Electronic books *2 local 
+651 00 *a Oregon *v Guidebooks 
+856 00 *u http://site.ebrary.com/lib/librarytitles/docDetail.action?docID=10513170 *z An electronic book accessible through the World Wide Web; click to view 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

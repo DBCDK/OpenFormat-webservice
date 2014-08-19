@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>ebr10513170|150008</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9780899975412</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://site.ebrary.com/lib/librarytitles/docDetail.action?docID=10513170</dc:identifier>
+              <ac:source>Ebrary</ac:source>
+              <dc:title>Backpacking Oregon</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Backpacking Oregon : from rugged coastline to mountain meadows</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Douglas Lorain</dc:creator>
+              <dc:creator xsi:type="oss:sort">Lorain, Douglas</dc:creator>
+              <dc:subject xsi:type="dcterms:LCSH">Backpacking</dc:subject>
+              <dc:subject xsi:type="dcterms:LCSH">Electronic books</dc:subject>
+              <dc:subject xsi:type="dcterms:LCSH">Oregon</dc:subject>
+              <dc:description>Includes index</dc:description>
+              <dc:description>Electronic reproduction. Palo Alto, Calif. : ebrary, 2012. Available via World Wide Web. Access may be limited to ebrary affiliated libraries</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2. ed.</dkdcplus:version>
+              <dc:publisher>Wilderness Press</dc:publisher>
+              <dc:date>2007</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:format>illustreret (some col.), maps</dc:format>
+              <dcterms:extent>xiv, 255 s., 16 s. of plates</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">ebr10513170</marcx:subfield>
+                  <marcx:subfield code="b">150008</marcx:subfield>
+                  <marcx:subfield code="d">20120105</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2007</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                  <marcx:subfield code="b">t</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="w">9780899974415</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9780899975412</marcx:subfield>
+                  <marcx:subfield code="b">e-book</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="043">
+                  <marcx:subfield code="a">n-us-or</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="050">
+                  <marcx:subfield code="a">GV199.42.O7</marcx:subfield>
+                  <marcx:subfield code="b">L67 2007eb</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Lorain</marcx:subfield>
+                  <marcx:subfield code="h">Douglas</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Backpacking Oregon</marcx:subfield>
+                  <marcx:subfield code="m">electronic resource</marcx:subfield>
+                  <marcx:subfield code="c">from rugged coastline to mountain meadows</marcx:subfield>
+                  <marcx:subfield code="e">Douglas Lorain</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">2. ed.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Birmingham, Ala.</marcx:subfield>
+                  <marcx:subfield code="b">Wilderness Press</marcx:subfield>
+                  <marcx:subfield code="c">2007</marcx:subfield>
+                  <marcx:subfield code="j">2011 printing</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">xiv, 255 s., [16] s. of plates</marcx:subfield>
+                  <marcx:subfield code="b">ill. (some col.), maps</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="559">
+                  <marcx:subfield code="a">Includes index</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="559">
+                  <marcx:subfield code="a">Electronic reproduction. Palo Alto, Calif. : ebrary, 2012. Available via World Wide Web. Access may be limited to ebrary affiliated libraries</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Backpacking</marcx:subfield>
+                  <marcx:subfield code="z">Oregon</marcx:subfield>
+                  <marcx:subfield code="v">Guidebooks</marcx:subfield>
+                  <marcx:subfield code="2">2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Electronic books</marcx:subfield>
+                  <marcx:subfield code="2">local</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="651">
+                  <marcx:subfield code="a">Oregon</marcx:subfield>
+                  <marcx:subfield code="v">Guidebooks</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="u">http://site.ebrary.com/lib/librarytitles/docDetail.action?docID=10513170</marcx:subfield>
+                  <marcx:subfield code="z">An electronic book accessible through the World Wide Web; click to view</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>150008-public:ebr10513170</os:identifier>
+            <os:creationDate>2012-01-05</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://site.ebrary.com/lib/librarytitles/docDetail.action?docID=10513170</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150008-public</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://site.ebrary.com/lib/[PROVIDERSLIBRARYID]/docDetail.action?docID=10513170</os:relationUri>
+                <os:linkObject>
+                  <os:access>remote</os:access>
+                  <os:linkTo>proxy</os:linkTo>
+                  <os:linkCollectionIdentifier>150008-public</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>ebrary_backpacking_oregon.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Electronic(1)
+A1 Lorain,Douglas
+T1 Backpacking Oregon : from rugged coastline to mountain meadows
+SP xiv, 255 s., 16 s. of plates, illustreret (some col.), maps
+ED 2
+PB Wilderness Press
+PP Birmingham, Ala.
+YR 2007
+SN 9780899975412
+NO Includes index. - Electronic reproduction. Palo Alto, Calif. : ebrary, 2012. Available via World Wide Web. Access may be limited to ebrary affiliated libraries
+K1 Backpacking, Oregon, Guidebooks
+K1 Electronic books
+K1 Oregon, Guidebooks
+LK http://site.ebrary.com/lib/librarytitles/docDetail.action?docID=10513170</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

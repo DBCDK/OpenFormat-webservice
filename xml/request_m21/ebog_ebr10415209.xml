@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+                      <mx:collection>
+<mx:record format="MARC21" type="Bibliographic">
+  <mx:leader>00000nam  2200000 a 4500</mx:leader>
+  <mx:controlfield tag="001">ebr10415209</mx:controlfield>
+  <mx:controlfield tag="003">CaPaEBR</mx:controlfield>
+  <mx:controlfield tag="006">m        u        </mx:controlfield>
+  <mx:controlfield tag="007">cr cn|||||||||</mx:controlfield>
+  <mx:controlfield tag="008">121114s2012    ne a    sb    001 0 eng d</mx:controlfield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">9780123748379</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">9780080951164 (e-book)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="040" ind1=" " ind2=" ">
+    <mx:subfield code="a">CaPaEBR</mx:subfield>
+    <mx:subfield code="c">CaPaEBR</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="035" ind1=" " ind2=" ">
+    <mx:subfield code="a">(OCoLC)680624486</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="050" ind1="1" ind2="4">
+    <mx:subfield code="a">HG4523</mx:subfield>
+    <mx:subfield code="b">.W56 2012eb</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="100" ind1="1" ind2=" ">
+    <mx:subfield code="a">Williams, R. Tee.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="245" ind1="1" ind2="0">
+    <mx:subfield code="a">Introduction to trading in the financial markets</mx:subfield>
+    <mx:subfield code="h">[electronic resource] :</mx:subfield>
+    <mx:subfield code="b">global markets, risk, compliance, and regulation /</mx:subfield>
+    <mx:subfield code="c">R. "Tee" Williams.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="260" ind1=" " ind2=" ">
+    <mx:subfield code="a">Amsterdam ;</mx:subfield>
+    <mx:subfield code="a">Boston :</mx:subfield>
+    <mx:subfield code="b">Elsevier,</mx:subfield>
+    <mx:subfield code="c">c2012.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="300" ind1=" " ind2=" ">
+    <mx:subfield code="a">lxxxi, 390 p. :</mx:subfield>
+    <mx:subfield code="b">col. ill.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="504" ind1=" " ind2=" ">
+    <mx:subfield code="a">Includes bibliographical references and index.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="533" ind1=" " ind2=" ">
+    <mx:subfield code="a">Electronic reproduction.</mx:subfield>
+    <mx:subfield code="b">Palo Alto, Calif. :</mx:subfield>
+    <mx:subfield code="c">ebrary,</mx:subfield>
+    <mx:subfield code="d">2012.</mx:subfield>
+    <mx:subfield code="n">Available via World Wide Web.</mx:subfield>
+    <mx:subfield code="n">Access may be limited to ebrary affiliated libraries.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Capital market.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Stock exchanges.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Financial instruments.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="655" ind1=" " ind2="7">
+    <mx:subfield code="a">Electronic books.</mx:subfield>
+    <mx:subfield code="2">local</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="710" ind1="2" ind2=" ">
+    <mx:subfield code="a">ebrary, Inc.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="856" ind1="4" ind2="0">
+    <mx:subfield code="u">http://site.ebrary.com/lib/ucsj/Doc?id=10415209</mx:subfield>
+    <mx:subfield code="z">An electronic book accessible through the World Wide Web; click to view</mx:subfield>
+  </mx:datafield>
+</mx:record>
+                      </mx:collection>
+                    </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

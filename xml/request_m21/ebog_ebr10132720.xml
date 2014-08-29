@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+                      <mx:collection>
+<mx:record format="MARC21" type="Bibliographic">
+  <mx:leader>00000nam  2200000 a 4500</mx:leader>
+  <mx:controlfield tag="001">ebr10132720</mx:controlfield>
+  <mx:controlfield tag="003">CaPaEBR</mx:controlfield>
+  <mx:controlfield tag="006">m        u        </mx:controlfield>
+  <mx:controlfield tag="007">cr cn|||||||||</mx:controlfield>
+  <mx:controlfield tag="008">020213s2000    quca    sb    100 0 eng d</mx:controlfield>
+  <mx:datafield tag="010" ind1=" " ind2=" ">
+    <mx:subfield code="z">  2002318381</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">0773521143</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">0773521151 (pbk.)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="040" ind1=" " ind2=" ">
+    <mx:subfield code="a">CaPaEBR</mx:subfield>
+    <mx:subfield code="c">CaPaEBR</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="035" ind1=" " ind2=" ">
+    <mx:subfield code="a">(OCoLC)228141946</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="043" ind1=" " ind2=" ">
+    <mx:subfield code="a">n-us---</mx:subfield>
+    <mx:subfield code="a">n-cn---</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="050" ind1="1" ind2="4">
+    <mx:subfield code="a">HF1766</mx:subfield>
+    <mx:subfield code="b">.F74 2000eb</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="082" ind1="0" ind2="4">
+    <mx:subfield code="a">382/.917</mx:subfield>
+    <mx:subfield code="2">21</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="245" ind1="0" ind2="0">
+    <mx:subfield code="a">Free trade</mx:subfield>
+    <mx:subfield code="h">[electronic resource] :</mx:subfield>
+    <mx:subfield code="b">risks and rewards /</mx:subfield>
+    <mx:subfield code="c">edited by L. Ian MacDonald.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="260" ind1=" " ind2=" ">
+    <mx:subfield code="a">Montreal ;</mx:subfield>
+    <mx:subfield code="a">Ithaca :</mx:subfield>
+    <mx:subfield code="b">Published for the McGill Institute for the Study of Canada by McGill-Queen's University Press,</mx:subfield>
+    <mx:subfield code="c">c2000.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="300" ind1=" " ind2=" ">
+    <mx:subfield code="a">xvii, 280 p. :</mx:subfield>
+    <mx:subfield code="b">ill.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="500" ind1=" " ind2=" ">
+    <mx:subfield code="a">Proceedings of the Free Trade @ 10 Conference held in Montreal in June 1999.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="504" ind1=" " ind2=" ">
+    <mx:subfield code="a">Includes bibliographical references (p. 273-274).</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="8" ind2=" ">
+    <mx:subfield code="a">Machine generated contents note: PART ONE THlE CONTEXT -- The Road to Free Trade / 3 -- MICHAEL HART -- Interviews with Brian Mulroney andJohn Turner / 35 -- WILLIAM WATSON -- Leap of Faith / 48 -- DONALD S. MACDONALD -- A Signal Moment / 55 -- JAMES A. BAKER III -- Where There's the Will/ 61 -- DEREK H. BURNEY -- PART TWO THE MAKING OF THE DEAL -- The Negotiation and Approval of the FTA / 73 -- L. IAN MACDONALD, CLAYTON YEUTTER, -- SIMON REISMAN, PETER MCPHERSON, JOHN C. -- iLIAM MERKIN, CHARLES E. ROH, -- JEAN ANDERSON',. WILLIAM DYMOND, STANLEY H. HARTT -- PART THREE, THE RECORD -- fleiata{U:S. FTA: Real Results versus Unreal Expectations / 99 -- RICHARD G. LIPSEY -- From Leaps of Faith to Lapses of Logic / 107 -- ANDREW N. JACKSON -- Free Trade in North America: Some Observations / 118 -- PAUL WONNACOTT -- NAFTA and the Manufacturing Industry in Mexico: -- A Preliminary Balance / 122 -- FERNANDO CLAVIJO -- PART FOUR SECTORAL PERSPECTIVES: -- RESULTS AND OPPORTUNITIES -- Sectoral Results and Opportunities: An Introduction / 135 -- FRANCIS FOX -- A Matter of National Interest / 137 -- LAURENT BEAUDOIN -- ANew Mindset / 139 -- L. JACQUES MtNARD -- ASea Change / 142 -- CHARLES SIROIS -- A New Frontier of Trade Policy / 144 -- LYNTON R. WILSON -- The Case of the Softwood Lumbet Industry / 147 -- BOB RAE -- AReality Check / 151 -- JIM STANFORD -- PART FIVE FREE TRADE AND SOCIAL POLICY -- Globalization and the Social Dimension / 159 -- GERALD LAROSE -- Economic Arguments versus Ideological Ones /-166 -- GUY STANLEY -- PART SIX FREE TRADE AND DISPUTE -- SETTLEMENT -- FTA and NAFTA Dispute Settlement in Canadian Trade -- Policy / 1,71.- -- JONATHAN T. FRIED -- Dispute Settlement: A Practitioner's Perspective / 175 -- SIMON V. POTTER -- Mexico and Dispute Settlement / 182 -- M.H. YVONNE STINSON -- PART SEVEN THE NAFTA: FROM CANADA TO -- MEXICO -- From Canada to Mexico: "A Common Future" / 191 -- GEORGE BUSH -- The Most Comprehensive Agreement Ever / 197 -- CARLA A. HILLS -- NAFTA and the Mexican Economy / 200 -- JAIME SERRA PUCHE -- Free Trade: Then and Now / 207 -- MICHAEL H. WILSON -- PART EIGHT NAFTA AND THE ENVIRONMENT -- Five Windows for the Future of NAFTA 'S Environment -- Commission / 213 -- PIERRE MARC JOHNSON -- NAFTA and the Environment: Five Years After / 222 -- VICTOR LICHTINGER -- NAFTA and the Environment: A Review of the Basic -- Issues / 226 -- DAVID K. SCIIORR -- Challenges for the Environment and NAFTA / 237 -- JEAN CHAREST -- PART NINE WHERE DO WE GO FROM HERE? -- New Policies for a New Century / 243 -- THOMAS D'AQUINO -- The Future Work of the FTA, NAFTA and the WTO / 247 -- PETER S. WATSON -- The New Economic Environment / 253 -- BRIAN MULRONEY -- APPENDICES -- Appendix A Two Cheers for the FTA: Ten-Year Review of -- the Canada-U.S. Free Trade Agreement / 259 -- JOHN McCALLUM -- Appendix B Ten-Year Figures for Canada-U.S.A. and -- Canada-Mexico Trade / 275 -- DEPARTMENT OF FOREIGN AFFAIRS AND INTERNATIONAL -- TRADE/STATISTICS CANADA.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="533" ind1=" " ind2=" ">
+    <mx:subfield code="a">Electronic reproduction.</mx:subfield>
+    <mx:subfield code="b">Palo Alto, Calif. :</mx:subfield>
+    <mx:subfield code="c">ebrary,</mx:subfield>
+    <mx:subfield code="d">2013.</mx:subfield>
+    <mx:subfield code="n">Available via World Wide Web.</mx:subfield>
+    <mx:subfield code="n">Access may be limited to ebrary affiliated libraries.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="610" ind1="1" ind2="0">
+    <mx:subfield code="a">Canada.</mx:subfield>
+    <mx:subfield code="t">Treaties, etc.</mx:subfield>
+    <mx:subfield code="d">(1992 Oct. 7)</mx:subfield>
+    <mx:subfield code="v">Congresses.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Free trade</mx:subfield>
+    <mx:subfield code="z">Canada</mx:subfield>
+    <mx:subfield code="v">Congresses.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Free trade</mx:subfield>
+    <mx:subfield code="z">United States</mx:subfield>
+    <mx:subfield code="v">Congresses.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="6">
+    <mx:subfield code="a">Libre-&#xE9;change</mx:subfield>
+    <mx:subfield code="z">Am&#xE9;rique du Nord</mx:subfield>
+    <mx:subfield code="v">Congr&#xE8;s.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="6">
+    <mx:subfield code="a">Libre-&#xE9;change</mx:subfield>
+    <mx:subfield code="z">Canada</mx:subfield>
+    <mx:subfield code="v">Congr&#xE8;s.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="651" ind1=" " ind2="0">
+    <mx:subfield code="a">Canada</mx:subfield>
+    <mx:subfield code="x">Foreign economic relations</mx:subfield>
+    <mx:subfield code="z">United States</mx:subfield>
+    <mx:subfield code="v">Congresses.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="651" ind1=" " ind2="0">
+    <mx:subfield code="a">United States</mx:subfield>
+    <mx:subfield code="x">Foreign economic relations</mx:subfield>
+    <mx:subfield code="z">Canada</mx:subfield>
+    <mx:subfield code="v">Congresses.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="651" ind1=" " ind2="6">
+    <mx:subfield code="a">Am&#xE9;rique du Nord</mx:subfield>
+    <mx:subfield code="x">Int&#xE9;gration &#xE9;conomique</mx:subfield>
+    <mx:subfield code="v">Congr&#xE8;s.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="655" ind1=" " ind2="7">
+    <mx:subfield code="a">Electronic books.</mx:subfield>
+    <mx:subfield code="2">local</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="700" ind1="1" ind2=" ">
+    <mx:subfield code="a">MacDonald, L. Ian.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="710" ind1="2" ind2=" ">
+    <mx:subfield code="a">ebrary, Inc.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="711" ind1="2" ind2=" ">
+    <mx:subfield code="a">Free Trade @ Ten</mx:subfield>
+    <mx:subfield code="d">(1999 :</mx:subfield>
+    <mx:subfield code="c">Montr&#xE9;al, Qu&#xE9;bec)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="856" ind1="4" ind2="0">
+    <mx:subfield code="u">http://site.ebrary.com/lib/arhus/Doc?id=10132720</mx:subfield>
+    <mx:subfield code="z">An electronic book accessible through the World Wide Web; click to view</mx:subfield>
+  </mx:datafield>
+</mx:record>
+                      </mx:collection>
+                    </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

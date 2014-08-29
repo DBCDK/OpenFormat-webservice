@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+                      <mx:collection>
+<mx:record format="MARC21" type="Bibliographic">
+  <mx:leader>00000nam  2200000 i 4500</mx:leader>
+  <mx:controlfield tag="001">EDZ0000172596</mx:controlfield>
+  <mx:controlfield tag="003">StDuBDS</mx:controlfield>
+  <mx:controlfield tag="005">20140508113009.0</mx:controlfield>
+  <mx:controlfield tag="006">m||||||||d||||||||</mx:controlfield>
+  <mx:controlfield tag="007">cr||||||||||||</mx:controlfield>
+  <mx:controlfield tag="008">131107s2002    enk     o|    000 0 eng|d</mx:controlfield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">9780199891573 (ebook) :</mx:subfield>
+    <mx:subfield code="c">No price</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="040" ind1=" " ind2=" ">
+    <mx:subfield code="a">StDuBDS</mx:subfield>
+    <mx:subfield code="c">StDuBDS</mx:subfield>
+    <mx:subfield code="e">rda</mx:subfield>
+    <mx:subfield code="e">pn</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="050" ind1=" " ind2="4">
+    <mx:subfield code="a">PE1670</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="082" ind1="0" ind2="4">
+    <mx:subfield code="a">422.403</mx:subfield>
+    <mx:subfield code="2">23</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="100" ind1="1" ind2=" ">
+    <mx:subfield code="a">Speake, Jennifer,</mx:subfield>
+    <mx:subfield code="e">compiler.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="245" ind1="1" ind2="4">
+    <mx:subfield code="a">The Oxford essential dictionary of foreign terms in English /</mx:subfield>
+    <mx:subfield code="c">Jennifer Speake and Mark LaFlaur.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="246" ind1="3" ind2="0">
+    <mx:subfield code="a">Foreign terms in English</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="264" ind1=" " ind2="1">
+    <mx:subfield code="a">[Oxford] :</mx:subfield>
+    <mx:subfield code="b">Oxford University Press,</mx:subfield>
+    <mx:subfield code="c">2002.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="300" ind1=" " ind2=" ">
+    <mx:subfield code="a">1 online resource</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="336" ind1=" " ind2=" ">
+    <mx:subfield code="a">text</mx:subfield>
+    <mx:subfield code="2">rdacontent</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="337" ind1=" " ind2=" ">
+    <mx:subfield code="a">computer</mx:subfield>
+    <mx:subfield code="2">rdamedia</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="338" ind1=" " ind2=" ">
+    <mx:subfield code="a">online resource</mx:subfield>
+    <mx:subfield code="2">rdacarrier</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="520" ind1="8" ind2=" ">
+    <mx:subfield code="a">This comprehensive reference includes detailed information on the spelling, history, and usage of thousands of foreign words and phrases used by English speakers. There are words from more than forty languages, including Arabic, Chinese, Dutch, Latin, Portuguese, Spanish, and Yiddish. Terms from cooking, fashion, and music jostle with others from fine arts, history, law, politics, business, and travel in this great reference to words from around the globe.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="588" ind1=" " ind2=" ">
+    <mx:subfield code="a">Description based on online resource; title from home page (viewed on November 7, 2013).</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">English language</mx:subfield>
+    <mx:subfield code="x">Foreign words and phrases</mx:subfield>
+    <mx:subfield code="v">Dictionaries.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="700" ind1="1" ind2=" ">
+    <mx:subfield code="a">LaFlaur, Mark,</mx:subfield>
+    <mx:subfield code="e">compiler.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="856" ind1="4" ind2="0">
+    <mx:subfield code="u">http://www.oxfordreference.com/view/10.1093/acref/9780199891573.001.0001/acref-9780199891573</mx:subfield>
+  </mx:datafield>
+</mx:record>
+                      </mx:collection>
+                    </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

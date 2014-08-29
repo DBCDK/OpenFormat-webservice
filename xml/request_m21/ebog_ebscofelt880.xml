@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+                      <mx:collection>
+<mx:record format="MARC21" type="Bibliographic">
+  <mx:leader>00000cam  2200000Mi 4500</mx:leader>
+  <mx:controlfield tag="001">ocn858761696</mx:controlfield>
+  <mx:controlfield tag="003">OCoLC</mx:controlfield>
+  <mx:controlfield tag="005">20140729083423.0</mx:controlfield>
+  <mx:controlfield tag="006">m     o  d        </mx:controlfield>
+  <mx:controlfield tag="007">cr |n|</mx:controlfield>
+  <mx:controlfield tag="008">130921s2003    sz      o     000 0 eng d</mx:controlfield>
+  <mx:datafield tag="040" ind1=" " ind2=" ">
+    <mx:subfield code="a">EBLCP</mx:subfield>
+    <mx:subfield code="b">eng</mx:subfield>
+    <mx:subfield code="e">pn</mx:subfield>
+    <mx:subfield code="c">EBLCP</mx:subfield>
+    <mx:subfield code="d">OCLCQ</mx:subfield>
+    <mx:subfield code="d">N$T</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="066" ind1=" " ind2=" ">
+    <mx:subfield code="c">(S</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">9783034615631 (electronic bk.)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">3034615639 (electronic bk.)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="035" ind1=" " ind2=" ">
+    <mx:subfield code="a">(OCoLC)858761696</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="050" ind1=" " ind2="4">
+    <mx:subfield code="a">TH2401 .R576 2003</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="072" ind1=" " ind2="7">
+    <mx:subfield code="a">TEC</mx:subfield>
+    <mx:subfield code="x">005080</mx:subfield>
+    <mx:subfield code="2">bisacsh</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="082" ind1="0" ind2="4">
+    <mx:subfield code="a">695</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="049" ind1=" " ind2=" ">
+    <mx:subfield code="a">CNDA</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="100" ind1="1" ind2=" ">
+    <mx:subfield code="a">Schunck, Eberhard.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="245" ind1="1" ind2="0">
+    <mx:subfield code="a">Roof Construction Manual</mx:subfield>
+    <mx:subfield code="h">[electronic resource] :</mx:subfield>
+    <mx:subfield code="b">Pitched Roofs.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="260" ind1=" " ind2=" ">
+    <mx:subfield code="a">Basel :</mx:subfield>
+    <mx:subfield code="b">De Gruyter,</mx:subfield>
+    <mx:subfield code="c">2003.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="300" ind1=" " ind2=" ">
+    <mx:subfield code="a">1 online resource (448 pages)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="336" ind1=" " ind2=" ">
+    <mx:subfield code="a">text</mx:subfield>
+    <mx:subfield code="b">txt</mx:subfield>
+    <mx:subfield code="2">rdacontent</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="337" ind1=" " ind2=" ">
+    <mx:subfield code="a">computer</mx:subfield>
+    <mx:subfield code="b">c</mx:subfield>
+    <mx:subfield code="2">rdamedia</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="338" ind1=" " ind2=" ">
+    <mx:subfield code="a">online resource</mx:subfield>
+    <mx:subfield code="b">cr</mx:subfield>
+    <mx:subfield code="2">rdacarrier</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="0" ind2=" ">
+    <mx:subfield code="a">Part 1 Pitched roofs -- past and present; A status report; Roofing materials and techniques in the 19th century; Changes in building science; Iron, glass, concrete -- the new building Materials; Roofing techniques and roofing materials; New criteria; Further developments in the 20th century; Economy; Ecology; Building science; The building industry and new building materials; Forms of roofing and materials; Use and form; Using the roof surface; Roof forms; The parts of the roof; Roof form and use; Roof form and building; Roof form and environment; Part 2 Fundamentals; Loadbearing structure.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="8" ind2=" ">
+    <mx:subfield code="a">ActionsDead loads; Imposed loads; Wind loads; Snow loads; Bracing; From roof covering to loadbearing structure; Overlapping elements on battens; Timber roof decking; Roof decking as roof plate; Trapezoidal profile sheeting; Steel trapezoidal profile sheeting as roof plate; Solid timber panels; Timber panels; Aerated concrete planks; Sandwich panels; Glass; Timber pitched roofs; Close couple and collar roofs; Purlin roof; Bracing the timber pitched roof; Historical roof structures; Loadbearing structures for pitched roofs; Flat roof surfaces; Roof surfaces in single curvature.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="8" ind2=" ">
+    <mx:subfield code="a">Roof surfaces in double curvatureBuilding science; Thermal performance; Basic terminology (definitions, symbols, parameters); Mechanisms of heat transmission; Heat transmission through components; Thermal insulation; Thermal bridges; Airtightness; Requirements for thermal performance; Energy-saving thermal insulation -- Energy Economy Act; Climate-related moisture control; Basic terminology (definitions, symbols, parameters); Moisture and moisture transport; Condensation and evaporation within the component cross-section; Moisture control layers; Roof ventilation -- openness to diffusion.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="8" ind2=" ">
+    <mx:subfield code="a">Requirements for moisture controlSound insulation; Basic terminology (definitions, symbols, parameters); Sound transmission; Sound attenuation; Airborne sound insulation; Sound insulation for pitched roofs; Fire protection, corrosion protection; Design; Usage and requirements; Ventilated -- non-ventilated; Prefabrication; The modular roof; Layers and materials; Covering and sealing; Forms of roof covering and materials; Thatch; Reed and straw; Flat overlapping elements; Wood; Natural and fibre-cement slates; Bitumen; Clay and concrete; Profiled overlapping elements; Clay and concrete.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="8" ind2=" ">
+    <mx:subfield code="a">Flat sheetsGlass; Profiled sheets; Fibre-cement; Bitumen; Metal; Sheets; Metal; Flexible sheeting; Green roof; Membranes; Energy production; Ventilation; Secondary waterproofing/covering layer; Vapour barrier and airtight membrane; Thermal insulation; Drainage; Part 3 Construction details; Thatch; Reed and straw; Flat overlapping elements; Wood; Natural and fibre-cement slates; Bitumen; Clay and concrete; Profiled overlapping elements; Clay and concrete; Roof covering over open roof space; Roof covering with roofing felt underneath; Roof covering with secondary waterproofing layer underneath.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="500" ind1=" " ind2=" ">
+    <mx:subfield code="a">Flat sheets.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="588" ind1=" " ind2=" ">
+    <mx:subfield code="a">Description based on print version record.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="4">
+    <mx:subfield code="a">Roofs</mx:subfield>
+    <mx:subfield code="x">Design and construction.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Roofs</mx:subfield>
+    <mx:subfield code="x">Design and construction.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="7">
+    <mx:subfield code="a">TECHNOLOGY &amp; ENGINEERING / Construction / Roofing</mx:subfield>
+    <mx:subfield code="2">bisacsh</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="655" ind1=" " ind2="4">
+    <mx:subfield code="a">Electronic books.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="700" ind1="1" ind2=" ">
+    <mx:subfield code="a">Oster, Hans Jochen.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="700" ind1="1" ind2=" ">
+    <mx:subfield code="a">Barthel, Rainer.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="700" ind1="1" ind2=" ">
+    <mx:subfield code="a">Kie&#xC7;l, Kurt.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="776" ind1="0" ind2="8">
+    <mx:subfield code="i">Print version:</mx:subfield>
+    <mx:subfield code="a">Schunck, Eberhard.</mx:subfield>
+    <mx:subfield code="t">Roof Construction Manual : Pitched Roofs.</mx:subfield>
+    <mx:subfield code="d">Basel : De Gruyter, &#xA9;2003</mx:subfield>
+    <mx:subfield code="z">9783764369866</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="856" ind1="4" ind2="0">
+    <mx:subfield code="3">EBSCOhost</mx:subfield>
+    <mx:subfield code="u">http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=642045</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="880" ind1=" " ind2=" ">
+    <mx:subfield code="6">520-00/(S</mx:subfield>
+    <mx:subfield code="a">The &#xB1;Roof Construction Manual1 is a comprehensive reference work on the construction of pitched roofs, containing over 1800 plans and 220 photographs. Thirteen fundamental roof types and the relevant materials including thatch, wood, slate, tile, concrete, fibrous cement, bitumen, glass, metal, membranes, and synthetic materials are documented in detail.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="938" ind1=" " ind2=" ">
+    <mx:subfield code="a">EBL - Ebook Library</mx:subfield>
+    <mx:subfield code="b">EBLB</mx:subfield>
+    <mx:subfield code="n">EBL1075523</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="938" ind1=" " ind2=" ">
+    <mx:subfield code="a">EBSCOhost</mx:subfield>
+    <mx:subfield code="b">EBSC</mx:subfield>
+    <mx:subfield code="n">642045</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="994" ind1=" " ind2=" ">
+    <mx:subfield code="a">92</mx:subfield>
+    <mx:subfield code="b">DKCND</mx:subfield>
+  </mx:datafield>
+</mx:record>
+                      </mx:collection>
+                    </os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

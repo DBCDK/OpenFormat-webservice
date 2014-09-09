@@ -1,0 +1,35 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 29565678 *b 870970 *c 20121022180415 *d 20120919 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2012 *b dk *d y *l dan *n a *o s *x 02 *v 0 *w 1 
+009 00 *a a *g xe 
+032 00 *x ACC201238 *a DBF201243 *x BKM201243 *x ARK201243 
+245 00 *a Livets lotteri 
+260 00 *b Red Barnet *c 2012 
+504 00 *& 1 *a Et undervisningsmateriale om at være født rig eller fattig. Spillet Livets Lotteri giver en indføring i de fleste af verdens knap 200 lande. Man får opgaveforslag og ideer til aktiviteter, som man kan arbejde videre med 
+526 00 *i Hertil findes *u http://megafonen.redbarnet.dk/Admin/Public/DWSDownload.aspx?File=%2fFiles%2fFiler%2fMegafonen%2fL%26aelig%3brere%2fL%26aelig%3brervejledning_Livets_Lotteri.pdf *y lærervejledning 
+652 00 *m 33.106 
+666 00 *0 *u for 11 år 
+666 00 *0 *u for 12 år 
+666 00 *0 *u for 13 år 
+666 00 *0 *u for 7. klasse 
+666 00 *0 *u for 8. klasse 
+666 00 *0 *u for 9. klasse 
+666 00 *0 *u for 10. klasse 
+666 00 *0 *u for folkeskolen 
+666 00 *0 *o undervisningsmaterialer 
+666 00 *0 *f ulande 
+666 00 *0 *f industrilande 
+666 00 *0 *f fattigdom 
+666 00 *0 *f den ¤3. verden 
+666 00 *0 *f samfundsforhold 
+666 00 *0 *f levevilkår 
+666 00 *0 *f ulighed 
+666 00 *0 *o spil 
+666 00 *0 *o lærervejledninger 
+710 00 *a Red Barnet *e forening 
+856 00 *z Adgangsmåde: Internet *u http://megafonen.redbarnet.dk/Livets-Lotteri.aspx?ID=915 
+990 00 *o 201243 *b s *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A2 Rienecker,Lotte
+A2 Stray Jørgensen,Peter
+T1 Den gode opgave : håndbog i opgaveskrivning på videregående uddannelser
+SP 382 sider
+ED 4
+PB Samfundslitteratur
+PP Frederiksberg
+YR 2012
+SN 9788759315217
+CN 19.1
+K1 opgaveskrivning
+K1 specialeskrivning
+K1 for universitetsuddannelse
+K1 vejledninger</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

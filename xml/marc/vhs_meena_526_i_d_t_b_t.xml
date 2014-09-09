@@ -1,0 +1,30 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 22969587 *b 870970 *c 20130809204428 *d 20000614 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2000 *b dk *l mul *v 0 
+009 00 *a m *g nh 
+021 00 *d Kr. 150,00 *b benyttelse: 0 
+032 00 *a DBI200027 *x SKO200101 *x BØK200004 *x SFA200027 *x DAT990036 *x DAT990535 
+041 00 *p dan *p eng 
+245 00 *a Meena - bliver Meena nødt til at gå ud af skolen? *p Meena - will Meena leave school? *e creative development and script Rachel Carnegie *f animation director Chris Caddington *e original concept Neill McKee *e series directed by Ram Mohan 
+260 00 *a [Kbh.] *b UNICEF Danmark *c 2000 
+300 00 *n 1 kassette *e VHS *l ca. 30 min. 
+440 00 *0 *a Vis mig din skole 
+505 00 *a Tegnefilm 
+508 00 *a Dansk og engelsk tale 
+512 00 *i Baseret på figurer tegnet af *e Ram Mohan 
+512 00 *a På kassetten ligger filmen i 2 versioner: 1. version med dansk tale. 2. version med engelsk tale. Spilletiden er: ca. 15 min. og ca. 15 min. 
+520 00 *a Produceret for UNICEF i samarbejde med Hanna-Barbera Productions og Fil-Cartoons 
+526 00 *i Hertil findes bog *d Ram Mohan *t Meena - tæl dine høns, *b og: lærervejledning med titel: *t Vis mig din skole 1 
+652 00 *m 77.74 
+700 00 *a Carnegie *h Rachel 
+700 00 *A mackee *a McKee *h Neill 
+700 00 *a Mohan *h Ram 
+745 00 *a Bliver Meena nødt til at gå ud af skolen? 
+745 00 *a Will Meena leave school? 
+990 00 *a SFA *b S *b B *m Av-beskrivelse udsendes: 200028 *o 200027 
+991 00 *o Fås også som samlet undervisningsmateriale (video, klassesæt a 28 bøger samt lærervejledning), kr. 300,00 
+991 00 *o Tilhørende bog optaget i BS-fortegnelse 200027 (2 296 922 6) 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

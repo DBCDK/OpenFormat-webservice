@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Jessen,Ida, f. 1964
+A1 Bartholin,Hanne
+T1 Da Carl næsten ikke kunne gå
+SP 28 sider, alle illustreret i farver
+PB Høst
+PP Kbh.
+YR 2014
+SN 9788763820813
+NO Billedbog. Carl bliver så frygteligt træt i benene mens han går tur med far, som kører baby i klapvogn. Gid hele verden kunne se hvor ondt det gør i Carls ben. Måske ville de se det hvis han sad i kørestol?
+CN skønlitteratur
+K1 elefanter
+K1 søskende
+K1 følelser
+K1 for 3 år
+K1 for 4 år
+K1 for 5 år</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

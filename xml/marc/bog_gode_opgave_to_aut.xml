@@ -1,0 +1,30 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 29489483 *b 870970 *c 20140813180147 *d 20120807 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2012 *z 2014 *b dk *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+017 00 *a 21885525 
+021 00 *e 9788759315217 *c hf. 
+032 00 *x ACC201232 *a DBF201434 *x BKM201434 
+245 00 *a Den ¤gode opgave *c håndbog i opgaveskrivning på videregående uddannelser 
+250 00 *a 4. udgave 
+260 00 *& 1 *a Frederiksberg *b Samfundslitteratur *c 2012 
+300 00 *a 382 sider 
+520 00 *a Tidligere: 3. udgave. 2005 *n 2 587 495 1 *r 9788759311646 *r 87-593-1164-9 
+521 00 *a 1. oplag *c 2012 *k Narayana Press, Gylling 
+521 00 *b 2. oplag *c 2014 
+526 00 *a Hertil findes supplerende materiale på forlagets hjemmeside 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 19.1 
+666 00 *0 *f opgaveskrivning 
+666 00 *0 *f specialeskrivning 
+666 00 *0 *o vejledninger 
+666 00 *0 *u for universitetsuddannelse 
+700 00 *5 870979 *6 68867614 *4 aut *0 *a Rienecker *h Lotte 
+700 00 *5 870979 *6 68991072 *4 aut *0 *a Stray Jørgensen *h Peter *å 1 
+720 00 *o Signe Skov *4 ctb 
+900 00 *0 *a Jørgensen *h Peter Stray *z 700/1 
+990 00 *o 201434 *b v *u op 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

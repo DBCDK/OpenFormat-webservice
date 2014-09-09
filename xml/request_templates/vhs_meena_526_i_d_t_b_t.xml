@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>22969587|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Meena - bliver Meena nødt til at gå ud af skolen?</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Meena - bliver Meena nødt til at gå ud af skolen?</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Vis mig din skole</dc:title>
+              <dcterms:alternative>Meena - will Meena leave school?</dcterms:alternative>
+              <dcterms:alternative>Bliver Meena nødt til at gå ud af skolen?</dcterms:alternative>
+              <dcterms:alternative>Will Meena leave school?</dcterms:alternative>
+              <dc:creator xsi:type="dkdcplus:drt">Ram Mohan</dc:creator>
+              <dc:creator xsi:type="oss:sort">Mohan, Ram</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">77.74</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Børnefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">animationsfilm mest for børn</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">animationsfilm mest for voksne</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">børnefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">tegnefilm</dc:subject>
+              <dc:description>Baseret på figurer tegnet af Ram Mohan</dc:description>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dc:publisher>UNICEF Danmark</dc:publisher>
+              <dc:contributor>Rachel Carnegie</dc:contributor>
+              <dc:contributor>Neill McKee</dc:contributor>
+              <dc:contributor>Ram Mohan</dc:contributor>
+              <dc:date>2000</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Video</dc:type>
+              <dc:format>1 kassette, VHS</dc:format>
+              <dcterms:extent>ca. 30 min.</dcterms:extent>
+              <dcterms:extent>På kassetten ligger filmen i 2 versioner: 1. version med dansk tale. 2. version med engelsk tale. Spilletiden er: ca. 15 min. og ca. 15 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dkdcplus:spoken">Dansk</dc:language>
+              <dc:language xsi:type="dkdcplus:spoken">Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">22969587</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20130809204428</marcx:subfield>
+                  <marcx:subfield code="d">20000614</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2000</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">nh</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="d">Kr. 150,00</marcx:subfield>
+                  <marcx:subfield code="b">benyttelse: 0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBI200027</marcx:subfield>
+                  <marcx:subfield code="x">SKO200101</marcx:subfield>
+                  <marcx:subfield code="x">BØK200004</marcx:subfield>
+                  <marcx:subfield code="x">SFA200027</marcx:subfield>
+                  <marcx:subfield code="x">DAT990036</marcx:subfield>
+                  <marcx:subfield code="x">DAT990535</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="p">dan</marcx:subfield>
+                  <marcx:subfield code="p">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Meena - bliver Meena nødt til at gå ud af skolen?</marcx:subfield>
+                  <marcx:subfield code="p">Meena - will Meena leave school?</marcx:subfield>
+                  <marcx:subfield code="e">creative development and script Rachel Carnegie</marcx:subfield>
+                  <marcx:subfield code="f">animation director Chris Caddington</marcx:subfield>
+                  <marcx:subfield code="e">original concept Neill McKee</marcx:subfield>
+                  <marcx:subfield code="e">series directed by Ram Mohan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">UNICEF Danmark</marcx:subfield>
+                  <marcx:subfield code="c">2000</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 kassette</marcx:subfield>
+                  <marcx:subfield code="e">VHS</marcx:subfield>
+                  <marcx:subfield code="l">ca. 30 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Vis mig din skole</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Tegnefilm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Dansk og engelsk tale</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Baseret på figurer tegnet af</marcx:subfield>
+                  <marcx:subfield code="e">Ram Mohan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På kassetten ligger filmen i 2 versioner: 1. version med dansk tale. 2. version med engelsk tale. Spilletiden er: ca. 15 min. og ca. 15 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Produceret for UNICEF i samarbejde med Hanna-Barbera Productions og Fil-Cartoons</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Hertil findes bog</marcx:subfield>
+                  <marcx:subfield code="d">Ram Mohan</marcx:subfield>
+                  <marcx:subfield code="t">Meena - tæl dine høns,</marcx:subfield>
+                  <marcx:subfield code="b">og: lærervejledning med titel:</marcx:subfield>
+                  <marcx:subfield code="t">Vis mig din skole 1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">77.74</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Carnegie</marcx:subfield>
+                  <marcx:subfield code="h">Rachel</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="A">mackee</marcx:subfield>
+                  <marcx:subfield code="a">McKee</marcx:subfield>
+                  <marcx:subfield code="h">Neill</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Mohan</marcx:subfield>
+                  <marcx:subfield code="h">Ram</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="745">
+                  <marcx:subfield code="a">Bliver Meena nødt til at gå ud af skolen?</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="745">
+                  <marcx:subfield code="a">Will Meena leave school?</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="a">SFA</marcx:subfield>
+                  <marcx:subfield code="b">S</marcx:subfield>
+                  <marcx:subfield code="b">B</marcx:subfield>
+                  <marcx:subfield code="m">Av-beskrivelse udsendes: 200028</marcx:subfield>
+                  <marcx:subfield code="o">200027</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Fås også som samlet undervisningsmateriale (video, klassesæt a 28 bøger samt lærervejledning), kr. 300,00</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Tilhørende bog optaget i BS-fortegnelse 200027 (2 296 922 6)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:22969587</os:identifier>
+            <os:creationDate>2005-03-01</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>vhs_meena_526_i_d_t_b_t.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

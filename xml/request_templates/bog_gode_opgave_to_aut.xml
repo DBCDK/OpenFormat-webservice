@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>29489483|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788759315217</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Den gode opgave</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Den gode opgave : håndbog i opgaveskrivning på videregående uddannelser</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">19.1</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Forskningsteknik i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for universitetsuddannelse</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">opgaveskrivning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">specialeskrivning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">vejledninger</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>4. udgave</dkdcplus:version>
+              <dc:publisher>Samfundslitteratur</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:aut">Lotte Rienecker</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:aut">Peter Stray Jørgensen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ctb">Signe Skov</dc:contributor>
+              <dc:date>2012</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>382 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">29489483</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140813180147</marcx:subfield>
+                  <marcx:subfield code="d">20120807</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2012</marcx:subfield>
+                  <marcx:subfield code="z">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">21885525</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788759315217</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201232</marcx:subfield>
+                  <marcx:subfield code="a">DBF201434</marcx:subfield>
+                  <marcx:subfield code="x">BKM201434</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Den ¤gode opgave</marcx:subfield>
+                  <marcx:subfield code="c">håndbog i opgaveskrivning på videregående uddannelser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">4. udgave</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Frederiksberg</marcx:subfield>
+                  <marcx:subfield code="b">Samfundslitteratur</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">382 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Tidligere: 3. udgave. 2005</marcx:subfield>
+                  <marcx:subfield code="n">2 587 495 1</marcx:subfield>
+                  <marcx:subfield code="r">9788759311646</marcx:subfield>
+                  <marcx:subfield code="r">87-593-1164-9</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                  <marcx:subfield code="k">Narayana Press, Gylling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">2. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="a">Hertil findes supplerende materiale på forlagets hjemmeside</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">19.1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">opgaveskrivning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">specialeskrivning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">vejledninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for universitetsuddannelse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68867614</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Rienecker</marcx:subfield>
+                  <marcx:subfield code="h">Lotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68991072</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Stray Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Peter</marcx:subfield>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Signe Skov</marcx:subfield>
+                  <marcx:subfield code="4">ctb</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Peter Stray</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201434</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:29489483</os:identifier>
+            <os:creationDate>2012-08-07</os:creationDate>
+            <os:holdingsCount>87</os:holdingsCount>
+            <os:lendingLibraries>87</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84566772</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84298573</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84222747</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84803138</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:35366784</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:35506845</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_gode_opgave_to_aut.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

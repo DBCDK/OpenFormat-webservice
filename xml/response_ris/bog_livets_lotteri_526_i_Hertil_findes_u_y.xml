@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A2  - Red Barnet (forening)
+T1  - Livets lotteri
+PB  - Red Barnet
+Y1  - 2012
+N1  - Et undervisningsmateriale om at være født rig eller fattig. Spillet Livets Lotteri giver en indføring i de fleste af verdens knap 200 lande. Man får opgaveforslag og ideer til aktiviteter, som man kan arbejde videre med
+CN  - 33.106
+KW  - ulande
+KW  - industrilande
+KW  - fattigdom
+KW  - den 3. verden
+KW  - samfundsforhold
+KW  - levevilkår
+KW  - ulighed
+KW  - for 10. klasse
+KW  - for 11 år
+KW  - for 12 år
+KW  - for 13 år
+KW  - for 7. klasse
+KW  - for 8. klasse
+KW  - for 9. klasse
+KW  - for folkeskolen
+KW  - lærervejledninger
+KW  - spil
+KW  - undervisningsmaterialer
+UR  - http://megafonen.redbarnet.dk/Livets-Lotteri.aspx?ID=915
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

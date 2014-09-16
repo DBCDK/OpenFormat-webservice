@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>5168715|820010</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9171416145</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Kompetens för omvårdnadspersonal</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Kompetens för omvårdnadspersonal : utvärdering av högskoleutbildning i vård och omsorg</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">61.707</dc:subject>
+              <dc:subject>Sverige</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Uddannelse og forskning</dc:subject>
+              <dc:subject>efteruddannelse</dc:subject>
+              <dc:subject>sundhedspersonalet uddannelse</dc:subject>
+              <dc:subject>universitet</dc:subject>
+              <dc:description>Sammenfatning ved Leif Nordin, Kerstin Ahlsén och Mats Svedin</dc:description>
+              <dc:description>Registreret 2.2.2006</dc:description>
+              <dc:description xsi:type="dkdcplus:series">Knytter sig til rapporten: Utvärdering av högskoleutbildning för omvårdnadspersonal</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Sveriges kommuner och landsting</dc:publisher>
+              <dc:contributor>Leif Nordin</dc:contributor>
+              <dc:contributor>Mats Svedin</dc:contributor>
+              <dc:contributor>Kerstin Ahlsén</dc:contributor>
+              <dc:contributor>Sveriges kommuner och landsting</dc:contributor>
+              <dc:date>2005</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:format>Kræver PDF-læseprogram</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
+              <dc:language>Svensk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">5168715</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">201406051442</marcx:subfield>
+                  <marcx:subfield code="d">20110701</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2005</marcx:subfield>
+                  <marcx:subfield code="b">se</marcx:subfield>
+                  <marcx:subfield code="l">swe</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">9171416145</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="z">125050</marcx:subfield>
+                  <marcx:subfield code="a">ELRES Via internet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Kompetens för omvårdnadspersonal</marcx:subfield>
+                  <marcx:subfield code="c">utvärdering av högskoleutbildning i vård och omsorg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Sveriges kommuner och landsting</marcx:subfield>
+                  <marcx:subfield code="c">2005</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="501">
+                  <marcx:subfield code="a">Kræver PDF-læseprogram</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Sammenfatning ved</marcx:subfield>
+                  <marcx:subfield code="e">Leif Nordin, Kerstin Ahlsén och Mats Svedin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Registreret 2.2.2006</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Knytter sig til rapporten</marcx:subfield>
+                  <marcx:subfield code="t">Utvärdering av högskoleutbildning för omvårdnadspersonal</marcx:subfield>
+                  <marcx:subfield code="e">av: Helena Andershed &amp; Mats Andersson</marcx:subfield>
+                  <marcx:subfield code="u">http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="631">
+                  <marcx:subfield code="a">sundhedspersonalet uddannelse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="631">
+                  <marcx:subfield code="a">efteruddannelse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="631">
+                  <marcx:subfield code="a">universitet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="631">
+                  <marcx:subfield code="a">Sverige</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">61.707</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">37.601</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Nordin</marcx:subfield>
+                  <marcx:subfield code="h">Leif</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Svedin</marcx:subfield>
+                  <marcx:subfield code="h">Mats</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ahlsén</marcx:subfield>
+                  <marcx:subfield code="h">Kerstin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Sveriges kommuner och landsting</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:5168715</os:identifier>
+            <os:creationDate>2011-07-08</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf</os:relationUri>
+                <os:linkObject>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>820010-katalog</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>net_526i_t_e_u.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

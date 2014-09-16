@@ -1,0 +1,20 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 29173605 *b 870970 *c 20130119110105 *d 20120118 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2012 *b dk *d x *j f *l dan *n b *o b *v 0 *w 1 
+009 00 *a a *g xe 
+021 00 *e 9788792883100 
+032 00 *a DBF201208 *x ACC201203 *x DAT991304 
+041 00 *a dan *c eng 
+100 00 *5 870979 *6 68188911 *4 aut *0 *a Burroughs *h Edgar Rice 
+245 00 *a Tarzan og det tabte rige 
+260 00 *b [SFA-89] *g [sælges på internettet] *c [2012] 
+502 00 *a Oversat fra amerikansk 
+512 00 *a Downloades i EPUB-format 
+512 00 *a På titelskærmbilledet: Frederik E. Pedersens Forlag 
+652 00 *n 83.8 *z 296 
+652 00 *o sk 
+900 00 *0 *a Rice Burroughs *h Edgar *z 100 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

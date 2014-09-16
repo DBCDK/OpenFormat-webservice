@@ -1,0 +1,26 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 5168715 *b 820010 *c 201406051442 *d 20110701 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 2005 *b se *l swe *v 0 
+009 00 *a a *g xe 
+021 00 *a 9171416145 
+096 00 *z 125050 *a ELRES Via internet 
+245 00 *a Kompetens för omvårdnadspersonal *c utvärdering av högskoleutbildning i vård och omsorg 
+260 00 *b Sveriges kommuner och landsting *c 2005 
+501 00 *a Kræver PDF-læseprogram 
+512 00 *i Sammenfatning ved *e Leif Nordin, Kerstin Ahlsén och Mats Svedin 
+512 00 *a Registreret 2.2.2006 
+526 00 *i Knytter sig til rapporten *t Utvärdering av högskoleutbildning för omvårdnadspersonal *e av: Helena Andershed & Mats Andersson *u http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf 
+631 00 *a sundhedspersonalet uddannelse 
+631 00 *a efteruddannelse 
+631 00 *a universitet 
+631 00 *a Sverige 
+652 00 *m 61.707 
+652 00 *p 37.601 
+700 00 *a Nordin *h Leif 
+700 00 *a Svedin *h Mats 
+700 00 *a Ahlsén *h Kerstin 
+710 00 *a Sveriges kommuner och landsting 
+856 00 *z Adgangsmåde: Internet *u http://www.apel-fou.se/bibliotek/utv-omvpersonal.pdf 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

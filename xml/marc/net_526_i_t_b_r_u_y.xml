@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 5924865 *b 820010 *c 201306111517 *d 20130611 *f a 
+002 00 *d 2 997 466 7 *t FAUST 
+004 00 *r c *a e 
+008 00 *t m *u f *a 2012 *b dk *d y *n a *x 04 *l dan *w 1 *v 0 
+009 00 *a a *g xe 
+021 00 *x 978-87-9231-12-X 
+096 00 *z 125050 *a ELRES Via internet 
+245 00 *a Retsmedicin i naturfagsundervisningen *u sagen opklaret 
+260 00 *b Det Naturvidenskabelige Fakultet, Syddansk Universitet *b i samarbejde med Ungdommens Naturvidenskabelige Forening *b Center for Naturvidenskabernes og Matematikkens Didaktik *c 2012 
+440 00 *a [Skriftserie] *æ Center for Naturvidenskabernes og Matematikkens Didaktik *V 11 *v volume 11 
+512 00 *i Kolofontitel *t Retsmedicin i naturfagsundervisningen - sagen opklaret, elevhæfte 
+526 00 *i Hertil knytter sig lærervejledning *t Retsmedicin i naturfagsundervisningen : lærervejledning til Sagen opklaret *b Også i papirform. 180 sider *r 9788792321114 *u http://static.sdu.dk/mediafiles//9/A/C/%7B9ACB0550-F236-4ECC-96CD-B1B893044C0F%7DVol11_laerer.pdf *y PDF-format 
+652 00 *m 34.33 
+700 00 *a Ahrenkiel *h Linda *4 aut *g 1 
+710 00 *a Syddansk Universitet *c Center for Naturvidenskabernes og Matematikkens Didaktik 
+710 00 *a Ungdommens Naturvidenskabelige Forening *s Odense 
+710 00 *a Syddansk Universitet *c Det ¤Naturvidenskabelige Fakultet 
+856 00 *z Adgangsmåde: Internet *u http://static.sdu.dk/mediafiles//C/3/A/%7BC3AD8DA9-0191-4543-93A7-3544D739CD45%7DVol11_elev.pdf *y PDF-format 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

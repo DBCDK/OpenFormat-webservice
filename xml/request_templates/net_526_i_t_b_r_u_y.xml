@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>5924865|820010</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://static.sdu.dk/mediafiles//C/3/A/%7BC3AD8DA9-0191-4543-93A7-3544D739CD45%7DVol11_elev.pdf</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Retsmedicin i naturfagsundervisningen</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Retsmedicin i naturfagsundervisningen</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Skriftserie / Center for Naturvidenskabernes og Matematikkens Didaktik ; volume 11</dc:title>
+              <dcterms:alternative>Retsmedicin i naturfagsundervisningen - sagen opklaret, elevhæfte</dcterms:alternative>
+              <dc:subject xsi:type="dkdcplus:DK5">34.33</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Kriminalpolitivæsen</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Det Naturvidenskabelige Fakultet, Syddansk Universitet</dc:publisher>
+              <dc:publisher>Ungdommens Naturvidenskabelige Forening</dc:publisher>
+              <dc:publisher>Center for Naturvidenskabernes og Matematikkens Didaktik</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:aut">Linda Ahrenkiel</dc:contributor>
+              <dc:contributor>Syddansk Universitet Center for Naturvidenskabernes og Matematikkens Didaktik</dc:contributor>
+              <dc:contributor>Ungdommens Naturvidenskabelige Forening Odense</dc:contributor>
+              <dc:contributor>Syddansk Universitet Det Naturvidenskabelige Fakultet</dc:contributor>
+              <dc:date>2012</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">5924865</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">201306111517</marcx:subfield>
+                  <marcx:subfield code="d">20130611</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="d">2 997 466 7</marcx:subfield>
+                  <marcx:subfield code="t">FAUST</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2012</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="n">a</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="w">1</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="x">978-87-9231-12-X</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="z">125050</marcx:subfield>
+                  <marcx:subfield code="a">ELRES Via internet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Retsmedicin i naturfagsundervisningen</marcx:subfield>
+                  <marcx:subfield code="u">sagen opklaret</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Det Naturvidenskabelige Fakultet, Syddansk Universitet</marcx:subfield>
+                  <marcx:subfield code="b">i samarbejde med Ungdommens Naturvidenskabelige Forening</marcx:subfield>
+                  <marcx:subfield code="b">Center for Naturvidenskabernes og Matematikkens Didaktik</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">[Skriftserie]</marcx:subfield>
+                  <marcx:subfield code="æ">Center for Naturvidenskabernes og Matematikkens Didaktik</marcx:subfield>
+                  <marcx:subfield code="V">11</marcx:subfield>
+                  <marcx:subfield code="v">volume 11</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Kolofontitel</marcx:subfield>
+                  <marcx:subfield code="t">Retsmedicin i naturfagsundervisningen - sagen opklaret, elevhæfte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="i">Hertil knytter sig lærervejledning</marcx:subfield>
+                  <marcx:subfield code="t">Retsmedicin i naturfagsundervisningen : lærervejledning til Sagen opklaret</marcx:subfield>
+                  <marcx:subfield code="b">Også i papirform. 180 sider</marcx:subfield>
+                  <marcx:subfield code="r">9788792321114</marcx:subfield>
+                  <marcx:subfield code="u">http://static.sdu.dk/mediafiles//9/A/C/%7B9ACB0550-F236-4ECC-96CD-B1B893044C0F%7DVol11_laerer.pdf</marcx:subfield>
+                  <marcx:subfield code="y">PDF-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">34.33</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ahrenkiel</marcx:subfield>
+                  <marcx:subfield code="h">Linda</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="g">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Syddansk Universitet</marcx:subfield>
+                  <marcx:subfield code="c">Center for Naturvidenskabernes og Matematikkens Didaktik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Ungdommens Naturvidenskabelige Forening</marcx:subfield>
+                  <marcx:subfield code="s">Odense</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Syddansk Universitet</marcx:subfield>
+                  <marcx:subfield code="c">Det ¤Naturvidenskabelige Fakultet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://static.sdu.dk/mediafiles//C/3/A/%7BC3AD8DA9-0191-4543-93A7-3544D739CD45%7DVol11_elev.pdf</marcx:subfield>
+                  <marcx:subfield code="y">PDF-format</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:5924865</os:identifier>
+            <os:creationDate>2013-06-16</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://static.sdu.dk/mediafiles//C/3/A/%7BC3AD8DA9-0191-4543-93A7-3544D739CD45%7DVol11_elev.pdf</os:relationUri>
+                <os:linkObject>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>820010-katalog</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>net_526_i_t_b_r_u_y.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

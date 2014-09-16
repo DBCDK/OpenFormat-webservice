@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Electronic(1)
+A1 Ahrenkiel,Linda
+A2 Syddansk Universitet. Center for Naturvidenskabernes og Matematikkens Didaktik
+A2 Ungdommens Naturvidenskabelige Forening. Odense
+A2 Syddansk Universitet. Det Naturvidenskabelige Fakultet
+T1 Retsmedicin i naturfagsundervisningen : sagen opklaret
+PB Det Naturvidenskabelige Fakultet, Syddansk Universitet
+PB i samarbejde med Ungdommens Naturvidenskabelige Forening
+PB Center for Naturvidenskabernes og Matematikkens Didaktik
+YR 2012
+T2 Skriftserie / Center for Naturvidenskabernes og Matematikkens Didaktik, volume 11
+CN 34.33
+LK http://static.sdu.dk/mediafiles//C/3/A/%7BC3AD8DA9-0191-4543-93A7-3544D739CD45%7DVol11_elev.pdf</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

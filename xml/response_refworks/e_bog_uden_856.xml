@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Electronic(1)
+A1 Burroughs,Edgar Rice
+T1 Tarzan og det tabte rige
+PB SFA-89
+YR 2012
+SN 9788792883100
+NO Downloades i EPUB-format. - På titelskærmbilledet: Frederik E. Pedersens Forlag
+CN skønlitteratur</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

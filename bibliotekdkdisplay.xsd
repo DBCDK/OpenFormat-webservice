@@ -685,6 +685,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:searchCode" minOccurs="0"/>
+				<xs:element ref="bibdk:relatedUrl" minOccurs="0"/>
 				<xs:element ref="bibdk:display"/>
 			</xs:sequence>
 			<xs:attribute name="className" type="xs:string" use="optional"/>
@@ -707,6 +708,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="relatedUrl" type="xs:string"/>
 	<xs:element name="requestButton" type="xs:string"/>
 	<xs:element name="requestMethod" type="xs:string"/>
 	<xs:element name="restrictedUse" type="xs:string"/>

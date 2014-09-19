@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mx="http://www.loc.gov/MARC21/slim">
+    <SOAP-ENV:Body>
+        <ns1:formatRequest>
+            <ns1:originalData>
+                <os:collection>
+                    <os:resultPosition>1</os:resultPosition>
+                    <os:numberOfObjects>1</os:numberOfObjects>
+                    <os:object>
+<mx:collection>
+<mx:record format="MARC21" type="Bibliographic">
+  <mx:leader>00000cam  2200000Ka 4500</mx:leader>
+  <mx:controlfield tag="001">ocm51504352 </mx:controlfield>
+  <mx:controlfield tag="003">OCoLC</mx:controlfield>
+  <mx:controlfield tag="005">20140729083233.0</mx:controlfield>
+  <mx:controlfield tag="006">m     o  d        </mx:controlfield>
+  <mx:controlfield tag="007">cr cn|</mx:controlfield>
+  <mx:controlfield tag="008">030122s2002    mdua    ob    001 0 eng d</mx:controlfield>
+  <mx:datafield tag="040" ind1=" " ind2=" ">
+    <mx:subfield code="a">N$T</mx:subfield>
+    <mx:subfield code="b">eng</mx:subfield>
+    <mx:subfield code="e">pn</mx:subfield>
+    <mx:subfield code="c">N$T</mx:subfield>
+    <mx:subfield code="d">YDXCP</mx:subfield>
+    <mx:subfield code="d">OCLCQ</mx:subfield>
+    <mx:subfield code="d">TUU</mx:subfield>
+    <mx:subfield code="d">OCLCQ</mx:subfield>
+    <mx:subfield code="d">TNF</mx:subfield>
+    <mx:subfield code="d">OCLCQ</mx:subfield>
+    <mx:subfield code="d">ZCU</mx:subfield>
+    <mx:subfield code="d">OCLCO</mx:subfield>
+    <mx:subfield code="d">NTE</mx:subfield>
+    <mx:subfield code="d">MERUC</mx:subfield>
+    <mx:subfield code="d">CCO</mx:subfield>
+    <mx:subfield code="d">E7B</mx:subfield>
+    <mx:subfield code="d">REDDC</mx:subfield>
+    <mx:subfield code="d">CO3</mx:subfield>
+    <mx:subfield code="d">DKDLA</mx:subfield>
+    <mx:subfield code="d">OCLCE</mx:subfield>
+    <mx:subfield code="d">CSU</mx:subfield>
+    <mx:subfield code="d">OCLCF</mx:subfield>
+    <mx:subfield code="d">NHA</mx:subfield>
+    <mx:subfield code="d">OCLCQ</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="019" ind1=" " ind2=" ">
+    <mx:subfield code="a">70720626</mx:subfield>
+    <mx:subfield code="a">488387395</mx:subfield>
+    <mx:subfield code="a">559706287</mx:subfield>
+    <mx:subfield code="a">606676181</mx:subfield>
+    <mx:subfield code="a">646366706</mx:subfield>
+    <mx:subfield code="a">646712667</mx:subfield>
+    <mx:subfield code="a">722142113</mx:subfield>
+    <mx:subfield code="a">740948411</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">0801875463 (electronic bk.)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">9780801875465 (electronic bk.)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">0801867665</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="a">9780801867668</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">9780801867651 (hbk. : alk. paper)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="020" ind1=" " ind2=" ">
+    <mx:subfield code="z">0801867657 (hbk. : alk. paper)</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="029" ind1="1" ind2=" ">
+    <mx:subfield code="a">NZ1</mx:subfield>
+    <mx:subfield code="b">11920343</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="035" ind1=" " ind2=" ">
+    <mx:subfield code="a">(OCoLC)51504352</mx:subfield>
+    <mx:subfield code="z">(OCoLC)70720626</mx:subfield>
+    <mx:subfield code="z">(OCoLC)488387395</mx:subfield>
+    <mx:subfield code="z">(OCoLC)559706287</mx:subfield>
+    <mx:subfield code="z">(OCoLC)606676181</mx:subfield>
+    <mx:subfield code="z">(OCoLC)646366706</mx:subfield>
+    <mx:subfield code="z">(OCoLC)646712667</mx:subfield>
+    <mx:subfield code="z">(OCoLC)722142113</mx:subfield>
+    <mx:subfield code="z">(OCoLC)740948411</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="042" ind1=" " ind2=" ">
+    <mx:subfield code="a">dlr</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="050" ind1=" " ind2="4">
+    <mx:subfield code="a">R726.8</mx:subfield>
+    <mx:subfield code="b">.E53 2002eb</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="060" ind1=" " ind2="4">
+    <mx:subfield code="a">WB 310</mx:subfield>
+    <mx:subfield code="b">E56m 2002</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="072" ind1=" " ind2="7">
+    <mx:subfield code="a">MED</mx:subfield>
+    <mx:subfield code="x">042000</mx:subfield>
+    <mx:subfield code="2">bisacsh</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="082" ind1="0" ind2="4">
+    <mx:subfield code="a">362.1/75</mx:subfield>
+    <mx:subfield code="2">21</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="049" ind1=" " ind2=" ">
+    <mx:subfield code="a">CNDA</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="100" ind1="1" ind2=" ">
+    <mx:subfield code="a">Enck, Robert E.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="245" ind1="1" ind2="4">
+    <mx:subfield code="a">The medical care of terminally ill patients</mx:subfield>
+    <mx:subfield code="h">[electronic resource] /</mx:subfield>
+    <mx:subfield code="c">Robert E. Enck.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="250" ind1=" " ind2=" ">
+    <mx:subfield code="a">2nd ed.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="260" ind1=" " ind2=" ">
+    <mx:subfield code="a">Baltimore :</mx:subfield>
+    <mx:subfield code="b">Johns Hopkins University Press,</mx:subfield>
+    <mx:subfield code="c">2002.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="300" ind1=" " ind2=" ">
+    <mx:subfield code="a">1 online resource (xiv, 226 pages) :</mx:subfield>
+    <mx:subfield code="b">illustrations</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="336" ind1=" " ind2=" ">
+    <mx:subfield code="a">text</mx:subfield>
+    <mx:subfield code="b">txt</mx:subfield>
+    <mx:subfield code="2">rdacontent</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="337" ind1=" " ind2=" ">
+    <mx:subfield code="a">computer</mx:subfield>
+    <mx:subfield code="b">c</mx:subfield>
+    <mx:subfield code="2">rdamedia</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="338" ind1=" " ind2=" ">
+    <mx:subfield code="a">online resource</mx:subfield>
+    <mx:subfield code="b">cr</mx:subfield>
+    <mx:subfield code="2">rdacarrier</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="504" ind1=" " ind2=" ">
+    <mx:subfield code="a">Includes bibliographical references (pages 197-217) and index.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="505" ind1="0" ind2=" ">
+    <mx:subfield code="a">The prognostication of survival -- Cancer -- Dementia -- Motor neuron disease -- Acquired immunodeficiency syndrome (AIDS) -- Central nervous system anoxia -- Advanced pulmonary disease -- Heart disease -- The management of symptoms common among dying patients -- General symptoms of dying patients -- Pain -- Gastrointestinal symptoms -- Nausea and vomiting -- Anorexia and cachexia -- Nutritional problems -- Hydration -- Constipation -- Central nervous system symptoms -- Delirium -- Depression -- Systemic symptoms -- Dyspnea -- Urinary incontinence -- Pressure sores -- Other problems of patients with cancer -- Malignant intestinal obstruction -- Malignant dysphagia -- Neuromuscular dysfunction -- Malignant ulceration -- Other problems of patients with nonmalignant diseases -- Dementia -- Motor neuron disease -- Acquired immunodeficiency syndrome (AIDS) -- Chronic vegetative state -- Advanced pulmonary disease -- Heart disease -- Palliative surgery -- Principles of preoperative care -- Principles of operating for advanced cancer -- Principles of postoperative care -- Indications for surgery -- The management of pain -- An overview of pain management -- Principles of pain management -- The ladder approach -- Managing the complications of pain treatment -- Opioids -- Oral morphine -- Parenteral opioids -- Alternative routes of administration -- Adjuvant analgesic drugs -- Anticonvulsants -- Phenothiazines -- Antidepressants -- Antihistamines -- Steroids -- Antibiotics -- Amphetamines -- Butyrophenones.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="506" ind1=" " ind2=" ">
+    <mx:subfield code="3">Use copy</mx:subfield>
+    <mx:subfield code="f">Restrictions unspecified</mx:subfield>
+    <mx:subfield code="2">star</mx:subfield>
+    <mx:subfield code="5">MiAaHDL</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="533" ind1=" " ind2=" ">
+    <mx:subfield code="a">Electronic reproduction.</mx:subfield>
+    <mx:subfield code="b">[S.l.] :</mx:subfield>
+    <mx:subfield code="c">HathiTrust Digital Library,</mx:subfield>
+    <mx:subfield code="d">2010.</mx:subfield>
+    <mx:subfield code="5">MiAaHDL</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="538" ind1=" " ind2=" ">
+    <mx:subfield code="a">Master and use copy. Digital master created according to Benchmark for Faithful Digital Reproductions of Monographs and Serials, Version 1. Digital Library Federation, December 2002.</mx:subfield>
+    <mx:subfield code="u">http://purl.oclc.org/DLF/benchrepro0212</mx:subfield>
+    <mx:subfield code="5">MiAaHDL</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="583" ind1="1" ind2=" ">
+    <mx:subfield code="a">digitized</mx:subfield>
+    <mx:subfield code="c">2010</mx:subfield>
+    <mx:subfield code="h">HathiTrust Digital Library</mx:subfield>
+    <mx:subfield code="l">committed to preserve</mx:subfield>
+    <mx:subfield code="2">pda</mx:subfield>
+    <mx:subfield code="5">MiAaHDL</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="588" ind1=" " ind2=" ">
+    <mx:subfield code="a">Description based on print version record.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="0">
+    <mx:subfield code="a">Terminal care.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1="1" ind2="2">
+    <mx:subfield code="a">Palliative Care.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1="2" ind2="2">
+    <mx:subfield code="a">Terminal Care.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="6">
+    <mx:subfield code="a">Soins en phase terminale.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="7">
+    <mx:subfield code="a">MEDICAL</mx:subfield>
+    <mx:subfield code="x">Terminal Care.</mx:subfield>
+    <mx:subfield code="2">bisacsh</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="650" ind1=" " ind2="7">
+    <mx:subfield code="a">Terminal care.</mx:subfield>
+    <mx:subfield code="2">fast</mx:subfield>
+    <mx:subfield code="0">(OCoLC)fst01147835</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="655" ind1=" " ind2="4">
+    <mx:subfield code="a">Electronic books.</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="776" ind1="0" ind2="8">
+    <mx:subfield code="i">Print version:</mx:subfield>
+    <mx:subfield code="a">Enck, Robert E.</mx:subfield>
+    <mx:subfield code="t">Medical care of terminally ill patients.</mx:subfield>
+    <mx:subfield code="b">2nd ed.</mx:subfield>
+    <mx:subfield code="d">Baltimore : Johns Hopkins University Press, 2002</mx:subfield>
+    <mx:subfield code="z">0801867657</mx:subfield>
+    <mx:subfield code="w">(DLC)   00013053</mx:subfield>
+    <mx:subfield code="w">(OCoLC)45618953</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="856" ind1="4" ind2="0">
+    <mx:subfield code="3">EBSCOhost</mx:subfield>
+    <mx:subfield code="u">http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=75647</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="938" ind1=" " ind2=" ">
+    <mx:subfield code="a">ebrary</mx:subfield>
+    <mx:subfield code="b">EBRY</mx:subfield>
+    <mx:subfield code="n">ebr10021544</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="938" ind1=" " ind2=" ">
+    <mx:subfield code="a">EBSCOhost</mx:subfield>
+    <mx:subfield code="b">EBSC</mx:subfield>
+    <mx:subfield code="n">75647</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="938" ind1=" " ind2=" ">
+    <mx:subfield code="a">YBP Library Services</mx:subfield>
+    <mx:subfield code="b">YANK</mx:subfield>
+    <mx:subfield code="n">2340995</mx:subfield>
+  </mx:datafield>
+  <mx:datafield tag="994" ind1=" " ind2=" ">
+    <mx:subfield code="a">92</mx:subfield>
+    <mx:subfield code="b">DKCND</mx:subfield>
+  </mx:datafield>
+</mx:record>
+</mx:collection>
+</os:object>
+                </os:collection>
+            </ns1:originalData>
+            <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+        </ns1:formatRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

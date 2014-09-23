@@ -1,0 +1,26 @@
+=/home/nje/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 35888268 *b 870971 *c 20140115150235 *d 20140115 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2013 *b dk *d y *l dan *v 0 *r ap 
+009 00 *a a *g xx 
+016 00 *a 49398824 
+032 00 *a ABU201404 *a DAR201404 
+086 00 *a Enkelte lokaliteter uden for København 
+245 00 *a Glimt af retsopgøret i Slagelse efter befrielsen 
+300 00 *a S. 115-148 *b ill. 
+532 00 *a Med litteraturhenvisninger og links 
+557 00 *a Årbog for Historisk Forening for Midt- og Sydvestsjælland *j 2013 *z 2245-2354 *V Bd. 0100 (2013) *v Bd. 100 (2013) 
+652 00 *m 46.4 *b Slagelse 
+666 00 *0 *f historie 
+666 00 *0 *f besættelsestiden 
+666 00 *0 *f den ¤2. verdenskrig 
+666 00 *0 *f befrielsen 
+666 00 *0 *f modstandsbevægelsen 
+666 00 *0 *f retsopgør 
+666 00 *0 *f efterkrigstiden 
+666 00 *0 *i 1940-1949 
+700 00 *å 2 *a Egø Nielsen *h Carsten *4 aut 
+900 00 *a Nielsen *h Carsten Egø *z 700/2 
+996 00 *a IDX 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

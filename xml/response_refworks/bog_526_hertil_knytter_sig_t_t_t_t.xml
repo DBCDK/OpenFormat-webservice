@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Music Score
+SR Print(0)
+A2 Pandrup,Judith
+T1 Nipilersornermik ilinniut - atuartup atuagaa = Musiklære - elevens spillebog
+SP 103 sider, illustreret i farver
+PB Ilinniusiorfik Undervisningsmiddelforlag
+PP Nuuk
+YR 2013
+SN 9788779756434
+SN 7010
+NO For xylofon, basxylofon, metallofon, klokkespil, slagtøj og boomwhackers, delvis med 1-2 sangstemmer. - Med sangtekster. - Med spillevejledning til de enkelte sange
+CN 78.69
+K1 nodelære
+K1 børnesange
+K1 børnemusik
+K1 instrumental
+K1 vokal
+K1 1900-1999
+K1 Danmark
+K1 Grønland
+K1 for børn
+K1 for folkeskolen
+K1 for musikundervisning
+K1 sammenspil
+K1 undervisningsmaterialer</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+T1  - Lov om offentlige veje. Lov om private fællesveje. Lov om grundejerbidrag til offentlige veje. Lov om mark- og vejfred. Lov om vintervedligeholdelse og renholdelse af veje
+SP  - 102 sider
+ET  - 29
+PB  - Schultz Information
+CY  - Valby
+Y1  - 2014
+SN  - 9788760927195, 09099034
+T3  - Schultz lovbibliotek, nr. 67
+CN  - 34.66 Veje
+KW  - veje
+KW  - vejbidragsloven
+KW  - love
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,35 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 27592805 *b 870970 *c 20140402180131 *d 20090126 *f a 
+004 00 *r n *a e 
+008 00 *t m *u r *a 2009 *z 2014 *b dk *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+017 00 *a 21852961 
+021 00 *e 9788741251981 *c hf. 
+032 00 *x ACC200905 *a DBF201415 *x BKM201415 
+041 00 *a dan *c eng 
+241 00 *a Interviews *r engelsk 
+245 00 *a Interview *c introduktion til et håndværk *f på dansk ved Bjørn Nake 
+250 00 *a 2. udgave *c Steinar Kvale, Svend Brinkmann 
+260 00 *& 1 *a Kbh. *b Hans Reitzel *c 2009 
+300 00 *a 376 sider 
+504 00 *& 1 *a Forskningsinterviewets teoretiske og praktiske aspekter for forskere og studerende inden for de humanistiske og samfundsvidenskabelige fagområder 
+520 00 *a Tidligere: 1. udgave / af Steinar Kvale. 1997. 318 sider 
+521 00 *a 1. oplag *c 2009 
+521 00 *a 2. oplag *c 2009 
+521 00 *a 3. oplag *c 2010 
+521 00 *a 4. oplag *c 2011 
+521 00 *a 5. oplag *c 2012 
+521 00 *b 6. oplag *c 2014 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 30.01 
+666 00 *0 *f interviewmetoder 
+666 00 *0 *f interviews 
+666 00 *0 *f kvalitative interviews 
+666 00 *0 *f forskning 
+666 00 *0 *f samfundsvidenskab 
+700 00 *5 870979 *6 68595061 *0 *a Kvale *h Steinar 
+700 00 *5 870979 *6 68170699 *0 *a Brinkmann *h Svend 
+990 00 *o 201415 *b v *u op 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

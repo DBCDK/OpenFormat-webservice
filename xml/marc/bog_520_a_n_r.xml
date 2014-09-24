@@ -1,0 +1,25 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51249356 *b 870970 *c 20140908083341 *d 20140819 *f a 
+004 00 *r n *a e 
+008 00 *t s *u u *a 2014 *b dk *d n *d y *l dan *x 04 *v 0 *x 06 
+009 00 *a a *g xx 
+017 00 *a 20364882 
+021 00 *e 9788760927195 *c hf. 
+032 00 *a DBF201436 *x BKM201436 
+245 00 *a Lov om offentlige veje *a Lov om private fællesveje *a Lov om grundejerbidrag til offentlige veje *a Lov om mark- og vejfred *a Lov om vintervedligeholdelse og renholdelse af veje 
+250 00 *a 29. udgave 
+260 00 *& 1 *a Valby *b Schultz Information *c 2014 
+300 00 *a 102 sider 
+440 00 *0 *a Schultz lovbibliotek *z 0909-9034 *V 67 *v nr. 67 
+520 00 *a Tidligere: 28. udgave. 2014 *n 5 112 051 5 *r 9788760926761 
+521 00 *b 1. oplag *c 2014 *k Rosendahl -  Schultz Grafisk 
+652 00 *m 34.66 *b Veje 
+652 00 *p 34.22 
+652 00 *p 34.55 
+666 00 *0 *f veje 
+666 00 *0 *f vejbidragsloven 
+666 00 *0 *o love 
+990 00 *o 201436 *b v *u nu 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

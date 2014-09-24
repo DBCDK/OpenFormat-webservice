@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51286774 *b 870970 *c 20140918204123 *d 20140908 *f a 
+004 00 *r n *a e 
+008 00 *t m *u u *a 2014 *b dk *d å *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+017 00 *a 21931209 
+021 00 *e 9788759318072 *c hf. 
+032 00 *a DBF201441 *x BKM201441 *x ACC201437 
+100 00 *5 870979 *6 68991072 *4 aut *0 *a Stray Jørgensen *h Peter 
+245 00 *a Talegaver - mundtlig formidling for studerende på videregående uddannelser 
+250 00 *a 3. udgave 
+260 00 *& 1 *a Frederiksberg *b Samfundslitteratur *c 2014 *k Narayana Press, Gylling 
+300 00 *a 61 sider 
+440 00 *0 *a Studieteknikserien 
+512 00 *a På omslaget hæftet giver redskaber til mundtlig fremstilling både i undervisning og til eksamen 
+520 00 *i Tidligere: 2. udgave med titel *t talegaver *b . 2001 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 80.8 
+666 00 *0 *f mundtlig fremstilling 
+666 00 *0 *f foredragsteknik 
+666 00 *0 *o vejledninger 
+666 00 *0 *u for studerende 
+900 00 *0 *a Jørgensen *h Peter Stray *z 100 
+945 00 *a Studieteknik serien *z 440 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

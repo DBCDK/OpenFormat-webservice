@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>27592805|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788741251981</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:source>Interviews</dc:source>
+              <dc:title>Interview</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Interview : introduktion til et håndværk</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">30.01</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Teori. Metodik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forskning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">interviewmetoder</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">interviews</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kvalitative interviews</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">samfundsvidenskab</dc:subject>
+              <dcterms:abstract>Forskningsinterviewets teoretiske og praktiske aspekter for forskere og studerende inden for de humanistiske og samfundsvidenskabelige fagområder</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>2. udgave</dkdcplus:version>
+              <dc:publisher>Hans Reitzel</dc:publisher>
+              <dc:contributor>Steinar Kvale</dc:contributor>
+              <dc:contributor>Svend Brinkmann</dc:contributor>
+              <dc:date>2009</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>376 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">27592805</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140402180131</marcx:subfield>
+                  <marcx:subfield code="d">20090126</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2009</marcx:subfield>
+                  <marcx:subfield code="z">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">21852961</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788741251981</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC200905</marcx:subfield>
+                  <marcx:subfield code="a">DBF201415</marcx:subfield>
+                  <marcx:subfield code="x">BKM201415</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="241">
+                  <marcx:subfield code="a">Interviews</marcx:subfield>
+                  <marcx:subfield code="r">engelsk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Interview</marcx:subfield>
+                  <marcx:subfield code="c">introduktion til et håndværk</marcx:subfield>
+                  <marcx:subfield code="f">på dansk ved Bjørn Nake</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">2. udgave</marcx:subfield>
+                  <marcx:subfield code="c">Steinar Kvale, Svend Brinkmann</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">Hans Reitzel</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">376 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Forskningsinterviewets teoretiske og praktiske aspekter for forskere og studerende inden for de humanistiske og samfundsvidenskabelige fagområder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Tidligere: 1. udgave / af Steinar Kvale. 1997. 318 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">2. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">3. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">4. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2011</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">5. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">6. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">30.01</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">interviewmetoder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">interviews</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">kvalitative interviews</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">forskning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">samfundsvidenskab</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68595061</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Kvale</marcx:subfield>
+                  <marcx:subfield code="h">Steinar</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68170699</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Brinkmann</marcx:subfield>
+                  <marcx:subfield code="h">Svend</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201415</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:27592805</os:identifier>
+            <os:creationDate>2009-01-26</os:creationDate>
+            <os:holdingsCount>93</os:holdingsCount>
+            <os:lendingLibraries>93</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:87362299</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33754930</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:33993145</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84932825</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84188174</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84567833</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84570702</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:84612650</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:85082809</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:30754905</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_Kvale_Brinkmann_250c.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

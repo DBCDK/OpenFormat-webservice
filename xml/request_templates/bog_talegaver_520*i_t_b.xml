@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51286774|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788759318072</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Talegaver - mundtlig formidling for studerende på videregående uddannelser</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Talegaver - mundtlig formidling for studerende på videregående uddannelser</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Studieteknikserien</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Peter Stray Jørgensen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Stray Jørgensen, Peter</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">80.8</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Retorik. Oplæsning. Litterær teknik i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for studerende</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">foredragsteknik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">mundtlig fremstilling</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">vejledninger</dc:subject>
+              <dc:description>På omslaget hæftet giver redskaber til mundtlig fremstilling både i undervisning og til eksamen</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>3. udgave</dkdcplus:version>
+              <dc:publisher>Samfundslitteratur</dc:publisher>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>61 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51286774</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140918204123</marcx:subfield>
+                  <marcx:subfield code="d">20140908</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">å</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">21931209</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788759318072</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201441</marcx:subfield>
+                  <marcx:subfield code="x">BKM201441</marcx:subfield>
+                  <marcx:subfield code="x">ACC201437</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68991072</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Stray Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Peter</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Talegaver - mundtlig formidling for studerende på videregående uddannelser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">3. udgave</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Frederiksberg</marcx:subfield>
+                  <marcx:subfield code="b">Samfundslitteratur</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                  <marcx:subfield code="k">Narayana Press, Gylling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">61 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Studieteknikserien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På omslaget hæftet giver redskaber til mundtlig fremstilling både i undervisning og til eksamen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="i">Tidligere: 2. udgave med titel</marcx:subfield>
+                  <marcx:subfield code="t">talegaver</marcx:subfield>
+                  <marcx:subfield code="b">. 2001</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">80.8</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">mundtlig fremstilling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">foredragsteknik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">vejledninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for studerende</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Jørgensen</marcx:subfield>
+                  <marcx:subfield code="h">Peter Stray</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="945">
+                  <marcx:subfield code="a">Studieteknik serien</marcx:subfield>
+                  <marcx:subfield code="z">440</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51286774</os:identifier>
+            <os:creationDate>2014-09-08</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_talegaver_520*i_t_b.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A2 Kvale,Steinar
+A2 Brinkmann,Svend
+T1 Interview : introduktion til et håndværk
+SP 376 sider
+ED 2
+PB Hans Reitzel
+PP Kbh.
+YR 2009
+SN 9788741251981
+NO Forskningsinterviewets teoretiske og praktiske aspekter for forskere og studerende inden for de humanistiske og samfundsvidenskabelige fagområder
+CN 30.01
+K1 interviewmetoder
+K1 interviews
+K1 kvalitative interviews
+K1 forskning
+K1 samfundsvidenskab</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -460,6 +460,15 @@
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
+	<xs:element name="editionPerson">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="format">
                 <xs:complexType>
                         <xs:simpleContent>
@@ -646,6 +655,7 @@
 				<xs:element ref="bibdk:hostPublication" minOccurs="0"/>
 				<xs:element ref="bibdk:format" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:edition" minOccurs="0"/>
+				<xs:element ref="bibdk:editionPerson" minOccurs="0"/>
 				<xs:element ref="bibdk:publisher" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:place" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:publicationYear" minOccurs="0"/>

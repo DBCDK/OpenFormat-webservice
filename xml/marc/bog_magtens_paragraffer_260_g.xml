@@ -1,0 +1,16 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 50821684 *b 870970 *c 20140911102059 *d 20131121 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2013 *b dk *d y *l dan *x 06 *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788792892409 *c hf. 
+032 00 *x ACC201347 *a DBF201401 *x DAT201439 
+100 00 *5 870979 *6 69195636 *0 *a Tidsvilde *h Martin *c f. 1964-07-05 
+245 00 *a Magtens paragraffer *c grundlovens historie 
+260 00 *a Odense *b Historia *f [Brøndby] *g [overtaget og eksp. Webbøger] *d [Kirkeskellet 18, 2605] *c 2013 
+300 00 *a 135 sider *b ill. i farver *c 30 cm 
+521 00 *b 1. oplag *c 2013 *k u. st. 
+652 00 *m 34.21 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

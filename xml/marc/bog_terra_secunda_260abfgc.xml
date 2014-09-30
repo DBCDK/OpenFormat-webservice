@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51273443 *b 870970 *c 20140924180924 *d 20140901 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2014 *b nl *d 1 *d x *l dan *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788792808271 *c hf. 
+032 00 *x ACC201436 *a DBF201440 *x BKM201440 
+038 00 *a te 
+041 00 *a dan *c fre 
+100 00 *5 870979 *6 68330009 *4 aut *0 *a Froideval *h F. Marcela 
+241 00 *a Terra Secunda 
+245 00 *a Terra Secunda 
+260 00 *& 1 *a Zelhem *b Arboris *f Kbh. *g i kommission hos Faraos Cigarer *c 2014 
+300 00 *a Ca. 50 sider *b alle ill. i farver *c 30 cm 
+440 00 *0 *a Den ¤Sorte Månes krøniker *v 15 
+504 00 *& 1 *a Tegneserie. Mens Wismerhill forsøger at få styr på sit nye kejserdømme på Terra Secunda, er Helvede på den gamle jord ved at løbe tør for menneskesjæle. Mørkets Fyrste leder efter en sprække i portalen til den nye verden 
+521 00 *b 1. oplag *c 2014 *k tr. i udl. 
+652 00 *n 82 *z 28 
+652 00 *o sk 
+666 00 *0 *s fantasy 
+700 00 *5 870979 *6 68070643 *4 drm *0 *a Angleraud 
+720 00 *o Per Vadmand *4 trl 
+900 00 *0 *a Marcela Froideval *h F. *z 100 
+990 00 *o 201440 *b l *b v *b b *b s *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

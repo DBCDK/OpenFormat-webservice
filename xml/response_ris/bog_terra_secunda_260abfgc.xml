@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Froideval,F. Marcela
+A1  - Angleraud
+T1  - Terra Secunda
+SP  - Ca. 50 sider, alle illustreret i farver
+PB  - Arboris
+CY  - Zelhem
+Y1  - 2014
+SN  - 9788792808271
+T3  - Den Sorte Månes krøniker, 15
+N1  - Tegneserie. Mens Wismerhill forsøger at få styr på sit nye kejserdømme på Terra Secunda, er Helvede på den gamle jord ved at løbe tør for menneskesjæle. Mørkets Fyrste leder efter en sprække i portalen til den nye verden
+CN  - skønlitteratur
+KW  - fantasy
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

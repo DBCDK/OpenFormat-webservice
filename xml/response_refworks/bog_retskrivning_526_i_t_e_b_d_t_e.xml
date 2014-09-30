@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Computer Program
+SR Print(0)
+T1 Retskrivningsordbog. Fremmedordbog
+SP 1 cd-rom + 2 vejledninger
+PB Gyldendal
+PP Kbh.
+YR 1999
+SN 8700362786
+SN 8700484288
+T2 Gyldendals røde ordbøger
+NO Titlerne hentet fra cd-rometiket. - På emballage: Retskrivningsordbog med stavekontrol
+K1 dansk sprog
+K1 retskrivning
+K1 fremmedord
+K1 fremmedordbøger
+K1 ordbøger
+K1 retskrivningsordbøger</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

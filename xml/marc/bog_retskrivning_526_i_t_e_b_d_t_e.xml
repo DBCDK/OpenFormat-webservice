@@ -1,0 +1,28 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 22806009 *b 870970 *c 20010824102204 *d 20000224 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 1999 *b dk *d e *l dan *v 0 
+009 00 *a t *g tb *b a *h xx 
+021 00 *a 87-00-36278-6 *d kr. 445,00 *b enkeltbrugerversion *n 00362786 
+021 00 *a 87-00-48428-8 *b gaveæske *d kr. 445,00 *b enkeltbrugerversion 
+032 00 *a DBF200011 *x BØK200004 *x SKO200101 *x SFD200011 *x DAT200134 
+044 00 *a F *a E *a G *a V *b 08q 
+245 00 *a Retskrivningsordbog *x Fremmedordbog 
+260 00 *a [Kbh.] *b Gyldendal *c 1999 
+300 00 *n 1 cd-rom *d 2 vejledninger 
+440 00 *0 *a Gyldendals røde ordbøger 
+501 00 *a Pc; Windows 3.1, 3.x, 95, 98 eller NT 
+512 00 *a Titlerne hentet fra cd-rometiket 
+512 00 *a På emballage: Retskrivningsordbog med stavekontrol 
+526 00 *i Elektronisk version af *t Retskrivningsordbog *e Jens Axelsen ... et al. *b . 1. udgave, og: *d Sven Brüel *t Fremmedordbog *e Sven Brüel, Niels Åge Nielsen *b . 11. udgave 
+652 00 *m 89.63 
+666 00 *0 *f dansk sprog 
+666 00 *0 *f retskrivning 
+666 00 *0 *f fremmedord 
+666 00 *0 *o retskrivningsordbøger 
+666 00 *0 *o fremmedordbøger 
+666 00 *0 *o ordbøger 
+990 00 *a SFD *b S *b B *c A *m Av-beskrivelse udsendes: 200014. *o 200011 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

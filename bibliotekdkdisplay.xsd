@@ -135,11 +135,11 @@
 	<xs:element name="acquisitionInformation">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="bibdk:acquisition" maxOccurs="unbounded"/>
+				<xs:element ref="bibdk:acquisitionTerms" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="acquisition" type="xs:string"/>
+	<xs:element name="acquisitionTerms" type="xs:string"/>
 	<xs:element name="actorNote">
 		<xs:complexType>
 			<xs:sequence>

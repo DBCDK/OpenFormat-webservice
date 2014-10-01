@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse><bibdk:workNullDisplay><bibdk:nullDisplay/></bibdk:workNullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Fairy
+T1  - Robin Goodfellow; a fairy tale. Written by a fairy. For the amusement of all the pretty little faies and fairies in Great Britain and Ireland
+PB  - printed for F. Newbery
+CY  - London
+Y1  - 1770
+N1  - With three final leaves of advertisements. - Reproduction of original from the British Library
+UR  - http://galenet.galegroup.com/servlet/ECCO?c=1&amp;stp=Author&amp;ste=11&amp;af=BN&amp;ae=T052937&amp;tiPG=1&amp;dd=0&amp;dc=flc&amp;docNum=CW114091851&amp;vrsn=1.0&amp;srchtp=a&amp;d4=0.33&amp;n=10&amp;SU=0LRK&amp;locID=dkb
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

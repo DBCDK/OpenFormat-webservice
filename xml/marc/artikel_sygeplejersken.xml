@@ -1,14 +1,29 @@
 =/home/nje/OpenFormat/marc=
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
-001 00 *a 1169624 *b 820030 *f a 
-004 00 *r n *a e 
-008 00 *t p *v 4 
+001 00 *a 34485968 *b 870971 *c 20110208111016 *d 20110208 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2010 *b dk *d y *l dan *v 0 *r ap 
 009 00 *a a *g xx 
-011 00 *a 00059058 
-088 00 *t Vqw 
-096 00 *z 820030 
-245 00 *a PAR *c Pseudo-allergic reactions 
-260 00 *a Basel 
-574 00 *a 870202 1717 *b 930605 1717 *c 1 *d 1 *e 61863 
-980 00 *y 820030 *s x 
+016 00 *a 03204324 
+032 00 *a ABU201107 *a DAR201107 
+041 00 *d eng 
+086 00 *a Sygepleje og hospitalsvæsen 
+245 00 *a Klinisk sygeplejespecialist - arbejdsopgaver og kompetencer 
+300 00 *a S. 62-66 *b ill. 
+504 00 *a Eksempler på kliniske sygeplejespecialisters arbejde på Århus Sygehus viser nødvendigheden af akademiske kompetencer i den kliniske sygepleje 
+508 00 *a Med engelsk resumé 
+532 00 *a Med litteraturhenvisninger 
+557 00 *a Sygeplejersken *j 2010 *z 0106-8350 *V Årg. 0110, nr. 0021 (2010) *v Årg. 110, nr. 21 (2010) 
+610 00 *a Århus Sygehus *1 
+652 00 *m 61.7 
+666 00 *0 *f sygepleje 
+666 00 *0 *f sygeplejersker 
+666 00 *0 *f klinisk sygepleje 
+666 00 *0 *f hospitaler 
+666 00 *0 *f evidensbaseret sygepleje 
+700 00 *å 1 *a Lunde Jensen *h Annesofie 
+700 00 *a Lindman *h Astrid 
+700 00 *a Espersen *h Birgitte T. 
+900 00 *a Jensen *h Annesofie Lunde *z 700/1 
+996 00 *a IDX 
 ]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

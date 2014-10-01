@@ -1,0 +1,19 @@
+=/home/nje/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 006834297 *b 810010 *f a 
+002 00 *d ESTCT52937 
+004 00 *r c *a e *n w 
+008 00 *t m *a 1770 *b gb *l eng *n b *v 4 
+009 00 *a a *g xe *b t 
+090 00 *a 18 *c f 
+091 00 *a Bog 
+096 00 *z 810010 
+245 00 *a Robin Goodfellow; a fairy tale. Written by a fairy. For the amusement of all the pretty little faies and fairies in Great Britain and Ireland *m elektronisk materiale 
+260 00 *a London *b printed for F. Newbery *c 1770 
+529 00 *i Database *a Eighteenth Century Collection Online 
+559 00 *a With three final leaves of advertisements 
+559 00 *a Reproduction of original from the British Library 
+599 00 *a ECCO 
+700 00 *a Fairy 
+856 00 *u http://galenet.galegroup.com/servlet/ECCO?c=1&stp=Author&ste=11&af=BN&ae=T052937&tiPG=1&dd=0&dc=flc&docNum=CW114091851&vrsn=1.0&srchtp=a&d4=0.33&n=10&SU=0LRK&locID=dkb 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

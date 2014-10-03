@@ -2,9 +2,9 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Electronic(1)
 A1 Ahrenkiel,Linda
-A2 Syddansk Universitet. Center for Naturvidenskabernes og Matematikkens Didaktik
-A2 Ungdommens Naturvidenskabelige Forening. Odense
-A2 Syddansk Universitet. Det Naturvidenskabelige Fakultet
+A1 Syddansk Universitet. Center for Naturvidenskabernes og Matematikkens Didaktik
+A1 Ungdommens Naturvidenskabelige Forening. Odense
+A1 Syddansk Universitet. Det Naturvidenskabelige Fakultet
 T1 Retsmedicin i naturfagsundervisningen : sagen opklaret
 PB Det Naturvidenskabelige Fakultet, Syddansk Universitet
 PB i samarbejde med Ungdommens Naturvidenskabelige Forening

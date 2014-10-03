@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Print(0)
-A2 Geddes,Anne
-A2 Dion,Céline
-A2 Foster,David
-A2 Padilla,Rafael
-A2 Parks,Dean
-A2 Van Der Saag,Jochem
+A1 Geddes,Anne
+A1 Dion,Céline
+A1 Foster,David
+A1 Padilla,Rafael
+A1 Parks,Dean
+A1 Van Der Saag,Jochem
 T1 Miracle
 SP 1 bog, 176 sider, illustreret (nogle i farver), 1 cd + 1 dvd-video (20 min.)
 PB Andrews McMeel

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Motion Picture
 SR Print(0)
-A2 Celibidache,Sergiu
-A2 Cluytens,André
-A2 Furtwängler,Wilhelm
-A2 Karajan,Herbert von
-A2 Kleiber,Erich
-A2 Mengelberg,Willem
-A2 Mravínskij,Jevgénij
-A2 Munch,Charles
-A2 Scherchen,Hermann
-A2 Talich,Václav
-A2 Berlins Filharmoniske Orkester
-A2 Bostons Symfoniorkester
-A2 Concertgebouw-Orkestret,Amsterdam
-A2 Leningrads Filharmoniske Orkester
-A2 Münchens Filharmoniske Orkester
-A2 Statskapellet Berlin
-A2 Stuttgarts Radiosymfoniorkester
-A2 Tjekkisk Filharmonisk Orkester
-A2 Det Ungarske Statsorkester
+A1 Celibidache,Sergiu
+A1 Cluytens,André
+A1 Furtwängler,Wilhelm
+A1 Karajan,Herbert von
+A1 Kleiber,Erich
+A1 Mengelberg,Willem
+A1 Mravínskij,Jevgénij
+A1 Munch,Charles
+A1 Scherchen,Hermann
+A1 Talich,Václav
+A1 Berlins Filharmoniske Orkester
+A1 Bostons Symfoniorkester
+A1 Concertgebouw-Orkestret,Amsterdam
+A1 Leningrads Filharmoniske Orkester
+A1 Münchens Filharmoniske Orkester
+A1 Statskapellet Berlin
+A1 Stuttgarts Radiosymfoniorkester
+A1 Tjekkisk Filharmonisk Orkester
+A1 Det Ungarske Statsorkester
 T1 The art of conducting - legendary conductors of a golden era
 SP 1 dvd-video (1 t., 55 min.) + 1 kommentarhæfte
 PB Teldec Classics International

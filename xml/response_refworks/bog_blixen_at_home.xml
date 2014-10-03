@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Print(0)
 A1 Mørk,Ebbe,1940-
-A2 Lindhe,Jens
+A1 Lindhe,Jens
 T1 Karen Blixen at home : scenes from Rungstedlund
 SP 298 sider, illustreret i farver, portr.
 PB Politiken

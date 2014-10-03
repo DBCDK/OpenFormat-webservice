@@ -2,10 +2,10 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
 SR Print(0)
 A1 The Low Anthem
-A2 Adams,Joice
-A2 Miller,Ben
-A2 Prystowsky,Jeffrey
-A2 Williams,Anne
+A1 Adams,Joice
+A1 Miller,Ben
+A1 Prystowsky,Jeffrey
+A1 Williams,Anne
 T1 Oh my God, Charlie Darwin
 SP 1 cd
 PB Bella Union

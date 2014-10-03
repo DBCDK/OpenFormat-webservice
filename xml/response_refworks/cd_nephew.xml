@@ -2,14 +2,14 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Sound Recording
 SR Print(0)
 A1 Nephew
-A2 Arnholt,Søren
-A2 Dencker,Tore
-A2 Erbs,Hans Christian Ilskov
-A2 Kvamm,Simon
-A2 Riis,Kristian
-A2 Sennenvaldt,Henriette
-A2 Thalund,René Munk
-A2 Toustrup,Kasper
+A1 Arnholt,Søren
+A1 Dencker,Tore
+A1 Erbs,Hans Christian Ilskov
+A1 Kvamm,Simon
+A1 Riis,Kristian
+A1 Sennenvaldt,Henriette
+A1 Thalund,René Munk
+A1 Toustrup,Kasper
 T1 USADSB
 SP 1 cd
 PB Copenhagen

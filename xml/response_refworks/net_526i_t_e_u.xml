@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
 SR Electronic(1)
-A2 Nordin,Leif
-A2 Svedin,Mats
-A2 Ahlsén,Kerstin
-A2 Sveriges kommuner och landsting
+A1 Nordin,Leif
+A1 Svedin,Mats
+A1 Ahlsén,Kerstin
+A1 Sveriges kommuner och landsting
 T1 Kompetens för omvårdnadspersonal : utvärdering av högskoleutbildning i vård och omsorg
 PB Sveriges kommuner och landsting
 YR 2005

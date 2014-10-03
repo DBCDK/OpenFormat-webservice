@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - JFULL
-A2  - Den Almindelige Danske Lægeforening
-A2  - Dansk Medicinsk Selskab
+A1  - Den Almindelige Danske Lægeforening
+A1  - Dansk Medicinsk Selskab
 T1  - Danish medical bulletin : journal of the health sciences
 SP  - illustreret
 PB  - Danish Medical Association

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - JFULL
-A2  - Det Danske Haveselskab
-A2  - Det Kongelige Danske Haveselskab
-A2  - Det Jydske Haveselskab
-A2  - Østifternes Haveselskab
+A1  - Det Danske Haveselskab
+A1  - Det Kongelige Danske Haveselskab
+A1  - Det Jydske Haveselskab
+A1  - Østifternes Haveselskab
 T1  - Haven
 SP  - illustreret i farver
 PB  - Det Danske Haveselskab

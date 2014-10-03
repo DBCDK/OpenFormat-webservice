@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
 A1  - Asmussen,Svend G.
-A2  - Morley,Thomas
-A2  - Dowland,John
-A2  - Pilkington,Francis
-A2  - Arcadelt,Jacob
-A2  - Haugland,Sigurd
-A2  - Waelrant,Hubertus
-A2  - Wolters,Gottfried
-A2  - Bárdos,Lajos
-A2  - Jacobsen,Ida Høeg
-A2  - Fenger,B. Rasmus
-A2  - Alfvén,Hugo
-A2  - Wennerberg,Gustaf
-A2  - Mortensen,Otto
-A2  - Møller,C. C.
-A2  - Bang,Claus
+A1  - Morley,Thomas
+A1  - Dowland,John
+A1  - Pilkington,Francis
+A1  - Arcadelt,Jacob
+A1  - Haugland,Sigurd
+A1  - Waelrant,Hubertus
+A1  - Wolters,Gottfried
+A1  - Bárdos,Lajos
+A1  - Jacobsen,Ida Høeg
+A1  - Fenger,B. Rasmus
+A1  - Alfvén,Hugo
+A1  - Wennerberg,Gustaf
+A1  - Mortensen,Otto
+A1  - Møller,C. C.
+A1  - Bang,Claus
 T1  - Pereat tristitia, 2
 SP  - partitur, 31 sider
 PB  - Musikhøjskolens Forlag

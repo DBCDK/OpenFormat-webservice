@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
 A1  - Trans-Siberian Orchestra
-A2  - O'Neill,Paul
-A2  - Kinkel,Robert
-A2  - Oliva,Jon
-A2  - Pitrelli,Al
-A2  - Altenhoff,Chris
-A2  - Butler,Luci
-A2  - Caffery,Chris
-A2  - Chong,Roddy
-A2  - Clark,Angus
+A1  - O'Neill,Paul
+A1  - Kinkel,Robert
+A1  - Oliva,Jon
+A1  - Pitrelli,Al
+A1  - Altenhoff,Chris
+A1  - Butler,Luci
+A1  - Caffery,Chris
+A1  - Chong,Roddy
+A1  - Clark,Angus
 T1  - Night castle
 SP  - 2 cd'er + 1 tekstbilag
 PB  - Atlantic

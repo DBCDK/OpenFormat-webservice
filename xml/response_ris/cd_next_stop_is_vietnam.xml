@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
-A2  - "Lil" Gary D
-A2  - Adams,Bobby
-A2  - Broudy,Saul
-A2  - Durham,Bull
-A2  - Foxx,Inez
-A2  - Foxx,Charlie
-A2  - Geerhart,Bill
-A2  - Hawkins,Edwin
-A2  - Holiday,Tim
-A2  - Jonas,Dick
-A2  - Jones,Lea
-A2  - Keesing,Hugo
-A2  - Laron,Elaine
-A2  - Luman,Bob
-A2  - Martin,Michael
-A2  - McKay,Dave
-A2  - McKinnon,Taylor
-A2  - Murray,Lynn
-A2  - Napier,Bill
-A2  - Nelson,Terry
-A2  - Nowland,Tim
-A2  - Ono,Yoko
-A2  - The Animals
-A2  - Bound for Glory
-A2  - The Celestials
-A2  - The Delta Sho-Men
-A2  - Edmond Sisters
-A2  - The First Edition
-A2  - The Gentlemen from Tigerland
-A2  - The Harlem Community Choir
-A2  - The Hometowners
-A2  - The Jordanians
-A2  - Jubilee Wranglers
-A2  - The King's Court
-A2  - Merry Airbrakes
-A2  - The Raiders
-A2  - The Santa Fé Rangers
-A2  - The Strangers
-A2  - The Susquehanna River Band
-A2  - Texas Troubadours
-A2  - The Tynsions
-A2  - The Vandellas
+A1  - "Lil" Gary D
+A1  - Adams,Bobby
+A1  - Broudy,Saul
+A1  - Durham,Bull
+A1  - Foxx,Inez
+A1  - Foxx,Charlie
+A1  - Geerhart,Bill
+A1  - Hawkins,Edwin
+A1  - Holiday,Tim
+A1  - Jonas,Dick
+A1  - Jones,Lea
+A1  - Keesing,Hugo
+A1  - Laron,Elaine
+A1  - Luman,Bob
+A1  - Martin,Michael
+A1  - McKay,Dave
+A1  - McKinnon,Taylor
+A1  - Murray,Lynn
+A1  - Napier,Bill
+A1  - Nelson,Terry
+A1  - Nowland,Tim
+A1  - Ono,Yoko
+A1  - The Animals
+A1  - Bound for Glory
+A1  - The Celestials
+A1  - The Delta Sho-Men
+A1  - Edmond Sisters
+A1  - The First Edition
+A1  - The Gentlemen from Tigerland
+A1  - The Harlem Community Choir
+A1  - The Hometowners
+A1  - The Jordanians
+A1  - Jubilee Wranglers
+A1  - The King's Court
+A1  - Merry Airbrakes
+A1  - The Raiders
+A1  - The Santa Fé Rangers
+A1  - The Strangers
+A1  - The Susquehanna River Band
+A1  - Texas Troubadours
+A1  - The Tynsions
+A1  - The Vandellas
 T1  - - Next stop is Vietnam : the war on record - 1961-2008
 SP  - 13 cd'er + 1 cd-rom + 1 bog, 306 sider
 PB  - Bear Family

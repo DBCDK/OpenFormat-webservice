@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
-A2  - Nielsen,Carl
-A2  - Holmboe,Vagn
-A2  - Nørgård,Per
-A2  - Ruders,Poul
-A2  - Rosing-Schow,Niels
-A2  - Nordentoft,Anders
-A2  - Fundal,Karsten
-A2  - Schønwandt,Michael
-A2  - Bellincampi,Giordano
-A2  - Stenz,Markus
-A2  - Latham-Koenig,Jan
-A2  - Ryelund Sørensen,Morten
-A2  - Danish National Radio Symphony Orchestra
-A2  - Athelas Sinfonietta Copenhagen
-A2  - Danish National Radio Choir
-A2  - Copenhagen Philharmonic Orchestra
+A1  - Nielsen,Carl
+A1  - Holmboe,Vagn
+A1  - Nørgård,Per
+A1  - Ruders,Poul
+A1  - Rosing-Schow,Niels
+A1  - Nordentoft,Anders
+A1  - Fundal,Karsten
+A1  - Schønwandt,Michael
+A1  - Bellincampi,Giordano
+A1  - Stenz,Markus
+A1  - Latham-Koenig,Jan
+A1  - Ryelund Sørensen,Morten
+A1  - Danish National Radio Symphony Orchestra
+A1  - Athelas Sinfonietta Copenhagen
+A1  - Danish National Radio Choir
+A1  - Copenhagen Philharmonic Orchestra
 T1  - Past presence : tracing a line through 100 years of Danish music
 SP  - 1 compact disc
 PB  - Edition Wilhelm Hansen

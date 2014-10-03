@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
-A2  - Styrelsen for Forskning og Innovation
-A2  - Teknologisk Institut. Center for Analyse og Erhvervsfremme
+A1  - Styrelsen for Forskning og Innovation
+A1  - Teknologisk Institut. Center for Analyse og Erhvervsfremme
 T1  - De skjulte helte : produktivitetssucceser i dansk industri : innovation: Analyse og evaluering - 09/2013
 PB  - Styrelsen for Forskning og Innovation
 Y1  - 2013

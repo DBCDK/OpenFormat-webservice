@@ -1,0 +1,38 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51252128 *b 870970 *c 20140922111613 *d 20140820 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2014 *b dk *d x *j f *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788762722217 *c ib. 
+032 00 *x ACC201434 *a DBF201441 *x BKM201441 
+041 00 *a dan *c eng 
+042 00 *a 22 *b Ml 7,8 + Lo 14,6 
+100 00 *5 870979 *6 68225647 *4 dkbea *0 *a Courtauld *h Sarah 
+241 00 *a White Fang 
+245 00 *a Ulvehunden 
+260 00 *& 1 *a Holte *b Flachs *c 2014 
+300 00 *a 64 sider *b ill. i farver 
+440 00 *0 *a Flachs - læs selv 
+504 00 *& 1 *a Den klassiske fortælling om Ulvehunden Hvidtand, som er en blanding af ulv og hund. Den vokser op i vildmarken, men bliver fanget af mennesker, som udsætter den for mange forfærdelige prøvelser 
+520 00 *& 1 *a Originaludgave: 2010 
+521 00 *b 1. oplag *c 2014 *k tr. i udl. 
+652 00 *n 83 *z 296 
+652 00 *o sk 
+666 00 *0 *s dyrefortællinger 
+666 00 *0 *s ulve 
+666 00 *0 *s hunde 
+666 00 *0 *s indianere 
+666 00 *0 *s vildmarken 
+666 00 *0 *s dyremishandling 
+666 00 *0 *q Canada 
+666 00 *0 *u for 9 år 
+666 00 *0 *u for 10 år 
+666 00 *0 *u for 11 år 
+666 00 *0 *u for 12 år 
+666 00 *0 *u let at læse 
+700 00 *5 870979 *6 68645549 *4 ant *0 *a London *h Jack 
+700 00 *5 870979 *6 68683459 *4 ill *0 *a Marks *h Alan 
+720 00 *o Berit Sørensen *4 trl 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

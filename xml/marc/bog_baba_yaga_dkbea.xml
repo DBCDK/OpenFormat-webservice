@@ -1,0 +1,28 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 50841251 *b 870970 *c 20140206093622 *d 20131203 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2014 *b dk *d å *d x *j f *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788762721272 *c ib. 
+032 00 *x ACC201349 *a DBF201401 *x BKM201401 
+041 00 *a dan *c eng 
+042 00 *a 11 *b Ml 7,7 + Lo 2,8 
+042 00 *c 17 
+100 00 *5 870979 *6 68243882 *4 dkbea *0 *a Davidson *h Susanna 
+241 00 *a Baba Yaga the flying witch 
+245 00 *a Baba Yaga - den flyvende heks 
+260 00 *& 1 *a Holte *b Flachs *c 2014 
+300 00 *a 48 sider *b ill. i farver 
+440 00 *0 *a Flachs - første læsning 
+520 00 *& 1 *a Originaludgave: 2007 
+521 00 *b 1. oplag *c 2014 *k tr. i udl. 
+652 00 *n 83 *z 296 
+652 00 *o sk 
+666 00 *0 *u let at læse 
+666 00 *0 *u for begynderlæsere 
+700 00 *5 870979 *6 68878128 *4 ill *0 *a Rojo *h Sara 
+720 00 *o Anette Hellemann *4 trl 
+990 00 *o 201401 *b l *b b *b s *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

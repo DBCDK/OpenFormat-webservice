@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51252128|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788762722217</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:source>White Fang</dc:source>
+              <dc:title>Ulvehunden</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Ulvehunden</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Flachs - læs selv</dc:title>
+              <dc:creator xsi:type="dkdcplus:dkbea">Sarah Courtauld</dc:creator>
+              <dc:creator xsi:type="oss:sort">Courtauld, Sarah</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">dyrefortællinger</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">dyrefortællinger</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">dyremishandling</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 10 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 9 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">hunde</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">indianere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">let at læse</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">ulve</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">vildmarken</dc:subject>
+              <dcterms:abstract>Den klassiske fortælling om Ulvehunden Hvidtand, som er en blanding af ulv og hund. Den vokser op i vildmarken, men bliver fanget af mennesker, som udsætter den for mange forfærdelige prøvelser</dcterms:abstract>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dc:publisher>Flachs</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:dkbea">Sarah Courtauld</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ant">Jack London</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ill">Alan Marks</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:trl">Berit Sørensen</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret i farver</dc:format>
+              <dcterms:extent>64 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Canada</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51252128</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140922111613</marcx:subfield>
+                  <marcx:subfield code="d">20140820</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="o">b</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788762722217</marcx:subfield>
+                  <marcx:subfield code="c">ib.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201434</marcx:subfield>
+                  <marcx:subfield code="a">DBF201441</marcx:subfield>
+                  <marcx:subfield code="x">BKM201441</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="042">
+                  <marcx:subfield code="a">22</marcx:subfield>
+                  <marcx:subfield code="b">Ml 7,8 + Lo 14,6</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68225647</marcx:subfield>
+                  <marcx:subfield code="4">dkbea</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Courtauld</marcx:subfield>
+                  <marcx:subfield code="h">Sarah</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="241">
+                  <marcx:subfield code="a">White Fang</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Ulvehunden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Holte</marcx:subfield>
+                  <marcx:subfield code="b">Flachs</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">64 sider</marcx:subfield>
+                  <marcx:subfield code="b">ill. i farver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Flachs - læs selv</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Den klassiske fortælling om Ulvehunden Hvidtand, som er en blanding af ulv og hund. Den vokser op i vildmarken, men bliver fanget af mennesker, som udsætter den for mange forfærdelige prøvelser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Originaludgave: 2010</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                  <marcx:subfield code="k">tr. i udl.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">83</marcx:subfield>
+                  <marcx:subfield code="z">296</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">dyrefortællinger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">ulve</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">hunde</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">indianere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">vildmarken</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">dyremishandling</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Canada</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 9 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 10 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 11 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 12 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">let at læse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68645549</marcx:subfield>
+                  <marcx:subfield code="4">ant</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">London</marcx:subfield>
+                  <marcx:subfield code="h">Jack</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68683459</marcx:subfield>
+                  <marcx:subfield code="4">ill</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Marks</marcx:subfield>
+                  <marcx:subfield code="h">Alan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Berit Sørensen</marcx:subfield>
+                  <marcx:subfield code="4">trl</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51252128</os:identifier>
+            <os:creationDate>2014-08-20</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_ulvehunden_dkbea.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

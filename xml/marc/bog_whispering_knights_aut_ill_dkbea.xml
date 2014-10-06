@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 45580849 *b 870970 *c 20140806143829 *d 20140806 *f a 
+002 00 *b 754000 *c 91718979 *x 75400091718979 
+004 00 *r c *a e 
+008 00 *t m *a 2008 *b gb *d x *j f *l eng *v 0 
+009 00 *a a *g xx 
+021 00 *e 9780194791946 
+035 00 *a (OCoLC)502093983 
+100 00 *a Lively *h Penelope *4 aut 
+245 00 *a The ¤wispering knights 
+260 00 *a Oxford *b Oxford University Press *c 2008 
+300 00 *a 88 sider *b ill. *c 20 cm. 
+440 00 *a Oxford bookworms library *o Stage 4, Fantasy & horror 
+526 00 *i Bearbejdet efter *d Penelope Lively *t The ¤wispering knights, 1971 
+596 00 *a Ikke anskaffet 
+652 00 *m 83 
+700 00 *a West *h Clare *4 dkbea 
+700 00 *a Melo *h Ernesto *4 ill 
+996 00 *a 754000 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

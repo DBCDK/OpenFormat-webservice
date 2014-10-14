@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse><bibdk:workNullDisplay><bibdk:nullDisplay/></bibdk:workNullDisplay></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A1  - Sonne,Grete, f. 1948
+A1  - Guldager,Christian
+T1  - Nino så en ufo
+SP  - 15 sider, alle illustreret i farver
+PB  - Alinea
+CY  - Kbh.
+Y1  - 2014
+SN  - 9788723504159
+T3  - Lydret ps. Mini
+N1  - Nino viser Vilma et billede af en ufo, som han har taget med sin mobiltelefon
+CN  - skønlitteratur
+KW  - ufoer
+KW  - fantasi
+KW  - for 5 år
+KW  - for 6 år
+KW  - for begynderlæsere
+KW  - let at læse
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

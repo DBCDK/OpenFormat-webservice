@@ -50,6 +50,7 @@
 				<xs:element ref="bibdk:section" minOccurs="0"/>
 				<xs:element ref="bibdk:volume" minOccurs="0"/>
 			</xs:sequence>
+                        <xs:attribute name="schemaType" type="xs:string" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="main">
@@ -449,12 +450,21 @@
                         </xs:simpleContent>
                 </xs:complexType>
         </xs:element>
-	<xs:element name="display" type="xs:string"/>
+	<xs:element name="display">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="schema" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+        </xs:element>
 	<xs:element name="edition">
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
 					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+					<xs:attribute name="schema" type="xs:string" use="optional"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -473,6 +483,7 @@
                         <xs:simpleContent>
                                 <xs:extension base="xs:string">
                                         <xs:attribute name="punctuation" type="xs:string" use="optional"/>
+                                        <xs:attribute name="schema" type="xs:string" use="optional"/>
                                 </xs:extension>
                         </xs:simpleContent>
                 </xs:complexType>
@@ -568,7 +579,15 @@
 		        <xs:attribute name="punctuation" type="xs:string"/>
 		</xs:complexType>
         </xs:element>
-	<xs:element name="identifier" type="xs:string"/>
+	<xs:element name="identifier">
+        	<xs:complexType>
+                        <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                        <xs:attribute name="schema" type="xs:string" use="optional"/>
+                                </xs:extension>
+                        </xs:simpleContent>
+                </xs:complexType>
+        </xs:element>
 	<xs:element name="identifierDescriptor" type="xs:string"/>
 	<xs:element name="identifiers">
 		<xs:complexType>
@@ -653,12 +672,21 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="publicationYear" type="xs:string"/>
+	<xs:element name="publicationYear">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="schema" type="xs:string" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="publisher">
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
 					<xs:attribute name="punctuation" type="xs:string" use="optional"/>
+					<xs:attribute name="schema" type="xs:string" use="optional"/>
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -779,6 +807,7 @@
 			</xs:sequence>
 			<xs:attribute name="className" type="xs:string"/>
 			<xs:attribute name="punctuation" type="xs:string"/>
+			<xs:attribute name="schema" type="xs:string" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="subjects">
@@ -831,6 +860,7 @@
                         <xs:simpleContent>
                                 <xs:extension base="xs:string">
                                         <xs:attribute name="htmlClass" type="xs:string" use="optional"/>
+                                        <xs:attribute name="schema" type="xs:string" use="optional"/>
                                 </xs:extension>
                         </xs:simpleContent>
                 </xs:complexType>

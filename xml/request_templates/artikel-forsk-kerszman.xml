@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>8788979164|820040</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Biologisk energetik og enzymkinetik</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Biologisk energetik og enzymkinetik</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Skrifter fra Institut for Biologi og Kemi</dc:title>
+              <dc:creator>Gustaw Kerszman</dc:creator>
+              <dc:creator xsi:type="oss:sort">Kerszman, Gustaw</dc:creator>
+              <dc:creator>Birgitte Munch-Petersen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Munch-Petersen, Birgitte</dc:creator>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Roskilde Universitetscenter, Institut for Biologi og Kemi</dc:publisher>
+              <dc:contributor>Roskilde Universitetscenter Institut for Biologi og Kemi</dc:contributor>
+              <dc:date>1991</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>69 s.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Skrift, 16</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0902-1817</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">8788979164</marcx:subfield>
+                  <marcx:subfield code="b">820040</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="a">1991</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">09021817</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="b">Opstillet som tidsskrift: Skrift / Roskilde universitetscenter, Institut for biologi og kemi ; 16 (n, opst. i gr. 577)</marcx:subfield>
+                  <marcx:subfield code="z">820040</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Biologisk energetik og enzymkinetik</marcx:subfield>
+                  <marcx:subfield code="e">Gustaw Kerszman, Birgitte Munch-Petersen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Roskilde</marcx:subfield>
+                  <marcx:subfield code="b">Roskilde Universitetscenter, Institut for Biologi og Kemi</marcx:subfield>
+                  <marcx:subfield code="c">1991</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">69 s.</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Skrifter fra Institut for Biologi og Kemi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="a">Bibliografi: s. 69</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Skrift</marcx:subfield>
+                  <marcx:subfield code="æ">Roskilde Universitetscenter, Institut for Biologi og Kemi</marcx:subfield>
+                  <marcx:subfield code="z">0902-1817</marcx:subfield>
+                  <marcx:subfield code="v">16</marcx:subfield>
+                  <marcx:subfield code="j">1991</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="590">
+                  <marcx:subfield code="a">20070501</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="590">
+                  <marcx:subfield code="a">kat911121</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Kerszman</marcx:subfield>
+                  <marcx:subfield code="h">Gustaw</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Munch-Petersen</marcx:subfield>
+                  <marcx:subfield code="h">Birgitte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Roskilde Universitetscenter</marcx:subfield>
+                  <marcx:subfield code="c">Institut for Biologi og Kemi</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820040-katalog:8788979164</os:identifier>
+            <os:creationDate>2001-07-18</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:09021817</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>09021817|870970</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISBN">0-19-271542-9</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>The eyes of the blind</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">The eyes of the blind</dc:title>
+                      <dc:creator xsi:type="dkdcplus:aut">Alison Morgan</dc:creator>
+                      <dc:creator xsi:type="oss:sort">Morgan, Alison</dc:creator>
+                      <dc:subject xsi:type="dkdcplus:DK5">83</dc:subject>
+                      <dc:subject xsi:type="dkdcplus:DK5-Text">Engelsk skønlitteratur</dc:subject>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Oxford University Press</dc:publisher>
+                      <dc:date>1985</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                      <dcterms:extent>207 sider</dcterms:extent>
+                      <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+                      <dc:language>Engelsk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">09021817</marcx:subfield>
+                          <marcx:subfield code="b">870970</marcx:subfield>
+                          <marcx:subfield code="c">19901121</marcx:subfield>
+                          <marcx:subfield code="d">19901121</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                          <marcx:subfield code="o">c</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">m</marcx:subfield>
+                          <marcx:subfield code="u">f</marcx:subfield>
+                          <marcx:subfield code="a">1985</marcx:subfield>
+                          <marcx:subfield code="b">gb</marcx:subfield>
+                          <marcx:subfield code="l">eng</marcx:subfield>
+                          <marcx:subfield code="v">4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="021">
+                          <marcx:subfield code="a">0-19-271542-9</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="100">
+                          <marcx:subfield code="a">Morgan</marcx:subfield>
+                          <marcx:subfield code="h">Alison</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">The ¤eyes of the blind</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Oxford</marcx:subfield>
+                          <marcx:subfield code="b">Oxford University Press</marcx:subfield>
+                          <marcx:subfield code="c">1986</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="a">207 sider</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">83</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="996">
+                          <marcx:subfield code="a">RET</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>870970-basis:09021817</os:identifier>
+                    <os:creationDate>2005-03-01</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>820040-katalog:9788702092462</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>9788702092462|820040</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISBN">9788702092462</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>ISS</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">ISS : succes med skandinavisk ledelse</dc:title>
+                      <dc:title xsi:type="dkdcplus:series">Den danske ledelseskanon</dc:title>
+                      <dc:subject>ISS</dc:subject>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Gyldendal Business</dc:publisher>
+                      <dc:contributor xsi:type="dkdcplus:aut">Mikael Lindholm</dc:contributor>
+                      <dc:contributor xsi:type="dkdcplus:aut">Frank Stokholm</dc:contributor>
+                      <dc:date>2011</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                      <dcterms:extent>137 s.</dcterms:extent>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">9788702092462</marcx:subfield>
+                          <marcx:subfield code="b">820040</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">c</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">m</marcx:subfield>
+                          <marcx:subfield code="a">2011</marcx:subfield>
+                          <marcx:subfield code="d">y</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="021">
+                          <marcx:subfield code="e">9788702092462</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="088">
+                          <marcx:subfield code="a">658.1</marcx:subfield>
+                          <marcx:subfield code="a">(489)</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="b">658.1 ISS</marcx:subfield>
+                          <marcx:subfield code="c">b</marcx:subfield>
+                          <marcx:subfield code="z">820040</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">ISS</marcx:subfield>
+                          <marcx:subfield code="c">succes med skandinavisk ledelse</marcx:subfield>
+                          <marcx:subfield code="e">Mikael Lindholm, Frank Stokholm</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">København</marcx:subfield>
+                          <marcx:subfield code="b">Gyldendal Business</marcx:subfield>
+                          <marcx:subfield code="c">2011</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="a">137 s.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="440">
+                          <marcx:subfield code="a">Den ¤danske ledelseskanon</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="590">
+                          <marcx:subfield code="a">kat111011</marcx:subfield>
+                          <marcx:subfield code="f">bsj</marcx:subfield>
+                          <marcx:subfield code="g">pso</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="630">
+                          <marcx:subfield code="a">ISS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="700">
+                          <marcx:subfield code="a">Lindholm</marcx:subfield>
+                          <marcx:subfield code="h">Mikael</marcx:subfield>
+                          <marcx:subfield code="4">aut</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="700">
+                          <marcx:subfield code="a">Stokholm</marcx:subfield>
+                          <marcx:subfield code="h">Frank</marcx:subfield>
+                          <marcx:subfield code="4">aut</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>820040-katalog:9788702092462</os:identifier>
+                    <os:creationDate>2011-10-12</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>810015-katalog:001674234</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>001674234|810015</ac:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Par</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Par : (Tegn.: Jesper Wetterslev Frederiksen)</dc:title>
+                      <dc:title xsi:type="dkdcplus:series">Matematiske elementer. B. 3. 1</dc:title>
+                      <dc:creator xsi:type="dkdcplus:aut">Erik Ladefoged</dc:creator>
+                      <dc:creator xsi:type="oss:sort">Ladefoged, Erik</dc:creator>
+                      <dc:subject xsi:type="dkdcplus:DK5">51.3</dc:subject>
+                      <dc:subject xsi:type="dkdcplus:DK5-Text">Analyse</dc:subject>
+                      <dc:description>Omslagstitel</dc:description>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Gjellerup</dc:publisher>
+                      <dc:contributor>Hans Nygaard Jensen</dc:contributor>
+                      <dc:date>1975</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+                      <dc:format>illustreret, fig.</dc:format>
+                      <dcterms:extent>48 s.</dcterms:extent>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">001674234</marcx:subfield>
+                          <marcx:subfield code="b">810015</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="d">x52512335x</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">m</marcx:subfield>
+                          <marcx:subfield code="a">1975</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">9</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="a">Sk-299</marcx:subfield>
+                          <marcx:subfield code="u">Kan ikke hjemlånes</marcx:subfield>
+                          <marcx:subfield code="r">a</marcx:subfield>
+                          <marcx:subfield code="z">810015</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="100">
+                          <marcx:subfield code="a">Ladefoged</marcx:subfield>
+                          <marcx:subfield code="h">Erik</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Par</marcx:subfield>
+                          <marcx:subfield code="E">[Af] Erik Ladefoged [og] Hans Nygård Jensen</marcx:subfield>
+                          <marcx:subfield code="e">[Af] Erik Ladefoged [og] Hans Nygaard Jensen</marcx:subfield>
+                          <marcx:subfield code="c">(Tegn.: Jesper Wetterslev Frederiksen)</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">(Kbh.)</marcx:subfield>
+                          <marcx:subfield code="b">Gjellerup</marcx:subfield>
+                          <marcx:subfield code="c">(1975)</marcx:subfield>
+                          <marcx:subfield code="t">Tr. i Tønder).</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="a">48 s.</marcx:subfield>
+                          <marcx:subfield code="b">ill., fig.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="440">
+                          <marcx:subfield code="a">Matematiske elementer. B. 3. 1</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="559">
+                          <marcx:subfield code="a">Omslagstitel</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="599">
+                          <marcx:subfield code="c">SCK940722</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">51.3</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="700">
+                          <marcx:subfield code="a">Jensen</marcx:subfield>
+                          <marcx:subfield code="H">Hans Nygård</marcx:subfield>
+                          <marcx:subfield code="h">Hans Nygaard</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>810015-katalog:001674234</os:identifier>
+                    <os:creationDate>2012-03-31</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+            </os:relations>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>artikel-forsk-kerszman.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,27 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51155394 *b 870970 *c 20140620125408 *d 20140617 *f a 
+004 00 *r n *a e 
+005 00 *z p 
+008 00 *t m *u f *a 2014 *b dk *d y *l dan *x 04 *x 06 *v 0 
+009 00 *a r *g xc 
+021 00 *d Vær opmærksom på KLO's vilkår for brug *n 6207 
+032 00 *a DLF201427 
+245 00 *a Vildt & jagt i Danmark *c lærebog til den obligatoriske jagtprøve *ø 6. udgave, mp3 
+260 00 *a Vejen *b KLO *c [2014] 
+300 00 *n 1 cd i 1 mappe *e mp3 
+504 00 *& 1 *a Lærebog, der dækker det stof, der skal kunnes for at bestå jagtprøven 
+520 00 *a Gengivelse af bogen 
+520 00 *a Indlæst efter 6. udgave. 2013 *n 5 084 183 9 
+526 00 *a Hertil findes opgavehæfte, cd-rom med diasserier og dvd-videoer 
+532 00 *& 1 *a Med litteraturhenvisninger 
+631 00 *f jagtprøver 
+652 00 *m 79.92 
+666 00 *0 *f jagt 
+666 00 *0 *o lærebøger 
+700 00 *5 870979 *6 68579198 *4 edt *0 *a Kramer *h Jes 
+700 00 *5 870979 *6 69197256 *4 edt *0 *a Hennings *h Hother 
+700 00 *5 870979 *6 68145627 *4 dkind *0 *a Bøggild *h Kirsten 
+745 00 *a Vildt og jagt i Danmark 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

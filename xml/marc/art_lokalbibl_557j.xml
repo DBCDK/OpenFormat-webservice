@@ -1,5 +1,5 @@
-=/home/hes/OpenFormat/marc=
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+=/home/nje/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
 001 00 *a 98040994 *b 159011 *f a 
 004 00 *r c *a i 
 008 00 *t a *u f *a 1997 *b dk *l dan *v 0 
@@ -14,11 +14,12 @@
 100 00 *a Helgaard *h Jesper 
 245 00 *a Kansas fyrer 53 trods overskud *e Jesper Heldgaard, interview med Ellen Hansen ... (et al.). 
 504 00 *a 30 år gammel systue i Tørring lukker. 
-557 00 *z 0901-0173 *a Stof &amp; saks *j Årg. 48 (1997) *v Nr. 9 *k 21 : ill. i farver 
+557 00 *z 0901-0173 *a Stof & saks *j Årg. 48 (1997) *v Nr. 9 *k 21 : ill. i farver 
 610 00 *a Kansas Tørring 
 652 00 *m 68.81 
 666 00 *f afskedigelser 
 666 00 *f beklædningsindustri 
 666 00 *f konfektionsindustri 
 700 00 *a Hansen *h Ellen *f tillidsrepræsentant 
-910 00 *a Tørring Konfektion *z 610 *w Kansas Tørring</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+910 00 *a Tørring Konfektion *z 610 *w Kansas Tørring 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

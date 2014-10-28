@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Historisk-Topografisk Selskab for Søllerødegnen
+A1 Rudersdal Museer
+T1 Søllerødbogen. Årgang 2014
+SP 213 sider
+PB Historisk-topografisk Selskab for Søllerødegnen
+PP Holte
+YR 2014
+SN 9788787113182
+SN 00856339
+K1 Årspublikation
+CN 46.4 Søllerødegnen</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

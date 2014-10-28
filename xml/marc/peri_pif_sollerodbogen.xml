@@ -1,0 +1,32 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 50197204 *b 870970 *c 20130725110433 *d 19900608 *f a 
+004 00 *r c *a h 
+008 00 *u c *a 1942 *b dk *c a *h z *i b *l dan *v 0 
+009 00 *a a *g xx 
+018 00 *a 06798845 
+022 00 *a 0085-6339 
+082 00 *a 948.91 
+222 00 *a Søllerødbogen *b Holte 
+245 00 *a Søllerødbogen *e udgivet af Historisk-topografisk Selskab for Søllerødegnen *e i samarbejde med Rudersdal Museer 
+255 00 *a 1942- 
+260 00 *a Holte *b Historisk-topografisk Selskab for Søllerødegnen *c 1942- 
+300 00 *b Ill. (nogle i farver) 
+500 00 *a Årlig 
+505 00 *& 1 *a Årspublikation 
+532 00 *a Hertil hører: Register 1942-1999 / Historisk-topografisk Selskab, Byhistorisk Arkiv, Søllerød Museum. - 2000 
+539 00 *a 2013 
+652 00 *m 46.4 *b Søllerødegnen 
+710 00 *a Historisk-Topografisk Selskab for Søllerødegnen 
+710 00 *a Rudersdal Museer 
+
+001 00 *a 51291972 *b 870970 *c 20140911124021 *d 20140910 *f a 
+004 00 *r n *a b 
+008 00 *t p *v 0 
+014 00 *a 50197204 
+021 00 *e 9788787113182 *c ib. 
+032 00 *a DBF201439 
+245 00 *g [Årgang] 2014 
+260 00 *c 2014 *k Rex 
+300 00 *a 213 sider 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

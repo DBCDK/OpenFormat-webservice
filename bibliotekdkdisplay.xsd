@@ -153,6 +153,7 @@
 		<xs:complexType>
 			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="bibdk:pid"/>
+				<xs:element ref="bibdk:pifRecord" minOccurs="0"/>
 				<xs:element ref="bibdk:hostPublicationID" minOccurs="0"/>
 				<xs:element ref="bibdk:infomediaLink" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="bibdk:requestMethod" minOccurs="0"/>
@@ -393,8 +394,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="bibdk:descriptionNoteLinkElement" minOccurs="0"/>
-				<xs:element ref="bibdk:descriptionNoteLinkUrl" minOccurs="0"/>
-				<xs:element ref="bibdk:descriptionNoteLinkUrlDisplay" minOccurs="0"/>
+				<xs:element ref="bibdk:linkElements" minOccurs="0"/>
 				<xs:element ref="bibdk:descriptionNoteLinkDescriptor" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
@@ -636,6 +636,16 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="latestReprintElement" type="xs:string"/>
+        <xs:element name="linkElements">
+                <xs:complexType>
+                        <xs:sequence>
+                                <xs:element ref="bibdk:url"/>
+                                <xs:element ref="bibdk:display"/>
+                        </xs:sequence>
+                        <xs:attribute name="className" type="xs:string"/>
+                </xs:complexType>
+        </xs:element>
+
 	<xs:element name="messageCategory" type="xs:string"/>
 	<xs:element name="originals" type="xs:string"/>
 	<xs:element name="originalTitle">
@@ -648,6 +658,7 @@
 	<xs:element name="originalTitleElement" type="xs:string"/>
 	<xs:element name="orsOrderMaterialType" type="xs:string"/>
 	<xs:element name="pid" type="xs:string"/>
+	<xs:element name="pifRecord" type="xs:string"/>
 	<xs:element name="place">
 		<xs:complexType>
 			<xs:simpleContent>
@@ -876,6 +887,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="typeGroup" type="xs:string"/>
+	<xs:element name="url" type="xs:string"/>
 	<xs:element name="usedLanguage" type="xs:string"/>
 	<xs:element name="webArchive" type="xs:string"/>
 </xs:schema>

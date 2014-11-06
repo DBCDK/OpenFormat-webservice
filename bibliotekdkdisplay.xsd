@@ -388,8 +388,6 @@
 	<xs:element name="descriptionNote" type="xs:string"/>
 	<xs:element name="descriptionNoteLinkDescriptor" type="xs:string"/>
 	<xs:element name="descriptionNoteLinkElement" type="xs:string"/>
-	<xs:element name="descriptionNoteLinkUrl" type="xs:string"/>
-	<xs:element name="descriptionNoteLinkUrlDisplay" type="xs:string"/>
 	<xs:element name="descriptionNoteLink">
 		<xs:complexType>
 			<xs:sequence>
@@ -747,7 +745,6 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="relatedUrl" type="xs:string"/>
 	<xs:element name="requestButton" type="xs:string"/>
 	<xs:element name="requestMethod" type="xs:string"/>
 	<xs:element name="restrictedUse" type="xs:string"/>

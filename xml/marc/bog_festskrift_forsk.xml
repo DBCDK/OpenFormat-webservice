@@ -1,0 +1,18 @@
+=/home/nje/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 370735 *b 820010 *c 20090704030300 *d 20010817 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 1993 *b dk *g 1 *l dan *v 4 
+009 00 *a a *g xx 
+088 00 *a D P *b 1 
+096 00 *z 820010 *a 2-94-6501 
+096 00 *z 820010 *a 51-262122 
+245 00 *a Sådan er livet på Hegnsgaard *e redaktion: Olav Povlsgaard 
+260 00 *a Kbh. *b Danske Husmandsforeninger *c 1993 
+300 00 *a 130 s. *b ill. 
+559 00 *a Festskrift i anledning af Christian Sørensen 60 års fødselsdag den 25. februar 1993 
+600 00 *a Sørensen *h Christian 
+652 00 *p 99.4 *a Sørensen *h Christian *c f. 1933 
+700 00 *a Sørensen *h Christian *c f. 1933 
+700 00 *a Povlsgaard *h Olav 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

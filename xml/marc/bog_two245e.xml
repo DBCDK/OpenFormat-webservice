@@ -1,0 +1,13 @@
+=/home/nje/OpenFormat/request=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bibdk="http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay" xmlns:of="http://oss.dbc.dk/ns/openformat"><SOAP-ENV:Body><of:formatResponse>
+001 00 *a 007286308 *b 830010 *f a 
+004 00 *r n *a e 
+008 00 *t m *a 1963 *l dan *v 4 
+009 00 *a a *g xx 
+035 00 *a (Sirsi) x590108424 
+245 00 *a Frederiksbilleder *c bidrag til en bibliografi over billeder med frederiksbergske motiver gengivet i danske bøger og tidsskrifter *e Erik Ebstrub *e Sven Houmøller 
+260 00 *b Historisk-Topografisk Selskab for Frederiksberg *c 1963 
+300 00 *a 386 s. 
+440 00 *a Frederiksberg gennem tiderne *v 9, 2 
+700 00 *a Ebstrub *h Erik 
+700 00 *a Houmøller *h Sven</of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

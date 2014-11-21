@@ -1,0 +1,39 @@
+=/home/nje/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 2 998 194 9 *b 870970 *c 20130529155613 *d 20130523 *f a 
+004 00 *r n *a h 
+008 00 *b dk *d å *d x *j j *l dan *o b *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788711389249 *c ib. *d bind 1-7 sælges samlet 
+100 00 *5 870979 *6 68721113 *4 aut *4 drm *0 *a Morgenthaler *h Anders 
+245 00 *a Morgenthalers alfabet 
+260 00 *& 1 *a [Kbh.] *b Carlsen *c 2013 
+300 00 *a 7 bind *b ill. (nogle i farver) 
+652 00 *n 86 *z 096 
+652 00 *o sk 
+666 00 *0 *s fabler 
+666 00 *0 *s dyrefortællinger 
+666 00 *0 *s alfabetet 
+666 00 *0 *s bogstaver 
+666 00 *0 *s sjove bøger 
+666 00 *0 *u let at læse 
+666 00 *0 *u for 8 år 
+666 00 *0 *u for 9 år 
+666 00 *0 *u for 10 år 
+
+001 00 *a 2 995 716 9 *b 870970 *c 20130617110836 *d 20130506 *f a 
+004 00 *r n *a b 
+008 00 *t m *u f *a 2013 *v 0 
+014 00 *a 2 998 194 9 
+032 00 *x ACC201319 *a DBF201324 *x BKM201324 
+245 00 *a 4 dyrefabler om bogstaverne Z, Æ, Ø, Å 
+300 00 *a 28 sider 
+504 00 *& 1 *a Vi hører om sjakalen Zac, lamaen Æsa, østersene Øjvind og Øzlem og gnuen Åge 
+521 00 *& REX *b 1. oplag *c 2013 *k tr. i udl. 
+666 00 *0 *s sjakaler 
+666 00 *0 *s lamaer (dyr) 
+666 00 *0 *s østers 
+666 00 *0 *s gnuer 
+745 00 *a Z, Æ, Ø, Å 
+990 00 *o 201324 *b l *b b *b s *u nt 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

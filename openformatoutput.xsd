@@ -24,17 +24,11 @@
 	</xs:element>
 	<xs:element name="fullDisplayHtml">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">HTML formatted display information</xs:documentation>
+			<xs:documentation xml:lang="en">HTML formatted full display information each single volum or multivolume</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="ofo:title" minOccurs="0"/>
-				<xs:element ref="ofo:creator" minOccurs="0"/>
-				<xs:element ref="ofo:type"/>
-				<xs:element ref="ofo:description" minOccurs="0"/>
-				<xs:element ref="ofo:details" minOccurs="0"/>
-				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
-				<xs:element ref="ofo:content" minOccurs="0"/>
+				<xs:element ref="ofo:manifestation" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -51,11 +45,56 @@
 	</xs:element>
 	<xs:element name="manifestation">
 		<xs:annotation>
-			<xs:documentation xml:lang="en">Remaining information about the manifestation in a work display</xs:documentation>
+			<xs:documentation xml:lang="en">Information about the manifestation single volume or multivolume</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="ofo:main" minOccurs="1"/>
+				<xs:element ref="ofo:section" minOccurs="0"/>
+				<xs:element ref="ofo:volume" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+        <xs:element name="main">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Information about the main level in a display</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:title" minOccurs="0"/>
+				<xs:element ref="ofo:creator" minOccurs="0"/>
 				<xs:element ref="ofo:type"/>
+				<xs:element ref="ofo:description" minOccurs="0"/>
+				<xs:element ref="ofo:details" minOccurs="0"/>
+				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
+				<xs:element ref="ofo:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="section">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Information about the section level in a display</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:title" minOccurs="0"/>
+				<xs:element ref="ofo:creator" minOccurs="0"/>
+				<xs:element ref="ofo:description" minOccurs="0"/>
+				<xs:element ref="ofo:details" minOccurs="0"/>
+				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
+				<xs:element ref="ofo:content" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="volume">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Information about the volume level in a work display</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ofo:title" minOccurs="0"/>
+				<xs:element ref="ofo:creator" minOccurs="0"/>
+				<xs:element ref="ofo:description" minOccurs="0"/>
 				<xs:element ref="ofo:details" minOccurs="0"/>
 				<xs:element ref="ofo:publicationDetails" minOccurs="0"/>
 				<xs:element ref="ofo:content" minOccurs="0"/>

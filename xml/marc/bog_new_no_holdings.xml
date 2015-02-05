@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51546466 *b 870970 *c 20150127153026 *d 20150121 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2015 *b dk *d y *l dan *x 06 *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788799782208 *c ib. 
+032 00 *x ACC201504 *a DBF201507 
+245 00 *a Slagelse besat - og befriet! 
+260 00 *a [Slagelse] *b [Carsten Egø Nielsen] *c [2015] 
+300 00 *a 244 sider *b ill. (nogle i farver) 
+521 00 *b 1. oplag *c [2015] 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 46.4 *b Slagelse 
+652 00 *p 96.71 
+700 00 *5 870979 *6 69333176 *0 *a Bay Andersen *h Ole *c f. 1050-10-30 *4 aut *å 1 
+700 00 *5 870979 *6 68273412 *0 *a Egø Nielsen *h Carsten *4 aut *å 2 
+900 00 *0 *a Andersen *h Ole bay *z 700/1 
+900 00 *0 *a Nielsen *h Carsten Egø *z 700/2 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

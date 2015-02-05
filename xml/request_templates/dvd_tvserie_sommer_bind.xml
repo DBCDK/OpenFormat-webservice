@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>29655197|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Sommer</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Sommer. Sæson 2, disk 4</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">77.7</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">Alzheimers sygdom</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Spillefilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">brødre</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">drama</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">drama</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">familien</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">tv-serier</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">tv-serier</dc:subject>
+              <dcterms:abstract>Jakob arbejder i Malawi for Læger uden Grænser og kaldes med sin kæreste Mille hjem til sin far Christians 65 års fødselsdag. Da det viser sig at Christian har Alzheimers vikarierer han i hans lægepraksis sammen med broderen Adam, men fortidige og nutidige problemer i familien Sommer dukker op</dcterms:abstract>
+              <dc:description>På materialet: Den komplette serie, sæson 1-sæson 2</dc:description>
+              <dc:description>Manuskriptforfattere Carina Dam, Jesper W. Nielsen, Per Daumiller, Jeppe Gjervig Gram, Tobias Lindholm, Lars K. Andersen, Maya Ilsøe, Rikke de Fine Licht, Dunja Gry Jensen. Instruktører, Louise N.D. Friedberg, Jannik Johansen, Kasper Gaardsøe, Niels Nørløv, Carsten Myllerup, Kathrine Windfeld, Mikkel Serup</dc:description>
+              <dc:description>Produktion: DR (Danmark), NRK (Norge), SVT (Sverige), 2007-2008</dc:description>
+              <dc:description>Af indholdet: Bonusmateriale</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for børn over 15 år</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>DR</dc:publisher>
+              <dc:publisher>Scanbox</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:cre">Karina Dam</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:aus">Karina Dam</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:cre">Jesper W. Nielsen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:aus">Jens Dahl (f. 1961-01-09)</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Lars Ranthe</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Marie Louise Wille</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Cecilie Bøcker Rosling</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Jesper Langberg</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Lisbet Dahl</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Mikael Birkkjær</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:act">Camilla Bendix</dc:contributor>
+              <dc:date>2012</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Dvd</dc:type>
+              <dc:format>1 dvd-video</dc:format>
+              <dcterms:extent>3 t., 48 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">Dansk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">Norsk</dc:language>
+              <dc:language xsi:type="dkdcplus:subtitles">Svensk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Frederiksværk</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">29655197</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20121203180055</marcx:subfield>
+                  <marcx:subfield code="d">20121101</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">th</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="018">
+                  <marcx:subfield code="a">29686769</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201244</marcx:subfield>
+                  <marcx:subfield code="a">DBI201249</marcx:subfield>
+                  <marcx:subfield code="x">BKM201249</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="u">dan</marcx:subfield>
+                  <marcx:subfield code="u">nor</marcx:subfield>
+                  <marcx:subfield code="u">swe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Sommer</marcx:subfield>
+                  <marcx:subfield code="g">Sæson 2, disk 4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">DR</marcx:subfield>
+                  <marcx:subfield code="a">[Viborg]</marcx:subfield>
+                  <marcx:subfield code="b">Scanbox</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+                  <marcx:subfield code="l">3 t., 48 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">6 dvd-videoer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Jakob arbejder i Malawi for Læger uden Grænser og kaldes med sin kæreste Mille hjem til sin far Christians 65 års fødselsdag. Da det viser sig at Christian har Alzheimers vikarierer han i hans lægepraksis sammen med broderen Adam, men fortidige og nutidige problemer i familien Sommer dukker op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Undertekster på dansk, norsk og svensk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På materialet: Den komplette serie, sæson 1-sæson 2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Manuskriptforfattere</marcx:subfield>
+                  <marcx:subfield code="e">Carina Dam, Jesper W. Nielsen, Per Daumiller, Jeppe Gjervig Gram, Tobias Lindholm, Lars K. Andersen, Maya Ilsøe, Rikke de Fine Licht, Dunja Gry Jensen</marcx:subfield>
+                  <marcx:subfield code="b">. Instruktører</marcx:subfield>
+                  <marcx:subfield code="e">Louise N.D. Friedberg, Jannik Johansen, Kasper Gaardsøe, Niels Nørløv, Carsten Myllerup, Kathrine Windfeld, Mikkel Serup</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: DR (Danmark), NRK (Norge), SVT (Sverige), 2007-2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for børn over 15 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="534">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Af indholdet: Bonusmateriale</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="a">12984 dk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">77.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">tv-serier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">drama</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">brødre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">familien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">Alzheimers sygdom</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Frederiksværk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Dam</marcx:subfield>
+                  <marcx:subfield code="h">Karina</marcx:subfield>
+                  <marcx:subfield code="4">cre</marcx:subfield>
+                  <marcx:subfield code="4">aus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Nielsen</marcx:subfield>
+                  <marcx:subfield code="h">Jesper W.</marcx:subfield>
+                  <marcx:subfield code="4">cre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Dahl</marcx:subfield>
+                  <marcx:subfield code="h">Jens</marcx:subfield>
+                  <marcx:subfield code="c">f. 1961-01-09</marcx:subfield>
+                  <marcx:subfield code="4">aus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Lars Ranthe</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Marie Louise Wille</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Cecilie Bøcker Rosling</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Jesper Langberg</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Lisbet Dahl</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Mikael Birkkjær</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Camilla Bendix</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201249</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicMain">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">29686769</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20121121135859</marcx:subfield>
+                  <marcx:subfield code="d">20121120</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">h</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="d">15</marcx:subfield>
+                  <marcx:subfield code="2">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="c">20130201</marcx:subfield>
+                  <marcx:subfield code="2">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="a">2012</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">th</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Brugsretskategori: D</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5706107129846</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">dan</marcx:subfield>
+                  <marcx:subfield code="u">dan</marcx:subfield>
+                  <marcx:subfield code="u">nor</marcx:subfield>
+                  <marcx:subfield code="u">swe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="239">
+                  <marcx:subfield code="t">Sommer</marcx:subfield>
+                  <marcx:subfield code="ø">Sæson 1-2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Sommer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">DR</marcx:subfield>
+                  <marcx:subfield code="a">[Viborg]</marcx:subfield>
+                  <marcx:subfield code="b">Scanbox</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">6 dvd-videoer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Jakob arbejder i Malawi for Læger uden Grænser og kaldes med sin kæreste Mille hjem til sin far Christians 65 års fødselsdag. Da det viser sig at Christian har Alzheimers vikarierer han i hans lægepraksis sammen med broderen Adam, men fortidige og nutidige problemer i familien Sommer dukker op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Undertekster på dansk, norsk og svensk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På materialet: Den komplette serie, sæson 1-sæson 2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Manuskriptforfattere</marcx:subfield>
+                  <marcx:subfield code="e">Carina Dam, Jesper W. Nielsen, Per Daumiller, Jeppe Gjervig Gram, Tobias Lindholm, Lars K. Andersen, Maya Ilsøe, Rikke de Fine Licht, Dunja Gry Jensen</marcx:subfield>
+                  <marcx:subfield code="b">. Instruktører</marcx:subfield>
+                  <marcx:subfield code="e">Louise N.D. Friedberg, Jannik Johansen, Kasper Gaardsøe, Niels Nørløv, Carsten Myllerup, Kathrine Windfeld, Mikkel Serup</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: DR (Danmark), NRK (Norge), SVT (Sverige), 2007-2008</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for børn over 15 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="534">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Af indholdet: Bonusmateriale</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="a">12984 dk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">77.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">tv-serier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">drama</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">brødre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">familien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">Alzheimers sygdom</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Frederiksværk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Dam</marcx:subfield>
+                  <marcx:subfield code="h">Karina</marcx:subfield>
+                  <marcx:subfield code="4">cre</marcx:subfield>
+                  <marcx:subfield code="4">aus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Nielsen</marcx:subfield>
+                  <marcx:subfield code="h">Jesper W.</marcx:subfield>
+                  <marcx:subfield code="4">cre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Dahl</marcx:subfield>
+                  <marcx:subfield code="h">Jens</marcx:subfield>
+                  <marcx:subfield code="c">f. 1961-01-09</marcx:subfield>
+                  <marcx:subfield code="4">aus</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Lars Ranthe</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Marie Louise Wille</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Cecilie Bøcker Rosling</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Jesper Langberg</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Lisbet Dahl</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Mikael Birkkjær</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Camilla Bendix</marcx:subfield>
+                  <marcx:subfield code="4">act</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Agenturholder: DR Multimedie</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicVolume">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">29655197</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20121203180055</marcx:subfield>
+                  <marcx:subfield code="d">20121101</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="014">
+                  <marcx:subfield code="a">29686769</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201244</marcx:subfield>
+                  <marcx:subfield code="a">DBI201249</marcx:subfield>
+                  <marcx:subfield code="x">BKM201249</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="g">Sæson 2, disk 4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 dvd-video</marcx:subfield>
+                  <marcx:subfield code="l">3 t., 48 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201249</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:29655197</os:identifier>
+            <os:creationDate>2012-11-01</os:creationDate>
+            <os:holdingsCount>15</os:holdingsCount>
+            <os:lendingLibraries>15</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>dvd_tvserie_sommer_bind.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

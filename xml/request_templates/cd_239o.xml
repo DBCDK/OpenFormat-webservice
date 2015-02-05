@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>50928306|870970</ac:identifier>
+              <dc:identifier>Toccata Classics TOCC 0026</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Sonate for violin og klaver nr. 2, opus 15</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Sonate for violin og klaver nr. 2, opus 15 (Kalnits)</dc:title>
+              <dcterms:alternative>Complete violin sonatas volume two</dcterms:alternative>
+              <dc:creator>Moissej Weinberg</dc:creator>
+              <dc:creator xsi:type="oss:sort">Weinberg, Moissej</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">78.4342</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Klaver og violin</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">instrumental</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">kammermusik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">kammermusik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">klassisk musik 1950 -&gt;</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">neoklassik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">violin</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCM">violinsonate</dc:subject>
+              <dkdcplus:shelf xsi:type="oss:musicshelf">Kammermusik</dkdcplus:shelf>
+              <dc:description>Indspillet i St John's Church, Fulham, London 2013</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Toccata Classics</dc:publisher>
+              <dc:contributor>Michael Csányi-Wills</dc:contributor>
+              <dc:contributor>Jurij Kalnits</dc:contributor>
+              <dc:contributor>Moissej Weinberg</dc:contributor>
+              <dc:date>2013</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Cd (musik)</dc:type>
+              <dc:format>1 cd, 1 kommentarbilag</dc:format>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Rapsodi for violin og orkester over moldoviske temaer, opus 47:3</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sonate for violin og klaver nr. 2, opus 15</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sonate for violin nr. 2, opus 95</dcterms:hasPart>
+              <dcterms:hasPart xsi:type="dkdcplus:track">Sonate for violin og klaver nr. 5, opus 53</dcterms:hasPart>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Rusland</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCM">Polen</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1940-1949</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1950-1959</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCM">1960-1969</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50928306</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140305180546</marcx:subfield>
+                  <marcx:subfield code="d">20140124</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2013</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">s</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5060113440266</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACM201404</marcx:subfield>
+                  <marcx:subfield code="x">BKM201411</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="039">
+                  <marcx:subfield code="a">kam</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Moissej</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="239">
+                  <marcx:subfield code="t">Sonate for violin og klaver nr. 2, opus 15</marcx:subfield>
+                  <marcx:subfield code="ø">Kalnits</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Complete violin sonatas volume two</marcx:subfield>
+                  <marcx:subfield code="e">Mieczysław Weinberg</marcx:subfield>
+                  <marcx:subfield code="e">Yuri Kalnits, violin</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Toccata Classics</marcx:subfield>
+                  <marcx:subfield code="c">p 2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 cd</marcx:subfield>
+                  <marcx:subfield code="d">1 kommentarbilag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Indspillet i St John's Church, Fulham, London 2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="531">
+                  <marcx:subfield code="a">Indhold:</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="538">
+                  <marcx:subfield code="f">Toccata Classics</marcx:subfield>
+                  <marcx:subfield code="g">TOCC 0026</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">78.4342</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="i">78.4342</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="i">78.4342</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="i">78.442</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="i">78.4342</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="m">neoklassik</marcx:subfield>
+                  <marcx:subfield code="m">kammermusik</marcx:subfield>
+                  <marcx:subfield code="m">violinsonate</marcx:subfield>
+                  <marcx:subfield code="n">instrumental</marcx:subfield>
+                  <marcx:subfield code="n">violin</marcx:subfield>
+                  <marcx:subfield code="p">1940-1949</marcx:subfield>
+                  <marcx:subfield code="p">1950-1959</marcx:subfield>
+                  <marcx:subfield code="p">1960-1969</marcx:subfield>
+                  <marcx:subfield code="l">Rusland</marcx:subfield>
+                  <marcx:subfield code="l">Polen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="å">1</marcx:subfield>
+                  <marcx:subfield code="a">Csányi-Wills</marcx:subfield>
+                  <marcx:subfield code="h">Michael</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Kalnits</marcx:subfield>
+                  <marcx:subfield code="h">Jurij</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Moissej</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Moissej</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Moissej</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="770">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Moissej</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">11</marcx:subfield>
+                  <marcx:subfield code="a">Rapsodi for violin og orkester over moldoviske temaer, opus 47:3</marcx:subfield>
+                  <marcx:subfield code="c">for violin og klaver</marcx:subfield>
+                  <marcx:subfield code="e">Michael Csányi-Wills, klaver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">12</marcx:subfield>
+                  <marcx:subfield code="a">Sonate for violin og klaver nr. 2, opus 15</marcx:subfield>
+                  <marcx:subfield code="e">Michael Csányi-Wills, klaver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">13</marcx:subfield>
+                  <marcx:subfield code="a">Sonate for violin nr. 2, opus 95</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="795">
+                  <marcx:subfield code="å">14</marcx:subfield>
+                  <marcx:subfield code="a">Sonate for violin og klaver nr. 5, opus 53</marcx:subfield>
+                  <marcx:subfield code="e">Michael Csányi-Wills, klaver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Wills</marcx:subfield>
+                  <marcx:subfield code="h">Michael Csányi-</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Mieczyslaw</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Mieczyslaw</marcx:subfield>
+                  <marcx:subfield code="z">770/11</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Mieczyslaw</marcx:subfield>
+                  <marcx:subfield code="z">770/12</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Mieczyslaw</marcx:subfield>
+                  <marcx:subfield code="z">770/13</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="a">Weinberg</marcx:subfield>
+                  <marcx:subfield code="h">Mieczyslaw</marcx:subfield>
+                  <marcx:subfield code="z">770/14</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201411</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:50928306</os:identifier>
+            <os:creationDate>2014-01-24</os:creationDate>
+            <os:holdingsCount>5</os:holdingsCount>
+            <os:lendingLibraries>5</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870973-anmeld:50956334</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870973-anmeld:50992977</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870973-anmeld:51348664</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>cd_239o.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

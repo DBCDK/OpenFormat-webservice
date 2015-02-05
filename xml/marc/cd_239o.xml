@@ -1,0 +1,42 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 50928306 *b 870970 *c 20140305180546 *d 20140124 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2013 *b gb *v 0 
+009 00 *a s *g xc *b a *h xx 
+023 00 *b 5060113440266 
+032 00 *x ACM201404 *x BKM201411 
+039 00 *a kam 
+100 00 *a Weinberg *h Moissej 
+239 00 *t Sonate for violin og klaver nr. 2, opus 15 *ø Kalnits 
+245 00 *a Complete violin sonatas volume two *e Mieczysław Weinberg *e Yuri Kalnits, violin 
+260 00 *b Toccata Classics *c p 2013 
+300 00 *n 1 cd *d 1 kommentarbilag 
+512 00 *a Indspillet i St John's Church, Fulham, London 2013 
+531 00 *a Indhold: 
+538 00 *f Toccata Classics *g TOCC 0026 
+652 00 *m 78.4342 
+652 00 *å 11 *i 78.4342 
+652 00 *å 12 *i 78.4342 
+652 00 *å 13 *i 78.442 
+652 00 *å 14 *i 78.4342 
+666 00 *0 *m neoklassik *m kammermusik *m violinsonate *n instrumental *n violin *p 1940-1949 *p 1950-1959 *p 1960-1969 *l Rusland *l Polen 
+700 00 *å 1 *a Csányi-Wills *h Michael 
+700 00 *a Kalnits *h Jurij 
+770 00 *å 11 *a Weinberg *h Moissej 
+770 00 *å 12 *a Weinberg *h Moissej 
+770 00 *å 13 *a Weinberg *h Moissej 
+770 00 *å 14 *a Weinberg *h Moissej 
+795 00 *å 11 *a Rapsodi for violin og orkester over moldoviske temaer, opus 47:3 *c for violin og klaver *e Michael Csányi-Wills, klaver 
+795 00 *å 12 *a Sonate for violin og klaver nr. 2, opus 15 *e Michael Csányi-Wills, klaver 
+795 00 *å 13 *a Sonate for violin nr. 2, opus 95 
+795 00 *å 14 *a Sonate for violin og klaver nr. 5, opus 53 *e Michael Csányi-Wills, klaver 
+900 00 *a Wills *h Michael Csányi- *z 700/1 
+900 00 *a Weinberg *h Mieczyslaw *z 100 
+900 00 *a Weinberg *h Mieczyslaw *z 770/11 
+900 00 *a Weinberg *h Mieczyslaw *z 770/12 
+900 00 *a Weinberg *h Mieczyslaw *z 770/13 
+900 00 *a Weinberg *h Mieczyslaw *z 770/14 
+990 00 *o 201411 *b v *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,31 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51277260 *b 870970 *c 20140910181456 *d 20140902 *f a 
+004 00 *r n *a e 
+005 00 *z p 
+008 00 *t m *u f *a 2014 *b dk *d x *j f *l dan *v 0 
+009 00 *a r *g xc 
+021 00 *e 9788711323663 
+032 00 *a DLF201438 *x BKM201438 
+100 00 *5 870979 *6 68375266 *4 aut *0 *a Guldager *h Katrine Marie 
+245 00 *a Peters død *ø mp3 
+260 00 *a Kbh. *b Audioteket *c 2014 
+300 00 *n 1 cd i 1 mappe *e mp3 *l 5 t., 14 min. 
+504 00 *& 1 *a Vil faderens død kunne opfylde Leonoras største ønske om, at resten af familien kan være sammen igen? Drømmen brister, men på en måde bliver hans død alligevel starten på et nyt liv for dem alle 
+520 00 *a Gengivelse af bogen 
+520 00 *a Indlæst efter 1. udgave. 2014 *n 5 120 613 4 *r 9788711357651 
+520 00 *& 1 *a Bogens originaludgave: 2014 
+526 00 *& 1 *i 4. del af *t Ulven *b . Seriens indhold se denne 
+652 00 *n 86 *z 06 
+652 00 *o sk 
+666 00 *0 *s familien 
+666 00 *0 *s kollektiver 
+666 00 *0 *s kvindefrigørelse 
+666 00 *0 *q Danmark 
+666 00 *0 *q København 
+666 00 *0 *q Køge 
+666 00 *0 *i 1970-1979 
+700 00 *5 870979 *6 68586410 *4 dkind *0 *a Krogager *h Liselotte 
+990 00 *o 201438 *b v *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

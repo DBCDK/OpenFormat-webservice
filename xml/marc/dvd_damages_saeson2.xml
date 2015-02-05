@@ -1,0 +1,49 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51208862 *b 870970 *c 20140724132442 *d 20140723 *f a 
+004 00 *r n *a h 
+006 00 *d 15 *2 b 
+008 00 *u u *a 2014 *b se *l mul *v 0 
+009 00 *a m *g th 
+017 00 *a 28409397 
+021 00 *b Brugsretskategori: B 
+023 00 *b 5051162280613 
+023 00 *b 5051162328315 
+041 00 *a eng *s fre *s ger *u eng *u fre *u ger *u ara *u dan *u dut *u fin *u ice *u nor *u swe *u tur 
+245 00 *a Damages *ø Sæson 2 
+260 00 *a [Stockholm] *b SPHE Nordic *c [2014] 
+300 00 *n 3 dvd-videoer *l ca. 9 t., 19 min. 
+504 00 *& 1 *a Den nyuddannede, ambitiøse Ellen Parsons får job i et advokatfirma i New York. Det ledes af den magtfulde, udspekulerede Patty Hewes, der gør Ellen til sin protegé. Patty skyr ingen midler for at styrke sin magt. Ellen lærer hendes metoder, men erfarer også den personlige pris det koster at vinde sager, hvor liv og ufattelige formuer er i spil 
+508 00 *a Engelsk tale, samt synkronisering på fransk og tysk 
+508 00 *a Undertekster på engelsk, fransk, tysk, arabisk, dansk, hollandsk, finsk, islandsk, norsk, svensk og tyrkisk 
+512 00 *a Produktion: Sony Pictures Television (USA), Bluebush Productions (USA), 2009 
+512 00 *a På materialet: The complete second season 
+517 00 *& 1 *a Mærkning: Tilladt for børn over 15 år 
+534 00 *& 1 *a Af indholdet: Special features 
+538 00 *a SGSD 10084 B 
+652 00 *m 77.7 
+666 00 *0 *q USA 
+666 00 *0 *q New York 
+666 00 *0 *s tv-serier 
+666 00 *0 *s advokater 
+700 00 *a Kessler *h Glenn *c f. 1970-04-06 *4 cre 
+700 00 *a Kessler *h Todd A. *4 cre 
+700 00 *a Zelman *h Daniel *4 cre 
+720 00 *o Glen Close *4 act 
+720 00 *o Rose Byrne *4 act 
+720 00 *o Tate Donovan *4 act 
+720 00 *o Ted Danson *4 act 
+720 00 *o Anastasia Griffith *4 act 
+720 00 *o Marcia Gay Harden *4 act 
+991 00 *o Agenturholder. Universal Sony Pictures Home Entertainment 
+
+001 00 *a 51123204 *b 870970 *c 20140730180124 *d 20140523 *f a 
+004 00 *r n *a b 
+008 00 *t m *v 0 
+014 00 *a 51208862 
+032 00 *x ACC201421 *a DBI201432 *x BKM201432 
+245 00 *g Disc 1 
+300 00 *n 1 dvd-video 
+530 00 *& 1 *a Indhold: I lied too ; Burn it, shred it, I don't care ; I knew you were a pig ; Hey! Mr. Pibb! 
+990 00 *o 201432 *b n *b v *u nu 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

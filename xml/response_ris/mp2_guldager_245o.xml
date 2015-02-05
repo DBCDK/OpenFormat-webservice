@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SOUND
+A1  - Guldager,Katrine Marie
+A1  - Krogager,Liselotte
+T1  - Peters død
+SP  - 1 cd i 1 mappe (mp3) (5 t., 14 min.)
+PB  - Audioteket
+CY  - Kbh.
+Y1  - 2014
+SN  - 9788711323663
+N1  - Vil faderens død kunne opfylde Leonoras største ønske om, at resten af familien kan være sammen igen? Drømmen brister, men på en måde bliver hans død alligevel starten på et nyt liv for dem alle
+KW  - familien
+KW  - kollektiver
+KW  - kvindefrigørelse
+KW  - Danmark
+KW  - København
+KW  - Køge
+KW  - 1970-1979
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

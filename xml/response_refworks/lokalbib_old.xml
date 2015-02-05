@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Hofman,Hans de
+T1 Samlinger af Publique og Private Stiftelser, Fundationer og Gavebreve, som forefindes udi Danmark og Norge
+SP Bd. 1-11, illustreret
+PP Kiöbenhavn
+YR 1755
+NO Heri: Bd. 8: Samlinger af Fundationer og Gave-Breve for Siællands-Stift, med historiske Efterretninger for hver Kirke og Herregaard til 1760: pp. 475-82: Fundationer. Hammer-Herred, pp. 482-83: Wordingborg. p. 484: Præstøe. p. 484: Allerslev. pp. 487-515: Fundationer. Baarse-Herred. p. 551: Vort Område i Siællands Klemme-Brev. (Stedregister i bd. 10). - Heri: Bd. 11: Supplement til de forhenudgivne Ti Tomer, med Register: pp. 105-l8: Baarse-Herred. - Litteratur om Sydsjælland 378
+CN 38.3
+K1 Opdragelse og undervisning
+K1 Privat forsorg og velgørenhed
+K1 orsorg
+K1 fundatser
+K1 legater
+K1 stiftelser
+K1 velgørenhed</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

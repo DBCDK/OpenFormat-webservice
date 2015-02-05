@@ -1,0 +1,19 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 09157573 *b 870970 *c 19910423 *d 19910423 *f a *o c 
+004 00 *r n *a e 
+005 00 *h e 
+008 00 *t s *v 1 
+009 00 *a s *g xk 
+032 00 *x SFG197900 
+039 00 *a bef 
+110 00 *a The ¤Pop Group 
+245 00 *a The ¤Pop Group 
+260 00 *b Radar 
+300 00 *n 1 grammofonplade *b Stereo *c 30 cm *D 1 bilag *d 1 tekstbilag 
+531 00 *a Indhold: 
+538 00 *f Radar *g RAD 20 
+652 00 *m 78.794 *v 5 
+795 00 *å 11 *a Thief of fire *a Snow girl *a Blood money *a Savage sea *a We are time *a Words disobey me *a Don't call me pain *a The ¤boys from Brazil *a Don't sell your dreams 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51277260|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788711323663</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Peters død</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Peters død (mp3)</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Katrine Marie Guldager</dc:creator>
+              <dc:creator xsi:type="oss:sort">Guldager, Katrine Marie</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">familien</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kollektiver</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">kvindefrigørelse</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dcterms:abstract>Vil faderens død kunne opfylde Leonoras største ønske om, at resten af familien kan være sammen igen? Drømmen brister, men på en måde bliver hans død alligevel starten på et nyt liv for dem alle</dcterms:abstract>
+              <dc:description xsi:type="dkdcplus:series">4. del af: Ulven</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Audioteket</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:dkind">Liselotte Krogager</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (cd-mp3)</dc:type>
+              <dc:format>1 cd i 1 mappe, mp3</dc:format>
+              <dcterms:extent>5 t., 14 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Danmark</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">København</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCS">Køge</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1970-1979</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51277260</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140910181456</marcx:subfield>
+                  <marcx:subfield code="d">20140902</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="005">
+                  <marcx:subfield code="z">p</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">r</marcx:subfield>
+                  <marcx:subfield code="g">xc</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788711323663</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DLF201438</marcx:subfield>
+                  <marcx:subfield code="x">BKM201438</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68375266</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Guldager</marcx:subfield>
+                  <marcx:subfield code="h">Katrine Marie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Peters død</marcx:subfield>
+                  <marcx:subfield code="ø">mp3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Kbh.</marcx:subfield>
+                  <marcx:subfield code="b">Audioteket</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 cd i 1 mappe</marcx:subfield>
+                  <marcx:subfield code="e">mp3</marcx:subfield>
+                  <marcx:subfield code="l">5 t., 14 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Vil faderens død kunne opfylde Leonoras største ønske om, at resten af familien kan være sammen igen? Drømmen brister, men på en måde bliver hans død alligevel starten på et nyt liv for dem alle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Gengivelse af bogen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="a">Indlæst efter 1. udgave. 2014</marcx:subfield>
+                  <marcx:subfield code="n">5 120 613 4</marcx:subfield>
+                  <marcx:subfield code="r">9788711357651</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="520">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Bogens originaludgave: 2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="i">4. del af</marcx:subfield>
+                  <marcx:subfield code="t">Ulven</marcx:subfield>
+                  <marcx:subfield code="b">. Seriens indhold se denne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">06</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">familien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">kollektiver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">kvindefrigørelse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">København</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="q">Køge</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1970-1979</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68586410</marcx:subfield>
+                  <marcx:subfield code="4">dkind</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Krogager</marcx:subfield>
+                  <marcx:subfield code="h">Liselotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201438</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51277260</os:identifier>
+            <os:creationDate>2014-09-02</os:creationDate>
+            <os:holdingsCount>33</os:holdingsCount>
+            <os:lendingLibraries>33</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>150005-anmeld:110347</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:21963240</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:29312265</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:27064256</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:26613000</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>150005-portraet:45766</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870970-basis:26168279</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:84914592</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:79934577</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:83152591</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:82722998</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:84296996</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-avis:84628883</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:82895558</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasCreatorDescription</os:relationType>
+                <os:relationUri>870971-tsart:85095781</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>mp2_guldager_245o.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

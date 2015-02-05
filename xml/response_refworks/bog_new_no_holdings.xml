@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Bay Andersen,Ole, f. 1050-10-30
+A1 Egø Nielsen,Carsten
+T1 Slagelse besat - og befriet!
+SP 244 sider, illustreret (nogle i farver)
+PB Carsten Egø Nielsen
+PP Slagelse
+YR 2015
+SN 9788799782208
+CN 46.4 Slagelse</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

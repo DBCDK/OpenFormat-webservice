@@ -1,0 +1,13 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 26597269 *b 870970 *c 20070119132158 *d 20070110 *f a 
+004 00 *r n *a e 
+008 00 *t m *u f *a 2006 *b dk *l dan *v 0 
+009 00 *a a *g xx 
+032 00 *x ACC200702 
+245 00 *a Energi til livet 
+260 00 *b Lotte Paarup 
+512 00 *a Registreres ikke i DBF: bilag til dvd'en Energi til livet 
+652 00 *m NY TITEL 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

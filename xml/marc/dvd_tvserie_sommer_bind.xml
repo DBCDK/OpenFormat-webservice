@@ -1,0 +1,51 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 29686769 *b 870970 *c 20121121135859 *d 20121120 *f a 
+004 00 *r n *a h 
+006 00 *d 15 *2 b 
+006 00 *c 20130201 *2 e 
+008 00 *a 2012 *b dk *l dan *v 0 
+009 00 *a m *g th 
+021 00 *b Brugsretskategori: D 
+023 00 *b 5706107129846 
+041 00 *a dan *u dan *u nor *u swe 
+239 00 *t Sommer *ø Sæson 1-2 
+245 00 *a Sommer 
+260 00 *a [Kbh.] *b DR *a [Viborg] *b Scanbox *c 2012 
+300 00 *n 6 dvd-videoer 
+504 00 *& 1 *a Jakob arbejder i Malawi for Læger uden Grænser og kaldes med sin kæreste Mille hjem til sin far Christians 65 års fødselsdag. Da det viser sig at Christian har Alzheimers vikarierer han i hans lægepraksis sammen med broderen Adam, men fortidige og nutidige problemer i familien Sommer dukker op 
+508 00 *a Undertekster på dansk, norsk og svensk 
+512 00 *a På materialet: Den komplette serie, sæson 1-sæson 2 
+512 00 *i Manuskriptforfattere *e Carina Dam, Jesper W. Nielsen, Per Daumiller, Jeppe Gjervig Gram, Tobias Lindholm, Lars K. Andersen, Maya Ilsøe, Rikke de Fine Licht, Dunja Gry Jensen *b . Instruktører *e Louise N.D. Friedberg, Jannik Johansen, Kasper Gaardsøe, Niels Nørløv, Carsten Myllerup, Kathrine Windfeld, Mikkel Serup 
+512 00 *a Produktion: DR (Danmark), NRK (Norge), SVT (Sverige), 2007-2008 
+517 00 *& 1 *a Mærkning: Tilladt for børn over 15 år 
+534 00 *& 1 *a Af indholdet: Bonusmateriale 
+538 00 *a 12984 dk 
+652 00 *m 77.7 
+666 00 *0 *s tv-serier 
+666 00 *0 *s drama 
+666 00 *0 *s brødre 
+666 00 *0 *s familien 
+666 00 *0 *s Alzheimers sygdom 
+666 00 *0 *q Frederiksværk 
+700 00 *a Dam *h Karina *4 cre *4 aus 
+700 00 *a Nielsen *h Jesper W. *4 cre 
+700 00 *a Dahl *h Jens *c f. 1961-01-09 *4 aus 
+720 00 *o Lars Ranthe *4 act 
+720 00 *o Marie Louise Wille *4 act 
+720 00 *o Cecilie Bøcker Rosling *4 act 
+720 00 *o Jesper Langberg *4 act 
+720 00 *o Lisbet Dahl *4 act 
+720 00 *o Mikael Birkkjær *4 act 
+720 00 *o Camilla Bendix *4 act 
+991 00 *o Agenturholder: DR Multimedie 
+
+001 00 *a 29655197 *b 870970 *c 20121203180055 *d 20121101 *f a 
+004 00 *r n *a b 
+008 00 *t m *u f *v 0 
+014 00 *a 29686769 
+032 00 *x ACC201244 *a DBI201249 *x BKM201249 
+245 00 *g Sæson 2, disk 4 
+300 00 *n 1 dvd-video *l 3 t., 48 min. 
+990 00 *o 201249 *b v *u nt 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

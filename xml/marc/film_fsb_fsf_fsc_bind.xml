@@ -1,0 +1,40 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51389549 *b 870970 *c 20141119200624 *d 20141029 *f a 
+004 00 *r n *a h 
+006 00 *d 0 *2 b 
+008 00 *u f *a 2014 *b dk *l dan *n a *x 06 *v 0 
+009 00 *a m *g xe 
+239 00 *t Danmarks industrialisering 
+245 00 *a Danmarks industrialisering 
+260 00 *b [Det Danske Filminstitut] *c [2014] 
+300 00 *a 4 dele 
+512 00 *a Produktion: Nordisk Film Commercial (Danmark), for Industrirådet (Danmark), 1988 
+517 00 *& 1 *a Mærkning: Tilladt for alle 
+526 00 *a Hertil hører bog: Finn Løkkegaard: Danmarks industrialisering 1840-1980'erne 
+652 00 *m 33.19 
+652 00 *p 60.96 
+666 00 *0 *f industrialisering 
+666 00 *0 *f industrihistorie 
+666 00 *0 *e Danmark 
+700 01 *a Cato *h Elsebeth *4 drt *g 1 
+
+001 00 *a 51389662 *b 870970 *c 20150209074432 *d 20141029 *f a 
+004 00 *r n *a b 
+008 00 *t m *v 0 
+014 00 *a 51389549 
+032 00 *a DBI201448 *x BKM201448 *x FSB201448 *x FSC201448 *x DAT991508 
+245 00 *g Del 3 *a 1939-1980 
+300 00 *l 20 min. *b sort-hvid 
+504 00 *& 1 *a Om krigsøkonomien under 2. verdenskrig, de første efterkrigsår, Marshall-hjælpen og den begyndende liberalisering af den internationale handel, 1960'ernes højkonjunktur og dansk industris anden store vækstperiode og Danmarks tilslutning til EFTA og EF 
+666 00 *0 *i 1940-1949 
+666 00 *0 *i 1950-1959 
+666 00 *0 *i 1960-1969 
+666 00 *0 *i 1970-1979 
+856 00 *z Adgangsmåde: Internet *u http://filmcentralen.dk//alle/film/danmarks-industrialisering-3 
+856 00 *z Adgang til streaming for biblioteker med abonnement på Filmstriben *u http://www.filmstriben.dk/bibliotek/film/details.aspx?id=9000001343 
+856 00 *z Adgang til streaming for skoler med abonnement på Filmcentralen *u http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3 
+856 00 *z Adgang til streaming for biblioteksbrugere i kommunere med abonnement på Filmstriben *u http://www.filmstriben.dk/fjernleje/film/details.aspx?id=9000001343 
+856 00 *z Adgang til streaming for gymnasier med abonnement på Filmcentralen *u http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3 
+990 00 *o 201448 *b v *u nt 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51537645|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788771247244</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/150028:51537645</dc:identifier>
+              <dc:identifier xsi:type="oss:PROVIDER-ID">9788771247244</dc:identifier>
+              <ac:source>eReolen</ac:source>
+              <dc:title>Stoleleg</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Stoleleg : Jørgen Leths verdener</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Dan Ringgaard</dc:creator>
+              <dc:creator xsi:type="oss:sort">Ringgaard, Dan</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">99.4 Leth, Jørgen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Jørgen Leth</dc:subject>
+              <dc:subject xsi:type="oss:sort">Leth, Jørgen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">analyser</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dansk film</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dansk litteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">digtning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">essays</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">filminstruktører</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forfattere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">journalistik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">litteraturanalyser</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">sport</dc:subject>
+              <dcterms:abstract>Korte essays med præsentation og analyser af forfatteren Jørgen Leths (f. 1937) værk: digtene, sporten, filmene, journalistikken, det hele inklusive Leth og de verdener han færdes i</dcterms:abstract>
+              <dc:description>Udgivet i forbindelse med Jørgen Leths 75 år fødselsdag</dc:description>
+              <dc:description>Downloades i EPUB-format</dc:description>
+              <dc:description>Indhold: Rio de Janeiro, São Paulo 3.-5. april 2011 ; Kosmopolitisme ; Lidt om hvad det vil sige at se ; At tabe en solnedgang af syne ; Erotikkens forrykte tale ; Compiègne, Chantilly, Roobaix 9.-10. april 2011 ; Fascinationsformer ; Tid og sted i Amerika ; Popmodernisme ; Før starten ; Aarhus, Aalborg 18.-19. maj 2011 ; Filmdigteren ; Poesi er tid der strømmer ; Der er stopforbud i digte ; Recycling ; Cormier Plage 22. november-2. december 2011 ; Bag persienner ; Tropisk tristhed ; Interferens ; Til slut løber en ubesværet hvisken alligevel som en kølig vind igennem det hele</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. e-bogsudgave</dkdcplus:version>
+              <dc:publisher>Aarhus Universitetsforlag</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:dte">Jørgen Leth</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1900-1999</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">2000-2009</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">2010-2019</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51537645</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150206150357</marcx:subfield>
+                  <marcx:subfield code="d">20150206</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="b">150015</marcx:subfield>
+                  <marcx:subfield code="d">9788771247244</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="g">1</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="w">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="017">
+                  <marcx:subfield code="a">29640378</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788771247244</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201506</marcx:subfield>
+                  <marcx:subfield code="a">DBF201509</marcx:subfield>
+                  <marcx:subfield code="x">BKM201509</marcx:subfield>
+                  <marcx:subfield code="x">ERE201509</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68870798</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Ringgaard</marcx:subfield>
+                  <marcx:subfield code="h">Dan</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Stoleleg</marcx:subfield>
+                  <marcx:subfield code="c">Jørgen Leths verdener</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. e-bogsudgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Aarhus Universitetsforlag</marcx:subfield>
+                  <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Korte essays med præsentation og analyser af forfatteren Jørgen Leths (f. 1937) værk: digtene, sporten, filmene, journalistikken, det hele inklusive Leth og de verdener han færdes i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="507">
+                  <marcx:subfield code="a">Udgivet i forbindelse med Jørgen Leths 75 år fødselsdag</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Indhold: Rio de Janeiro, São Paulo 3.-5. april 2011 ; Kosmopolitisme ; Lidt om hvad det vil sige at se ; At tabe en solnedgang af syne ; Erotikkens forrykte tale ; Compiègne, Chantilly, Roobaix 9.-10. april 2011 ; Fascinationsformer ; Tid og sted i Amerika ; Popmodernisme ; Før starten ; Aarhus, Aalborg 18.-19. maj 2011 ; Filmdigteren ; Poesi er tid der strømmer ; Der er stopforbud i digte ; Recycling ; Cormier Plage 22. november-2. december 2011 ; Bag persienner ; Tropisk tristhed ; Interferens ; Til slut løber en ubesværet hvisken alligevel som en kølig vind igennem det hele</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger, filmografi og diskografi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="600">
+                  <marcx:subfield code="1"/>
+                  <marcx:subfield code="a">Leth</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Leth</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">dansk litteratur</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">digtning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">dansk film</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">filminstruktører</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">sport</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">journalistik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">forfattere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1900-1999</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">2000-2009</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">2010-2019</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">litteraturanalyser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">analyser</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">essays</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68626765</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Leth</marcx:subfield>
+                  <marcx:subfield code="h">Jørgen</marcx:subfield>
+                  <marcx:subfield code="4">dte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til lån hos eReolen.dk</marcx:subfield>
+                  <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:51537645</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51537645</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:51537645</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2015-02-06</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>https://ereolen.dk/ting/object/150028:51537645</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150015-ereol</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_aut100_aut700_stoleleg.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

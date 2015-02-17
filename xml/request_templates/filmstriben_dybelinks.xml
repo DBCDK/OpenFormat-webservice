@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51301358|870970</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.filmstriben.dk/fjernleje/film/details.aspx?filmid=9000001589</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.filmstriben.dk/bibliotek/film/details.aspx?filmid=9000001353</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet</dc:identifier>
+              <ac:source>Filmstriben</ac:source>
+              <dc:title>Mellem bjergene og havet</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Mellem bjergene og havet</dc:title>
+              <dcterms:alternative>Mellem bjergene og havet : et portræt af digteren Henrik Nordbrandt</dcterms:alternative>
+              <dc:creator xsi:type="dkdcplus:drt">Elisabeth Rygård</dc:creator>
+              <dc:creator xsi:type="oss:sort">Rygård, Elisabeth</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">99.4 Nordbrandt, Henrik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Henrik Nordbrandt</dc:subject>
+              <dc:subject xsi:type="oss:sort">Nordbrandt, Henrik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">biografier</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dansk litteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">dokumentarfilm</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forfattere</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forfatterskaber</dc:subject>
+              <dcterms:abstract>Dokumentarisk portræt af digteren Henrik Nordbrandt. Elisabeth Rygård opsøger digteren i hans hjem i Tyrkiet. I en collage af digte, samtaler og minder tegner hun et portræt af et sammensat menneske</dcterms:abstract>
+              <dc:description>Produktion: Film &amp; Lyd (Danmark), 1994</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for alle</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Elisabeth Rygård</dc:publisher>
+              <dc:publisher>Det Danske Filminstitut</dc:publisher>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Film (net)</dc:type>
+              <dcterms:extent>49 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Tyrkiet</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1980-1989</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1990-1999</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51301358</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150206154752</marcx:subfield>
+                  <marcx:subfield code="d">20140915</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="d">0</marcx:subfield>
+                  <marcx:subfield code="2">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="k">b</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBI201440</marcx:subfield>
+                  <marcx:subfield code="x">BKM201440</marcx:subfield>
+                  <marcx:subfield code="x">FSF201440</marcx:subfield>
+                  <marcx:subfield code="x">FSC201508</marcx:subfield>
+                  <marcx:subfield code="x">FSB201508</marcx:subfield>
+                  <marcx:subfield code="x">DAT991508</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="239">
+                  <marcx:subfield code="t">Mellem bjergene og havet</marcx:subfield>
+                  <marcx:subfield code="b">et portræt af digteren Henrik Nordbrandt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Mellem bjergene og havet</marcx:subfield>
+                  <marcx:subfield code="c">et portræt af digteren Henrik Nordbrandt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">[Elisabeth Rygård]</marcx:subfield>
+                  <marcx:subfield code="b">[Det Danske Filminstitut]</marcx:subfield>
+                  <marcx:subfield code="c">[2014]</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="l">49 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Dokumentarisk portræt af digteren Henrik Nordbrandt. Elisabeth Rygård opsøger digteren i hans hjem i Tyrkiet. I en collage af digte, samtaler og minder tegner hun et portræt af et sammensat menneske</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: Film &amp; Lyd (Danmark), 1994</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for alle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="600">
+                  <marcx:subfield code="1"/>
+                  <marcx:subfield code="a">Nordbrandt</marcx:subfield>
+                  <marcx:subfield code="h">Henrik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Nordbrandt</marcx:subfield>
+                  <marcx:subfield code="h">Henrik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">81.65</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">forfattere</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">forfatterskaber</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">dansk litteratur</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Tyrkiet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1980-1989</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1990-1999</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">biografier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Rygård</marcx:subfield>
+                  <marcx:subfield code="h">Elisabeth</marcx:subfield>
+                  <marcx:subfield code="4">drt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/fjernleje/film/details.aspx?filmid=9000001589</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteker med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/bibliotek/film/details.aspx?filmid=9000001353</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for skoler med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for gymnasier med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201440</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51301358</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:51301358</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2014-09-15</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/fjernleje/filmdetails.aspx?id=9000001589</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-fjern</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/fjernleje/filmdetails.aspx?id=9000001353</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-fjern</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/fjernleje/filmdetails.aspx?id=http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-fjern</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/fjernleje/filmdetails.aspx?id=http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-fjern</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=9000001589</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=9000001353</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.dfi.dk/faktaomfilm/nationalfilmografien/nffilm.aspx?id=9818</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143559-3</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143607-2</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143608-2</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143609-2</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143619-2</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image20150127-143620-3</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasImage</os:relationType>
+                <os:relationUri>150049:9818image114807</os:relationUri>
+                <os:linkObject>
+                  <os:access>free</os:access>
+                  <os:linkTo>image</os:linkTo>
+                  <os:linkCollectionIdentifier>150049-central</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>filmstriben_dybelinks.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+T1  - Festivalpakken 2008 - mellemtrin
+SP  - 1 festivalpakke
+PB  - s.n.
+CY  - S.l.
+Y1  - 2008
+N1  - Festivalpakker 2008 er en del af Dansk Naturvidenskabsfestival 2008. - Indhold: 14 engangshandsker ; 5 små tragter ; 5 T-studser ; 10 Y-studser ; 1 banner ; 1 stetoskop ; 15 målebånd ; 1 flaske konditorfarve ;  1 pose  dimser (5 ex) ; 1 stk. plasticslange ; 1 pulsmåler  ; 1 kuvert (4 plakater, 1 folder, 1 postkort, 4 breve) ; 2 hæfter incl. cd-rom'er
+CN  - skønlitteratur
+KW  - festivalpakke
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - SER
+A1  - Dansk Institut for Internationale Studier
+T1  - DIIS report. 2013:32. Biting the barefoot : land titles and tenure security in the context of inequality
+SP  - 200 sider
+PB  - Danish Institute for International Studies
+CY  - Copenhagen
+Y1  - 2013
+SN  - 9788776056452
+CN  - 32.7
+KW  - Serie
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

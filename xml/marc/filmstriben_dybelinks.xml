@@ -1,0 +1,34 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51301358 *b 870970 *c 20150206154752 *d 20140915 *f a 
+004 00 *r n *a e 
+006 00 *d 0 *2 b 
+008 00 *t m *u f *a 2014 *b dk *k b *l dan *n b *x 06 *v 0 
+009 00 *a m *g xe 
+032 00 *a DBI201440 *x BKM201440 *x FSF201440 *x FSC201508 *x FSB201508 *x DAT991508 
+239 00 *t Mellem bjergene og havet *b et portræt af digteren Henrik Nordbrandt 
+245 00 *a Mellem bjergene og havet *c et portræt af digteren Henrik Nordbrandt 
+260 00 *b [Elisabeth Rygård] *b [Det Danske Filminstitut] *c [2014] 
+300 00 *l 49 min. 
+504 00 *& 1 *a Dokumentarisk portræt af digteren Henrik Nordbrandt. Elisabeth Rygård opsøger digteren i hans hjem i Tyrkiet. I en collage af digte, samtaler og minder tegner hun et portræt af et sammensat menneske 
+512 00 *a Produktion: Film & Lyd (Danmark), 1994 
+517 00 *& 1 *a Mærkning: Tilladt for alle 
+600 00 *1 *a Nordbrandt *h Henrik 
+652 00 *m 99.4 *a Nordbrandt *h Henrik 
+652 00 *p 81.65 
+666 00 *0 *f forfattere 
+666 00 *0 *f forfatterskaber 
+666 00 *0 *f dansk litteratur 
+666 00 *0 *e Danmark 
+666 00 *0 *e Tyrkiet 
+666 00 *0 *i 1980-1989 
+666 00 *0 *i 1990-1999 
+666 00 *0 *o biografier 
+700 00 *a Rygård *h Elisabeth *4 drt 
+856 00 *z Adgang til streaming for biblioteksbrugere i kommuner med abonnement på Filmstriben *u http://www.filmstriben.dk/fjernleje/film/details.aspx?filmid=9000001589 
+856 00 *z Adgang til streaming for biblioteker med abonnement på Filmstriben *u http://www.filmstriben.dk/bibliotek/film/details.aspx?filmid=9000001353 
+856 00 *z Adgang til streaming for skoler med abonnement på Filmcentralen *u http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet 
+856 00 *z Adgang til streaming for gymnasier med abonnement på Filmcentralen *u http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet 
+990 00 *o 201440 *b v *u nt 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

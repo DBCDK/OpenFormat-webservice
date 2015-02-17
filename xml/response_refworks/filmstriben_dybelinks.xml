@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Motion Picture
+SR Electronic(1)
+A1 Rygård,Elisabeth
+T1 Mellem bjergene og havet : et portræt af digteren Henrik Nordbrandt
+SP 49 min.)
+PB Elisabeth Rygård
+PB Det Danske Filminstitut
+YR 2014
+NO Dokumentarisk portræt af digteren Henrik Nordbrandt. Elisabeth Rygård opsøger digteren i hans hjem i Tyrkiet. I en collage af digte, samtaler og minder tegner hun et portræt af et sammensat menneske. - Produktion: Film &amp; Lyd (Danmark), 1994
+K1 Henrik Nordbrandt
+K1 forfattere
+K1 forfatterskaber
+K1 dansk litteratur
+K1 Danmark
+K1 Tyrkiet
+K1 1980-1989
+K1 1990-1999
+K1 biografier
+LK http://www.filmstriben.dk/fjernleje/film/details.aspx?filmid=9000001589
+LK http://www.filmstriben.dk/bibliotek/film/details.aspx?filmid=9000001353
+LK http://filmcentralen.dk/grundskolen/film/mellem-bjergene-og-havet
+LK http://filmcentralen.dk/gymnasiet/film/mellem-bjergene-og-havet</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

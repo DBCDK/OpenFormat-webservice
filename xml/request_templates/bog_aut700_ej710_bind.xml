@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>50990443|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788776056452</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>DIIS report</dc:title>
+              <dc:title xsi:type="dkdcplus:full">DIIS report : Biting the barefoot. 2013:32</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">32.7</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">International politik</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Danish Institute for International Studies</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:aut">Rikke Brandt Broegaard</dc:contributor>
+              <dc:contributor>Dansk Institut for Internationale Studier</dc:contributor>
+              <dc:date>2013</dc:date>
+              <dc:date>2004</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Serie</dc:type>
+              <dcterms:extent>200 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50990443</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140617091523</marcx:subfield>
+                  <marcx:subfield code="d">20140303</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">p</marcx:subfield>
+                  <marcx:subfield code="x">05</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="h">m</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="018">
+                  <marcx:subfield code="a">25738055</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788776056452</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201412</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">DIIS report</marcx:subfield>
+                  <marcx:subfield code="e">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="c">Biting the barefoot</marcx:subfield>
+                  <marcx:subfield code="g">2013:32</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="c">2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Copenhagen</marcx:subfield>
+                  <marcx:subfield code="d">Østbanegade 117, 2100</marcx:subfield>
+                  <marcx:subfield code="b">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="c">2004-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">200 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="500">
+                  <marcx:subfield code="a">Uregelmæssig</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Serie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2013</marcx:subfield>
+                  <marcx:subfield code="k">Vesterkopi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="539">
+                  <marcx:subfield code="a">2004/3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">32.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68173477</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Broegaard</marcx:subfield>
+                  <marcx:subfield code="h">Rikke Brandt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Dansk Institut for Internationale Studier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Dansk Institut for Internationale Studier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Brandt Broegaard</marcx:subfield>
+                  <marcx:subfield code="h">Rikke</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">DIIS</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">DIIS</marcx:subfield>
+                  <marcx:subfield code="z">710</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="z">710</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicMain">
+                <marcx:leader>00000c    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">25738055</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140115121921</marcx:subfield>
+                  <marcx:subfield code="d">20050509</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">h</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="u">c</marcx:subfield>
+                  <marcx:subfield code="a">2004</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="c">k</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="h">m</marcx:subfield>
+                  <marcx:subfield code="i">a</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">DIIS report</marcx:subfield>
+                  <marcx:subfield code="e">Danish Institute for International Studies</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="255">
+                  <marcx:subfield code="a">2004/1-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Copenhagen</marcx:subfield>
+                  <marcx:subfield code="d">Østbanegade 117, 2100</marcx:subfield>
+                  <marcx:subfield code="b">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="c">2004-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="500">
+                  <marcx:subfield code="a">Uregelmæssig</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Serie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="539">
+                  <marcx:subfield code="a">2004/3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">32.7</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Dansk Institut for Internationale Studier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">DIIS</marcx:subfield>
+                  <marcx:subfield code="z">710</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="z">710</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicVolume">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">50990443</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20140617091523</marcx:subfield>
+                  <marcx:subfield code="d">20140303</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">p</marcx:subfield>
+                  <marcx:subfield code="x">05</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="014">
+                  <marcx:subfield code="a">25738055</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788776056452</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201412</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="G">2013 32</marcx:subfield>
+                  <marcx:subfield code="g">2013:32</marcx:subfield>
+                  <marcx:subfield code="a">Biting the barefoot</marcx:subfield>
+                  <marcx:subfield code="c">land titles and tenure security in the context of inequality</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="c">2013</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">200 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="&amp;">REX</marcx:subfield>
+                  <marcx:subfield code="b">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2013</marcx:subfield>
+                  <marcx:subfield code="k">Vesterkopi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68173477</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Broegaard</marcx:subfield>
+                  <marcx:subfield code="h">Rikke Brandt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="å">2</marcx:subfield>
+                  <marcx:subfield code="a">Dansk Institut for Internationale Studier</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Brandt Broegaard</marcx:subfield>
+                  <marcx:subfield code="h">Rikke</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">DIIS</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="910">
+                  <marcx:subfield code="a">Danish Institute for International Studies</marcx:subfield>
+                  <marcx:subfield code="z">710/2</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:50990443</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:50990443</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2014-03-03</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_aut700_ej710_bind.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 27386970 *b 870970 *c 20080826130546 *d 20080826 *f a 
+004 00 *r n *a e 
+008 00 *t s *u f *a 2008 *b dk *l dan *v 0 
+009 00 *a a *g xx *a u *g ue 
+245 00 *a Festivalpakken 2008 - mellemtrin 
+260 00 *a S.l. *b s.n. *c 2008 
+300 00 *a 1 festivalpakke 
+512 00 *a Festivalpakker 2008 er en del af Dansk Naturvidenskabsfestival 2008 
+530 00 *a Indhold: 14 engangshandsker ; 5 små tragter ; 5 T-studser ; 10 Y-studser ; 1 banner ; 1 stetoskop ; 15 målebånd ; 1 flaske konditorfarve ;  1 pose  dimser (5 ex) ; 1 stk. plasticslange ; 1 pulsmåler  ; 1 kuvert (4 plakater, 1 folder, 1 postkort, 4 breve) ; 2 hæfter incl. cd-rom'er 
+596 00 *a Ikke anskaffet 
+631 00 *a festivalpakke 
+652 00 *m sk 
+996 00 *a 756100 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

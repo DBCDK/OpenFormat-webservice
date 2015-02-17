@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51389662|870970</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://filmcentralen.dk//alle/film/danmarks-industrialisering-3</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.filmstriben.dk/bibliotek/film/details.aspx?id=9000001343</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.filmstriben.dk/fjernleje/film/details.aspx?id=9000001343</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3</dc:identifier>
+              <ac:source>Filmstriben</ac:source>
+              <dc:title>Danmarks industrialisering</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Danmarks industrialisering : 1939-1980. Del 3</dc:title>
+              <dc:creator xsi:type="dkdcplus:drt">Elsebeth Cato</dc:creator>
+              <dc:creator xsi:type="oss:sort">Cato, Elsebeth</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">33.19</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Danmarks økonomiske forhold i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">industrialisering</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">industrihistorie</dc:subject>
+              <dcterms:abstract>Om krigsøkonomien under 2. verdenskrig, de første efterkrigsår, Marshall-hjælpen og den begyndende liberalisering af den internationale handel, 1960'ernes højkonjunktur og dansk industris anden store vækstperiode og Danmarks tilslutning til EFTA og EF</dcterms:abstract>
+              <dc:description>Produktion: Nordisk Film Commercial (Danmark), for Industrirådet (Danmark), 1988</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:medieraad">Mærkning: Tilladt for alle</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Det Danske Filminstitut</dc:publisher>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Film (net)</dc:type>
+              <dc:format>sort-hvid</dc:format>
+              <dcterms:extent>20 min.</dcterms:extent>
+              <dcterms:extent>4 dele</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Danmark</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1940-1949</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1950-1959</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1960-1969</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1970-1979</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51389662</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150209074432</marcx:subfield>
+                  <marcx:subfield code="d">20141029</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="018">
+                  <marcx:subfield code="a">51389549</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBI201448</marcx:subfield>
+                  <marcx:subfield code="x">BKM201448</marcx:subfield>
+                  <marcx:subfield code="x">FSB201448</marcx:subfield>
+                  <marcx:subfield code="x">FSC201448</marcx:subfield>
+                  <marcx:subfield code="x">DAT991508</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Danmarks industrialisering</marcx:subfield>
+                  <marcx:subfield code="c">1939-1980</marcx:subfield>
+                  <marcx:subfield code="g">Del 3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">[Det Danske Filminstitut]</marcx:subfield>
+                  <marcx:subfield code="c">[2014]</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="l">20 min.</marcx:subfield>
+                  <marcx:subfield code="b">sort-hvid</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">4 dele</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Om krigsøkonomien under 2. verdenskrig, de første efterkrigsår, Marshall-hjælpen og den begyndende liberalisering af den internationale handel, 1960'ernes højkonjunktur og dansk industris anden store vækstperiode og Danmarks tilslutning til EFTA og EF</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: Nordisk Film Commercial (Danmark), for Industrirådet (Danmark), 1988</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for alle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="a">Hertil hører bog: Finn Løkkegaard: Danmarks industrialisering 1840-1980'erne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">33.19</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">60.96</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1940-1949</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1950-1959</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1960-1969</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1970-1979</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">industrialisering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">industrihistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="1" tag="700">
+                  <marcx:subfield code="a">Cato</marcx:subfield>
+                  <marcx:subfield code="h">Elsebeth</marcx:subfield>
+                  <marcx:subfield code="4">drt</marcx:subfield>
+                  <marcx:subfield code="g">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk//alle/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteker med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/bibliotek/film/details.aspx?id=9000001343</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for skoler med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteksbrugere i kommunere med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/fjernleje/film/details.aspx?id=9000001343</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for gymnasier med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201448</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicMain">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51389549</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20141119200624</marcx:subfield>
+                  <marcx:subfield code="d">20141029</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">h</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="d">0</marcx:subfield>
+                  <marcx:subfield code="2">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">a</marcx:subfield>
+                  <marcx:subfield code="x">06</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="239">
+                  <marcx:subfield code="t">Danmarks industrialisering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Danmarks industrialisering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">[Det Danske Filminstitut]</marcx:subfield>
+                  <marcx:subfield code="c">[2014]</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">4 dele</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Produktion: Nordisk Film Commercial (Danmark), for Industrirådet (Danmark), 1988</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Mærkning: Tilladt for alle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="526">
+                  <marcx:subfield code="a">Hertil hører bog: Finn Løkkegaard: Danmarks industrialisering 1840-1980'erne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">33.19</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">60.96</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">industrialisering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">industrihistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="e">Danmark</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="1" tag="700">
+                  <marcx:subfield code="a">Cato</marcx:subfield>
+                  <marcx:subfield code="h">Elsebeth</marcx:subfield>
+                  <marcx:subfield code="4">drt</marcx:subfield>
+                  <marcx:subfield code="g">1</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicVolume">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51389662</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150209074432</marcx:subfield>
+                  <marcx:subfield code="d">20141029</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="014">
+                  <marcx:subfield code="a">51389549</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBI201448</marcx:subfield>
+                  <marcx:subfield code="x">BKM201448</marcx:subfield>
+                  <marcx:subfield code="x">FSB201448</marcx:subfield>
+                  <marcx:subfield code="x">FSC201448</marcx:subfield>
+                  <marcx:subfield code="x">DAT991508</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="g">Del 3</marcx:subfield>
+                  <marcx:subfield code="a">1939-1980</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="l">20 min.</marcx:subfield>
+                  <marcx:subfield code="b">sort-hvid</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Om krigsøkonomien under 2. verdenskrig, de første efterkrigsår, Marshall-hjælpen og den begyndende liberalisering af den internationale handel, 1960'ernes højkonjunktur og dansk industris anden store vækstperiode og Danmarks tilslutning til EFTA og EF</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1940-1949</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1950-1959</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1960-1969</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="i">1970-1979</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk//alle/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteker med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/bibliotek/film/details.aspx?id=9000001343</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for skoler med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for biblioteksbrugere i kommunere med abonnement på Filmstriben</marcx:subfield>
+                  <marcx:subfield code="u">http://www.filmstriben.dk/fjernleje/film/details.aspx?id=9000001343</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til streaming for gymnasier med abonnement på Filmcentralen</marcx:subfield>
+                  <marcx:subfield code="u">http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201448</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51389662</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:51389662</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2014-10-29</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=http://filmcentralen.dk//alle/film/danmarks-industrialisering-3</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=9000001343</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.filmstriben.dk/bibliotek/filmdetails.aspx?id=http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>onsite</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150021-bibliotek</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>film_fsb_fsf_fsc_bind.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

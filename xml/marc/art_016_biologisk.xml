@@ -1,0 +1,20 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 8788979164 *b 820040 *f a 
+004 00 *r c *a i 
+008 00 *t a *a 1991 *b dk *l dan *v 0 
+009 00 *a a *g xx 
+016 00 *a 09021817 
+096 00 *b Opstillet som tidsskrift: Skrift / Roskilde universitetscenter, Institut for biologi og kemi ; 16 (n, opst. i gr. 577) *z 820040 
+245 00 *a Biologisk energetik og enzymkinetik *e Gustaw Kerszman, Birgitte Munch-Petersen 
+260 00 *a Roskilde *b Roskilde Universitetscenter, Institut for Biologi og Kemi *c 1991 
+300 00 *a 69 s. *b ill. 
+440 00 *a Skrifter fra Institut for Biologi og Kemi 
+532 00 *a Bibliografi: s. 69 
+557 00 *a Skrift *æ Roskilde Universitetscenter, Institut for Biologi og Kemi *z 0902-1817 *v 16 *j 1991 
+590 00 *a 20070501 
+590 00 *a kat911121 
+700 00 *a Kerszman *h Gustaw 
+700 00 *a Munch-Petersen *h Birgitte 
+710 00 *a Roskilde Universitetscenter *c Institut for Biologi og Kemi 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

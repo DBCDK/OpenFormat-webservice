@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51512359|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788793234314</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">https://ereolen.dk/ting/object/150028:51512359</dc:identifier>
+              <dc:identifier xsi:type="oss:PROVIDER-ID">9788793234314</dc:identifier>
+              <ac:source>eReolen</ac:source>
+              <dc:title>Team Triple</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Team Triple : - Og slotsspøgelserne. 2</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Christina Nordstrøm</dc:creator>
+              <dc:creator xsi:type="oss:sort">Nordstrøm, Christina</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">detektiver</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 10 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">krimi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">krimi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCN">let at læse</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">overnaturlige væsener</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">overtro</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">slotte</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCS">venskab</dc:subject>
+              <dcterms:abstract>Amir passer Siljes hund Bonzo. Under en natlig luftning ved Nyborg Slot møder han en spøgelsesrytter og hører barnegråd fra slottet. Team Triple går i aktion og opdager hurtigt, at det ikke kun er spøgelserne, der huserer på det gamle slot, men en gammel kending</dcterms:abstract>
+              <dc:description>Downloades i EPUB-format</dc:description>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dkdcplus:version>1. ebogudgave</dkdcplus:version>
+              <dc:publisher>Griffle</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:aut">Kirsten Nordstrøm Hansen</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dcterms:extent>dele</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51512359</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150130162637</marcx:subfield>
+                  <marcx:subfield code="d">20150130</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="b">150015</marcx:subfield>
+                  <marcx:subfield code="d">9788793234314</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="o">b</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="018">
+                  <marcx:subfield code="a">51568044</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788793234314</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201508</marcx:subfield>
+                  <marcx:subfield code="x">BKM201508</marcx:subfield>
+                  <marcx:subfield code="x">ERE201508</marcx:subfield>
+                  <marcx:subfield code="x">ACC201505</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68764459</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nordstrøm</marcx:subfield>
+                  <marcx:subfield code="h">Christina</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Team Triple</marcx:subfield>
+                  <marcx:subfield code="c">- Og slotsspøgelserne</marcx:subfield>
+                  <marcx:subfield code="g">2</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. ebogudgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Griffle</marcx:subfield>
+                  <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                  <marcx:subfield code="c">2014-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">dele</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Amir passer Siljes hund Bonzo. Under en natlig luftning ved Nyborg Slot møder han en spøgelsesrytter og hører barnegråd fra slottet. Team Triple går i aktion og opdager hurtigt, at det ikke kun er spøgelserne, der huserer på det gamle slot, men en gammel kending</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">096</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">overtro</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">overnaturlige væsener</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">slotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">krimi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">detektiver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">venskab</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">let at læse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 10 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 11 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 12 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68764424</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nordstrøm Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til lån hos eReolen.dk</marcx:subfield>
+                  <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:51512359</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Carl N.</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten Nordstrøm</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Carl N.</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicMain">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51568044</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150130162617</marcx:subfield>
+                  <marcx:subfield code="d">20150130</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">h</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">x</marcx:subfield>
+                  <marcx:subfield code="j">f</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="o">b</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                  <marcx:subfield code="w">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68764459</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nordstrøm</marcx:subfield>
+                  <marcx:subfield code="h">Christina</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Team Triple</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Griffle</marcx:subfield>
+                  <marcx:subfield code="g">[sælges på internettet]</marcx:subfield>
+                  <marcx:subfield code="c">2014-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">dele</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="n">86</marcx:subfield>
+                  <marcx:subfield code="z">096</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="o">sk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">krimi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">detektiver</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">venskab</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">let at læse</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 10 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 11 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="u">for 12 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68764424</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nordstrøm Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Carl N.</marcx:subfield>
+                  <marcx:subfield code="z">100</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Kirsten Nordstrøm</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hansen</marcx:subfield>
+                  <marcx:subfield code="h">Carl N.</marcx:subfield>
+                  <marcx:subfield code="z">700</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+              <marcx:record format="danMARC2" type="BibliographicVolume">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51512359</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150130162637</marcx:subfield>
+                  <marcx:subfield code="d">20150130</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">b</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="014">
+                  <marcx:subfield code="a">51568044</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788793234314</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201508</marcx:subfield>
+                  <marcx:subfield code="x">BKM201508</marcx:subfield>
+                  <marcx:subfield code="x">ERE201508</marcx:subfield>
+                  <marcx:subfield code="x">ACC201505</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="042">
+                  <marcx:subfield code="a">23</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="g">2</marcx:subfield>
+                  <marcx:subfield code="a">- Og slotsspøgelserne</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. ebogudgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Amir passer Siljes hund Bonzo. Under en natlig luftning ved Nyborg Slot møder han en spøgelsesrytter og hører barnegråd fra slottet. Team Triple går i aktion og opdager hurtigt, at det ikke kun er spøgelserne, der huserer på det gamle slot, men en gammel kending</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Downloades i EPUB-format</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">overtro</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">overnaturlige væsener</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="s">slotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgang til lån hos eReolen.dk</marcx:subfield>
+                  <marcx:subfield code="u">https://ereolen.dk/ting/object/150028:51512359</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51512359</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:51512359</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2015-01-30</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>https://ereolen.dk/ting/object/150028:51512359</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>streaming</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>150015-ereol</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-basis</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_aut_bind_team_triple.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

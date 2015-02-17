@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
+SR Print(0)
+A1 Kerszman,Gustaw
+A1 Munch-Petersen,Birgitte
+A1 Roskilde Universitetscenter. Institut for Biologi og Kemi
+T1 Biologisk energetik og enzymkinetik
+FD 16
+SP 69 s.
+PB Roskilde Universitetscenter, Institut for Biologi og Kemi
+PP Roskilde
+YR 1991
+JF Skrift
+SN 0902-1817
+T2 Skrifter fra Institut for Biologi og Kemi</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

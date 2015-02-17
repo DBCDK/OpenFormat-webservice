@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>44112817|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Folkekirkens dåbshilsen</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Folkekirkens dåbshilsen</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">26.3</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Praktisk teologi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dåbshilsen</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dåbsoplæring</dc:subject>
+              <dcterms:abstract>En æske, som kirken kan udlevere ved dåben</dcterms:abstract>
+              <dc:description>Indhold: En dåbsplakat:Min dåbsdag , en CD med børnesange:Solen begynder at gløde, et trækors i oliventræ, en billedbog, en forældrevejledning, bogen "Immanuel" af Jeanne Dalgaard, en hilsen til faddere og en hilsen til bedsteforældre samt en DVD:Dåben er mere end tre håndfulde vand.</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Folkekirkens Dåbshilsen</dc:publisher>
+              <dc:date>2007</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Emnekasse</dc:type>
+              <dcterms:extent>Forskelligt materiale</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">44112817</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150129124046</marcx:subfield>
+                  <marcx:subfield code="d">20070503</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="002">
+                  <marcx:subfield code="b">779100</marcx:subfield>
+                  <marcx:subfield code="c">90250876</marcx:subfield>
+                  <marcx:subfield code="x">77910090250876</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">u</marcx:subfield>
+                  <marcx:subfield code="a">2007</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">u</marcx:subfield>
+                  <marcx:subfield code="g">ue</marcx:subfield>
+                  <marcx:subfield code="b">t</marcx:subfield>
+                  <marcx:subfield code="h">th</marcx:subfield>
+                  <marcx:subfield code="b">s</marcx:subfield>
+                  <marcx:subfield code="h">xc</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Folkekirkens dåbshilsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Frederiksberg</marcx:subfield>
+                  <marcx:subfield code="b">Folkekirkens Dåbshilsen</marcx:subfield>
+                  <marcx:subfield code="c">2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">Forskelligt materiale</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">En æske, som kirken kan udlevere ved dåben</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="a">Indhold: En dåbsplakat:Min dåbsdag , en CD med børnesange:Solen begynder at gløde, et trækors i oliventræ, en billedbog, en forældrevejledning, bogen "Immanuel" af Jeanne Dalgaard, en hilsen til faddere og en hilsen til bedsteforældre samt en DVD:Dåben er mere end tre håndfulde vand.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">26.3</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">dåbsoplæring</marcx:subfield>
+                  <marcx:subfield code="f">dåbshilsen</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">779100</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:44112817</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:44112817</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2007-05-03</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>emnekasse_009_au_gue.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Motion Picture
+SR Electronic(1)
+A1 Cato,Elsebeth
+T1 Danmarks industrialisering. Del 3. 1939-1980
+SP 20 min.), sort-hvid
+PB Det Danske Filminstitut
+YR 2014
+NO Om krigsøkonomien under 2. verdenskrig, de første efterkrigsår, Marshall-hjælpen og den begyndende liberalisering af den internationale handel, 1960'ernes højkonjunktur og dansk industris anden store vækstperiode og Danmarks tilslutning til EFTA og EF. - Produktion: Nordisk Film Commercial (Danmark), for Industrirådet (Danmark), 1988
+K1 industrialisering
+K1 industrihistorie
+K1 Danmark
+K1 1940-1949
+K1 1950-1959
+K1 1960-1969
+K1 1970-1979
+LK http://filmcentralen.dk//alle/film/danmarks-industrialisering-3
+LK http://www.filmstriben.dk/bibliotek/film/details.aspx?id=9000001343
+LK http://filmcentralen.dk/grundskolen/film/danmarks-industrialisering-3
+LK http://www.filmstriben.dk/fjernleje/film/details.aspx?id=9000001343
+LK http://filmcentralen.dk//gymnasiet/film/danmarks-industrialisering-3</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 44112817 *b 870970 *c 20150129124046 *d 20070503 *f a 
+002 00 *b 779100 *c 90250876 *x 77910090250876 
+004 00 *r n *a e 
+008 00 *t s *u u *a 2007 *b dk *l dan *v 0 
+009 00 *a u *g ue *b t *h th *b s *h xc 
+245 00 *a Folkekirkens dåbshilsen 
+260 00 *a Frederiksberg *b Folkekirkens Dåbshilsen *c 2007 
+300 00 *a Forskelligt materiale 
+504 00 *a En æske, som kirken kan udlevere ved dåben 
+530 00 *a Indhold: En dåbsplakat:Min dåbsdag , en CD med børnesange:Solen begynder at gløde, et trækors i oliventræ, en billedbog, en forældrevejledning, bogen "Immanuel" af Jeanne Dalgaard, en hilsen til faddere og en hilsen til bedsteforældre samt en DVD:Dåben er mere end tre håndfulde vand. 
+652 00 *m 26.3 
+666 00 *f dåbsoplæring *f dåbshilsen 
+996 00 *a 779100 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

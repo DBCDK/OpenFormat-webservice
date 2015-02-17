@@ -1,0 +1,39 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 51537645 *b 870970 *c 20150206150357 *d 20150206 *f a 
+002 00 *b 150015 *d 9788771247244 
+004 00 *r n *a e 
+008 00 *t s *u u *a 2014 *b dk *d y *g 1 *l dan *n b *x 04 *x 06 *v 0 *w 1 
+009 00 *a a *g xe 
+017 00 *a 29640378 
+021 00 *e 9788771247244 
+032 00 *x ACC201506 *a DBF201509 *x BKM201509 *x ERE201509 
+100 00 *5 870979 *6 68870798 *0 *a Ringgaard *h Dan *4 aut 
+245 00 *a Stoleleg *c Jørgen Leths verdener 
+250 00 *a 1. e-bogsudgave *b ÷ 
+260 00 *b Aarhus Universitetsforlag *g [sælges på internettet] *c 2014 
+504 00 *& 1 *a Korte essays med præsentation og analyser af forfatteren Jørgen Leths (f. 1937) værk: digtene, sporten, filmene, journalistikken, det hele inklusive Leth og de verdener han færdes i 
+507 00 *a Udgivet i forbindelse med Jørgen Leths 75 år fødselsdag 
+512 00 *a Downloades i EPUB-format 
+530 00 *& 1 *a Indhold: Rio de Janeiro, São Paulo 3.-5. april 2011 ; Kosmopolitisme ; Lidt om hvad det vil sige at se ; At tabe en solnedgang af syne ; Erotikkens forrykte tale ; Compiègne, Chantilly, Roobaix 9.-10. april 2011 ; Fascinationsformer ; Tid og sted i Amerika ; Popmodernisme ; Før starten ; Aarhus, Aalborg 18.-19. maj 2011 ; Filmdigteren ; Poesi er tid der strømmer ; Der er stopforbud i digte ; Recycling ; Cormier Plage 22. november-2. december 2011 ; Bag persienner ; Tropisk tristhed ; Interferens ; Til slut løber en ubesværet hvisken alligevel som en kølig vind igennem det hele 
+532 00 *& 1 *a Med litteraturhenvisninger, filmografi og diskografi 
+600 00 *1 *a Leth *h Jørgen 
+652 00 *m 99.4 *a Leth *h Jørgen 
+666 00 *0 *f dansk litteratur 
+666 00 *0 *f digtning 
+666 00 *0 *f dansk film 
+666 00 *0 *f filminstruktører 
+666 00 *0 *f sport 
+666 00 *0 *f journalistik 
+666 00 *0 *f forfattere 
+666 00 *0 *e Danmark 
+666 00 *0 *i 1900-1999 
+666 00 *0 *i 2000-2009 
+666 00 *0 *i 2010-2019 
+666 00 *0 *o litteraturanalyser 
+666 00 *0 *o analyser 
+666 00 *0 *o essays 
+700 00 *5 870979 *6 68626765 *0 *a Leth *h Jørgen *4 dte 
+856 00 *z Adgang til lån hos eReolen.dk *u https://ereolen.dk/ting/object/150028:51537645 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

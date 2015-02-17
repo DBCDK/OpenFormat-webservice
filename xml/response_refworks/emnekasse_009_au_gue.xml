@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+T1 Folkekirkens dåbshilsen
+SP Forskelligt materiale
+PB Folkekirkens Dåbshilsen
+PP Frederiksberg
+YR 2007
+NO En æske, som kirken kan udlevere ved dåben. - Indhold: En dåbsplakat:Min dåbsdag , en CD med børnesange:Solen begynder at gløde, et trækors i oliventræ, en billedbog, en forældrevejledning, bogen "Immanuel" af Jeanne Dalgaard, en hilsen til faddere og en hilsen til bedsteforældre samt en DVD:Dåben er mere end tre håndfulde vand.
+K1 dåbsoplæring
+K1 dåbshilsen</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

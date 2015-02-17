@@ -1,0 +1,34 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 25738055 *b 870970 *c 20140115121921 *d 20050509 *f a 
+004 00 *r c *a h 
+008 00 *u c *a 2004 *b dk *c k *d y *h m *i a *l mul *v 0 
+009 00 *a a *g xx 
+245 00 *a DIIS report *e Danish Institute for International Studies 
+255 00 *a 2004/1- 
+260 00 *& 1 *a Copenhagen *d Østbanegade 117, 2100 *b Danish Institute for International Studies *c 2004- 
+500 00 *a Uregelmæssig 
+505 00 *a Serie 
+539 00 *a 2004/3 
+652 00 *m 32.7 
+710 00 *a Dansk Institut for Internationale Studier 
+910 00 *a DIIS *z 710 
+910 00 *a Danish Institute for International Studies *z 710 
+
+001 00 *a 50990443 *b 870970 *c 20140617091523 *d 20140303 *f a 
+004 00 *r n *a b 
+008 00 *t p *x 05 *v 0 
+014 00 *a 25738055 
+021 00 *e 9788776056452 *c hf. 
+032 00 *a DBF201412 
+041 00 *a eng 
+245 00 *G 2013 32 *g 2013:32 *a Biting the barefoot *c land titles and tenure security in the context of inequality 
+260 00 *c 2013 
+300 00 *a 200 sider 
+521 00 *& REX *b 1. oplag *c 2013 *k Vesterkopi 
+700 00 *5 870979 *6 68173477 *4 aut *0 *a Broegaard *h Rikke Brandt 
+710 00 *å 2 *a Dansk Institut for Internationale Studier 
+900 00 *0 *a Brandt Broegaard *h Rikke *z 700 
+910 00 *a DIIS *z 710/2 
+910 00 *a Danish Institute for International Studies *z 710/2 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Neugebauer,Line
+T1  - PSS case book
+PB  - Technical University of Denmark
+Y1  - 2013
+T3  - A workbook in the PROTEUS series, # 2
+N1  - PSS: Product/Serve-Systems. - PROTEUS: PROduct/service system Tools for Ensuring User-oriented Service
+CN  - 60.1
+UR  - http://orbit.dtu.dk/services/downloadRegister/55753016/PROTEUS_wbs2.pdf
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

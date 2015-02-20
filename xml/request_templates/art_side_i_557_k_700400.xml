@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>90715860|700400</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Barndommens gade</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Barndommens gade : Helgolandsgade i Sønderborg 1924-1934</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Harry Böwadt</dc:creator>
+              <dc:creator xsi:type="oss:sort">Böwadt, Harry</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">99.4 Böwadt, Harry</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+              <dc:subject>Harry Böwadt</dc:subject>
+              <dc:subject xsi:type="oss:sort">Böwadt, Harry</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">biografier</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">dagligliv</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">personalhistorie</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>1991</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Sønderjysk månedsskrift, 1991, side 18-24 ill.</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0049-125X</dcterms:isPartOf>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Sønderborg</dcterms:spatial>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1920-1929</dcterms:temporal>
+              <dcterms:temporal xsi:type="dkdcplus:DBCP">1930-1939</dcterms:temporal>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">90715860</marcx:subfield>
+                  <marcx:subfield code="b">700400</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">1991</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">02481340</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Böwadt</marcx:subfield>
+                  <marcx:subfield code="h">Harry</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Barndommens gade</marcx:subfield>
+                  <marcx:subfield code="c">Helgolandsgade i Sønderborg 1924-1934</marcx:subfield>
+                  <marcx:subfield code="e">af Harry Böwadt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Sønderjysk månedsskrift</marcx:subfield>
+                  <marcx:subfield code="v">1991</marcx:subfield>
+                  <marcx:subfield code="k">side 18-24 ill.</marcx:subfield>
+                  <marcx:subfield code="z">0049-125X</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Böwadt</marcx:subfield>
+                  <marcx:subfield code="h">Harry</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">99.4</marcx:subfield>
+                  <marcx:subfield code="a">Böwadt</marcx:subfield>
+                  <marcx:subfield code="h">Harry</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="i">1920-1929</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="i">1930-1939</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="e">Sønderborg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">personalhistorie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">dagligliv</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="o">biografier</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>700400-katalog:90715860</os:identifier>
+            <os:primaryObjectIdentifier>700400-katalog:90715860</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>820050-katalog:000127191</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>000127191|820050</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0049-125X</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Sønderjysk månedsskrift.</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Sønderjysk månedsskrift.</dc:title>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:contributor>Historisk Samfund for Sønderjylland</dc:contributor>
+                      <dc:date>1980</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">000127191</marcx:subfield>
+                          <marcx:subfield code="b">820050</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="a">x700045510</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="a">1932</marcx:subfield>
+                          <marcx:subfield code="u">d</marcx:subfield>
+                          <marcx:subfield code="z">1980</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0049-125X</marcx:subfield>
+                          <marcx:subfield code="b">u</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="087">
+                          <marcx:subfield code="a">908</marcx:subfield>
+                          <marcx:subfield code="b">Lands- og egnsbeskrivelser</marcx:subfield>
+                          <marcx:subfield code="1">(489.6) Sønderjyllands amt</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="a">LAN</marcx:subfield>
+                          <marcx:subfield code="s">Kælder</marcx:subfield>
+                          <marcx:subfield code="t">Magasin KOM</marcx:subfield>
+                          <marcx:subfield code="v">930345</marcx:subfield>
+                          <marcx:subfield code="y">1932-1980</marcx:subfield>
+                          <marcx:subfield code="z">820050</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Sønderjysk månedsskrift.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Århus.</marcx:subfield>
+                          <marcx:subfield code="c">1932-1980.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="566">
+                          <marcx:subfield code="a">Afbestilt.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="710">
+                          <marcx:subfield code="a">Historisk Samfund for Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">820050</marcx:subfield>
+                          <marcx:subfield code="b">9</marcx:subfield>
+                          <marcx:subfield code="c">56</marcx:subfield>
+                          <marcx:subfield code="d">1932</marcx:subfield>
+                          <marcx:subfield code="e">1980</marcx:subfield>
+                          <marcx:subfield code="v">Bd.</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>820050-katalog:000127191</os:identifier>
+                    <os:creationDate>2003-03-11</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:08545170</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>08545170|870970</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0049-125X</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Sønderjysk månedsskrift</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Sønderjysk månedsskrift</dc:title>
+                      <dcterms:alternative>Sønderjydsk månedsskrift</dcterms:alternative>
+                      <dc:subject xsi:type="dkdcplus:DK5">96.905</dc:subject>
+                      <dc:description>1924-1957 med titel: Sønderjydsk månedsskrift</dc:description>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Historisk Samfund for Sønderjylland</dc:publisher>
+                      <dc:contributor>Historisk Samfund for Sønderjylland</dc:contributor>
+                      <dc:date>1924</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type>
+                      <dc:format>Ill.</dc:format>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">08545170</marcx:subfield>
+                          <marcx:subfield code="b">870970</marcx:subfield>
+                          <marcx:subfield code="c">20030916143059</marcx:subfield>
+                          <marcx:subfield code="d">19890704</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="a">02481340</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="u">c</marcx:subfield>
+                          <marcx:subfield code="a">1924</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="c">m</marcx:subfield>
+                          <marcx:subfield code="h">p</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0049-125X</marcx:subfield>
+                          <marcx:subfield code="c">hf.</marcx:subfield>
+                          <marcx:subfield code="d">kr. 125,00 årligt</marcx:subfield>
+                          <marcx:subfield code="d">kr. 15,00 pr. nr.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="032">
+                          <marcx:subfield code="a">DPF197680</marcx:subfield>
+                          <marcx:subfield code="x">SFD198920</marcx:subfield>
+                          <marcx:subfield code="x">DAT199639</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="082">
+                          <marcx:subfield code="a">948.95</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Sønderjysk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="255">
+                          <marcx:subfield code="a">[?]-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Åbenrå</marcx:subfield>
+                          <marcx:subfield code="b">Historisk Samfund for Sønderjylland</marcx:subfield>
+                          <marcx:subfield code="c">[1924]-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="b">Ill.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="a">1924-1957 med titel: Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="526">
+                          <marcx:subfield code="a">Hertil hører: Sønderjysk Månedsskrift. Indholdsfortegenlse 1924-1944. - 1946, og: Sønderjysk månedsskrift. Indholdsfortegnelse 1945-1974 / ved Niels H. Kragh-Nielsen. - 1977, og: Indholdsfortegnelse til Sønderjysk månedsskrift 1924-1994 / ved Niels H. Kragh-Nielsen. - 1995</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="539">
+                          <marcx:subfield code="a">Nummer 4, april 1992</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">96.905</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="q">46.4</marcx:subfield>
+                          <marcx:subfield code="z">5</marcx:subfield>
+                          <marcx:subfield code="b">Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="r">46.4</marcx:subfield>
+                          <marcx:subfield code="b">Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="710">
+                          <marcx:subfield code="a">Historisk Samfund for Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="745">
+                          <marcx:subfield code="a">Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="996">
+                          <marcx:subfield code="a">DBC</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>870970-basis:08545170</os:identifier>
+                    <os:creationDate>2005-03-01</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>840270-katalog:001801232</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>001801232|840270</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0049-125X</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Sønderjysk månedsskrift</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Sønderjysk månedsskrift</dc:title>
+                      <dcterms:alternative>Sønderjydsk månedsskrift</dcterms:alternative>
+                      <dc:subject xsi:type="dkdcplus:DK5">96.9 05</dc:subject>
+                      <dc:description>1924-1957 med titel: Sønderjydsk månedsskrift</dc:description>
+                      <dc:description>Hertil hører: Sønderjysk Månedsskrift. Indholdsfortegnelse 1924-1944. - 1946, og: Sønderjysk månedsskrift. Indholdsfortegnelse 1945-1974 / ved Niels H. Kragh-Nielsen. - 1977, og: Indholdsfortegnelse til Sønderjysk månedsskrift 1924-1994 / ved Niels H. Kragh-Nielsen. - 1995</dc:description>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Historisk Samfund for Sønderjylland</dc:publisher>
+                      <dc:contributor>Historisk Samfund for Sønderjylland</dc:contributor>
+                      <dc:date>1924</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type>
+                      <dc:format>Ill.</dc:format>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000c    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">001801232</marcx:subfield>
+                          <marcx:subfield code="b">840270</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="d">0049125x</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">c</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="a">1924</marcx:subfield>
+                          <marcx:subfield code="u">c</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="c">m</marcx:subfield>
+                          <marcx:subfield code="h">p</marcx:subfield>
+                          <marcx:subfield code="i">b</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0049-125X</marcx:subfield>
+                          <marcx:subfield code="c">hf.</marcx:subfield>
+                          <marcx:subfield code="d">kr. 125,00 årligt</marcx:subfield>
+                          <marcx:subfield code="d">kr. 15,00 pr. nr.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="082">
+                          <marcx:subfield code="a">948.95</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">840270</marcx:subfield>
+                          <marcx:subfield code="r">a</marcx:subfield>
+                          <marcx:subfield code="u">Intet udlån</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="097">
+                          <marcx:subfield code="a">UnDaDi</marcx:subfield>
+                          <marcx:subfield code="c">F 2</marcx:subfield>
+                          <marcx:subfield code="u">Intet udlån</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="210">
+                          <marcx:subfield code="a">Sønderjysk månedsskr.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Sønderjysk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Åbenrå</marcx:subfield>
+                          <marcx:subfield code="b">Historisk Samfund for Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="b">Ill.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="a">1924-1957 med titel: Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="559">
+                          <marcx:subfield code="a">Hertil hører: Sønderjysk Månedsskrift. Indholdsfortegnelse 1924-1944. - 1946, og: Sønderjysk månedsskrift. Indholdsfortegnelse 1945-1974 / ved Niels H. Kragh-Nielsen. - 1977, og: Indholdsfortegnelse til Sønderjysk månedsskrift 1924-1994 / ved Niels H. Kragh-Nielsen. - 1995</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="599">
+                          <marcx:subfield code="e">HUNFIIT931129</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="599">
+                          <marcx:subfield code="e">HUNFIIT960326</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">96.9</marcx:subfield>
+                          <marcx:subfield code="b">05</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="p">46.4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="710">
+                          <marcx:subfield code="a">Historisk Samfund for Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="745">
+                          <marcx:subfield code="a">Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">840270</marcx:subfield>
+                          <marcx:subfield code="d">1924-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">840270</marcx:subfield>
+                          <marcx:subfield code="d">1987-</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>840270-katalog:001801232</os:identifier>
+                    <os:creationDate>2010-06-01</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>830190-katalog:0049125X</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>0049125X|830190</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0049-125X</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Sønderjysk månedsskrift</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Sønderjysk månedsskrift</dc:title>
+                      <dcterms:alternative>Sønderjydsk månedsskrift</dcterms:alternative>
+                      <dc:subject xsi:type="dkdcplus:DK5">Tidsskrifter</dc:subject>
+                      <dc:description>1924-1957 med titel: Sønderjydsk månedsskrift</dc:description>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Historisk Samfund for Sønderjylland</dc:publisher>
+                      <dc:contributor>Historisk Samfund for Sønderjylland</dc:contributor>
+                      <dc:date>1924</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type>
+                      <dc:format>Ill.</dc:format>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000c    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">0049125X</marcx:subfield>
+                          <marcx:subfield code="b">830190</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="a">02481340</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">c</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="u">c</marcx:subfield>
+                          <marcx:subfield code="a">1924</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="c">m</marcx:subfield>
+                          <marcx:subfield code="h">p</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0049-125X</marcx:subfield>
+                          <marcx:subfield code="c">hf.</marcx:subfield>
+                          <marcx:subfield code="d">kr. 125,00 årligt</marcx:subfield>
+                          <marcx:subfield code="d">kr. 15,00 pr. nr.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="032">
+                          <marcx:subfield code="a">DPF197680</marcx:subfield>
+                          <marcx:subfield code="x">SFD198920</marcx:subfield>
+                          <marcx:subfield code="x">DAT199639</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="082">
+                          <marcx:subfield code="a">948.95</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="088">
+                          <marcx:subfield code="a">short94:29</marcx:subfield>
+                          <marcx:subfield code="e">artik94:42</marcx:subfield>
+                          <marcx:subfield code="e">no</marcx:subfield>
+                          <marcx:subfield code="e">slut luk00</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830190</marcx:subfield>
+                          <marcx:subfield code="f">Haderslev</marcx:subfield>
+                          <marcx:subfield code="d">Faglokale</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830190</marcx:subfield>
+                          <marcx:subfield code="f">Haderslev</marcx:subfield>
+                          <marcx:subfield code="d">FjernMag</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830190</marcx:subfield>
+                          <marcx:subfield code="f">Haderslev</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830190</marcx:subfield>
+                          <marcx:subfield code="t">20020211</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Sønderjysk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="255">
+                          <marcx:subfield code="a">[?]-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Åbenrå</marcx:subfield>
+                          <marcx:subfield code="b">Historisk Samfund for Sønderjylland</marcx:subfield>
+                          <marcx:subfield code="c">[1924]-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="300">
+                          <marcx:subfield code="b">Ill.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="a">1924-1957 med titel: Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="526">
+                          <marcx:subfield code="a">Hertil hører: Sønderjysk Månedsskrift. Indholdsfortegenlse 1924-1944. - 1946, og: Sønderjysk månedsskrift. Indholdsfortegnelse 1945-1974 / ved Niels H. Kragh-Nielsen. - 1977, og: Indholdsfortegnelse til Sønderjysk månedsskrift 1924-1994 / ved Niels H. Kragh-Nielsen. - 1995</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="539">
+                          <marcx:subfield code="a">Nummer 4, april 1992</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="q">46.4</marcx:subfield>
+                          <marcx:subfield code="z">5</marcx:subfield>
+                          <marcx:subfield code="b">Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="r">46.4</marcx:subfield>
+                          <marcx:subfield code="b">Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="p">96.905</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">Tidsskrifter</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="710">
+                          <marcx:subfield code="a">Historisk Samfund for Sønderjylland</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="745">
+                          <marcx:subfield code="a">Sønderjydsk månedsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">830290</marcx:subfield>
+                          <marcx:subfield code="o">Haderslev: 1980-, årg. 1924-1979 i fjernmag.</marcx:subfield>
+                          <marcx:subfield code="n">Nyeste nr. udlånes ikke</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="996">
+                          <marcx:subfield code="a">DBC</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>830190-katalog:0049125X</os:identifier>
+                    <os:creationDate>2002-02-11</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+            </os:relations>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>art_side_i_557_k_700400.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

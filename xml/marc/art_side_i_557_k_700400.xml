@@ -1,0 +1,19 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 90715860 *b 700400 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 1991 *b dk *l dan *r ap *v 0 
+009 00 *a a *g xx 
+016 00 *a 02481340 
+100 00 *a Böwadt *h Harry 
+245 00 *a Barndommens gade *c Helgolandsgade i Sønderborg 1924-1934 *e af Harry Böwadt 
+557 00 *a Sønderjysk månedsskrift *v 1991 *k side 18-24 ill. *z 0049-125X 
+652 00 *p 99.4 *a Böwadt *h Harry 
+652 00 *m 99.4 *a Böwadt *h Harry 
+666 00 *i 1920-1929 
+666 00 *i 1930-1939 
+666 00 *e Sønderborg 
+666 00 *f personalhistorie 
+666 00 *f dagligliv 
+666 00 *o biografier 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

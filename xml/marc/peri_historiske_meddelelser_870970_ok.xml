@@ -1,0 +1,21 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 49399138 *b 870970 *c 20120202112222 *d 20120202 *f a 
+002 00 *b 810010 *d 22451293 *x 81001022451293 
+004 00 *r n *a e 
+008 00 *t p *u c *a 2011 *b dk *c a *h z *i b *l dan *v 0 
+009 00 *a a *g xx 
+022 00 *a 2245-1293 
+032 00 *a DPF201209 
+082 00 *a 948.9 *c 21 
+222 00 *a Historiske meddelelser om København *b 2011 
+245 00 *a Historiske meddelelser om København *ø 2011 
+255 00 *a 2011- 
+260 00 *a København *b Selskabet for Københavns Historie *c 2011- 
+500 00 *a Årlig 
+505 00 *& 1 *a Årspublikation 
+526 00 *i Fortsættelse af *t København, kultur og historie 
+652 00 *m 46.3 
+710 00 *a Selskabet for Københavns Historie 
+996 00 *a 810010 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
+SR Print(0)
+A1 Böwadt,Harry
+T1 Barndommens gade : Helgolandsgade i Sønderborg 1924-1934
+FD 1991
+YR 1991
+JF Sønderjysk månedsskrift
+SN 0049-125X
+CN 99.4 Böwadt, Harry
+K1 1920-1929
+K1 1930-1939
+K1 Sønderborg
+K1 personalhistorie
+K1 dagligliv
+K1 biografier</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

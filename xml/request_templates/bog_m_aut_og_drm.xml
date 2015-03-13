@@ -154,6 +154,7 @@
                   <marcx:subfield code="0"/>
                   <marcx:subfield code="a">Bartholin</marcx:subfield>
                   <marcx:subfield code="h">Hanne</marcx:subfield>
+                  <marcx:subfield code="c">f. 1956</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield ind1="0" ind2="0" tag="990">
                   <marcx:subfield code="o">201410</marcx:subfield>

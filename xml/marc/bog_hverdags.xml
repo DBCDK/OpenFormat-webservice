@@ -1,0 +1,44 @@
+=/home/kwc/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 6109024 *b 820010 *c 201411141234 *d 20141114 *f a 
+004 00 *r c *a e 
+008 00 *t s *u f *a 2014 *b no *d y *l nor *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788205458864 
+096 00 *z 820010 *a 2-137-6711 
+245 00 *a Hverdagsrehabilitering *e Hanne Tuntland og Nils Erik Ness (red.) *f Figurer: David Keeping *f Forord ved Kari Hesselberg & Liv Overraae 
+260 00 *a Oslo *b Gyldendal akademisk *c 2014 
+300 00 *a 228 s. *b ill. *c 24cm 
+504 00 *a Forlagets beskrivelse: Hverdagsrehabilitering er spesielt egnet for rehabilitering av eldre hjemmeboende personer i kommunehelsetjenesten, men andre målgrupper for rehabilitering kan også være aktuelt. Dette er den første boken om hverdagsrehabilitering. Fagboken sammenfatter brukerkunnskap, erfaringsbasert kunnskap og forskningsbasert kunnskap som finnes om temaet. Boken dekker ulike teoretiske og praktiske aspekter ved hverdagsrehabilitering: Hva er hverdagsrehabilitering? Hvorfor er det behov for hverdagsrehabilitering? Hvem er målgruppen for hverdagsrehabilitering? Hvordan kartlegger man og samarbeider om hverdagsrehabilitering? Hvordan foregår etisk refleksjon innen hverdagsrehabilitering? Hvordan kan hverdagsrehabilitering organiseres? Hva er forskningsresultatene på feltet? 
+530 00 *t Innledning *e Hanne Tuntland & Nils Erik Ness *t Hva er hverdagsrehabilitering? *e Hanne Tuntland & Niels Erik Ness *t Hva er utfordringene for norske kommuner? *e Niels Erik Ness *t Hvem kan ha nytte av hverdagsrehabilitering? *e Hanne Tuntland *t Hvorfor hverdagsrehabilitering? *e Niels Erik Ness & Kjersti Vik *t Hvordan kan eldres hverdagskompetanse synliggjøres og anvendes i hverdagsrehabilitering? *e Kari Margrete Hjelle, Susanne Grødem Johnson & Sissel Alsaker *t Hva bør kartlegges i hverdagsrehabilitering? *e Hanne Tuntland *t Hvorfor egner COPM seg i hverdagsrehabilitering? *e Ingvild Kjeken & Toril Hunnålvatn *t Hvordan samarbeide om viktighetsområder? *e Nils Erik Ness *t Hvilke dilemmaer kan opstå, og hvordan tilrettelegge for etisk refleksion? *e Kjersti Helene Haarr & Kirsten Jæger Fjetland *t Hvordan organisere hverdagsrehabilitering? *e Nils Erik Ness *t Hva er utviklingen og effekten av hverdagsrehabilitering utenfor skandinavia? *e Hanne Tuntland *t Etterord - At flytte fokus fra individet til hverdagen som samlende genstand i rehabilitering *e Gunner Gamborg 
+530 00 *i Appendix *t Vedlegg 1 til kapittel 5 - metodisk fremgangsmåte *e Kari Magrete Hjelle, Susanne Grødem Johnson & Sissel Alsaker *t vedlegg 2 til kapittel 6 - presentasjon av utvalgte vurderingsredskaper *e Hanne Tuntland *t Vedlegg til kapittel 11 - metodisk fremgangsmåte *e Hanne Tuntland 
+532 00 *a Med litteraturhenvisninger 
+630 00 *a gamle 
+630 00 *a seniorer 
+630 00 *a virksomhedsorganisation 
+630 00 *a organisering 
+630 00 *a forskningsbaseret viden 
+652 00 *m 61.54 
+652 00 *p 61.6018 
+666 00 *f rehabilitering 
+666 00 *e Norge 
+666 00 *f ældre 
+666 00 *f pensionister 
+666 00 *f hjemmeboende ældre 
+666 00 *f kommuner 
+666 00 *f lokalforvaltning 
+666 00 *f sundhed 
+666 00 *f forskning 
+666 00 *f videnskab 
+666 00 *f organisation 
+666 00 *f samarbejde 
+666 00 *f tværfagligt samarbejde 
+666 00 *f tværfaglighed 
+666 00 *f geriatri 
+666 00 *f aktiviteter 
+666 00 *f viden 
+666 00 *f evidens 
+666 00 *f evidensbaseret forskning 
+700 00 *a Tuntland *h Hanne *c 1961- 
+700 00 *a Ness *h Nils Erik *c 1955- 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

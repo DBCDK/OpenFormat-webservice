@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
-A1  - Lund,Nils-Ole, f. 1930
+A1  - Lund,Nils-Ole
 T1  - Arkitekturteorier siden 1945
 SP  - 246 sider, illustreret
 PB  - Arkitektens Forlag

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
-A1  - Andersen,H. C., f. 1805
-A1  - Mortensen,Klaus P., f. 1942
+A1  - Andersen,H. C.
+A1  - Mortensen,Klaus P.
 A1  - Det Danske Sprog- og Litteraturselskab
 T1  - Andersen : H.C. Andersens samlede værker. Bind 8. Digte II : 1840-1875
 SP  - 726 sider

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
-A1  - Jessen,Ida, f. 1964
+A1  - Jessen,Ida
 A1  - Bartholin,Hanne
 T1  - Da Carl næsten ikke kunne gå
 SP  - 28 sider, alle illustreret i farver

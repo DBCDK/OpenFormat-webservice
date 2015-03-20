@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>29423261|870970</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788777067433</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Innovationspsykologi</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Innovationspsykologi</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Erhvervspsykologiserie</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">60.1</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Virksomhedsledelse i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">arbejdspsykologi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">innovation</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">organisationer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">psykologi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">virksomheder</dc:subject>
+              <dc:description>På omslaget: En antologi om erhvervspsykologiens bidrag til innovation</dc:description>
+              <dc:description>Indhold: Lotte Darsøe: Innovationskompetence : en vigtig organisatorisk konkurrenceparameter. Innovation som håndværk eller håndgreb / af Charlotte Wegener &amp; Lene Tanggaard. Steen Høyup: Medarbejderdreven innovation belyst ud fra et læringsperspektiv. Grænsekrydsende innovationsfællesskaber : et organisationspsykologisk perspektiv på offentlig innovation / af Karen Ingerslev &amp; Claus Elmholdt. Henrik Kongsbak: Ledelsesinnovation - det oversete potentiale? Fra ny-tænkning til ny-interaktion : interaktionsinnovation i ledergrupper / af Anders Trillingsgaad &amp; Morten Novrup Henriksen. Thea Mikkelsen: Det usynlige arbejde bag innovation : kreativitetens psykologi som redskab til facilitering af innovationsarbejde. Niels Christian Mossfeldt Nickelsen: Innovation som regression i folkeskolen. Arne Vestergaard: Individuation og innovation. Vibe Strøier: Den genealogiske metode : et overgangsritual i innovationsprocesser. Mads Bendixen: Innovativ rådgivning : fra systemisk til performativ erhervspsykologi</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. udgave</dkdcplus:version>
+              <dc:publisher>Dansk Psykologisk Forlag</dc:publisher>
+              <dc:contributor xsi:type="dkdcplus:edt">Mads Bendixen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:edt">Niels Christian Mossfeldt Nickelsen</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:ctb">Lotte Darsø</dc:contributor>
+              <dc:contributor xsi:type="dkdcplus:dkmdt">Jens Skibsted</dc:contributor>
+              <dc:date>2012</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dcterms:extent>351 sider</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">29423261</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20141218132518</marcx:subfield>
+                  <marcx:subfield code="d">20120614</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">r</marcx:subfield>
+                  <marcx:subfield code="a">2012</marcx:subfield>
+                  <marcx:subfield code="z">2014</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="x">04</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788777067433</marcx:subfield>
+                  <marcx:subfield code="c">hf.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF201501</marcx:subfield>
+                  <marcx:subfield code="x">BKM201501</marcx:subfield>
+                  <marcx:subfield code="x">ACC201224</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Innovationspsykologi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. udgave</marcx:subfield>
+                  <marcx:subfield code="b">÷</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Kbh.]</marcx:subfield>
+                  <marcx:subfield code="b">Dansk Psykologisk Forlag</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">351 sider</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Erhvervspsykologiserien</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">På omslaget: En antologi om erhvervspsykologiens bidrag til innovation</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="a">1. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2012</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="521">
+                  <marcx:subfield code="b">2. oplag</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Indhold: Lotte Darsøe: Innovationskompetence : en vigtig organisatorisk konkurrenceparameter. Innovation som håndværk eller håndgreb / af Charlotte Wegener &amp; Lene Tanggaard. Steen Høyup: Medarbejderdreven innovation belyst ud fra et læringsperspektiv. Grænsekrydsende innovationsfællesskaber : et organisationspsykologisk perspektiv på offentlig innovation / af Karen Ingerslev &amp; Claus Elmholdt. Henrik Kongsbak: Ledelsesinnovation - det oversete potentiale? Fra ny-tænkning til ny-interaktion : interaktionsinnovation i ledergrupper / af Anders Trillingsgaad &amp; Morten Novrup Henriksen. Thea Mikkelsen: Det usynlige arbejde bag innovation : kreativitetens psykologi som redskab til facilitering af innovationsarbejde. Niels Christian Mossfeldt Nickelsen: Innovation som regression i folkeskolen. Arne Vestergaard: Individuation og innovation. Vibe Strøier: Den genealogiske metode : et overgangsritual i innovationsprocesser. Mads Bendixen: Innovativ rådgivning : fra systemisk til performativ erhervspsykologi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">60.1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">innovation</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">organisationer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">virksomheder</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">arbejdspsykologi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">psykologi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68111951</marcx:subfield>
+                  <marcx:subfield code="4">edt</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Bendixen</marcx:subfield>
+                  <marcx:subfield code="h">Mads</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68726611</marcx:subfield>
+                  <marcx:subfield code="4">edt</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Mossfeldt Nickelsen</marcx:subfield>
+                  <marcx:subfield code="h">Niels Christian</marcx:subfield>
+                  <marcx:subfield code="å">1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="1" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68242274</marcx:subfield>
+                  <marcx:subfield code="4">ctb</marcx:subfield>
+                  <marcx:subfield code="g">1</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Darsø</marcx:subfield>
+                  <marcx:subfield code="h">Lotte</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="720">
+                  <marcx:subfield code="o">Jens Skibsted</marcx:subfield>
+                  <marcx:subfield code="4">dkmdt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="840">
+                  <marcx:subfield code="a">Erhvervspsykologiserie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="900">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Nickelsen</marcx:subfield>
+                  <marcx:subfield code="h">Niels Christian Mossfeldt</marcx:subfield>
+                  <marcx:subfield code="z">700/1</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201501</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">op</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:29423261</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:29423261</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2012-06-14</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:35411127</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:35538283</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:31010780</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_innovationspsykologi_edt_ctb_ris.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

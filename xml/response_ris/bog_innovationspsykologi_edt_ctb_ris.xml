@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - BOOK
+A3  - Bendixen,Mads
+A3  - Mossfeldt Nickelsen,Niels Christian
+A1  - Darsø,Lotte
+T1  - Innovationspsykologi
+SP  - 351 sider
+PB  - Dansk Psykologisk Forlag
+CY  - Kbh.
+Y1  - 2012
+SN  - 9788777067433
+T3  - Erhvervspsykologiserie
+N1  - På omslaget: En antologi om erhvervspsykologiens bidrag til innovation. - Indhold: Lotte Darsøe: Innovationskompetence : en vigtig organisatorisk konkurrenceparameter. Innovation som håndværk eller håndgreb / af Charlotte Wegener &amp; Lene Tanggaard. Steen Høyup: Medarbejderdreven innovation belyst ud fra et læringsperspektiv. Grænsekrydsende innovationsfællesskaber : et organisationspsykologisk perspektiv på offentlig innovation / af Karen Ingerslev &amp; Claus Elmholdt. Henrik Kongsbak: Ledelsesinnovation - det oversete potentiale? Fra ny-tænkning til ny-interaktion : interaktionsinnovation i ledergrupper / af Anders Trillingsgaad &amp; Morten Novrup Henriksen. Thea Mikkelsen: Det usynlige arbejde bag innovation : kreativitetens psykologi som redskab til facilitering af innovationsarbejde. Niels Christian Mossfeldt Nickelsen: Innovation som regression i folkeskolen. Arne Vestergaard: Individuation og innovation. Vibe Strøier: Den genealogiske metode : et overgangsritual i innovationsprocesser. Mads Bendixen: Innovativ rådgivning : fra systemisk til performativ erhervspsykologi
+CN  - 60.1
+KW  - innovation
+KW  - organisationer
+KW  - virksomheder
+KW  - arbejdspsykologi
+KW  - psykologi
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Book, Whole
+SR Print(0)
+A1 Jara,Joan
+T1 Víctor, un canto inconcluso
+SP 288 pages, illustrations (some color), portraits (some color)
+ED 1
+PB LOM Ediciones
+PB Fundación Víctor Jara
+PP Santiago
+YR 2007
+SN 9562829405
+SN 9789562829403
+T2 Memorias (LOM Ediciones)
+K1 Víctor Jara, 1932-1973
+K1 Composers, Chile, Biography</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

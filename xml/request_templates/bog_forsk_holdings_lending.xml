@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>6012581|820010</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9562829405</dc:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9789562829403</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:source>Victor</dc:source>
+              <dc:title>Víctor, un canto inconcluso</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Víctor, un canto inconcluso</dc:title>
+              <dc:title xsi:type="dkdcplus:series">Memorias (LOM Ediciones)</dc:title>
+              <dc:subject xsi:type="dcterms:LCSH">Composers</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">Víctor Jara (1932-1973)</dc:subject>
+              <dc:subject xsi:type="oss:sort">Jara, Víctor (1932-1973)</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dkdcplus:version>1. ed.</dkdcplus:version>
+              <dc:publisher>LOM Ediciones</dc:publisher>
+              <dc:publisher>Fundación Víctor Jara</dc:publisher>
+              <dc:contributor>Joan Jara</dc:contributor>
+              <dc:date>2007</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustrations (some color), portraits (some color)</dc:format>
+              <dcterms:extent>288 pages</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">spa</dc:language>
+              <dc:language>Spansk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000c    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">6012581</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">201311131506</marcx:subfield>
+                  <marcx:subfield code="d">20130912</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2007</marcx:subfield>
+                  <marcx:subfield code="b">cl</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="k">b</marcx:subfield>
+                  <marcx:subfield code="l">spa</marcx:subfield>
+                  <marcx:subfield code="v">4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9789562829403</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">9562829405</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="035">
+                  <marcx:subfield code="a">(OCoLC)302346925</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="a">spa</marcx:subfield>
+                  <marcx:subfield code="c">eng</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="043">
+                  <marcx:subfield code="a">s-cl---</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="050">
+                  <marcx:subfield code="a">ML410.J376</marcx:subfield>
+                  <marcx:subfield code="b">J418 2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="z">125050</marcx:subfield>
+                  <marcx:subfield code="a">USPRO 18 D III Jar</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="241">
+                  <marcx:subfield code="a">Victor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Víctor, un canto inconcluso</marcx:subfield>
+                  <marcx:subfield code="e">Joan Jara</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="250">
+                  <marcx:subfield code="a">1. ed.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Santiago</marcx:subfield>
+                  <marcx:subfield code="b">LOM Ediciones</marcx:subfield>
+                  <marcx:subfield code="b">Fundación Víctor Jara</marcx:subfield>
+                  <marcx:subfield code="c">2007</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">288 pages</marcx:subfield>
+                  <marcx:subfield code="b">illustrations (some color), portraits (some color)</marcx:subfield>
+                  <marcx:subfield code="c">21 cm.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="440">
+                  <marcx:subfield code="a">Memorias</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">Translation of: Victor, an unfinished song published in 1983 by Jonathan Cape, London</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="600">
+                  <marcx:subfield code="a">Jara</marcx:subfield>
+                  <marcx:subfield code="h">Víctor</marcx:subfield>
+                  <marcx:subfield code="c">1932-1973</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Composers</marcx:subfield>
+                  <marcx:subfield code="z">Chile</marcx:subfield>
+                  <marcx:subfield code="v">Biography</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Jara</marcx:subfield>
+                  <marcx:subfield code="h">Joan</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="840">
+                  <marcx:subfield code="a">Memorias (LOM Ediciones)</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:6012581</os:identifier>
+            <os:primaryObjectIdentifier>820010-katalog:6012581</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2013-09-15</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>1</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_forsk_holdings_lending.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>6109024|820010</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">9788205458864</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Hverdagsrehabilitering</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Hverdagsrehabilitering</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">61.54</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Behandlingsformer i alm.</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">aktiviteter</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">evidens</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">evidensbaseret forskning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">forskning</dc:subject>
+              <dc:subject>forskningsbaseret viden</dc:subject>
+              <dc:subject>gamle</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">geriatri</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">hjemmeboende ældre</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">kommuner</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">lokalforvaltning</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">organisation</dc:subject>
+              <dc:subject>organisering</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">pensionister</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">rehabilitering</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">samarbejde</dc:subject>
+              <dc:subject>seniorer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">sundhed</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">tværfaglighed</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">tværfagligt samarbejde</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">viden</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">videnskab</dc:subject>
+              <dc:subject>virksomhedsorganisation</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">ældre</dc:subject>
+              <dcterms:abstract>Forlagets beskrivelse: Hverdagsrehabilitering er spesielt egnet for rehabilitering av eldre hjemmeboende personer i kommunehelsetjenesten, men andre målgrupper for rehabilitering kan også være aktuelt. Dette er den første boken om hverdagsrehabilitering. Fagboken sammenfatter brukerkunnskap, erfaringsbasert kunnskap og forskningsbasert kunnskap som finnes om temaet. Boken dekker ulike teoretiske og praktiske aspekter ved hverdagsrehabilitering: Hva er hverdagsrehabilitering? Hvorfor er det behov for hverdagsrehabilitering? Hvem er målgruppen for hverdagsrehabilitering? Hvordan kartlegger man og samarbeider om hverdagsrehabilitering? Hvordan foregår etisk refleksjon innen hverdagsrehabilitering? Hvordan kan hverdagsrehabilitering organiseres? Hva er forskningsresultatene på feltet?</dcterms:abstract>
+              <dc:description>Innledning ; Hanne Tuntland &amp; Nils Erik Ness ; Hva er hverdagsrehabilitering? ; Hanne Tuntland &amp; Niels Erik Ness ; Hva er utfordringene for norske kommuner? ; Niels Erik Ness ; Hvem kan ha nytte av hverdagsrehabilitering? ; Hanne Tuntland ; Hvorfor hverdagsrehabilitering? ; Niels Erik Ness &amp; Kjersti Vik ; Hvordan kan eldres hverdagskompetanse synliggjøres og anvendes i hverdagsrehabilitering? ; Kari Margrete Hjelle, Susanne Grødem Johnson &amp; Sissel Alsaker ; Hva bør kartlegges i hverdagsrehabilitering? ; Hanne Tuntland ; Hvorfor egner COPM seg i hverdagsrehabilitering? ; Ingvild Kjeken &amp; Toril Hunnålvatn ; Hvordan samarbeide om viktighetsområder? ; Nils Erik Ness ; Hvilke dilemmaer kan opstå, og hvordan tilrettelegge for etisk refleksion? ; Kjersti Helene Haarr &amp; Kirsten Jæger Fjetland ; Hvordan organisere hverdagsrehabilitering? ; Nils Erik Ness ; Hva er utviklingen og effekten av hverdagsrehabilitering utenfor skandinavia? ; Hanne Tuntland ; Etterord - At flytte fokus fra individet til hverdagen som samlende genstand i rehabilitering ; Gunner Gamborg</dc:description>
+              <dc:description>Appendix: Vedlegg 1 til kapittel 5 - metodisk fremgangsmåte ; Kari Magrete Hjelle, Susanne Grødem Johnson &amp; Sissel Alsaker ; vedlegg 2 til kapittel 6 - presentasjon av utvalgte vurderingsredskaper ; Hanne Tuntland ; Vedlegg til kapittel 11 - metodisk fremgangsmåte ; Hanne Tuntland</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Gyldendal akademisk</dc:publisher>
+              <dc:contributor>Hanne Tuntland (1961-)</dc:contributor>
+              <dc:contributor>Nils Erik Ness (1955-)</dc:contributor>
+              <dc:date>2014</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>228 s.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">nor</dc:language>
+              <dc:language>Norsk</dc:language>
+              <dcterms:spatial xsi:type="dkdcplus:DBCF">Norge</dcterms:spatial>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000c    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">6109024</marcx:subfield>
+                  <marcx:subfield code="b">820010</marcx:subfield>
+                  <marcx:subfield code="c">201411141234</marcx:subfield>
+                  <marcx:subfield code="d">20141114</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">c</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">s</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2014</marcx:subfield>
+                  <marcx:subfield code="b">no</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">nor</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="e">9788205458864</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="z">820010</marcx:subfield>
+                  <marcx:subfield code="a">2-137-6711</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Hverdagsrehabilitering</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland og Nils Erik Ness (red.)</marcx:subfield>
+                  <marcx:subfield code="f">Figurer: David Keeping</marcx:subfield>
+                  <marcx:subfield code="f">Forord ved Kari Hesselberg &amp; Liv Overraae</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Oslo</marcx:subfield>
+                  <marcx:subfield code="b">Gyldendal akademisk</marcx:subfield>
+                  <marcx:subfield code="c">2014</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">228 s.</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                  <marcx:subfield code="c">24cm</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Forlagets beskrivelse: Hverdagsrehabilitering er spesielt egnet for rehabilitering av eldre hjemmeboende personer i kommunehelsetjenesten, men andre målgrupper for rehabilitering kan også være aktuelt. Dette er den første boken om hverdagsrehabilitering. Fagboken sammenfatter brukerkunnskap, erfaringsbasert kunnskap og forskningsbasert kunnskap som finnes om temaet. Boken dekker ulike teoretiske og praktiske aspekter ved hverdagsrehabilitering: Hva er hverdagsrehabilitering? Hvorfor er det behov for hverdagsrehabilitering? Hvem er målgruppen for hverdagsrehabilitering? Hvordan kartlegger man og samarbeider om hverdagsrehabilitering? Hvordan foregår etisk refleksjon innen hverdagsrehabilitering? Hvordan kan hverdagsrehabilitering organiseres? Hva er forskningsresultatene på feltet?</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="t">Innledning</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland &amp; Nils Erik Ness</marcx:subfield>
+                  <marcx:subfield code="t">Hva er hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland &amp; Niels Erik Ness</marcx:subfield>
+                  <marcx:subfield code="t">Hva er utfordringene for norske kommuner?</marcx:subfield>
+                  <marcx:subfield code="e">Niels Erik Ness</marcx:subfield>
+                  <marcx:subfield code="t">Hvem kan ha nytte av hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland</marcx:subfield>
+                  <marcx:subfield code="t">Hvorfor hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Niels Erik Ness &amp; Kjersti Vik</marcx:subfield>
+                  <marcx:subfield code="t">Hvordan kan eldres hverdagskompetanse synliggjøres og anvendes i hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Kari Margrete Hjelle, Susanne Grødem Johnson &amp; Sissel Alsaker</marcx:subfield>
+                  <marcx:subfield code="t">Hva bør kartlegges i hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland</marcx:subfield>
+                  <marcx:subfield code="t">Hvorfor egner COPM seg i hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Ingvild Kjeken &amp; Toril Hunnålvatn</marcx:subfield>
+                  <marcx:subfield code="t">Hvordan samarbeide om viktighetsområder?</marcx:subfield>
+                  <marcx:subfield code="e">Nils Erik Ness</marcx:subfield>
+                  <marcx:subfield code="t">Hvilke dilemmaer kan opstå, og hvordan tilrettelegge for etisk refleksion?</marcx:subfield>
+                  <marcx:subfield code="e">Kjersti Helene Haarr &amp; Kirsten Jæger Fjetland</marcx:subfield>
+                  <marcx:subfield code="t">Hvordan organisere hverdagsrehabilitering?</marcx:subfield>
+                  <marcx:subfield code="e">Nils Erik Ness</marcx:subfield>
+                  <marcx:subfield code="t">Hva er utviklingen og effekten av hverdagsrehabilitering utenfor skandinavia?</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland</marcx:subfield>
+                  <marcx:subfield code="t">Etterord - At flytte fokus fra individet til hverdagen som samlende genstand i rehabilitering</marcx:subfield>
+                  <marcx:subfield code="e">Gunner Gamborg</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="530">
+                  <marcx:subfield code="i">Appendix</marcx:subfield>
+                  <marcx:subfield code="t">Vedlegg 1 til kapittel 5 - metodisk fremgangsmåte</marcx:subfield>
+                  <marcx:subfield code="e">Kari Magrete Hjelle, Susanne Grødem Johnson &amp; Sissel Alsaker</marcx:subfield>
+                  <marcx:subfield code="t">vedlegg 2 til kapittel 6 - presentasjon av utvalgte vurderingsredskaper</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland</marcx:subfield>
+                  <marcx:subfield code="t">Vedlegg til kapittel 11 - metodisk fremgangsmåte</marcx:subfield>
+                  <marcx:subfield code="e">Hanne Tuntland</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="a">Med litteraturhenvisninger</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="630">
+                  <marcx:subfield code="a">gamle</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="630">
+                  <marcx:subfield code="a">seniorer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="630">
+                  <marcx:subfield code="a">virksomhedsorganisation</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="630">
+                  <marcx:subfield code="a">organisering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="630">
+                  <marcx:subfield code="a">forskningsbaseret viden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">61.54</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="p">61.6018</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">rehabilitering</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="e">Norge</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">ældre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">pensionister</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">hjemmeboende ældre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">kommuner</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">lokalforvaltning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">sundhed</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">forskning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">videnskab</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">organisation</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">samarbejde</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">tværfagligt samarbejde</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">tværfaglighed</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">geriatri</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">aktiviteter</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">viden</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">evidens</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="f">evidensbaseret forskning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Tuntland</marcx:subfield>
+                  <marcx:subfield code="h">Hanne</marcx:subfield>
+                  <marcx:subfield code="c">1961-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Ness</marcx:subfield>
+                  <marcx:subfield code="h">Nils Erik</marcx:subfield>
+                  <marcx:subfield code="c">1955-</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820010-katalog:6109024</os:identifier>
+            <os:primaryObjectIdentifier>820010-katalog:6109024</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2014-11-16</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>bog_hverdagsrehabilitering_uden_funktionskoder_ris.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

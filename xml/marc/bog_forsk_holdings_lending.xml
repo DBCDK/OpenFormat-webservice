@@ -1,0 +1,25 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 6012581 *b 820010 *c 201311131506 *d 20130912 *f a 
+004 00 *r c *a e 
+008 00 *t m *a 2007 *b cl *d y *k b *l spa *v 4 
+009 00 *a a *g xx 
+021 00 *e 9789562829403 
+021 00 *a 9562829405 
+035 00 *a (OCoLC)302346925 
+041 00 *a spa *c eng 
+043 00 *a s-cl--- 
+050 00 *a ML410.J376 *b J418 2007 
+096 00 *z 125050 *a USPRO 18 D III Jar 
+241 00 *a Victor 
+245 00 *a Víctor, un canto inconcluso *e Joan Jara 
+250 00 *a 1. ed. 
+260 00 *a Santiago *b LOM Ediciones *b Fundación Víctor Jara *c 2007 
+300 00 *a 288 pages *b illustrations (some color), portraits (some color) *c 21 cm. 
+440 00 *a Memorias 
+508 00 *a Translation of: Victor, an unfinished song published in 1983 by Jonathan Cape, London 
+600 00 *a Jara *h Víctor *c 1932-1973 
+650 00 *a Composers *z Chile *v Biography 
+700 00 *a Jara *h Joan 
+840 00 *a Memorias (LOM Ediciones) 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

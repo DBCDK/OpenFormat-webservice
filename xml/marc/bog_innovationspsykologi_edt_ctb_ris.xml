@@ -1,0 +1,33 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 29423261 *b 870970 *c 20141218132518 *d 20120614 *f a 
+004 00 *r n *a e 
+008 00 *t s *u r *a 2012 *z 2014 *b dk *d y *l dan *x 04 *v 0 
+009 00 *a a *g xx 
+021 00 *e 9788777067433 *c hf. 
+032 00 *a DBF201501 *x BKM201501 *x ACC201224 
+245 00 *a Innovationspsykologi 
+250 00 *a 1. udgave *b ÷ 
+260 00 *a [Kbh.] *b Dansk Psykologisk Forlag *c 2012 
+300 00 *a 351 sider 
+440 00 *a Erhvervspsykologiserien 
+512 00 *a På omslaget: En antologi om erhvervspsykologiens bidrag til innovation 
+521 00 *a 1. oplag *c 2012 
+521 00 *b 2. oplag *c 2014 
+530 00 *& 1 *a Indhold: Lotte Darsøe: Innovationskompetence : en vigtig organisatorisk konkurrenceparameter. Innovation som håndværk eller håndgreb / af Charlotte Wegener & Lene Tanggaard. Steen Høyup: Medarbejderdreven innovation belyst ud fra et læringsperspektiv. Grænsekrydsende innovationsfællesskaber : et organisationspsykologisk perspektiv på offentlig innovation / af Karen Ingerslev & Claus Elmholdt. Henrik Kongsbak: Ledelsesinnovation - det oversete potentiale? Fra ny-tænkning til ny-interaktion : interaktionsinnovation i ledergrupper / af Anders Trillingsgaad & Morten Novrup Henriksen. Thea Mikkelsen: Det usynlige arbejde bag innovation : kreativitetens psykologi som redskab til facilitering af innovationsarbejde. Niels Christian Mossfeldt Nickelsen: Innovation som regression i folkeskolen. Arne Vestergaard: Individuation og innovation. Vibe Strøier: Den genealogiske metode : et overgangsritual i innovationsprocesser. Mads Bendixen: Innovativ rådgivning : fra systemisk til performativ erhervspsykologi 
+532 00 *& 1 *a Med litteraturhenvisninger 
+652 00 *m 60.1 
+666 00 *0 *f innovation 
+666 00 *0 *f organisationer 
+666 00 *0 *f virksomheder 
+666 00 *0 *f arbejdspsykologi 
+666 00 *0 *f psykologi 
+700 00 *5 870979 *6 68111951 *4 edt *0 *a Bendixen *h Mads 
+700 00 *5 870979 *6 68726611 *4 edt *0 *a Mossfeldt Nickelsen *h Niels Christian *å 1 
+700 01 *5 870979 *6 68242274 *4 ctb *g 1 *0 *a Darsø *h Lotte 
+720 00 *o Jens Skibsted *4 dkmdt 
+840 00 *a Erhvervspsykologiserie 
+900 00 *0 *a Nickelsen *h Niels Christian Mossfeldt *z 700/1 
+990 00 *o 201501 *b v *u op 
+996 00 *a DBC 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>51608143|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Evolve</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Evolve (Playstation 4)</dc:title>
+              <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">shooters</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">shooters</dc:subject>
+              <dcterms:abstract>Shooter. På den fremmede planet Shear kæmper mennesker, i grupper af fire, mod planetens oprindelige beboere: store kødædende monstre</dcterms:abstract>
+              <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 16</dcterms:audience>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Take-Two Interactive Software</dc:publisher>
+              <dc:contributor>Turtle Rock Studios</dc:contributor>
+              <dc:date>2015</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Playstation 4</dc:type>
+              <dc:format>1 blu-ray disc, blu-ray, playstation 4, 1 vejledning</dc:format>
+              <dc:format>Afspilningsudstyr Sony playstation 4; understøtter vibrationsfunktion; understøtter Playstation Vita. - Med multiplayerfunktion</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">51608143</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20150318180725</marcx:subfield>
+                  <marcx:subfield code="d">20150224</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="c">20150410</marcx:subfield>
+                  <marcx:subfield code="2">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="006">
+                  <marcx:subfield code="e">16</marcx:subfield>
+                  <marcx:subfield code="2">c</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2015</marcx:subfield>
+                  <marcx:subfield code="b">gb</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="q">bg</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">t</marcx:subfield>
+                  <marcx:subfield code="g">to</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="b">Til udlån og brug på stedet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="b">5026555417280</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="x">ACC201509</marcx:subfield>
+                  <marcx:subfield code="x">BKM201513</marcx:subfield>
+                  <marcx:subfield code="x">BKX201512</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Evolve</marcx:subfield>
+                  <marcx:subfield code="e">developed by Turtle Rock Studios</marcx:subfield>
+                  <marcx:subfield code="ø">Playstation 4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[Windsor, Berks.]</marcx:subfield>
+                  <marcx:subfield code="b">Take-Two Interactive Software</marcx:subfield>
+                  <marcx:subfield code="c">2015</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 blu-ray disc</marcx:subfield>
+                  <marcx:subfield code="e">blu-ray</marcx:subfield>
+                  <marcx:subfield code="e">playstation 4</marcx:subfield>
+                  <marcx:subfield code="d">1 vejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="501">
+                  <marcx:subfield code="i">Afspilningsudstyr</marcx:subfield>
+                  <marcx:subfield code="a">Sony playstation 4; understøtter vibrationsfunktion; understøtter Playstation Vita. - Med multiplayerfunktion</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Shooter. På den fremmede planet Shear kæmper mennesker, i grupper af fire, mod planetens oprindelige beboere: store kødædende monstre</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Spil for 1 spiller</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">PEGI-mærkning: 16</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">79.41</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">computerspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">shooters</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">Turtle Rock Studios</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="o">201513</marcx:subfield>
+                  <marcx:subfield code="b">m</marcx:subfield>
+                  <marcx:subfield code="b">v</marcx:subfield>
+                  <marcx:subfield code="u">nt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Ekspres 201512</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="991">
+                  <marcx:subfield code="o">Agenturholder: Nordic Game Supply</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:51608143</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:51608143</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2015-02-24</os:creationDate>
+            <os:holdingsCount>17</os:holdingsCount>
+            <os:lendingLibraries>17</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:36399848</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:holdBackEndDate>2014-03-06</ns1:holdBackEndDate>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>ps4_evolve_holdback20150410.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

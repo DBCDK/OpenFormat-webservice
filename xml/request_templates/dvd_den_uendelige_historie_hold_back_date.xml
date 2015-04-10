@@ -84,7 +84,7 @@
                   <marcx:subfield code="2">b</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield ind1="0" ind2="0" tag="006">
-                  <marcx:subfield code="c">20140602</marcx:subfield>
+                  <marcx:subfield code="c">21140602</marcx:subfield>
                   <marcx:subfield code="2">e</marcx:subfield>
                 </marcx:datafield>
                 <marcx:datafield ind1="0" ind2="0" tag="008">

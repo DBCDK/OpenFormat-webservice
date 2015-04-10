@@ -262,6 +262,7 @@
           </os:object>
         </os:collection>
       </ns1:originalData>
+      <ns1:holdBackEndDate>2014-03-06</ns1:holdBackEndDate>
       <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
       <ns1:trackingId>dvd_den_uendelige_historie_hold_back_date.xml.fullDisplay</ns1:trackingId>
     </ns1:formatRequest>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>000055778|850290</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://www.dfi.dk/faktaomfilm/film/da/79543.aspx?id=79543</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>It should happen to you</dc:title>
+              <dc:title xsi:type="dkdcplus:full">It should happen to you</dc:title>
+              <dc:creator>George Cukor</dc:creator>
+              <dc:creator xsi:type="oss:sort">Cukor, George</dc:creator>
+              <dc:creator xsi:type="dkdcplus:drt">George Cukor</dc:creator>
+              <dc:creator xsi:type="oss:sort">Cukor, George</dc:creator>
+              <dc:subject>It should happen to you (US, George Cukor, 1953)</dc:subject>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>Columbia</dc:publisher>
+              <dc:date>1954</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Video</dc:type>
+              <dc:format>1 vhs-kassette</dc:format>
+              <dcterms:extent>86 min.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">000055778</marcx:subfield>
+                  <marcx:subfield code="b">850290</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">1954</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">m</marcx:subfield>
+                  <marcx:subfield code="g">nh</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="a">VIDEOTEKET</marcx:subfield>
+                  <marcx:subfield code="u">Filmen kan ses i Videoteket</marcx:subfield>
+                  <marcx:subfield code="z">850290</marcx:subfield>
+                  <marcx:subfield code="r">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Cukor</marcx:subfield>
+                  <marcx:subfield code="h">George</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">It should happen to you</marcx:subfield>
+                  <marcx:subfield code="e">instruktion George Cukor</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="b">Columbia</marcx:subfield>
+                  <marcx:subfield code="c">1954</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 vhs-kassette</marcx:subfield>
+                  <marcx:subfield code="l">86 min.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="645">
+                  <marcx:subfield code="a">It should happen to you (US, George Cukor, 1953)</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Læs mere om filmen i Filmdatabasen</marcx:subfield>
+                  <marcx:subfield code="u">http://www.dfi.dk/faktaomfilm/film/da/79543.aspx?id=79543</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>850290-katalog:000055778</os:identifier>
+            <os:primaryObjectIdentifier>850290-katalog:000055778</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2015-02-09</os:creationDate>
+            <os:holdingsCount>1</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://www.dfi.dk/faktaomfilm/film/da/79543.aspx?id=79543</os:relationUri>
+                <os:linkObject>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>850290-katalog</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>video_856z_u.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

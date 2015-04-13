@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Journal Article
+SR Electronic(1)
+A1 Rasmussen,Erik
+T1 Asteroiden er landet
+VO 2015
+IS 10
+SP 28
+OP 31
+YR 2015
+JF Mandag morgen
+SN 0905-4332
+NO Hvis en asteroide havde kurs mod jorden, ville verdens beslutningstagere sætte alt ind på at afværge katastrofen. I virkelighedens verden er klimaforandringerne en mindst lige så stor trussel mod menneskeheden. Men de politiske ledere diskuterer stadig, hvornår og hvordan konsekvenserne vil vise sig. De har tilsyneladende ikke opdaget, at katastrofen allerede er indtruffet
+CN 55.8
+K1 miljøpolitik
+K1 klimaændringer
+K1 klimapolitik
+K1 international politik
+LK https://www.mm.dk/issuedownloader/88254</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,22 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 36429291 *b 870971 *c 20150317122509 *d 20150317 *f a 
+004 00 *r n *a i 
+008 00 *t a *u f *a 2015 *b dk *d y *l dan *n b *r ap *v 0 
+009 00 *a a *g xx *g xe 
+016 00 *a 07027265 
+032 00 *a ABU201513 *a DAR201513 
+086 00 *a Meteorologi 
+245 00 *a Asteroiden er landet 
+300 00 *a S. 28-31 
+504 00 *a Hvis en asteroide havde kurs mod jorden, ville verdens beslutningstagere sætte alt ind på at afværge katastrofen. I virkelighedens verden er klimaforandringerne en mindst lige så stor trussel mod menneskeheden. Men de politiske ledere diskuterer stadig, hvornår og hvordan konsekvenserne vil vise sig. De har tilsyneladende ikke opdaget, at katastrofen allerede er indtruffet 
+557 00 *a Mandag morgen *j 2015 *z 0905-4332 *V 2015, nr. 0010 *v 2015, nr. 10 
+652 00 *m 55.8 
+666 00 *0 *f miljøpolitik 
+666 00 *0 *f klimaændringer 
+666 00 *0 *f klimapolitik 
+666 00 *0 *f international politik 
+700 00 *a Rasmussen *h Erik *4 aut 
+856 00 *z Adgangsmåde: Internet *u https://www.mm.dk/issuedownloader/88254 *z Adgang til netdokument eller til login eller køb 
+996 00 *a IDX 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

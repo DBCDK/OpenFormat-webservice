@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>36429291|870971</ac:identifier>
+              <dc:identifier xsi:type="dcterms:URI">https://www.mm.dk/issuedownloader/88254</dc:identifier>
+              <ac:source>Tidsskriftsartikler</ac:source>
+              <dc:title>Asteroiden er landet</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Asteroiden er landet</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Erik Rasmussen</dc:creator>
+              <dc:creator xsi:type="oss:sort">Rasmussen, Erik</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DK5">55.8</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Meteorologi</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">international politik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">klimapolitik</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">klimaændringer</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCF">miljøpolitik</dc:subject>
+              <dcterms:abstract>Hvis en asteroide havde kurs mod jorden, ville verdens beslutningstagere sætte alt ind på at afværge katastrofen. I virkelighedens verden er klimaforandringerne en mindst lige så stor trussel mod menneskeheden. Men de politiske ledere diskuterer stadig, hvornår og hvordan konsekvenserne vil vise sig. De har tilsyneladende ikke opdaget, at katastrofen allerede er indtruffet</dcterms:abstract>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:date>2015</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskriftsartikel</dc:type>
+              <dcterms:extent>S. 28-31</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dcterms:isPartOf>Mandag morgen, 2015, nr. 10</dcterms:isPartOf>
+              <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0905-4332</dcterms:isPartOf>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">36429291</marcx:subfield>
+                  <marcx:subfield code="b">870971</marcx:subfield>
+                  <marcx:subfield code="c">20150317122509</marcx:subfield>
+                  <marcx:subfield code="d">20150317</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">i</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">a</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2015</marcx:subfield>
+                  <marcx:subfield code="b">dk</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">dan</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="r">ap</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xx</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="016">
+                  <marcx:subfield code="a">07027265</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">ABU201513</marcx:subfield>
+                  <marcx:subfield code="a">DAR201513</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="086">
+                  <marcx:subfield code="a">Meteorologi</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Asteroiden er landet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">S. 28-31</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="a">Hvis en asteroide havde kurs mod jorden, ville verdens beslutningstagere sætte alt ind på at afværge katastrofen. I virkelighedens verden er klimaforandringerne en mindst lige så stor trussel mod menneskeheden. Men de politiske ledere diskuterer stadig, hvornår og hvordan konsekvenserne vil vise sig. De har tilsyneladende ikke opdaget, at katastrofen allerede er indtruffet</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="557">
+                  <marcx:subfield code="a">Mandag morgen</marcx:subfield>
+                  <marcx:subfield code="j">2015</marcx:subfield>
+                  <marcx:subfield code="z">0905-4332</marcx:subfield>
+                  <marcx:subfield code="V">2015, nr. 0010</marcx:subfield>
+                  <marcx:subfield code="v">2015, nr. 10</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">55.8</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">miljøpolitik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">klimaændringer</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">klimapolitik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="f">international politik</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="a">Rasmussen</marcx:subfield>
+                  <marcx:subfield code="h">Erik</marcx:subfield>
+                  <marcx:subfield code="4">aut</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="z">Adgangsmåde: Internet</marcx:subfield>
+                  <marcx:subfield code="u">https://www.mm.dk/issuedownloader/88254</marcx:subfield>
+                  <marcx:subfield code="z">Adgang til netdokument eller til login eller køb</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">IDX</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870971-tsart:36429291</os:identifier>
+            <os:primaryObjectIdentifier>870971-tsart:36429291</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2015-03-17</os:creationDate>
+            <os:holdingsCount>0</os:holdingsCount>
+            <os:lendingLibraries>0</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=36429291&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</os:relationUri>
+                <os:linkObject>
+                  <os:accessType>rest</os:accessType>
+                  <os:access>remote</os:access>
+                  <os:linkTo>webservice</os:linkTo>
+                  <os:linkCollectionIdentifier>870971-tsart</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOpenUrl</os:relationType>
+                <os:relationUri>_BASEURL_url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.atitle=Asteroiden+er+landet&amp;rft.aulast=Rasmussen&amp;rft.aufirst=Erik&amp;rft.auinit=E&amp;rft.jtitle=Mandag+morgen&amp;rft.date=2015&amp;rft.issue=10&amp;rft.pages=28-31&amp;rft.spage=28&amp;rft.epage=31&amp;rft.issn=0905-4332&amp;rft.genre=article</os:relationUri>
+                <os:linkObject>
+                  <os:access>remote</os:access>
+                  <os:linkTo>resolver</os:linkTo>
+                  <os:linkCollectionIdentifier>870971-tsart</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>830370-katalog:N000017742</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>N000017742|830370</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0905-4332</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Ugebrevet Mandag Morgen</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Ugebrevet Mandag Morgen</dc:title>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>xx</dc:publisher>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">N000017742</marcx:subfield>
+                          <marcx:subfield code="b">830370</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="v">4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0905-4332</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830370</marcx:subfield>
+                          <marcx:subfield code="f">Næstved</marcx:subfield>
+                          <marcx:subfield code="d">Bibliotek</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830370</marcx:subfield>
+                          <marcx:subfield code="t">20040226</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Ugebrevet Mandag Morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">København</marcx:subfield>
+                          <marcx:subfield code="b">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="d">1999-</marcx:subfield>
+                          <marcx:subfield code="t">Tidskrift</marcx:subfield>
+                          <marcx:subfield code="y">830370</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>830370-katalog:N000017742</os:identifier>
+                    <os:creationDate>2004-02-26</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>830060-katalog:0KD006815S</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>0KD006815S|830060</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0905-4332</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Mandag morgen navigation</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Mandag morgen navigation</dc:title>
+                      <dcterms:alternative>Mandagmorgen navigation</dcterms:alternative>
+                      <dc:subject xsi:type="dkdcplus:DK5">30.26</dc:subject>
+                      <dc:subject xsi:type="dkdcplus:DK5-Text">Danmarks samfundsforhold i alm.</dc:subject>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Mandag Morgen Media</dc:publisher>
+                      <dc:date>2012</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">0KD006815S</marcx:subfield>
+                          <marcx:subfield code="b">830060</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="d">x237402873</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="a">2012</marcx:subfield>
+                          <marcx:subfield code="u">c</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0905-4332</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="082">
+                          <marcx:subfield code="a">948.905 7</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">LMF</marcx:subfield>
+                          <marcx:subfield code="d">TSS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">Nord</marcx:subfield>
+                          <marcx:subfield code="d">TSS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="t">20130409</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Mandag morgen navigation</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">Kbh.</marcx:subfield>
+                          <marcx:subfield code="b">Mandag Morgen Media</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">30.26</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="p">33</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="745">
+                          <marcx:subfield code="a">Mandagmorgen navigation</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>830060-katalog:0KD006815S</os:identifier>
+                    <os:creationDate>2013-04-09</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>870970-basis:07027265</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>07027265|870970</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0905-4332</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Mandag morgen</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Mandag morgen</dc:title>
+                      <dcterms:alternative>MM</dcterms:alternative>
+                      <dcterms:alternative>Ugebrevet Mandag morgen</dcterms:alternative>
+                      <dc:subject xsi:type="dkdcplus:DK5">30.26</dc:subject>
+                      <dc:subject xsi:type="dkdcplus:DK5-Text">Danmarks samfundsforhold i alm.</dc:subject>
+                      <dc:description>Nr. 24, 2012-07, 2014 kun udkommet online</dc:description>
+                      <dc:description>Tillægget MM elite udkommer 1. mandag i hver måned med egen nummerering</dc:description>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Mandag Morgen Media</dc:publisher>
+                      <dc:date>1989</dc:date>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Tidsskrift</dc:type>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000c    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">07027265</marcx:subfield>
+                          <marcx:subfield code="b">870970</marcx:subfield>
+                          <marcx:subfield code="c">20140313085934</marcx:subfield>
+                          <marcx:subfield code="d">19900319</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="002">
+                          <marcx:subfield code="b">810010</marcx:subfield>
+                          <marcx:subfield code="d">09054332</marcx:subfield>
+                          <marcx:subfield code="x">81001009054332</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">c</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="u">c</marcx:subfield>
+                          <marcx:subfield code="a">1989</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="c">w</marcx:subfield>
+                          <marcx:subfield code="h">p</marcx:subfield>
+                          <marcx:subfield code="i">b</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0905-4332</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="032">
+                          <marcx:subfield code="a">DBÅ199014</marcx:subfield>
+                          <marcx:subfield code="a">DPF199014</marcx:subfield>
+                          <marcx:subfield code="x">SFD199014</marcx:subfield>
+                          <marcx:subfield code="x">DAT199950</marcx:subfield>
+                          <marcx:subfield code="x">DAT200827</marcx:subfield>
+                          <marcx:subfield code="a">DPF201242</marcx:subfield>
+                          <marcx:subfield code="x">DAT201413</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="082">
+                          <marcx:subfield code="a">948.905 7</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="222">
+                          <marcx:subfield code="a">Mandag morgen</marcx:subfield>
+                          <marcx:subfield code="b">Papirform</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Mandag morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="255">
+                          <marcx:subfield code="a">Nr. 1, 6. november 1989-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">København</marcx:subfield>
+                          <marcx:subfield code="d">Valkendorfsgade 13, 1009 K</marcx:subfield>
+                          <marcx:subfield code="b">Mandag Morgen Media</marcx:subfield>
+                          <marcx:subfield code="c">[1989]-</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="500">
+                          <marcx:subfield code="a">Ugentlig</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="505">
+                          <marcx:subfield code="&amp;">1</marcx:subfield>
+                          <marcx:subfield code="a">Tidsskrift</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="i">Varianttitel</marcx:subfield>
+                          <marcx:subfield code="t">MM</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="i">Varianttitel</marcx:subfield>
+                          <marcx:subfield code="t">Ugebrevet Mandag morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="a">Nr. 24, 2012-07, 2014 kun udkommet online</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="512">
+                          <marcx:subfield code="a">Tillægget MM elite udkommer 1. mandag i hver måned med egen nummerering</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="526">
+                          <marcx:subfield code="i">Også på internettet</marcx:subfield>
+                          <marcx:subfield code="t">Mandag morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="539">
+                          <marcx:subfield code="a">08, 3. marts 2014</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="652">
+                          <marcx:subfield code="m">30.26</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="996">
+                          <marcx:subfield code="a">810010</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>870970-basis:07027265</os:identifier>
+                    <os:creationDate>2005-03-01</os:creationDate>
+                    <os:relations>
+                      <os:relation>
+                        <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                        <os:relationUri>http://www.mm.dk</os:relationUri>
+                        <os:linkObject>
+                          <os:linkTo>website</os:linkTo>
+                          <os:linkCollectionIdentifier>820010-katalog</os:linkCollectionIdentifier>
+                          <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                        </os:linkObject>
+                      </os:relation>
+                      <os:relation>
+                        <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                        <os:relationUri>https://www.mm.dk/</os:relationUri>
+                        <os:linkObject>
+                          <os:linkTo>website</os:linkTo>
+                          <os:linkCollectionIdentifier>820010-katalog</os:linkCollectionIdentifier>
+                          <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                        </os:linkObject>
+                      </os:relation>
+                      <os:relation>
+                        <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                        <os:relationUri>http://www.mm.dk/</os:relationUri>
+                        <os:linkObject>
+                          <os:linkTo>website</os:linkTo>
+                          <os:linkCollectionIdentifier>820120-katalog</os:linkCollectionIdentifier>
+                          <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                        </os:linkObject>
+                      </os:relation>
+                      <os:relation>
+                        <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                        <os:relationUri>http://sfx.minibib.dk/diis?urlv̲er=Z39.88-2004&amp;urlc̲txf̲mt=infofi/fmt:kev:mtx:ctx&amp;ctxe̲nc=info:ofi/enc:UTF-8&amp;ctxv̲er=Z39.88-2004&amp;rfri̲d=info:sid/sfxit.com:azlist&amp;sfx.ignored̲atet̲hreshold=1&amp;rft.objecti̲d=1000000000020858&amp;svc.fulltext=yes</os:relationUri>
+                        <os:linkObject>
+                          <os:linkTo>website</os:linkTo>
+                          <os:linkCollectionIdentifier>850160-katalog</os:linkCollectionIdentifier>
+                          <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                        </os:linkObject>
+                      </os:relation>
+                    </os:relations>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>820030-katalog:919763</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>919763|820030</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">0905-4332</dc:identifier>
+                      <dc:identifier xsi:type="dcterms:URI">http://bifrost.bib.sdu.dk:9003/sfxl̲ocal?urlv̲er=Z39.88-2004&amp;ctxv̲er=Z39.88-2004&amp;ctxe̲nc=info:ofi/enc:UTF-8&amp;rfri̲d=info:sid/sfxit.com:opac8̲56&amp;urlc̲txf̲mt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignored̲atet̲hreshold=1&amp;rft.objecti̲d=1000000000020858&amp;svcv̲alf̲mt=info:ofi/fmt:kev:mtx:schs̲vc&amp;</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Ugebrevet Mandag morgen</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Ugebrevet Mandag morgen</dc:title>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:publisher>Huset Mandag Morgen</dc:publisher>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum (net)</dc:type>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">919763</marcx:subfield>
+                          <marcx:subfield code="b">820030</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                          <marcx:subfield code="n">w</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="v">4</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xe</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="011">
+                          <marcx:subfield code="a">sfx1000000000020858</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">0905-4332</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">820030</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Ugebrevet Mandag morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">København</marcx:subfield>
+                          <marcx:subfield code="b">Huset Mandag Morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="856">
+                          <marcx:subfield code="u">http://bifrost.bib.sdu.dk:9003/sfxl̲ocal?urlv̲er=Z39.88-2004&amp;ctxv̲er=Z39.88-2004&amp;ctxe̲nc=info:ofi/enc:UTF-8&amp;rfri̲d=info:sid/sfxit.com:opac8̲56&amp;urlc̲txf̲mt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignored̲atet̲hreshold=1&amp;rft.objecti̲d=1000000000020858&amp;svcv̲alf̲mt=info:ofi/fmt:kev:mtx:schs̲vc&amp;</marcx:subfield>
+                          <marcx:subfield code="z">Elektronisk udgave</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">820030</marcx:subfield>
+                          <marcx:subfield code="x">Infomedia:Full Text</marcx:subfield>
+                          <marcx:subfield code="a">Available from 1997.</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="980">
+                          <marcx:subfield code="y">820030</marcx:subfield>
+                          <marcx:subfield code="x">Miscellaneous Ejournals:Full Text</marcx:subfield>
+                          <marcx:subfield code="a">Available from 1997.</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>820030-katalog:919763</os:identifier>
+                    <os:creationDate>2011-12-19</os:creationDate>
+                    <os:relations>
+                      <os:relation>
+                        <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                        <os:relationUri>http://bifrost.bib.sdu.dk:9003/sfxl̲ocal?urlv̲er=Z39.88-2004&amp;ctxv̲er=Z39.88-2004&amp;ctxe̲nc=info:ofi/enc:UTF-8&amp;rfri̲d=info:sid/sfxit.com:opac8̲56&amp;urlc̲txf̲mt=info:ofi/fmt:kev:mtx:ctx&amp;sfx.ignored̲atet̲hreshold=1&amp;rft.objecti̲d=1000000000020858&amp;svcv̲alf̲mt=info:ofi/fmt:kev:mtx:schs̲vc&amp;</os:relationUri>
+                        <os:linkObject>
+                          <os:linkTo>website</os:linkTo>
+                          <os:linkCollectionIdentifier>820030-katalog</os:linkCollectionIdentifier>
+                          <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                        </os:linkObject>
+                      </os:relation>
+                    </os:relations>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcbib:isPartOfManifestation</os:relationType>
+                <os:relationUri>830060-katalog:93227395</os:relationUri>
+                <os:relationObject>
+                  <os:object>
+                    <dkabm:record>
+                      <ac:identifier>93227395|830060</ac:identifier>
+                      <dc:identifier xsi:type="dkdcplus:ISSN">2245-6104</dc:identifier>
+                      <ac:source>Bibliotekskatalog</ac:source>
+                      <dc:title>Mandag Morgen</dc:title>
+                      <dc:title xsi:type="dkdcplus:full">Mandag Morgen</dc:title>
+                      <dcterms:abstract>Mandag Morgen leverer det nødvendige grundlag for beslutningstagere, der vil udvikle nye muligheder:- Indsigt i dagsordener med særlige udfordringer og muligheder- Involvering af aktører, der kan samarbejde om fælles udfordringer - Ideer til handling, der kan skabe nye muligheder- Indflydelse på udviklingen af fremtidens dagsordenerMandag Morgen formidler vores arbejde i publikationer, netværk og events målrettet beslutningstagere.</dcterms:abstract>
+                      <dcterms:audience>voksenmaterialer</dcterms:audience>
+                      <dc:type xsi:type="dkdcplus:BibDK-Type">Periodikum</dc:type>
+                      <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                      <dc:language>Dansk</dc:language>
+                    </dkabm:record>
+                    <marcx:collection>
+                      <marcx:record format="danMARC2" type="Bibliographic">
+                        <marcx:leader>00000n    2200000   4500</marcx:leader>
+                        <marcx:datafield ind1="0" ind2="0" tag="001">
+                          <marcx:subfield code="a">93227395</marcx:subfield>
+                          <marcx:subfield code="b">830060</marcx:subfield>
+                          <marcx:subfield code="f">a</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="004">
+                          <marcx:subfield code="r">n</marcx:subfield>
+                          <marcx:subfield code="a">e</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="008">
+                          <marcx:subfield code="t">p</marcx:subfield>
+                          <marcx:subfield code="b">dk</marcx:subfield>
+                          <marcx:subfield code="h">?</marcx:subfield>
+                          <marcx:subfield code="l">dan</marcx:subfield>
+                          <marcx:subfield code="v">0</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="009">
+                          <marcx:subfield code="a">a</marcx:subfield>
+                          <marcx:subfield code="g">xx</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="022">
+                          <marcx:subfield code="a">2245-6104</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">LMF</marcx:subfield>
+                          <marcx:subfield code="d">TSS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">Nord</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">CAMPR</marcx:subfield>
+                          <marcx:subfield code="d">TSS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="f">Nord</marcx:subfield>
+                          <marcx:subfield code="d">TSS</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">860900</marcx:subfield>
+                          <marcx:subfield code="f">GBG</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">860900</marcx:subfield>
+                          <marcx:subfield code="t">20141216</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="096">
+                          <marcx:subfield code="z">830060</marcx:subfield>
+                          <marcx:subfield code="t">20140307</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="245">
+                          <marcx:subfield code="a">Mandag Morgen</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="260">
+                          <marcx:subfield code="a">København</marcx:subfield>
+                        </marcx:datafield>
+                        <marcx:datafield ind1="0" ind2="0" tag="504">
+                          <marcx:subfield code="&amp;">l</marcx:subfield>
+                          <marcx:subfield code="a">Mandag Morgen leverer det nødvendige grundlag for beslutningstagere, der vil udvikle nye muligheder:- Indsigt i dagsordener med særlige udfordringer og muligheder- Involvering af aktører, der kan samarbejde om fælles udfordringer - Ideer til handling, der kan skabe nye muligheder- Indflydelse på udviklingen af fremtidens dagsordenerMandag Morgen formidler vores arbejde i publikationer, netværk og events målrettet beslutningstagere.</marcx:subfield>
+                        </marcx:datafield>
+                      </marcx:record>
+                    </marcx:collection>
+                    <os:identifier>830060-katalog:93227395</os:identifier>
+                    <os:creationDate>2014-12-16</os:creationDate>
+                    <os:formatsAvailable>
+                      <os:format>dkabm</os:format>
+                      <os:format>marcxchange</os:format>
+                    </os:formatsAvailable>
+                  </os:object>
+                </os:relationObject>
+              </os:relation>
+            </os:relations>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>art_mandagmorgen_856z_u_z.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

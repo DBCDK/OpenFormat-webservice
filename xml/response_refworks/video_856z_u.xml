@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:refWorks>RT Video/DVD
+SR Print(0)
+A1 Cukor,George
+T1 It should happen to you
+SP 1 vhs-kassette (86 min.)
+PB Columbia
+YR 1954
+K1 It should happen to you (US, George Cukor, 1953)
+LK http://www.dfi.dk/faktaomfilm/film/da/79543.aspx?id=79543</ofo:refWorks></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

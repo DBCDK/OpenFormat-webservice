@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><ofo:ris>TY  - EBOOK
+A1  - Acevedo-Munoz,Ernesto R.
+A1  - ebrary,Inc
+T1  - Bunuel and Mexico : the crisis of national cinema
+SP  - xii, 202 s., illustreret
+PB  - University of California Press
+CY  - Berkeley
+Y1  - 2003
+SN  - 0520239520
+N1  - Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries
+KW  - Luis Bunuel, 1900-1983
+KW  - Motion pictures, Mexico
+UR  - http://esc-web.lib.cbs.dk/login?url=http://site.ebrary.com/lib/kbhnhh/Doc?id=10057124
+ER  -</ofo:ris></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

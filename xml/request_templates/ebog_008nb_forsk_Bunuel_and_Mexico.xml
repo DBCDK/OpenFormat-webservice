@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>000539272|820120</ac:identifier>
+              <dc:identifier xsi:type="dkdcplus:ISBN">0520239520</dc:identifier>
+              <dc:identifier xsi:type="dcterms:URI">http://esc-web.lib.cbs.dk/login?url=http://site.ebrary.com/lib/kbhnhh/Doc?id=10057124</dc:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Bunuel and Mexico</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Bunuel and Mexico : the crisis of national cinema</dc:title>
+              <dc:creator xsi:type="dkdcplus:aut">Ernesto R. Acevedo-Munoz (1968-)</dc:creator>
+              <dc:creator xsi:type="oss:sort">Acevedo-Munoz, Ernesto R. (1968-)</dc:creator>
+              <dc:subject xsi:type="dkdcplus:DBCF">Luis Bunuel (1900-1983)</dc:subject>
+              <dc:subject xsi:type="oss:sort">Bunuel, Luis (1900-1983)</dc:subject>
+              <dc:subject xsi:type="dcterms:LCSH">Motion pictures</dc:subject>
+              <dc:description>Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries</dc:description>
+              <dcterms:audience>voksenmaterialer</dcterms:audience>
+              <dc:publisher>University of California Press</dc:publisher>
+              <dc:contributor>ebrary, Inc</dc:contributor>
+              <dc:date>2003</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Ebog</dc:type>
+              <dc:format>illustreret</dc:format>
+              <dcterms:extent>xii, 202 s.</dcterms:extent>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">000539272</marcx:subfield>
+                  <marcx:subfield code="b">820120</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="a">2003</marcx:subfield>
+                  <marcx:subfield code="b">us</marcx:subfield>
+                  <marcx:subfield code="d">a</marcx:subfield>
+                  <marcx:subfield code="d">y</marcx:subfield>
+                  <marcx:subfield code="l">eng</marcx:subfield>
+                  <marcx:subfield code="n">b</marcx:subfield>
+                  <marcx:subfield code="v">4</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">a</marcx:subfield>
+                  <marcx:subfield code="g">xe</marcx:subfield>
+                  <marcx:subfield code="b">t</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="a">0520239520</marcx:subfield>
+                  <marcx:subfield code="b">alk. paper</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="036">
+                  <marcx:subfield code="z">2003044766</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="082">
+                  <marcx:subfield code="a">791.43</marcx:subfield>
+                  <marcx:subfield code="b">0233</marcx:subfield>
+                  <marcx:subfield code="b">092</marcx:subfield>
+                  <marcx:subfield code="c">21</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="096">
+                  <marcx:subfield code="c">Elektronisk ressource</marcx:subfield>
+                  <marcx:subfield code="z">820120</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="100">
+                  <marcx:subfield code="a">Acevedo-Munoz</marcx:subfield>
+                  <marcx:subfield code="h">Ernesto R.</marcx:subfield>
+                  <marcx:subfield code="c">1968-</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Bunuel and Mexico</marcx:subfield>
+                  <marcx:subfield code="m">electronic resource</marcx:subfield>
+                  <marcx:subfield code="c">the crisis of national cinema</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">Berkeley</marcx:subfield>
+                  <marcx:subfield code="b">University of California Press</marcx:subfield>
+                  <marcx:subfield code="c">2003</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="a">xii, 202 s.</marcx:subfield>
+                  <marcx:subfield code="b">ill.</marcx:subfield>
+                  <marcx:subfield code="c">24 cm.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="532">
+                  <marcx:subfield code="a">Includes bibliographical references (p. 177-185) and index.</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="559">
+                  <marcx:subfield code="a">Electronic reproduction. Palo Alto, Calif. : ebrary, 2009. Available via World Wide Web. Access may be limited to ebrary affiliated libraries</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="565">
+                  <marcx:subfield code="a">Restricted admission to print</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="590">
+                  <marcx:subfield code="e">Ebrary Ebog</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="600">
+                  <marcx:subfield code="a">Bunuel</marcx:subfield>
+                  <marcx:subfield code="h">Luis</marcx:subfield>
+                  <marcx:subfield code="c">1900-1983</marcx:subfield>
+                  <marcx:subfield code="x">Criticism and interpretation</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="650">
+                  <marcx:subfield code="a">Motion pictures</marcx:subfield>
+                  <marcx:subfield code="z">Mexico</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="710">
+                  <marcx:subfield code="a">ebrary, Inc</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="856">
+                  <marcx:subfield code="a">ebrary</marcx:subfield>
+                  <marcx:subfield code="z">Campus and remote access</marcx:subfield>
+                  <marcx:subfield code="u">http://esc-web.lib.cbs.dk/login?url=http://site.ebrary.com/lib/kbhnhh/Doc?id=10057124</marcx:subfield>
+                  <marcx:subfield code="y">b</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>820120-katalog:000539272</os:identifier>
+            <os:primaryObjectIdentifier>820120-katalog:000539272</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2012-01-02</os:creationDate>
+            <os:holdingsCount>3</os:holdingsCount>
+            <os:lendingLibraries>2</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasOnlineAccess</os:relationType>
+                <os:relationUri>http://esc-web.lib.cbs.dk/login?url=http://site.ebrary.com/lib/kbhnhh/Doc?id=10057124</os:relationUri>
+                <os:linkObject>
+                  <os:linkTo>website</os:linkTo>
+                  <os:linkCollectionIdentifier>820120-katalog</os:linkCollectionIdentifier>
+                  <os:linkCollectionIdentifier>870970-forsk</os:linkCollectionIdentifier>
+                </os:linkObject>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>ebog_008nb_forsk_Bunuel_and_Mexico.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

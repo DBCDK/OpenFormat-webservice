@@ -1,0 +1,14 @@
+=/home/hes/OpenFormat/marc=
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:of="http://oss.dbc.dk/ns/openformat" xmlns:ofo="http://oss.dbc.dk/ns/openformatoutput"><SOAP-ENV:Body><of:formatResponse><![CDATA[
+001 00 *a 000055778 *b 850290 *f a 
+004 00 *r n *a e 
+008 00 *t m *a 1954 *b us *l eng *v 0 
+009 00 *a m *g nh 
+096 00 *a VIDEOTEKET *u Filmen kan ses i Videoteket *z 850290 *r a 
+100 00 *a Cukor *h George 
+245 00 *a It should happen to you *e instruktion George Cukor 
+260 00 *b Columbia *c 1954 
+300 00 *n 1 vhs-kassette *l 86 min. 
+645 00 *a It should happen to you (US, George Cukor, 1953) 
+856 00 *z Læs mere om filmen i Filmdatabasen *u http://www.dfi.dk/faktaomfilm/film/da/79543.aspx?id=79543 
+]]></of:formatResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

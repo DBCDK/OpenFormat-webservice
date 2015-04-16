@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://oss.dbc.dk/ns/openformat" xmlns:os="http://oss.dbc.dk/ns/opensearch" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/" xmlns:ISO639-2="http://lcweb.loc.gov/standards/iso639-2/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ac="http://biblstandard.dk/ac/namespace/" xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/" xmlns:oss="http://oss.dbc.dk/ns/osstypes" xmlns:marcx="info:lc/xmlns/marcxchange-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <ns1:formatRequest>
+      <ns1:originalData>
+        <os:collection>
+          <os:resultPosition>1</os:resultPosition>
+          <os:numberOfObjects>1</os:numberOfObjects>
+          <os:object>
+            <dkabm:record>
+              <ac:identifier>25783441|870970</ac:identifier>
+              <ac:source>Bibliotekskatalog</ac:source>
+              <dc:title>Sly 2</dc:title>
+              <dc:title xsi:type="dkdcplus:full">Sly 2 : tyvebanden</dc:title>
+              <dcterms:alternative>Sly 2</dcterms:alternative>
+              <dc:subject xsi:type="dkdcplus:DK5">79.41</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DK5-Text">Computerspil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">adventurespil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:genre">adventurespil</dc:subject>
+              <dc:subject xsi:type="dkdcplus:DBCO">computerspil</dc:subject>
+              <dcterms:abstract>3D-adventure-platformspil. Vaskebjørnen og listetyven Sly Cooper og hans venner i tyvebanden, Murrey og Bentley, har opdaget at den rivaliserende Klaww-bande har delene til den mekaniske fugl, Clockwerk som de tidligere har smadret. Tilmed vil Klaww-banden samle delene. Det må undgås for enhver pris</dcterms:abstract>
+              <dc:description>Titlen hentet fra omslaget</dc:description>
+              <dc:description>Udviklet af Sucker Punch Productions</dc:description>
+              <dc:description>Vejledning: Dansk tekst</dc:description>
+              <dcterms:audience xsi:type="dkdcplus:pegi">PEGI-mærkning: 3+</dcterms:audience>
+              <dcterms:audience xsi:type="dkdcplus:age">Fra 7 år</dcterms:audience>
+              <dcterms:audience>børnematerialer</dcterms:audience>
+              <dc:publisher>Sony Computer Entertainment Europe</dc:publisher>
+              <dc:contributor>Elodie Hummel</dc:contributor>
+              <dc:date>2004</dc:date>
+              <dc:type xsi:type="dkdcplus:BibDK-Type">Playstation 2</dc:type>
+              <dc:format>1 dvd-rom, playstation 2, lyd, farve, 1 vejledning</dc:format>
+              <dc:format>Afspilningsudstyr Sony playstation 2; tv-apparat med scartindgang; understøtter analog controller (alle knapper) ; understøtter vibrationsfunktion; USB headset-kompatibelt</dc:format>
+              <dc:language xsi:type="dcterms:ISO639-2">mul</dc:language>
+              <dc:language>Flere sprog</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+              <dc:language>Dansk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">nor</dc:language>
+              <dc:language>Norsk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">swe</dc:language>
+              <dc:language>Svensk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+              <dc:language>Engelsk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+              <dc:language>Tysk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">fre</dc:language>
+              <dc:language>Fransk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">spa</dc:language>
+              <dc:language>Spansk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">ita</dc:language>
+              <dc:language>Italiensk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">dut</dc:language>
+              <dc:language>Hollandsk</dc:language>
+              <dc:language xsi:type="dcterms:ISO639-2">por</dc:language>
+              <dc:language>Portugisisk</dc:language>
+            </dkabm:record>
+            <marcx:collection>
+              <marcx:record format="danMARC2" type="Bibliographic">
+                <marcx:leader>00000n    2200000   4500</marcx:leader>
+                <marcx:datafield ind1="0" ind2="0" tag="001">
+                  <marcx:subfield code="a">25783441</marcx:subfield>
+                  <marcx:subfield code="b">870970</marcx:subfield>
+                  <marcx:subfield code="c">20100208030656</marcx:subfield>
+                  <marcx:subfield code="d">20050607</marcx:subfield>
+                  <marcx:subfield code="f">a</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="004">
+                  <marcx:subfield code="r">n</marcx:subfield>
+                  <marcx:subfield code="a">e</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="008">
+                  <marcx:subfield code="t">m</marcx:subfield>
+                  <marcx:subfield code="u">f</marcx:subfield>
+                  <marcx:subfield code="a">2004</marcx:subfield>
+                  <marcx:subfield code="b">xx</marcx:subfield>
+                  <marcx:subfield code="l">mul</marcx:subfield>
+                  <marcx:subfield code="v">0</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="009">
+                  <marcx:subfield code="a">t</marcx:subfield>
+                  <marcx:subfield code="g">to</marcx:subfield>
+                  <marcx:subfield code="b">a</marcx:subfield>
+                  <marcx:subfield code="h">xx</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="021">
+                  <marcx:subfield code="d">Kr. 593,00</marcx:subfield>
+                  <marcx:subfield code="b">til udlån</marcx:subfield>
+                  <marcx:subfield code="n">25783441</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="023">
+                  <marcx:subfield code="a">0711719615552</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="032">
+                  <marcx:subfield code="a">DBF200526</marcx:subfield>
+                  <marcx:subfield code="x">SFD200526</marcx:subfield>
+                  <marcx:subfield code="x">CDR200524</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="041">
+                  <marcx:subfield code="p">dan</marcx:subfield>
+                  <marcx:subfield code="p">nor</marcx:subfield>
+                  <marcx:subfield code="p">swe</marcx:subfield>
+                  <marcx:subfield code="p">eng</marcx:subfield>
+                  <marcx:subfield code="p">ger</marcx:subfield>
+                  <marcx:subfield code="p">fre</marcx:subfield>
+                  <marcx:subfield code="p">spa</marcx:subfield>
+                  <marcx:subfield code="p">ita</marcx:subfield>
+                  <marcx:subfield code="p">dut</marcx:subfield>
+                  <marcx:subfield code="p">por</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="245">
+                  <marcx:subfield code="a">Sly 2</marcx:subfield>
+                  <marcx:subfield code="c">tyvebanden</marcx:subfield>
+                  <marcx:subfield code="e">producer Elodie Hummel</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="260">
+                  <marcx:subfield code="a">[S.l.]</marcx:subfield>
+                  <marcx:subfield code="b">Sony Computer Entertainment Europe</marcx:subfield>
+                  <marcx:subfield code="f">[Ballerup]</marcx:subfield>
+                  <marcx:subfield code="g">[eksp. DBC medier]</marcx:subfield>
+                  <marcx:subfield code="c">2004</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="300">
+                  <marcx:subfield code="n">1 dvd-rom</marcx:subfield>
+                  <marcx:subfield code="e">playstation 2</marcx:subfield>
+                  <marcx:subfield code="b">lyd, farve</marcx:subfield>
+                  <marcx:subfield code="d">1 vejledning</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="501">
+                  <marcx:subfield code="i">Afspilningsudstyr</marcx:subfield>
+                  <marcx:subfield code="a">Sony playstation 2; tv-apparat med scartindgang; understøtter analog controller (alle knapper) ; understøtter vibrationsfunktion; USB headset-kompatibelt</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="504">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">3D-adventure-platformspil. Vaskebjørnen og listetyven Sly Cooper og hans venner i tyvebanden, Murrey og Bentley, har opdaget at den rivaliserende Klaww-bande har delene til den mekaniske fugl, Clockwerk som de tidligere har smadret. Tilmed vil Klaww-banden samle delene. Det må undgås for enhver pris</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="505">
+                  <marcx:subfield code="a">Spil for 1 spiller</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="508">
+                  <marcx:subfield code="a">På dansk, norsk, svensk, engelsk, tysk, fransk, spansk, italiensk, hollandsk og portugisisk</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Titlen hentet fra omslaget</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Titel på dvd-rometiketten</marcx:subfield>
+                  <marcx:subfield code="t">Sly 2</marcx:subfield>
+                  <marcx:subfield code="b"> : band of thieves</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="i">Udviklet af</marcx:subfield>
+                  <marcx:subfield code="e">Sucker Punch Productions</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="512">
+                  <marcx:subfield code="a">Vejledning: Dansk tekst</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">PEGI-mærkning: 3+</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="517">
+                  <marcx:subfield code="&amp;">1</marcx:subfield>
+                  <marcx:subfield code="a">Fra 7 år</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="652">
+                  <marcx:subfield code="m">79.41</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">computerspil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="666">
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="o">adventurespil</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="700">
+                  <marcx:subfield code="5">870979</marcx:subfield>
+                  <marcx:subfield code="6">68468566</marcx:subfield>
+                  <marcx:subfield code="0"/>
+                  <marcx:subfield code="a">Hummel</marcx:subfield>
+                  <marcx:subfield code="h">Elodie</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="990">
+                  <marcx:subfield code="a">SFD</marcx:subfield>
+                  <marcx:subfield code="o">200526</marcx:subfield>
+                  <marcx:subfield code="b">L</marcx:subfield>
+                  <marcx:subfield code="b">B</marcx:subfield>
+                  <marcx:subfield code="c">A</marcx:subfield>
+                </marcx:datafield>
+                <marcx:datafield ind1="0" ind2="0" tag="996">
+                  <marcx:subfield code="a">DBC</marcx:subfield>
+                </marcx:datafield>
+              </marcx:record>
+            </marcx:collection>
+            <os:identifier>870970-basis:25783441</os:identifier>
+            <os:primaryObjectIdentifier>870970-basis:25783441</os:primaryObjectIdentifier>
+            <os:recordStatus>active</os:recordStatus>
+            <os:creationDate>2005-06-09</os:creationDate>
+            <os:holdingsCount>14</os:holdingsCount>
+            <os:lendingLibraries>14</os:lendingLibraries>
+            <os:relations>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870971-anmeld:88528492</os:relationUri>
+              </os:relation>
+              <os:relation>
+                <os:relationType>dbcaddi:hasReview</os:relationType>
+                <os:relationUri>870976-anmeld:30524144</os:relationUri>
+              </os:relation>
+            </os:relations>
+            <os:formatsAvailable>
+              <os:format>dkabm</os:format>
+              <os:format>marcxchange</os:format>
+            </os:formatsAvailable>
+          </os:object>
+        </os:collection>
+      </ns1:originalData>
+      <ns1:outputFormat>PLACEHOLDER</ns1:outputFormat>
+      <ns1:trackingId>ps2_sly2_pegi.xml.PLACEHOLDER</ns1:trackingId>
+    </ns1:formatRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

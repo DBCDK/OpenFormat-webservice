@@ -12,6 +12,9 @@ version = 0.3
 ; wsdl for service
 wsdl = openformat.wsdl
 
+;service location used as endpoint in the wsdl-file. If not set, the actual address/location is used
+;service_location = openformat.addi.dk/0.3/
+
 ; in_house_domain may use ?ShowInfo and use create_sample form
 ;in_house_domain = .dbc.dk
 

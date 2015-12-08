@@ -38,12 +38,12 @@ wsdl = openformat.wsdl
 soapAction[format] = formatRequest
 
 ; prefixes and namespaces
+default_namespace_prefix = of
 xmlns[of] = http://oss.dbc.dk/ns/openformat
 xmlns[xs] = http://www.w3.org/2001/XMLSchema
 xmlns[xsi] = http://www.w3.org/2001/XMLSchema-instance
 xmlns[oss] = http://oss.dbc.dk/ns/osstypes
-xmlns[dc] = hidel
-ttp://purl.org/dc/elements/1.1/
+xmlns[dc] = http://purl.org/dc/elements/1.1/
 xmlns[dkabm] = http://biblstandard.dk/abm/namespace/dkabm/
 xmlns[ISO639-2] = http://lcweb.loc.gov/standards/iso639-2/
 xmlns[dcmitype] = http://purl.org/dc/dcmitype/

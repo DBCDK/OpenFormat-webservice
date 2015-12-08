@@ -18,14 +18,18 @@ version = 0.3
 wsdl = openformat.wsdl
 
 ;service location used as endpoint in the wsdl-file. If not set, the actual address/location is used
-;service_location = openformat.addi.dk/0.3/
+service_location = openformat.addi.dk/0.3/
+
+; --------------
+env vars will overwrite ini settings is corresponding name is set
+use_environment_vars = 1
 
 ; --------------
 ; in_house_domain may use ?ShowInfo and use create_sample form
 ;in_house_domain = .dbc.dk
 
 ; set to TRUE to expose the create_sample form
-;show_samples = 1
+show_samples = 1
 ;show_samples_ip_list = 127.0.0.1-127.0.0.2
 
 ; header for sample form - defaults to Content-type: text/html; charset=utf-8

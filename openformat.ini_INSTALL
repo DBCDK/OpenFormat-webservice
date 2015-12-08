@@ -7,14 +7,20 @@
 ;service_http_error = HTTP/1.1 410 Gone
 ;service_http_error = HTTP/1.0 503 Service Unavailable
 
+; --------------
+;version
+; Note that the version is used as part of the cache key, so do not run 2 versions of the service with identical
+; version name, unless you specificly want them to share cache
 version = 0.3
 
-; wsdl for service
+; --------------
+; wsdl and service location for service. Used to replace __LOCATION__ in wsdl
 wsdl = openformat.wsdl
 
 ;service location used as endpoint in the wsdl-file. If not set, the actual address/location is used
 ;service_location = openformat.addi.dk/0.3/
 
+; --------------
 ; in_house_domain may use ?ShowInfo and use create_sample form
 ;in_house_domain = .dbc.dk
 
@@ -25,7 +31,10 @@ wsdl = openformat.wsdl
 ; header for sample form - defaults to Content-type: text/html; charset=utf-8
 ;sample_header = Content-type: text/html; charset=utf-8
 
+ --------------
 ; validate
+; Validation of response requires you to include the xsd's for dkabm, docbook, in opensearch.xsd
+;
 ;validate[soap_request] = soap.xsd
 ;validate[request] = openformat.xsd
 ;validate[response] = openformat.xsd
@@ -33,10 +42,12 @@ wsdl = openformat.wsdl
 ; for performance testing, send each rec to fake_multi number of js_servers
 ;fake_multi = 2
 
+; --------------
 ; soapActions and their corresponding request structure
 ; Can be found in the wsdl but is stated here for convenience
 soapAction[format] = formatRequest
 
+; --------------
 ; prefixes and namespaces
 default_namespace_prefix = of
 xmlns[of] = http://oss.dbc.dk/ns/openformat
@@ -57,9 +68,11 @@ xmlns[oso] = http://oss.dbc.dk/ns/opensearchobjects
 xmlns[bibdk] = http://oss.dbc.dk/ns/openformatoutput/bibliotekdkdisplay
 xmlns[ofo] = http://oss.dbc.dk/ns/openformatoutput
 
+; --------------
 ; path to xml-examples
 xmldir = ./xml
 
+; --------------
 ; javascript server url
 ; Adding more than 1 js_server will parallelize formating over these servers
 ; - if the js_server has more than 1 cpu, parallelizing can be done by adding the same server several times
@@ -71,11 +84,17 @@ js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 
+; --------------
 ; timemout for js_server[] - defaults to 5
 ;curl_timeout = 5
 
+; --------------
 ; logfile for verbose output
-logfile = /tmp/netpunkt_fvs/openformat.log
+logfile = /tmp/openformat.log
+; logging to syslog is defined like:
+;logfile = syslog://LOG_LOCAL0
+; ident for syslog is set like where _VERSION_ is replaced by version setting above
+;syslog_id = trlog[opensearch__VERSION_]
 
 ; set verboselevel
 ;   WARNING - simple warnings

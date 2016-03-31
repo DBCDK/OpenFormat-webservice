@@ -37,7 +37,7 @@ for templateline in templatelines:
         # and the lines after
         for fline in flines:
             if fline.rfind('<object') >= 0: tfundet=True
-            if fline.rfind('</object') >= 0: tfundet=False
+            if fline.rfind('</object>') >= 0: tfundet=False
 
             ## relations start the things all over again
             ## test for the out relation-tags

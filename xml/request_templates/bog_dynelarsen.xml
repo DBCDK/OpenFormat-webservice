@@ -107,6 +107,9 @@
       <marcx:datafield tag="504" ind1="0" ind2="0">
         <marcx:subfield code="a">Selvbiografi af Lars Larsen (f. 1948), stifteren af den internationale koncern JYSK</marcx:subfield>
       </marcx:datafield>
+      <marcx:datafield tag="512" ind1="0" ind2="0">
+        <marcx:subfield code="a">Bogen er tilbagekaldt af forlaget</marcx:subfield>
+      </marcx:datafield>
       <marcx:datafield tag="600" ind1="0" ind2="0">
         <marcx:subfield code="0"/>
         <marcx:subfield code="a">Larsen</marcx:subfield>

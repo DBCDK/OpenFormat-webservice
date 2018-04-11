@@ -26,7 +26,8 @@ use_environment_vars = 1
 
 ; --------------
 ; in_house_domain may use ?ShowInfo and use create_sample form
-;in_house_domain = .dbc.dk
+in_house_ip_list = @MY_DOMAIN_IP_LIST@
+;in_house_domain = @MY_DOMAIN@
 
 ; set to TRUE to expose the create_sample form
 show_samples = 1
@@ -109,11 +110,11 @@ js_server[] = some_server.dk:8018/openformat
 
 ; --------------
 ; logfile for verbose output
-logfile = /tmp/openformat.log
 ; logging to syslog is defined like:
 ;logfile = syslog://LOG_LOCAL0
 ; ident for syslog is set like where _VERSION_ is replaced by version setting above
 ;syslog_id = trlog[opensearch__VERSION_]
+@LOGFILE@
 
 ; set verboselevel
 ;   WARNING - simple warnings
@@ -125,7 +126,8 @@ logfile = /tmp/openformat.log
 ;   DEBUG   - debugging info
 ;   Z3959   - calls to z3950 services
 ;   OCI     - oracle
-verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
+; verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
+@VERBOSE_LEVEL@
 
 ; format for automatic timer dump %s is the soap-action used
 dump_timer = openformat(%s)
@@ -134,6 +136,7 @@ dump_timer = openformat(%s)
 ;cache_host = localhost
 ;cache_port = 11211
 ;cache_expire = 600
+@CACHE_SETTINGS@
 
 [aaa]
 ; aaa Authentication, Access control and Accounting

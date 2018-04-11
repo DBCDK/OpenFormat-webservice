@@ -97,12 +97,13 @@ xmldir = ./xml
 ; Adding more than 1 js_server will parallelize formating over these servers
 ; - if the js_server has more than 1 cpu, parallelizing can be done by adding the same server several times
 ;
-js_server[] = some_server.dk:8018/openformat
+;js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
+@JS_SERVER@
 
 ; --------------
 ; timemout for js_server[] - defaults to 5

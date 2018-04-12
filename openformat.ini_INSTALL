@@ -115,7 +115,7 @@ xmldir = ./xml
 ;logfile = syslog://LOG_LOCAL0
 ; ident for syslog is set like where _VERSION_ is replaced by version setting above
 ;syslog_id = trlog[opensearch__VERSION_]
-logfile = @LOGFILE@/
+logfile = @LOGFILE@
 
 ; set verboselevel
 ;   WARNING - simple warnings

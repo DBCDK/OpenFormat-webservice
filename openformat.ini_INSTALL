@@ -115,7 +115,7 @@ xmldir = ./xml
 ;logfile = syslog://LOG_LOCAL0
 ; ident for syslog is set like where _VERSION_ is replaced by version setting above
 ;syslog_id = trlog[opensearch__VERSION_]
-@LOGFILE@
+logfile = @LOGFILE@/
 
 ; set verboselevel
 ;   WARNING - simple warnings
@@ -128,7 +128,7 @@ xmldir = ./xml
 ;   Z3959   - calls to z3950 services
 ;   OCI     - oracle
 ; verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
-@VERBOSE_LEVEL@
+varbose = @VERBOSE_LEVEL@
 
 ; format for automatic timer dump %s is the soap-action used
 dump_timer = openformat(%s)

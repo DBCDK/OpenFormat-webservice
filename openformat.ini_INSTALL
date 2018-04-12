@@ -128,7 +128,7 @@ logfile = @LOGFILE@
 ;   Z3959   - calls to z3950 services
 ;   OCI     - oracle
 ; verbose = WARNING+ERROR+FATAL+STAT+TIMER+TRACE+DEBUG+Z3950+OCI
-varbose = @VERBOSE_LEVEL@
+verbose = @VERBOSE_LEVEL@
 
 ; format for automatic timer dump %s is the soap-action used
 dump_timer = openformat(%s)

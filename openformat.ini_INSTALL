@@ -103,7 +103,7 @@ xmldir = ./xml
 ;js_server[] = some_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
 ;js_server[] = some_other_server.dk:8018/openformat
-js_server[] =  @JS_SERVER@
+@JS_SERVER@
 
 ; --------------
 ; timemout for js_server[] - defaults to 5

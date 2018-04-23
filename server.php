@@ -52,10 +52,6 @@ class openFormat extends webServiceServer {
         $form_req[] = &$param->originalData;
       }
 
-      if (isset($_GET['format'])) {
-        $param->outputFormat->_value = $_GET['format'];
-      }
-
       $formatRecords = new formatRecords($this->config->get_section('setup'), $this->xmlns['of'], $this->objconvert, $this->xmlconvert, $this->watch);
       $formatted = $formatRecords->format($form_req, $param);
     }

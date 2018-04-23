@@ -52,7 +52,7 @@ class openFormat extends webServiceServer {
         $form_req[] = &$param->originalData;
       }
 
-      if (isset($_GET['format']) {
+      if (isset($_GET['format'])) {
         $param->outputFormat->_value = $_GET['format'];
       }
 

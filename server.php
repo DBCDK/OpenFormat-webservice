@@ -41,7 +41,7 @@ class openFormat extends webServiceServer {
     if (!$this->aaa->has_right('openformat', 500))
       $res->error->_value = 'authentication_error';
     else {
-      $param->trackingId->_value = verbose::set_tracking_id('of', $param->trackingId->_value);
+      $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);
       $param->trackingId->_namespace = $this->xmlns['of'];
       if (is_array($param->originalData)) {
         foreach ($param->originalData as $key => $od) {
@@ -66,7 +66,7 @@ class openFormat extends webServiceServer {
       $size_upload += $r_c['size_upload'];
       $size_download += $r_c['size_download'];
     }
-    verbose::log(STAT, sprintf($dump_format.'::', 'format') . 
+    verboseJson::log(STAT, sprintf($dump_format.'::', 'format') .
                        ' Ip:' . $_SERVER['REMOTE_ADDR'] . 
                        ' Format:' . $param->outputFormat->_value . 
                        ' NoRec:' . count($form_req) .

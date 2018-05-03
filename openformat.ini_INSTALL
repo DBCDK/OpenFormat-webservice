@@ -117,6 +117,9 @@ xmldir = ./xml
 ;syslog_id = trlog[opensearch__VERSION_]
 logfile = @LOGFILE@
 
+; logging style. Default is json, string will make lines with elements like key:value
+;logstyle = string
+
 ; set verboselevel
 ;   WARNING - simple warnings
 ;   ERROR   - errors in response

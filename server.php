@@ -70,8 +70,6 @@ class openFormat extends webServiceServer {
       $size_download += $r_c['size_download'];
     }
 
-
-    VerboseJson::log(TIMER, array_merge(array('action' => $this->soap_action), $this->watch->get_timers()));
     // @TODO verboseJson does take an array as message - FIX it with timers etc.
     verboseJson::log(STAT, array(
         'Format' => $param->outputFormat->_value,
@@ -81,17 +79,6 @@ class openFormat extends webServiceServer {
         'Total' => sprintf('%01.3f', $this->watch->splittime('Total')))
     );
 
-
-    /*verboseJson::log(STAT, sprintf($dump_format.'::', 'format') .
-                       ' Ip:' . $_SERVER['REMOTE_ADDR'] . 
-                       ' Format:' . $param->outputFormat->_value . 
-                       ' NoRec:' . count($form_req) .
-                       ' bytesIn: ' . $size_upload .
-                       ' bytesOut: ' . $size_download .
-                       ' no_of_js_server:' . count($this->config->get_value('js_server', 'setup')) .
-                       ' js_server:' . sprintf('%01.3f', $this->watch->splittime('js_server')) .
-                       ' Total:' . sprintf('%01.3f', $this->watch->splittime('Total')));
-    */
     //var_dump($ret); var_dump($param); die();
     return $ret;
 

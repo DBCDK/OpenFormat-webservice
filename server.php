@@ -17,7 +17,7 @@
  *
  * You should have received a copy of the GNU Affero General Public License
  * along with Open Library System.  If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 //-----------------------------------------------------------------------------
 require_once('OLS_class_lib/webServiceServer_class.php');
@@ -29,17 +29,18 @@ define(DEBUG_ON, FALSE);
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
 
-  public function __construct(){
+  public function __construct() {
     webServiceServer::__construct('openformat.ini');
   }
 
   /**
-    \brief Handles the request and set up the response
-  */
+   * \brief Handles the request and set up the response
+   */
 
   public function format($param) {
-    if (!$this->aaa->has_right('openformat', 500))
+    if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
+    }
     else {
       $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);
       $param->trackingId->_namespace = $this->xmlns['of'];
@@ -61,12 +62,27 @@ class openFormat extends webServiceServer {
     }
     $ret->formatResponse->_value = &$res;
     $ret->formatResponse->_namespace = $this->xmlns['of'];
-    if (!($dump_format = $this->dump_timer)) $dmp_format = '%s';
+    if (!($dump_format = $this->dump_timer)) {
+      $dmp_format = '%s';
+    }
     foreach ($formatRecords->get_status() as $r_c) {
       $size_upload += $r_c['size_upload'];
       $size_download += $r_c['size_download'];
     }
-    verboseJson::log(STAT, sprintf($dump_format.'::', 'format') .
+
+
+    VerboseJson::log(TIMER, array_merge(array('action' => $this->soap_action), $this->watch->get_timers()));
+    // @TODO verboseJson does take an array as message - FIX it with timers etc.
+    verboseJson::log(STAT, array(
+        'Format' => $param->outputFormat->_value,
+        'bytesIn' => $size_upload,
+        'bytesOut' => $size_download,
+        'js_server' => sprintf('%01.3f', $this->watch->splittime('js_server')),
+        'Total' => sprintf('%01.3f', $this->watch->splittime('Total')))
+    );
+
+
+    /*verboseJson::log(STAT, sprintf($dump_format.'::', 'format') .
                        ' Ip:' . $_SERVER['REMOTE_ADDR'] . 
                        ' Format:' . $param->outputFormat->_value . 
                        ' NoRec:' . count($form_req) .
@@ -75,6 +91,7 @@ class openFormat extends webServiceServer {
                        ' no_of_js_server:' . count($this->config->get_value('js_server', 'setup')) .
                        ' js_server:' . sprintf('%01.3f', $this->watch->splittime('js_server')) .
                        ' Total:' . sprintf('%01.3f', $this->watch->splittime('Total')));
+    */
     //var_dump($ret); var_dump($param); die();
     return $ret;
 
@@ -86,7 +103,7 @@ class openFormat extends webServiceServer {
  * MAIN
  */
 
-    $ws=new openFormat();
-    $ws->handle_request();
+$ws = new openFormat();
+$ws->handle_request();
 ?>
 

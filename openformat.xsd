@@ -31,6 +31,47 @@ You should have received a copy of the GNU Affero General Public License along w
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+
+	<xs:element name="formatObjectRequest">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="of:agency" minOccurs="0"/>
+				<xs:element ref="of:authentication" minOccurs="0"/>
+				<xs:element ref="of:callback" minOccurs="0"/>
+				<xs:element ref="of:holdBackEndDate" minOccurs="0"/>
+				<xs:element ref="of:language" minOccurs="0"/>
+				<xs:element ref="of:pid"/>
+				<xs:element ref="of:outputType" minOccurs="0"/>
+				<xs:element ref="of:trackingId" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+
+	<xs:element name="pid" type="xs:string">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Unique identifier for dbc datawell</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+
+	<xs:element name="formatObjectResponse">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The formatObject response - details depends on desirede output. For a list of valid
+				field type  - see openformatconfigfields.xsd
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:choice>
+				<xs:any processContents="skip" />
+				<xs:element ref="of:error"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
 	<xs:element name="formatResponse">
 		<xs:annotation>
 			<xs:documentation xml:lang="en">The service response. For specs of responses look in openformatoutput.xsd and bibliotekdkdisplay.xsd</xs:documentation>

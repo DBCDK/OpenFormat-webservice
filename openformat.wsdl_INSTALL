@@ -19,11 +19,25 @@ You should have received a copy of the GNU Affero General Public License along w
   <wsdl:message name="formatResponse">
     <wsdl:part name="parameters" element="types:formatResponse"/>
   </wsdl:message>
+
+  <wsdl:message name="formatObjectRequest">
+      <wsdl:part name="parameters" element="types:formatObejctRequest"/>
+    </wsdl:message>
+    <wsdl:message name="formatObjectResponse">
+      <wsdl:part name="parameters" element="types:formatObjectResponse"/>
+    </wsdl:message>
+
   <wsdl:portType name="formatServicePortType">
     <wsdl:operation name="format">
       <wsdl:input message="ofw:formatRequest"/>
       <wsdl:output message="ofw:formatResponse"/>
     </wsdl:operation>
+
+    <wsdl:operation name="formatObject">
+          <wsdl:input message="ofw:formatObjectRequest"/>
+          <wsdl:output message="ofw:formatObhjectResponse"/>
+        </wsdl:operation>
+
   </wsdl:portType>
   <wsdl:binding name="formatServiceSoapBinding" type="ofw:formatServicePortType">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
@@ -36,6 +50,17 @@ You should have received a copy of the GNU Affero General Public License along w
         <soap:body use="literal"/>
       </wsdl:output>
     </wsdl:operation>
+
+    <wsdl:operation name="formatObject">
+          <soap:operation soapAction="http://openformat.addi.dk/0.3/"/>
+          <wsdl:input name="formatObjectRequest">
+            <soap:body use="literal"/>
+          </wsdl:input>
+          <wsdl:output name="formatObjectResponse">
+            <soap:body use="literal"/>
+          </wsdl:output>
+        </wsdl:operation>
+
   </wsdl:binding>
   <wsdl:service name="formatService">
     <wsdl:port name="formatService" binding="ofw:formatServiceSoapBinding">

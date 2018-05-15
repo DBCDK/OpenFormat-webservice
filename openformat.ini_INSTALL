@@ -66,6 +66,7 @@ show_samples = 1
 ; soapActions and their corresponding request structure
 ; Can be found in the wsdl but is stated here for convenience
 soapAction[format] = formatRequest
+soapAction[formatObject] = formatObjectReqest
 
 ; --------------
 ; prefixes and namespaces

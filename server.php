@@ -33,6 +33,11 @@ class openFormat extends webServiceServer {
     webServiceServer::__construct('openformat.ini');
   }
 
+  public function formatObject($param){
+    print_r($param);
+    die();
+  }
+
   /**
    * \brief Handles the request and set up the response
    */

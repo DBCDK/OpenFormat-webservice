@@ -41,6 +41,7 @@ class openFormat extends webServiceServer {
       return $res;
     }
     else {
+      $param->trackingId = new stdClass();
       $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);
       $param->trackingId->_namespace = $this->xmlns['of'];
     }

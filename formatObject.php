@@ -17,7 +17,6 @@ class formatObject {
    * @param array $param
    */
   public function __construct($config, $param) {
-    $this->cache = new cache($config['cache_host'], $setup['cache_port'], $setup['cache_expire']);
     $this->curl = new curl();
     $this->config = $config;
 
@@ -26,8 +25,10 @@ class formatObject {
 
   protected function getContent($pid){
     /** @var inifile $config */
-    $content_url = $config->get_value('content_url', 'content_service');
-    $content_xml = $this->curl->get($content_url . $pid);
+    $content_url = $this->config->get_value('content_url', 'content_service');
+    $content_url .= $pid;
+    $this->curl->set_url($content_url);
+    $content_xml = $this->curl->get();
 
     print($content_xml);
     die();

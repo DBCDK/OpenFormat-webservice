@@ -35,10 +35,6 @@ class openFormat extends webServiceServer {
   }
 
   public function formatObject($param){
-
-    print_r($param);
-    die();
-
     if (!$this->aaa->has_right('openformat', 500)) {
       $res = new stdClass();
       $res->error->_value = 'authentication_error';

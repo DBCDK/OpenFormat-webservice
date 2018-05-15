@@ -16,8 +16,8 @@ class formatObject {
    * @param inifile $config
    * @param array $param
    */
-  public function ___construct($config, $param) {
-    //$this->cache = new cache($config['cache_host'], $setup['cache_port'], $setup['cache_expire']);
+  public function __construct($config, $param) {
+    $this->cache = new cache($config['cache_host'], $setup['cache_port'], $setup['cache_expire']);
     $this->curl = new curl();
     $this->config = $config;
 

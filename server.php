@@ -36,8 +36,15 @@ class openFormat extends webServiceServer {
 
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
-    $original_data = $formatObject->getContent($param->pid->_value);
-    $param->originalData = $original_data;
+    $original_xml = $formatObject->getContent($param->pid->_value);
+
+    $dom = new DOMDocument();
+    $dom->preserveWhiteSpace = FALSE;
+    if($dom->loadXML($original_xml)){
+      $original_obj = $this->objconvert->xml2obj($dom);
+    }
+
+    $param->originalData = $original_obj;
     return $this->format($param);
   }
 
@@ -46,10 +53,6 @@ class openFormat extends webServiceServer {
    */
 
   public function format($param) {
-
-    var_dump($param);
-
-
     if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
     }

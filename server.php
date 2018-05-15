@@ -37,11 +37,12 @@ class openFormat extends webServiceServer {
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
     $original_xml = $formatObject->getContent($param->pid->_value);
+    $prepped_xml = '<object>'.$original_xml.'</object>';
 
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
-    if($dom->loadXML($original_xml)){
-      $original_obj = $this->objconvert->xml2obj($dom);
+    if($dom->loadXML($prepped_xml)){
+      $original_obj = $this->xmlconvert->xml2obj($dom);
     }
 
     $param->originalData = $original_obj;

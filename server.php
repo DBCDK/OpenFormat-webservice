@@ -22,6 +22,7 @@
 //-----------------------------------------------------------------------------
 require_once('OLS_class_lib/webServiceServer_class.php');
 require_once('OLS_class_lib/format_class.php');
+require_once("formatObject.php");
 
 //-----------------------------------------------------------------------------
 define(DEBUG_ON, FALSE);
@@ -34,8 +35,17 @@ class openFormat extends webServiceServer {
   }
 
   public function formatObject($param){
-    print_r($param);
-    die();
+    if (!$this->aaa->has_right('openformat', 500)) {
+      $res = new stdClass();
+      $res->error->_value = 'authentication_error';
+      return $res;
+    }
+    else {
+      $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);
+      $param->trackingId->_namespace = $this->xmlns['of'];
+    }
+
+    $formatObject = new formatObject($this->config, $param);
   }
 
   /**

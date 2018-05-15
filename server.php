@@ -35,18 +35,10 @@ class openFormat extends webServiceServer {
   }
 
   public function formatObject($param){
-    if (!$this->aaa->has_right('openformat', 500)) {
-      $res = new stdClass();
-      $res->error->_value = 'authentication_error';
-      return $res;
-    }
-    else {
-      $param->trackingId = new stdClass();
-      $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);
-      $param->trackingId->_namespace = $this->xmlns['of'];
-    }
-
-    $formatObject = new formatObject($this->config, $param);
+    $formatObject = new formatObject($this->config);
+    $original_data = $formatObject->getContent($param->pid->_value);
+    $param->originData = $original_data;
+    return $this->format($param);
   }
 
   /**
@@ -54,6 +46,10 @@ class openFormat extends webServiceServer {
    */
 
   public function format($param) {
+
+    var_dump($param);
+
+
     if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
     }

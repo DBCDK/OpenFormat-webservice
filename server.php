@@ -37,7 +37,7 @@ class openFormat extends webServiceServer {
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
     $original_xml = $formatObject->getContent($param->pid->_value);
-    $prepped_xml = '<object>'.$original_xml.'</object>';
+    $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch">'.$original_xml.'</object>';
 
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;

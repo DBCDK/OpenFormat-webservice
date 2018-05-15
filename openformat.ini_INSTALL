@@ -228,3 +228,6 @@ showinfo[] = </pre>
 ;test[]=
 ;preg_match[]=
 ;error[] =
+
+[content_service]
+service = @CONTENT_SERVICE@

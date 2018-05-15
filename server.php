@@ -37,7 +37,7 @@ class openFormat extends webServiceServer {
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
     $original_data = $formatObject->getContent($param->pid->_value);
-    $param->originData = $original_data;
+    $param->originalData = $original_data;
     return $this->format($param);
   }
 

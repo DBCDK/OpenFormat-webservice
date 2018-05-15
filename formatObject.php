@@ -22,13 +22,14 @@ class formatObject {
 
   public function getContent($pid){
     /** @var inifile $config */
-    $content_url = $this->config->get_value('content_url', 'content_service');
+    $content_url = $this->config->get_value('service_url', 'content_service');
     $content_url .= $pid;
     $this->curl->set_url($content_url);
     $content_json = $this->curl->get();
 
     $php_content = json_decode($content_json, TRUE);
     $xml_string = $php_content['dataStream'];
+
     return $xml_string;
   }
 }

@@ -54,14 +54,14 @@ class openFormat extends webServiceServer {
     $param->originalData->_namespace = "http://oss.dbc.dk/ns/openformat";
     $param->originalData->_value = $original_obj;
 
-    return $this->format($param);
+    return $this->format($param, false);
   }
 
   /**
    * \brief Handles the request and set up the response
    */
 
-  public function format($param) {
+  public function format($param, $cache_me=true) {
     if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
     }
@@ -78,7 +78,7 @@ class openFormat extends webServiceServer {
       }
 
       $formatRecords = new formatRecords($this->config->get_section('setup'), $this->xmlns['of'], $this->objconvert, $this->xmlconvert, $this->watch);
-      $formatted = $formatRecords->format($form_req, $param);
+      $formatted = $formatRecords->format($form_req, $param, $cache_me);
     }
     for ($i = 0; $i < count($formatted); $i++) {
       $fkey = key($formatted[$i]);

@@ -36,16 +36,24 @@ class openFormat extends webServiceServer {
 
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
-    $original_xml = $formatObject->getContent($param->pid->_value);
+    $original_xml = $formatObject->getContent($param->pid->_value, $this->watch);
     $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch">'.$original_xml.'</object>';
+    $param->outputFormat->_cdata=true;
+
+    if(json_decode($param->outputFormat->_value)) {
+      $param->customDisplay = $param->outputFormat;
+    }
 
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
+
     if($dom->loadXML($prepped_xml)){
       $original_obj = $this->xmlconvert->xml2obj($dom);
     }
+    $param->originalData = new stdClass();
+    $param->originalData->_namespace = "http://oss.dbc.dk/ns/openformat";
+    $param->originalData->_value = $original_obj;
 
-    $param->originalData = $original_obj;
     return $this->format($param);
   }
 

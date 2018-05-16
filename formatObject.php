@@ -5,6 +5,8 @@
  *
  */
 require_once 'OLS_class_lib/memcache_class.php';
+require_once('OLS_class_lib/xmlconvert_class.php');
+require_once('OLS_class_lib/objconvert_class.php');
 
 
 class formatObject {
@@ -20,7 +22,9 @@ class formatObject {
     $this->config = $config;
   }
 
-  public function getContent($pid){
+  public function getContent($pid, &$watch=null){
+    /** @var stopwatch $watch */
+    $watch->start('content-service');
     /** @var inifile $config */
     $content_url = $this->config->get_value('service_url', 'content_service');
     $content_url .= "=" . $pid;
@@ -29,6 +33,7 @@ class formatObject {
 
     $php_content = json_decode($content_json, TRUE);
     $xml_string = $php_content['dataStream'];
+    $watch->stop('content-service');
 
     return $xml_string;
   }

@@ -193,7 +193,11 @@ dump_timer = openformat(%s)
 ; use the same order below as in the xsd used for validating
 ;
 
-; REST not supported for this service
+; REST supported form formatObjectRequest
+action[formatObject][] = outputFormat
+action[formatObject][] = pid
+
+; REST not supported for format .. xml is too long
 ;
 ;action[format][] = agency
 ;action[format][authentication][] = authentication.groupIdAut

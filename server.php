@@ -37,8 +37,7 @@ class openFormat extends webServiceServer {
   public function formatObject($param){
     $formatObject = new formatObject($this->config);
     $original_xml = $formatObject->getContent($param->pid->_value, $this->watch);
-    $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch">'.$original_xml.'</object>';
-    $param->outputFormat->_cdata=true;
+    $prepped_xml = '<collection><object xmlns="http://oss.dbc.dk/ns/opensearch">'.$original_xml.'</object></collection>';
 
     if(json_decode($param->outputFormat->_value)) {
       $param->customDisplay = $param->outputFormat;
@@ -76,6 +75,12 @@ class openFormat extends webServiceServer {
       else {
         $form_req[] = &$param->originalData;
       }
+
+      // @TODO check if record is set here like:
+      // $param->originalData->_value->collection->_value->object->_value
+      // above returns a collection when <marcx:collection> is set
+      // above returns a record when <dkabm:record> is set
+      // if both are empty: can we return without formatting ????
 
       $formatRecords = new formatRecords($this->config->get_section('setup'), $this->xmlns['of'], $this->objconvert, $this->xmlconvert, $this->watch);
       $formatted = $formatRecords->format($form_req, $param, $cache_me);

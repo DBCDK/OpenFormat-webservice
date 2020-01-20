@@ -106,6 +106,14 @@ xmldir = ./xml
 ;js_server[] = some_other_server.dk:8018/openformat
 @JS_SERVER@
 @JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
+@JS_SERVER@
 
 ; --------------
 ; timemout for js_server[] - defaults to 5

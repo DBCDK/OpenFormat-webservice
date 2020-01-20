@@ -83,7 +83,7 @@ class openFormat extends webServiceServer {
       // if both are empty: can we return without formatting ????
 
       $formatRecords = new formatRecords($this->config->get_section('setup'), $this->xmlns['of'], $this->objconvert, $this->xmlconvert, $this->watch);
-      $formatted = $formatRecords->format($form_req, $param, $cache_me);
+      $formatted = $formatRecords->format($form_req, $param);
     }
     for ($i = 0; $i < count($formatted); $i++) {
       $fkey = key($formatted[$i]);

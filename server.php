@@ -34,34 +34,42 @@ class openFormat extends webServiceServer {
     webServiceServer::__construct('openformat.ini');
   }
 
-  public function formatObject($param){
+  public function formatObject($param) {
     $formatObject = new formatObject($this->config);
-    $original_xml = $formatObject->getContent($param->pid->_value, $this->watch);
-    $prepped_xml = '<collection><object xmlns="http://oss.dbc.dk/ns/opensearch">'.$original_xml.'</object></collection>';
+    $result = $formatObject->getContent($param->pid->_value, $this->watch);
+    if (!$result['success']) {
+      return $this->send_error($result['xml_string']);
+    }
+    $original_xml = $result['xml_string'];
+    $prepped_xml = '<collection><object xmlns="http://oss.dbc.dk/ns/opensearch">' . $original_xml . '</object></collection>';
 
-    if(json_decode($param->outputFormat->_value)) {
+    if (json_decode($param->outputFormat->_value)) {
       $param->customDisplay = $param->outputFormat;
     }
 
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
 
-    if($dom->loadXML($prepped_xml)){
+    if ($dom->loadXML($prepped_xml)) {
       $original_obj = $this->xmlconvert->xml2obj($dom);
     }
     $param->originalData = new stdClass();
-    $param->originalData->_namespace = "http://oss.dbc.dk/ns/openformat";
+    $param->originalData->_namespace = $this->xmlns['of'];
     $param->originalData->_value = $original_obj;
 
-    return $this->format($param, false);
+    return $this->format($param, FALSE);
   }
 
   /**
    * \brief Handles the request and set up the response
+   * @param stdClass $param
+   * @param bool $cache_me (not used for now)
+   * @return \stdClass
    */
 
-  public function format($param, $cache_me=true) {
-    if (!$this->aaa->has_right('openformat', 500)) {
+  public function format($param, $cache_me = TRUE) {
+    $res = new stdClass();
+    if (!TRUE) {
       $res->error->_value = 'authentication_error';
     }
     else {
@@ -89,11 +97,14 @@ class openFormat extends webServiceServer {
       $fkey = key($formatted[$i]);
       $res->{$fkey}[$i] = &$formatted[$i]->$fkey;
     }
+    $ret = new stdClass();
     $ret->formatResponse->_value = &$res;
     $ret->formatResponse->_namespace = $this->xmlns['of'];
     if (!($dump_format = $this->dump_timer)) {
       $dmp_format = '%s';
     }
+    $size_upload=0;
+    $size_download=0;
     foreach ($formatRecords->get_status() as $r_c) {
       $size_upload += $r_c['size_upload'];
       $size_download += $r_c['size_download'];
@@ -105,12 +116,21 @@ class openFormat extends webServiceServer {
         'bytesIn' => $size_upload,
         'bytesOut' => $size_download,
         'js_server' => sprintf('%01.3f', $this->watch->splittime('js_server')),
-        'Total' => sprintf('%01.3f', $this->watch->splittime('Total')))
+        'Total' => sprintf('%01.3f', $this->watch->splittime('Total')),
+      )
     );
 
     //var_dump($ret); var_dump($param); die();
     return $ret;
 
+  }
+
+  public function send_error($errormessage) {
+    $ret = new stdClass();
+    $ret->formatResponse->_value = $errormessage;
+    $ret->formatResponse->_namespace = $this->xmlns['of'];
+
+    return $ret;
   }
 
 }

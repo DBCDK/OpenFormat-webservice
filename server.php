@@ -71,6 +71,7 @@ class openFormat extends webServiceServer {
     $res = new stdClass();
     if ($this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
+      return $this->send_error('authentication_error');
     }
     else {
       $param->trackingId->_value = verboseJson::set_tracking_id('of', $param->trackingId->_value);

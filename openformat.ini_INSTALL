@@ -239,9 +239,9 @@ showinfo[] = </pre>
 
 
 [howru]
-;test[]=
-;preg_match[]=
-;error[] =
+test[]=formatObject&pid=870970-basis:22677780&outputFormat={"notes":{"subject":"{subject}"}}
+preg_match[]=<subject>fantasy</subject>
+error[] = error formatting 870970-basis:22677780
 
 [content_service]
 service_url = @CONTENT_SERVICE@

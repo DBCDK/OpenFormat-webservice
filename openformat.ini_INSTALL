@@ -239,8 +239,8 @@ showinfo[] = </pre>
 
 
 [howru]
-test[]=formatObject&pid=870970-basis:22677780&outputFormat={"notes":{"subject":"{subject}"}}
-preg_match[]=<subject>fantasy</subject>
+test[]=formatObject&pid=870970-basis:22677780&outputFormat=netpunkt_brief
+preg_match[]=manifestation
 error[] = error formatting 870970-basis:22677780
 
 [content_service]

@@ -70,7 +70,7 @@ soapAction[formatObject] = formatObjectRequest
 
 ; --------------
 ; prefixes and namespaces
-;default_namespace_prefix = of
+default_namespace_prefix = of
 xmlns[of] = http://oss.dbc.dk/ns/openformat
 xmlns[xs] = http://www.w3.org/2001/XMLSchema
 xmlns[xsi] = http://www.w3.org/2001/XMLSchema-instance

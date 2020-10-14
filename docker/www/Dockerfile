@@ -1,8 +1,17 @@
 FROM docker.dbc.dk/dbc-apache-php7
 MAINTAINER D-scrum <d-scrum@dbc.dk>
 
+# clean up apache root
+RUN rm -r /var/www/html
+
+# copy webservice code to image
+ADD www /var/www/html
+
+# set permissions
+RUN chown -R www-data:www-data /var/www/html
+
 # copy php source-code
-COPY verbose_class.php $APACHE_ROOT/openformat/OLS_class_lib
+COPY verbose_class.php $APACHE_ROOT/OLS_class_lib
 RUN ln -s $APACHE_ROOT/server.php $APACHE_ROOT/index.php
 
 RUN echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> /etc/php/7.3/apache2/php.ini  \

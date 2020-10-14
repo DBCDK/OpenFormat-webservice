@@ -6,6 +6,7 @@ INI=$DIR/openformat.ini
 INSTALL=$INI"_INSTALL"
 
 cp $DIR/openformat.wsdl_INSTALL $DIR/openformat.wsdl
+cp $DIR/robots.txt_INSTALL $DIR/robots.txt
 
 ############# temporary fix #################
 # set aaa access to true -

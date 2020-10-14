@@ -5,7 +5,7 @@ MAINTAINER D-scrum <d-scrum@dbc.dk>
 RUN rm $APACHE_ROOT/index.html
 
 # copy webservice code to image
-ADD www /var/www/html
+ADD src $APACHE_ROOT
 
 # set permissions
 RUN chown -R www-data:www-data /var/www/html

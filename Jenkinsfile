@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script {
                   sh """
-                    cp -r src/* docker/www/
+                    cp -r src/* docker/www/src/
                   """
                 }
                 dir('docker/www') {

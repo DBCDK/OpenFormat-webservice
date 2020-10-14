@@ -1,0 +1,69 @@
+{
+  "id": "/staging/dscrum/php-openformat",
+  "cmd": null,
+  "cpus": 1,
+  "mem": 4000,
+  "disk": 500,
+  "instances": 3,
+  "constraints": [
+    [
+      "hostname",
+      "MAX_PER",
+      "1"
+    ],
+    [
+      "net",
+      "CLUSTER",
+      "prod"
+    ]
+  ],
+  "acceptedResourceRoles": [
+    "*"
+  ],
+  "container": {
+    "type": "DOCKER",
+    "volumes": [],
+    "docker": {
+      "image": "docker-dscrum.dbc.dk/openformat-php:38",
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 0,
+          "servicePort": 10337,
+          "protocol": "tcp",
+          "labels": {}
+        }
+      ],
+      "privileged": false,
+      "parameters": [],
+      "forcePullImage": true
+    }
+  },
+  "env": {
+    "JS_SERVER": "js_server[]=http://openformat-javascript-staging.mcp1-proxy.dbc.dk/openformat-netpunkt/hello"
+  },
+  "healthChecks": [
+    {
+      "gracePeriodSeconds": 300,
+      "intervalSeconds": 60,
+      "timeoutSeconds": 20,
+      "maxConsecutiveFailures": 3,
+      "portIndex": 0,
+      "path": "/NEWS.html",
+      "protocol": "HTTP",
+      "ignoreHttp1xx": false
+    }
+  ],
+  "labels": {
+    "external.port.0": "php-openformat.staging.mcp1-proxy.dbc.dk"
+  },
+  "portDefinitions": [
+    {
+      "port": 10337,
+      "protocol": "tcp",
+      "name": "default",
+      "labels": {}
+    }
+  ]
+}

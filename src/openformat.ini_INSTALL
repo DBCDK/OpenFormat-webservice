@@ -187,7 +187,7 @@ dump_timer = openformat(%s)
 ; use xml.path.to.par notation to solve name-conflicts
 ; action[thisSoapAction][foo][] = some.number
 ; action[thisSoapAction][bar][] = another.number
-; to build 
+; to build
 ; <thisSoapAction>
 ;   <foo>
 ;     <number>nn</number>

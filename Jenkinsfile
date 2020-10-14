@@ -36,6 +36,9 @@ pipeline {
                   """
                 }
                 dir('docker/www') {
+                    sh """
+                      ls -al
+                    """
                     script {
                         docker.build("${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_ID}")
                     }

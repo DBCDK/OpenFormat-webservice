@@ -31,15 +31,12 @@ pipeline {
         stage('docker build') {
             steps {
                 script {
-                  sh """
-                  mkdir docker/www/src
-                  cp -r src/* docker/www/src/
-                  """
+                    sh """
+                        mkdir docker/www/src
+                        cp -r src/* docker/www/src/
+                    """
                 }
                 dir('docker/www') {
-                    sh """
-                      ls -al
-                    """
                     script {
                         docker.build("${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_ID}")
                     }

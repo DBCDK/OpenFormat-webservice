@@ -70,7 +70,7 @@ soapAction[formatObject] = formatObjectRequest
 
 ; --------------
 ; prefixes and namespaces
-; default_namespace_prefix = of
+default_namespace_prefix = of
 xmlns[of] = http://oss.dbc.dk/ns/openformat
 xmlns[xs] = http://www.w3.org/2001/XMLSchema
 xmlns[xsi] = http://www.w3.org/2001/XMLSchema-instance
@@ -162,7 +162,9 @@ dump_timer = openformat(%s)
 ; aaa_ip_rights[group-identifier][ressource][<named ressource>] = right to <named ressource>
 ; aaa_ip_rights[group-identifier][ressource][<named ressource 2>] = right to <named ressource 2>
 ;
-@AAA_IP_RIGHTS_BLOCK@
+@AAA_IP_RIGHTS_BLOCK_IP_LIST@
+@AAA_IP_RIGHTS_BLOCK_RESSOURCE@
+
 ;
 ; if not found in aaa_ip_rights the authentication object is created from the FORS
 ; either by using the WS specified by aaa_fors_rights or by OCI specified by aaa_credentials
@@ -187,7 +189,7 @@ dump_timer = openformat(%s)
 ; use xml.path.to.par notation to solve name-conflicts
 ; action[thisSoapAction][foo][] = some.number
 ; action[thisSoapAction][bar][] = another.number
-; to build 
+; to build
 ; <thisSoapAction>
 ;   <foo>
 ;     <number>nn</number>

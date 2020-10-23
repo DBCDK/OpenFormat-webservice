@@ -205,8 +205,10 @@ dump_timer = openformat(%s)
 ;
 
 ; REST supported form formatObjectRequest
-action[formatObject][] = outputFormat
 action[formatObject][] = pid
+action[formatObject][] = trackingId
+action[formatObject][] = outputFormat
+action[formatObject][] = outputType
 
 ; REST not supported for format .. xml is too long
 ;

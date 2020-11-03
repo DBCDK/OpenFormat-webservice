@@ -31,6 +31,7 @@ class formatObject {
     $watch->start('content-service');
     /** @var inifile $config */
     $content_url = $this->config->get_value('service_url', 'content_service');
+    $pid = trim($pid);
     $content_url .= "=$pid";
     $this->curl->set_url($content_url);
     $content_json = $this->curl->get();

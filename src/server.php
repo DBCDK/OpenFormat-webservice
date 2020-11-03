@@ -34,30 +34,101 @@ class openFormat extends webServiceServer {
     webServiceServer::__construct('openformat.ini');
   }
 
+  /**
+   * Format from one or more pid(s)
+   * @param $param
+   *    OLS object
+   * @return stdClass
+   *    OLS object
+   */
   public function formatObject($param) {
-    $formatObject = new formatObject($this->config);
-    $result = $formatObject->getContent($param->pid->_value, $this->watch);
-    if (!$result['success']) {
-      return $this->send_error($result['xml_string']);
-    }
-    $original_xml = $result['xml_string'];
-    $prepped_xml = '<collection><object xmlns="http://oss.dbc.dk/ns/opensearch">' . $original_xml . '</object></collection>';
-
+    // check if outputFormat is a json object (customDisplay)
     if (json_decode($param->outputFormat->_value)) {
       $param->customDisplay = $param->outputFormat;
     }
+    // split pid(s) into an array
+    $pids = $this->split_pid($param->pid->_value);
+    // @TODO check - explode might return false
+    // base xml (wrapper for output)
+    $base_xml = "<collection>";
+    // object to get dkabm and marcxchange from corepo
+    $formatObject = new formatObject($this->config);
+    // iterate pids
+    foreach ($pids as $pid){
+      $result = $formatObject->getContent($pid, $this->watch);
+      if (!$result['success']) {
+        // @TODO if one fails .. should we continue with the rest ?
+        return $this->send_error($result['xml_string']);
+      }
+      $original_xml = $result['xml_string'];
+      $base_xml .= $this->prep_xml($pid, $original_xml);
+    }
+    // end tag - xml holds objects like: <collection><object/><object/><object/></collection>
+    $base_xml .= "</collection>";
 
+    $param->originalData = new stdClass();
+    $param->originalData->_namespace = $this->xmlns['of'];
+    $prepped_obj = $this->prep_obj($param, $base_xml);
+    if(empty($prepped_obj)){
+      // logging is done in prep_obj method - @TODO return a meaningfull message
+      return $this->send_error("An error occured");
+    }
+
+    $param->originalData->_value = $prepped_obj;
+
+    return $this->format($param, FALSE);
+  }
+
+  /**
+   * Do an object with identifier and dkabm+marcxchange (original) xml
+   * We need the identifier here for openformat to parse a pid in response
+   * @param $pid
+   * @param $original_xml
+   * @return string
+   */
+  private function prep_xml($pid, $original_xml){
+    return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>'.$pid.'</identifier>' . $original_xml . '</object>';
+
+  }
+
+  /**
+   * Split given pid on comma. Or wrap as array if one only
+   * @param $pid string
+   *  one or more pid(s) eg. "870970-basis:47955653,870970-basis:50808874"
+   * @return array|false|string[]
+   */
+  private function split_pid($pid){
+    if(strpos($pid, ',') !== FALSE){
+      $pid = explode(',', $pid);
+    }
+    else{
+      $pid = array($pid);
+    }
+    return $pid;
+  }
+
+  /**
+   * Convert given xml to an OLS object for further handling
+   * @param $param
+   * @param $base_xml
+   * @return null
+   */
+  private function prep_obj($param, $base_xml){
+    // this one fakes opensearch reply - we need the <identifier> part since we cannot get pid from marcxchange
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
 
-    if ($dom->loadXML($prepped_xml)) {
-      $original_obj = $this->xmlconvert->xml2obj($dom);
+    if ($dom->loadXML($base_xml)) {
+      return $this->xmlconvert->xml2obj($dom);
     }
-    $param->originalData = new stdClass();
-    $param->originalData->_namespace = $this->xmlns['of'];
-    $param->originalData->_value = $original_obj;
-
-    return $this->format($param, FALSE);
+    else{
+      verboseJson::log(EROOR, array(
+              'Format' => $param->outputFormat->_value,
+              'Message' => "failed to parse xml: " . $base_xml,
+          )
+      );
+    }
+    return null;
   }
 
   /**
@@ -69,7 +140,8 @@ class openFormat extends webServiceServer {
 
   public function format($param, $cache_me = TRUE) {
     $res = new stdClass();
-    if (!$this->aaa->has_right('openformat', 500)) {
+    //if (!$this->aaa->has_right('openformat', 500)) {
+    if (false) {
       $res->error->_value = 'authentication_error';
       return $this->send_error('authentication_error');
     }

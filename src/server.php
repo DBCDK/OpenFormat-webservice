@@ -122,7 +122,7 @@ class openFormat extends webServiceServer {
       return $this->xmlconvert->xml2obj($dom);
     }
     else{
-      verboseJson::log(EROOR, array(
+      verboseJson::log(ERROR, array(
               'Format' => $param->outputFormat->_value,
               'Message' => "failed to parse xml: " . $base_xml,
           )

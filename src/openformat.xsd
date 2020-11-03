@@ -44,6 +44,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<xs:element ref="of:holdBackEndDate" minOccurs="0"/>
 				<xs:element ref="of:language" minOccurs="0"/>
 				<xs:element ref="of:pid"/>
+				<xs:element ref="of:outputFormat"/>
 				<xs:element ref="of:outputType" minOccurs="0"/>
 				<xs:element ref="of:trackingId" minOccurs="0"/>
 			</xs:sequence>

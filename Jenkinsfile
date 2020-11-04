@@ -77,7 +77,7 @@ pipeline {
             }
           }
         }
-        stage('run soapui test'){
+        stage('run soapui (integration) test'){
             agent {
                 node { label 'devel9-head' }
             }

@@ -82,10 +82,11 @@ pipeline {
                 node { label 'devel9-head' }
             }
             steps{
-                sleep(time:30,unit:"SECONDS")
+                sleep(time:5,unit:"SECONDS")
                 sh """
                 cd /opt/SmartBear/SoapUI-5.5.0/bin && ./testrunner.sh  -f "$WORKSPACE" -j -e http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/ $WORKSPACE/test/soapui/openformat-php-soapui-project.xml
                 """
+                generateTestReport("*.xml")
             }
         }
     }
@@ -106,5 +107,41 @@ pipeline {
         deleteDir()
         cleanWs()
       }
+    }
+}
+
+/**
+ * function to generate test-report
+ * @param String pattern
+ *  the pattern to look for (path to junit xml. eg. test-report.xml)
+ */
+void generateTestReport(String pattern, String type = "JUnit") {
+    if (type == "JUnit") {
+        step([$class        : 'XUnitBuilder',
+              testTimeMargin: '3000',
+              thresholdMode : 1,
+              thresholds    : [failed(failureNewThreshold: '0',
+                      failureThreshold: '0',
+                      unstableNewThreshold: '0',
+                      unstableThreshold: '0')],
+              tools         : [JUnit(deleteOutputFiles: true,
+                      failIfNotNew: true,
+                      pattern: pattern,
+                      skipNoTestFiles: false,
+                      stopProcessingIfError: true)]])
+    }
+    if (type == "PHPUnit") {
+        step([$class        : 'XUnitBuilder',
+              testTimeMargin: '3000',
+              thresholdMode : 1,
+              thresholds    : [failed(failureNewThreshold: '0',
+                      failureThreshold: '0',
+                      unstableNewThreshold: '0',
+                      unstableThreshold: '0')],
+              tools         : [PHPUnit(deleteOutputFiles: true,
+                      failIfNotNew: true,
+                      pattern: pattern,
+                      skipNoTestFiles: false,
+                      stopProcessingIfError: true)]])
     }
 }

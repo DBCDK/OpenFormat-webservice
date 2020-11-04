@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d462416d-ca02-47f3-ae04-a4aa46aa6cf0" activeEnvironment="Default" name="openformat-php" resourceRoot="" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="3ba3dfdb-2084-4baa-a02c-133722d2aaff" wsaVersion="NONE" name="formatServiceSoapBinding" type="wsdl" bindingName="{http://oss.dbc.dk/ns/openformat_wsdl}formatServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/openformat.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/openformat.wsdl"><con:part><con:url>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/openformat.wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://oss.dbc.dk/ns/openformat_wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:types="http://oss.dbc.dk/ns/openformat" xmlns:ofw="http://oss.dbc.dk/ns/openformat_wsdl" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>This file is part of Open Library System.
+Copyright © 2011, Dansk Bibliotekscenter a/s,  Tempovej 7-11, DK-2750 Ballerup, Denmark. CVR: 15149043
+
+Open Library System is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Open Library System is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with Open Library System.  If not, see http://www.gnu.org/licenses</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified">
+      <xs:import namespace="http://oss.dbc.dk/ns/openformat" schemaLocation="openformat.xsd"/>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="formatRequest">
+    <wsdl:part name="parameters" element="types:formatRequest"/>
+  </wsdl:message>
+  <wsdl:message name="formatResponse">
+    <wsdl:part name="parameters" element="types:formatResponse"/>
+  </wsdl:message>
+  <wsdl:message name="formatObjectRequest">
+    <wsdl:part name="parameters" element="types:formatObjectRequest"/>
+  </wsdl:message>
+  <wsdl:message name="formatObjectResponse">
+    <wsdl:part name="parameters" element="types:formatObjectResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="formatServicePortType">
+    <wsdl:operation name="format">
+      <wsdl:input message="ofw:formatRequest"/>
+      <wsdl:output message="ofw:formatResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="formatObject">
+      <wsdl:input message="ofw:formatObjectRequest"/>
+      <wsdl:output message="ofw:formatObjectResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="formatServiceSoapBinding" type="ofw:formatServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="format">
+      <soap:operation soapAction="http://openformat.addi.dk/0.3/"/>
+      <wsdl:input name="formatRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="formatResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="formatObject">
+      <soap:operation soapAction="http://openformat.addi.dk/0.3/"/>
+      <wsdl:input name="formatObjectRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="formatObjectResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="formatService">
+    <wsdl:port name="formatService" binding="ofw:formatServiceSoapBinding">
+      <soap:address location="__LOCATION__"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/openformat.xsd</con:url><con:content><![CDATA[<!--edited with XMLSpy v2012 (http://www.altova.com) by DBC A/S (DBC A/S)-->
+<xs:schema targetNamespace="http://oss.dbc.dk/ns/openformat" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:of="http://oss.dbc.dk/ns/openformat">
+  <xs:annotation>
+    <xs:documentation xml:lang="en">Open Format Service</xs:documentation>
+    <xs:documentation xml:lang="en">This XML Schema describes the data and structure of data of the Open Format service.</xs:documentation>
+    <xs:documentation xml:lang="en">This file is part of Open Library System.
+Copyright © 2011, Dansk Bibliotekscenter a/s,  Tempovej 7-11, DK-2750 Ballerup, Denmark. CVR: 15149043
+
+Open Library System is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Open Library System is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with Open Library System.  If not, see http://www.gnu.org/licenses/</xs:documentation>
+  </xs:annotation>
+  <xs:element name="formatRequest">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="of:agency" minOccurs="0"/>
+        <xs:element ref="of:authentication" minOccurs="0"/>
+        <xs:element ref="of:callback" minOccurs="0"/>
+        <xs:element ref="of:holdBackEndDate" minOccurs="0"/>
+        <xs:element ref="of:language" minOccurs="0"/>
+        <xs:element ref="of:originalData" maxOccurs="unbounded"/>
+        <xs:element ref="of:outputFormat"/>
+        <xs:element ref="of:outputType" minOccurs="0"/>
+        <xs:element ref="of:trackingId" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="formatObjectRequest">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Request for formatting a single manifestation.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="of:agency" minOccurs="0"/>
+        <xs:element ref="of:authentication" minOccurs="0"/>
+        <xs:element ref="of:callback" minOccurs="0"/>
+        <xs:element ref="of:holdBackEndDate" minOccurs="0"/>
+        <xs:element ref="of:language" minOccurs="0"/>
+        <xs:element ref="of:pid"/>
+        <xs:element ref="of:outputFormat"/>
+        <xs:element ref="of:outputType" minOccurs="0"/>
+        <xs:element ref="of:trackingId" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pid" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Unique identifier for dbc datawell</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="formatObjectResponse">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The formatObject response - details depends on desirede output. For a list of valid
+				field type  - see openformatconfigfields.xsd</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:any processContents="skip"/>
+        <xs:element ref="of:error"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="formatResponse">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The service response. For specs of responses look in openformatoutput.xsd and bibliotekdkdisplay.xsd</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:any processContents="skip"/>
+        <xs:element ref="of:error"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="agency" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Identifier of the agency using this service</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="authentication">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Parameters used for authentication purposes</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="of:groupIdAut"/>
+        <xs:element ref="of:passwordAut"/>
+        <xs:element ref="of:userIdAut"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="callback" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">If outputType=json.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="error" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Message returned by the service, if an error occurs.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="groupIdAut">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Identifier of the group (most often a library number) the user belongs to (for authentication purposes)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="holdBackEndDate" type="xs:date">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">date to compare a holdBackEndDate to, typically today</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="language" type="of:languageType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Language of output. Danish is the default output language.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="originalData">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Input to be formated.</xs:documentation>
+    </xs:annotation>
+    <xs:any processContents="skip"/>
+  </xs:element>
+  <xs:element name="outputFormat" type="of:outputFormatType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">E.g. bibliotek.dk full display format.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="outputType" type="of:outputTypeType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">E.g. xml, json or php.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="passwordAut">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Password (for authentication purposes)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="trackingId" type="xs:string">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Unique id to track this request</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="userIdAut">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">User identifier (for authentication purposes)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:simpleType name="languageType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The output languages that can be used with this service.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="dan"/>
+      <xs:enumeration value="eng"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="outputFormatType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The output formats that can be returned by the service.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="briefDisplayHtml"/>
+      <xs:enumeration value="fullDisplayHtml"/>
+      <xs:enumeration value="workDisplayHtml"/>
+      <xs:enumeration value="briefDisplay"/>
+      <xs:enumeration value="fullDisplay"/>
+      <xs:enumeration value="refWorks"/>
+      <xs:enumeration value="ris"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="outputTypeType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">The types of output that can be returned by the service. Default is xml</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="xml"/>
+      <xs:enumeration value="json"/>
+      <xs:enumeration value="php"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>__LOCATION__</con:endpoint><con:endpoint>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk</con:endpoint></con:endpoints><con:operation id="f59f4be5-f135-476a-8c2b-7983358002ff" isOneWay="false" action="http://openformat.addi.dk/0.3/" name="format" bindingOperationName="format" type="Request-Response" outputName="formatResponse" inputName="formatRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="67ef78d8-4031-4dea-b380-60ef95448141" name="Request 1" outgoingWss="" incomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:open="http://oss.dbc.dk/ns/openformat">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <open:formatRequest>
+         <!--Optional:-->
+         <open:agency>?</open:agency>
+         <!--Optional:-->
+         <open:authentication>
+            <open:groupIdAut>?</open:groupIdAut>
+            <open:passwordAut>?</open:passwordAut>
+            <open:userIdAut>?</open:userIdAut>
+         </open:authentication>
+         <!--Optional:-->
+         <open:callback>?</open:callback>
+         <!--Optional:-->
+         <open:holdBackEndDate>?</open:holdBackEndDate>
+         <!--Optional:-->
+         <open:language>?</open:language>
+         <!--1 or more repetitions:-->
+         <open:originalData>?</open:originalData>
+         <open:outputFormat>?</open:outputFormat>
+         <!--Optional:-->
+         <open:outputType>?</open:outputType>
+         <!--Optional:-->
+         <open:trackingId>?</open:trackingId>
+      </open:formatRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username xsi:nil="true"/><con:password xsi:nil="true"/><con:domain xsi:nil="true"/></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://openformat.addi.dk/0.3/"/></con:call></con:operation><con:operation id="a273336b-be1e-4c5e-889b-04041a9330ba" isOneWay="false" action="http://openformat.addi.dk/0.3/" name="formatObject" bindingOperationName="formatObject" type="Request-Response" outputName="formatObjectResponse" inputName="formatObjectRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e01a5719-4c52-4255-b8a3-edfd2d9b4784" name="Request 1" outgoingWss="" incomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:open="http://oss.dbc.dk/ns/openformat">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <open:formatObjectRequest>
+         <!--Optional:-->
+         <open:agency>?</open:agency>
+         <!--Optional:-->
+         <open:authentication>
+            <open:groupIdAut>?</open:groupIdAut>
+            <open:passwordAut>?</open:passwordAut>
+            <open:userIdAut>?</open:userIdAut>
+         </open:authentication>
+         <!--Optional:-->
+         <open:callback>?</open:callback>
+         <!--Optional:-->
+         <open:holdBackEndDate>?</open:holdBackEndDate>
+         <!--Optional:-->
+         <open:language>?</open:language>
+         <open:pid>?</open:pid>
+         <open:outputFormat>?</open:outputFormat>
+         <!--Optional:-->
+         <open:outputType>?</open:outputType>
+         <!--Optional:-->
+         <open:trackingId>?</open:trackingId>
+      </open:formatObjectRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username xsi:nil="true"/><con:password xsi:nil="true"/><con:domain xsi:nil="true"/></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://openformat.addi.dk/0.3/"/></con:call></con:operation></con:interface><con:testSuite id="e81c0dcb-278b-4428-857b-60b448a71510" name="formatServiceSoapBinding TestSuite"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="99ff6975-8485-4c8b-a896-7208062fd9c3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="formatObject TestCase" searchProperties="true"><con:settings/><con:testStep type="request" id="edbc3015-6228-4879-869d-25d09332ddf3" name="formatObject"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>formatServiceSoapBinding</con:interface><con:operation>formatObject</con:operation><con:request name="formatObject" id="1b05ea4c-601c-4194-9ee7-c2b6bb78fdc1" outgoingWss="" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:open="http://oss.dbc.dk/ns/openformat">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <open:formatObjectRequest>         
+         <open:pid>870970-basis:22677780</open:pid>
+         <open:outputFormat>netpunkt_standard</open:outputFormat>         
+         <open:trackingId>?</open:trackingId>
+      </open:formatObjectRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username xsi:nil="true"/><con:password xsi:nil="true"/><con:domain xsi:nil="true"/><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig action="http://openformat.addi.dk/0.3/" mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>

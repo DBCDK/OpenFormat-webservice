@@ -78,6 +78,9 @@ pipeline {
           }
         }
         stage('run soapui test'){
+            agent {
+                node { label 'devel9-head' }
+            }
             steps{
                 build job: 'openformat-soapui-test'
             }

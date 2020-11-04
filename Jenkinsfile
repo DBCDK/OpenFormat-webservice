@@ -77,6 +77,11 @@ pipeline {
             }
           }
         }
+        stage('run soapui test'){
+            steps{
+                build job: 'openformat-soapui-test'
+            }
+        }
     }
     post {
       success {

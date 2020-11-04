@@ -82,7 +82,7 @@ pipeline {
                 node { label 'devel9-head' }
             }
             steps{
-                sleep(time:5,unit:"SECONDS")
+                sleep(time:30,unit:"SECONDS")
                 sh """
                 cd /opt/SmartBear/SoapUI-5.5.0/bin && ./testrunner.sh  -f "$WORKSPACE" -j -e http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/ $WORKSPACE/test/soapui/openformat-php-soapui-project.xml
                 """

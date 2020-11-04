@@ -82,6 +82,7 @@ pipeline {
                 node { label 'devel9-head' }
             }
             steps{
+                sleep(time:10,unit:"SECONDS")
                 build job: 'openformat-soapui-test'
             }
         }

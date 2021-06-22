@@ -35,6 +35,8 @@ class openFormat extends webServiceServer {
 
   /**
    * constructor
+   * Initialize base class with configuration
+   * Set cluster cache from config section
    */
   public function __construct() {
     webServiceServer::__construct('openformat.ini');
@@ -51,7 +53,7 @@ class openFormat extends webServiceServer {
    * @return string
    */
   private function make_cache_key(array $pids, $display) {
-    $cache_key = "";
+    $cache_key = "OF";
     foreach ($pids as $pid) {
       $cache_key .= $pid;
     }

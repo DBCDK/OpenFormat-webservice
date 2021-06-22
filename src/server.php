@@ -44,6 +44,7 @@ class openFormat extends webServiceServer {
 
   /**
    * Make a cache key from pids and given display
+   *
    * @param array $pids
    * @param $display
    *
@@ -192,8 +193,7 @@ class openFormat extends webServiceServer {
 
   public function format($param, $cache_me = TRUE) {
     $res = new stdClass();
-    if (FALSE) {
-      //if (!$this->aaa->has_right('openformat', 500)) {
+    if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
       return $this->send_error('authentication_error');
     }

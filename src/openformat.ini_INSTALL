@@ -153,9 +153,9 @@ dump_timer = openformat(%s)
 @CACHE_SETTINGS@
 
 [rediscache]
-cache_host = @REDIS_CLUSTER_HOST@
-cache_port = @REDIS_CLUSTER_PORT@
-cache_expire = 600
+redis_host = @REDIS_CLUSTER_HOST@
+redis_port = @REDIS_CLUSTER_PORT@
+redis_expire = @REDIS_CLUSTER_EXPIRE@
 
 [aaa]
 ; aaa Authentication, Access control and Accounting

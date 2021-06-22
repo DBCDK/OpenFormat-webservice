@@ -39,7 +39,7 @@ class openFormat extends webServiceServer {
   public function __construct() {
     webServiceServer::__construct('openformat.ini');
     $cachesettings = $this->config->get_section('rediscache');
-    $this->redis_cache = new RedisClusterCache($cachesettings['cache_host']);
+    $this->redis_cache = new RedisClusterCache($cachesettings['redis_host'], $cachesettings['redis_port'], $cachesettings['redis_expire']);
   }
 
   /**

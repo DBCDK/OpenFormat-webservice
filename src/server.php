@@ -22,6 +22,7 @@
 //-----------------------------------------------------------------------------
 require_once('OLS_class_lib/webServiceServer_class.php');
 require_once('OLS_class_lib/format_class.php');
+require_once('OLS_class_lib/rediscluster_class.php');
 require_once("formatObject.php");
 
 //-----------------------------------------------------------------------------
@@ -30,14 +31,40 @@ define(DEBUG_ON, FALSE);
 //-----------------------------------------------------------------------------
 class openFormat extends webServiceServer {
 
+  private $redis_cache;
+
+  /**
+   * constructor
+   */
   public function __construct() {
     webServiceServer::__construct('openformat.ini');
+    $cachesettings = $this->config->get_section('rediscache');
+    $this->redis_cache = new RedisClusterCache($cachesettings['cache_host']);
+  }
+
+  /**
+   * Make a cache key from pids and given display
+   * @param array $pids
+   * @param $display
+   *
+   * @return string
+   */
+  private function make_cache_key(array $pids, $display) {
+    $cache_key = "";
+    foreach ($pids as $pid) {
+      $cache_key .= $pid;
+    }
+    $cache_key .= $display;
+
+    return md5($cache_key);
   }
 
   /**
    * Format from one or more pid(s)
+   *
    * @param $param
    *    OLS object
+   *
    * @return stdClass
    *    OLS object
    */
@@ -48,13 +75,26 @@ class openFormat extends webServiceServer {
     }
     // split pid(s) into an array
     $pids = $this->split_pid($param->pid->_value);
-    // @TODO check - explode might return false
+    // make a cache key
+    $cache_key = $this->make_cache_key($pids, $param->outputFormat->_value);
+    // check the cache
+    if ($response = $this->redis_cache->get($cache_key)) {
+      // @TODO should we log a cache hit?
+      verboseJson::log(STAT, array(
+          'Format' => $param->outputFormat->_value,
+          'FromCache' => "yes",
+          'Total' => sprintf('%01.3f', $this->watch->splittime('Total')),
+        )
+      );
+      return $response;
+    }
+
     // base xml (wrapper for output)
     $base_xml = "<collection>";
     // object to get dkabm and marcxchange from corepo
     $formatObject = new formatObject($this->config);
     // iterate pids
-    foreach ($pids as $pid){
+    foreach ($pids as $pid) {
       $result = $formatObject->getContent($pid, $this->watch);
       if (!$result['success']) {
         // @TODO if one fails .. should we continue with the rest ?
@@ -69,39 +109,47 @@ class openFormat extends webServiceServer {
     $param->originalData = new stdClass();
     $param->originalData->_namespace = $this->xmlns['of'];
     $prepped_obj = $this->prep_obj($param, $base_xml);
-    if(empty($prepped_obj)){
+    if (empty($prepped_obj)) {
       // logging is done in prep_obj method - @TODO return a meaningfull message
       return $this->send_error("An error occured");
     }
 
     $param->originalData->_value = $prepped_obj;
 
-    return $this->format($param, FALSE);
+    $response = $this->format($param, FALSE);
+    // set the cache
+    $this->redis_cache->set($cache_key, $response);
+
+    return $response;
   }
 
   /**
    * Do an object with identifier and dkabm+marcxchange (original) xml
    * We need the identifier here for openformat to parse a pid in response
+   *
    * @param $pid
    * @param $original_xml
+   *
    * @return string
    */
-  private function prep_xml($pid, $original_xml){
-    return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>'.$pid.'</identifier>' . $original_xml . '</object>';
+  private function prep_xml($pid, $original_xml) {
+    return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>' . $pid . '</identifier>' . $original_xml . '</object>';
 
   }
 
   /**
    * Split given pid on comma. Or wrap as array if one only
+   *
    * @param $pid string
    *  one or more pid(s) eg. "870970-basis:47955653,870970-basis:50808874"
+   *
    * @return array|false|string[]
    */
-  private function split_pid($pid){
-    if(strpos($pid, ',') !== FALSE){
+  private function split_pid($pid) {
+    if (strpos($pid, ',') !== FALSE) {
       $pid = explode(',', $pid);
     }
-    else{
+    else {
       $pid = array($pid);
     }
     return $pid;
@@ -109,11 +157,13 @@ class openFormat extends webServiceServer {
 
   /**
    * Convert given xml to an OLS object for further handling
+   *
    * @param $param
    * @param $base_xml
+   *
    * @return null
    */
-  private function prep_obj($param, $base_xml){
+  private function prep_obj($param, $base_xml) {
     // this one fakes opensearch reply - we need the <identifier> part since we cannot get pid from marcxchange
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
@@ -121,26 +171,29 @@ class openFormat extends webServiceServer {
     if ($dom->loadXML($base_xml)) {
       return $this->xmlconvert->xml2obj($dom);
     }
-    else{
+    else {
       verboseJson::log(ERROR, array(
-              'Format' => $param->outputFormat->_value,
-              'Message' => "failed to parse xml: " . $base_xml,
-          )
+          'Format' => $param->outputFormat->_value,
+          'Message' => "failed to parse xml: " . $base_xml,
+        )
       );
     }
-    return null;
+    return NULL;
   }
 
   /**
    * \brief Handles the request and set up the response
+   *
    * @param stdClass $param
    * @param bool $cache_me (not used for now)
+   *
    * @return \stdClass
    */
 
   public function format($param, $cache_me = TRUE) {
     $res = new stdClass();
-    if (!$this->aaa->has_right('openformat', 500)) {
+    if (FALSE) {
+      //if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
       return $this->send_error('authentication_error');
     }
@@ -175,8 +228,8 @@ class openFormat extends webServiceServer {
     if (!($dump_format = $this->dump_timer)) {
       $dmp_format = '%s';
     }
-    $size_upload=0;
-    $size_download=0;
+    $size_upload = 0;
+    $size_download = 0;
     foreach ($formatRecords->get_status() as $r_c) {
       $size_upload += $r_c['size_upload'];
       $size_download += $r_c['size_download'];

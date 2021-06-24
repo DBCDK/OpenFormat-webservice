@@ -144,7 +144,7 @@ logfile = @LOGFILE@
 verbose = @VERBOSE_LEVEL@
 
 ; format for automatic timer dump %s is the soap-action used
-dump_timer = openformat(%s)
+;dump_timer = openformat(%s)
 
 ; memcache
 ;cache_host = localhost

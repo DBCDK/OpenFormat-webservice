@@ -86,7 +86,7 @@ class openFormat extends webServiceServer {
       verboseJson::log(STAT, array(
           'Format' => $param->outputFormat->_value,
           'FromCache' => "yes",
-          'Total' => sprintf('%01.3f', $this->watch->splittime('Total')),
+          'Total' => $this->watch->splittime('Total'),
         )
       );
       return $response;
@@ -242,8 +242,8 @@ class openFormat extends webServiceServer {
         'Format' => $param->outputFormat->_value,
         'bytesIn' => $size_upload,
         'bytesOut' => $size_download,
-        'js_server' => sprintf('%01.3f', $this->watch->splittime('js_server')),
-        'Total' => sprintf('%01.3f', $this->watch->splittime('Total')),
+        'js_server' => $this->watch->splittime('js_server'),
+        'Total' =>$this->watch->splittime('Total'),
       )
     );
 
@@ -268,5 +268,5 @@ class openFormat extends webServiceServer {
 
 $ws = new openFormat();
 $ws->handle_request();
-?>
+
 

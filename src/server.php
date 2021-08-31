@@ -81,7 +81,8 @@ class openFormat extends webServiceServer {
     // make a cache key
     $cache_key = $this->make_cache_key($pids, $param->outputFormat->_value);
     // check the cache
-    if ($response = $this->redis_cache->get($cache_key)) {
+    //if ($response = $this->redis_cache->get($cache_key)) {
+    if(false){
       // @TODO should we log a cache hit?
       verboseJson::log(STAT, array(
           'Format' => $param->outputFormat->_value,
@@ -91,6 +92,8 @@ class openFormat extends webServiceServer {
       );
       return $response;
     }
+
+
 
     // base xml (wrapper for output)
     $base_xml = "<collection>";
@@ -135,9 +138,29 @@ class openFormat extends webServiceServer {
    *
    * @return string
    */
-  private function prep_xml($pid, $original_xml) {
-    return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>' . $pid . '</identifier>' . $original_xml . '</object>';
+  private function prep_xml($pid, $original_xml_array) {
+    $commonxml = $original_xml_array['commonData'];
 
+    // check if there is anything to add to record
+    // for now we expext at most 2 entries in array - if more are added -> do NOT use end() to get last element
+    if(count($original_xml_array) > 1) {
+      $localxml = end($original_xml_array);
+      $where_to_insert = strpos($commonxml, "</marcx:record>");
+      $start_pos = strpos($localxml, "<marcx:datafield");
+      $string_to_insert = substr($localxml, $start_pos);
+      $end_pos = strpos($string_to_insert, "</marcx:record>");
+      $str_length = strlen($string_to_insert);
+      $final_length = $str_length - ($str_length - $end_pos);
+      $cutted_local_xml = substr($string_to_insert, 0, $final_length);
+
+      // insert local xml string in commonxml
+      $real_string = substr_replace($commonxml, $cutted_local_xml, $where_to_insert, 0);
+    }
+    else{
+      $real_string = $commonxml;
+    }
+
+    return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>' . $pid . '</identifier>' . $real_string . '</object>';
   }
 
   /**
@@ -171,6 +194,7 @@ class openFormat extends webServiceServer {
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
 
+    // @TODO add localData marcx.datafields (numberfields) to marc.record
     if ($dom->loadXML($base_xml)) {
       return $this->xmlconvert->xml2obj($dom);
     }
@@ -187,6 +211,9 @@ class openFormat extends webServiceServer {
   /**
    * \brief Handles the request and set up the response
    *
+   * @TODO -- is it possible to do a good cache key here ?? we DO have the redis cache ready ..
+   *
+   *
    * @param stdClass $param
    * @param bool $cache_me (not used for now)
    *
@@ -195,7 +222,8 @@ class openFormat extends webServiceServer {
 
   public function format($param, $cache_me = TRUE) {
     $res = new stdClass();
-    if (!$this->aaa->has_right('openformat', 500)) {
+    //if (!$this->aaa->has_right('openformat', 500)) {
+    if(false){
       $res->error->_value = 'authentication_error';
       return $this->send_error('authentication_error');
     }
@@ -237,7 +265,7 @@ class openFormat extends webServiceServer {
       $size_download += $r_c['size_download'];
     }
 
-    // @TODO verboseJson does take an array as message - FIX it with timers etc.
+    // @TODO Log slow requests ?? eg. if Total > 0.1 ... ? with some kind of id -- <opensearch>identifier ???
     verboseJson::log(STAT, array(
         'Format' => $param->outputFormat->_value,
         'bytesIn' => $size_upload,

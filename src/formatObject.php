@@ -60,7 +60,6 @@ class formatObject {
   private function set_datastreams($pid){
     // split pid in (catalogue, faust)
     $catalogue_faust = explode(":", $pid);
-    // @TODO check explosion
     // there should be 2 entries (catalogue, faust) - eg. [870971-avis, 38802399]
     if(count($catalogue_faust) !== 2){
       return array(
@@ -96,7 +95,6 @@ class formatObject {
     $pid = trim($pid);
 
     $content_response = array();
-    // @TODO check each of the curl-get 's
     // get data for each datastream
     foreach ($datastreams as $datastream) {
       $content_url = str_replace(array('$pid','$datastream'), array($pid, $datastream), $content_url_ini);
@@ -104,10 +102,12 @@ class formatObject {
       $tmp_content = $this->curl->get();
       // check curl status
       $status = $this->curl->get_status();
+      // only add if all is good
       if ($status['http_code'] === 200) {
         $content_response[$datastream] = $tmp_content;
       }
       else{
+        // something went wrong - set a flag and log
         $this->curlstatus[$datastream]['success'] = FALSE;
         $this->curlstatus[$datastream]['status'] = $status;
         verboseJson::log(ERROR, array(

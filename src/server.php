@@ -81,8 +81,7 @@ class openFormat extends webServiceServer {
     // make a cache key
     $cache_key = $this->make_cache_key($pids, $param->outputFormat->_value);
     // check the cache
-    //if ($response = $this->redis_cache->get($cache_key)) {
-    if(false){
+    if ($response = $this->redis_cache->get($cache_key)) {
       // @TODO should we log a cache hit?
       verboseJson::log(STAT, array(
           'Format' => $param->outputFormat->_value,
@@ -133,26 +132,36 @@ class openFormat extends webServiceServer {
    * Do an object with identifier and dkabm+marcxchange (original) xml
    * We need the identifier here for openformat to parse a pid in response
    *
+   *
    * @param $pid
-   * @param $original_xml
+   * @param array $original_xml
+   *  array always holds commonData stream from corepo - but may also hold additional
+   *  data - localData - if localdata is there -> merge it into commonData
+   *  stream.
    *
    * @return string
+   *  The xml string to format
    */
-  private function prep_xml($pid, $original_xml_array) {
+  private function prep_xml($pid, array $original_xml_array) {
     $commonxml = $original_xml_array['commonData'];
 
     // check if there is anything to add to record
     // for now we expext at most 2 entries in array - if more are added -> do NOT use end() to get last element
     if(count($original_xml_array) > 1) {
       $localxml = end($original_xml_array);
+      // insert just before end of marcrecord
       $where_to_insert = strpos($commonxml, "</marcx:record>");
+      // insert from first marcx:datafield
       $start_pos = strpos($localxml, "<marcx:datafield");
+      // cut first part of string to insert
       $string_to_insert = substr($localxml, $start_pos);
+      // find end postition of the remanining string
       $end_pos = strpos($string_to_insert, "</marcx:record>");
+      // get the length of the string
       $str_length = strlen($string_to_insert);
       $final_length = $str_length - ($str_length - $end_pos);
+      // cut the end of the string to insert
       $cutted_local_xml = substr($string_to_insert, 0, $final_length);
-
       // insert local xml string in commonxml
       $real_string = substr_replace($commonxml, $cutted_local_xml, $where_to_insert, 0);
     }
@@ -160,6 +169,7 @@ class openFormat extends webServiceServer {
       $real_string = $commonxml;
     }
 
+    // prepend xml - we need an identifier (pid)
     return $prepped_xml = '<object xmlns="http://oss.dbc.dk/ns/opensearch"><identifier>' . $pid . '</identifier>' . $real_string . '</object>';
   }
 
@@ -194,7 +204,6 @@ class openFormat extends webServiceServer {
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = FALSE;
 
-    // @TODO add localData marcx.datafields (numberfields) to marc.record
     if ($dom->loadXML($base_xml)) {
       return $this->xmlconvert->xml2obj($dom);
     }

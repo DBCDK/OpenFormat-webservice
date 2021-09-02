@@ -50,13 +50,22 @@ class formatObject {
       $result['xml_string'] = 'URL: ' . $this->curlstatus['commonData']['status']['url'] . ' RETURNS error code: ' . $this->curlstatus['commonData']['status']['http_code'];
       return $result;
     }
-    //$result['xml_string'] = $php_content['dataStream'];
+
     // all is well for further processing
     $result['success'] = TRUE;
     $result['xml_string'] = $content_response;
     return $result;
   }
 
+  /**
+   * Set the datastreams to get from corepo - check if pid is an article (catalogue 870971)
+   * if so we want the local datastream included
+   *
+   * @param $pid
+   *
+   * @return array
+   *  the datastreams to handle
+   */
   private function set_datastreams($pid){
     // split pid in (catalogue, faust)
     $catalogue_faust = explode(":", $pid);

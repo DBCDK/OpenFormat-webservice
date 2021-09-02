@@ -229,8 +229,7 @@ class openFormat extends webServiceServer {
 
   public function format($param, $cache_me = TRUE) {
     $res = new stdClass();
-    //if (!$this->aaa->has_right('openformat', 500)) {
-    if(false){
+    if (!$this->aaa->has_right('openformat', 500)) {
       $res->error->_value = 'authentication_error';
       return $this->send_error('authentication_error');
     }

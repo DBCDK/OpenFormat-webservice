@@ -108,7 +108,7 @@ class formatObject {
     // get data for each datastream
     foreach ($datastreams as $datastream) {
       if($datastream === 'commonData'){
-        $content_url = $commondata_url_ini.$pid;
+        $content_url = $commondata_url_ini.'='.$pid;
       }
       else {
         $content_url = str_replace(array('$pid', '$datastream'), array(

@@ -92,6 +92,7 @@ class openFormat extends webServiceServer {
       return $response;
     }
 
+
     // base xml (wrapper for output)
     $base_xml = "<collection>";
     // object to get dkabm and marcxchange from corepo

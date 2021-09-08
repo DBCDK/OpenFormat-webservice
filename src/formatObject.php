@@ -100,20 +100,36 @@ class formatObject {
    */
   private function call_corepo($pid, array $datastreams){
     /** @var inifile $config */
-    $content_url_ini = $this->config->get_value('service_url', 'content_service');
+    $commondata_url_ini = $this->config->get_value('commondata_service_url', 'content_service');
+    $localdata_url_ini = $this->config->get_value('localdata_service_url', 'content_service');
     $pid = trim($pid);
 
     $content_response = array();
     // get data for each datastream
     foreach ($datastreams as $datastream) {
-      $content_url = str_replace(array('$pid','$datastream'), array($pid, $datastream), $content_url_ini);
+      if($datastream === 'commonData'){
+        $content_url = $commondata_url_ini.$pid;
+      }
+      else {
+        $content_url = str_replace(array('$pid', '$datastream'), array(
+          $pid,
+          $datastream
+        ), $localdata_url_ini);
+      }
+
       $this->curl->set_url($content_url);
       $tmp_content = $this->curl->get();
       // check curl status
       $status = $this->curl->get_status();
       // only add if all is good
       if ($status['http_code'] === 200) {
-        $content_response[$datastream] = $tmp_content;
+        if($datastream === 'commonData') {
+          $php_content = json_decode($tmp_content, TRUE);
+          $content_response[$datastream] = $php_content['dataStream'];
+        }
+        else{
+          $content_response[$datastream] = $tmp_content;
+        }
       }
       else{
         // something went wrong - set a flag and log

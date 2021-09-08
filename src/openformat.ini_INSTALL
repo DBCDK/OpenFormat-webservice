@@ -253,4 +253,6 @@ preg_match[]=manifestation
 error[] = error formatting 870970-basis:22677780
 
 [content_service]
-service_url = @CONTENT_SERVICE@
+commondata_service_url = @CONTENT_SERVICE_COMMON@
+localdata_service_url = @CONTENT_SERVICE_LOCAL@
+

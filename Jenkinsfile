@@ -26,7 +26,6 @@ print "Parameter: PRODUCT = " + PRODUCT +
       "\n           DOCKER_IMAGENAME = " + DOCKER_IMAGENAME +
       "\n           NAMESPACE = " + NAMESPACE +
       "\n           URL = " + URL +
-      "\n           TESTURL = " + TESTURL +
       "\n           BUILD_NUMBER = " + BUILD_NUMBER +
       "\n           WORKER_NODE = " + WORKER_NODE +
       "\n           SOAPUI_NODE = " + SOAPUI_NODE

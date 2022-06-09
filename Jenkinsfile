@@ -97,15 +97,15 @@ pipeline {
       agent {
         node { label SOAPUI_NODE }
       }
-      environment {
-        TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
-      }
+      //environment {
+        //TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
+      //}
       steps{
-        script {
-          if (BRANCH_NAME == 'master') {
-            TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
-          }
-        }
+        //script {
+          //if (BRANCH_NAME == 'master') {
+            //TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
+          //}
+        //}
         sleep(time:30, unit:"SECONDS")
         sh """
           cd /opt/SmartBear/SoapUI-5.5.0/bin && ./testrunner.sh  -f "$WORKSPACE" -j -e $TESTURL $WORKSPACE/test/soapui/openformat-php-soapui-project.xml

@@ -5,7 +5,6 @@ def WORKER_NODE = "devel10"
 def SOAPUI_NODE = "devel9"
 def BRANCH = BRANCH_NAME.replace("feature", "").replace("/", "").replace("_", "-").replace(".", "-")
 def NAMESPACE = (BRANCH == 'master') ? 'staging' : 'features'
-def TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 if (BRANCH_NAME == 'master') {
   def TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 } else {

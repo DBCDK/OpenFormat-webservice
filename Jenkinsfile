@@ -4,6 +4,7 @@ def PRODUCT = "openformat-php"
 def WORKER_NODE = "devel10"
 def SOAPUI_NODE = "devel9"
 def BRANCH = BRANCH_NAME.replace("feature", "").replace("/", "").replace("_", "-").replace(".", "-")
+def NAMESPACE = (BRANCH == 'master') ? 'staging' : 'features'
 
 // Docker setup
 def DOCKER_REPO = 'docker-fbiscrum.artifacts.dbccloud.dk'

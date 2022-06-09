@@ -92,7 +92,9 @@ pipeline {
                 }
                 sleep(time:30,unit:"SECONDS")
                 sh """
+                set +e
                 cd /opt/SmartBear/SoapUI-5.5.0/bin && ./testrunner.sh  -f "$WORKSPACE" -j -e $TESTURL $WORKSPACE/test/soapui/openformat-php-soapui-project.xml
+                set -e
                 """
                 generateTestReport("*.xml")
             }

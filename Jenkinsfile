@@ -1,8 +1,32 @@
 #! groovy
 
+def PRODUCT = "openformat-php"
+def WORKER_NODE = "devel10"
+def SOAPUI_NODE = "devel9"
+def BRANCH = BRANCH_NAME.replace("feature", "").replace("/", "").replace("_", "-").replace(".", "-")
+
+// Docker setup
+def DOCKER_REPO = 'docker-fbiscrum.artifacts.dbccloud.dk'
+def DOCKER_IMAGENAME = "${DOCKER_REPO}/${PRODUCT}-${BRANCH.toLowerCase()}:${BUILD_NUMBER}"
+
+//slack
+def SLACK_CHANNEL_SUCCESS = "fe-jenkins"
+def SLACK_CHANNEL_ERROR = "fe-fbi"
+
+print "Parameter: PRODUCT = " + PRODUCT +
+      "\n           BRANCH_NAME = " + BRANCH_NAME +
+      "\n           DOCKER_REPO = " + DOCKER_REPO +
+      "\n           DOCKER_IMAGENAME = " + DOCKER_IMAGENAME +
+      "\n           NAMESPACE = " + NAMESPACE +
+      "\n           URL = " + URL +
+      "\n           BUILD_NUMBER = " + BUILD_NUMBER +
+      "\n           WORKER_NODE = " + WORKER_NODE +
+      "\n           SOAPUI_NODE = " + SOAPUI_NODE
+
+
 pipeline {
     agent {
-      node { label 'devel10-head' }
+      node { label WORKER_NODE }
     }
     options {
         buildDiscarder(logRotator(artifactDaysToKeepStr: "", artifactNumToKeepStr: "", daysToKeepStr: "", numToKeepStr: "5"))
@@ -10,14 +34,6 @@ pipeline {
         gitLabConnection('gitlab.dbc.dk')
         disableConcurrentBuilds()
     }
-    environment {
-        PRODUCT = 'openformat-php'
-        BRANCH = BRANCH_NAME.replace("feature", "").replace("/", "").replace("_", "-").replace(".", "-")
-        BUILDNAME = "Openformat-php :: ${BRANCH}"
-        BUILD_ID = "${currentBuild.number}"
-        DOCKER_REPO = "docker-dscrum.dbc.dk"
-    }
-
     stages {
         stage('build code') {
             steps {
@@ -38,7 +54,7 @@ pipeline {
                 }
                 dir('docker/www') {
                     script {
-                        docker.build("${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_ID}")
+                        def image = docker.build(DOCKER_IMAGENAME)
                     }
                 }
             }
@@ -46,16 +62,8 @@ pipeline {
         stage('push to artifactory') {
             steps {
                 script {
-                    def artyServer = Artifactory.server 'arty'
-                    def artyDocker = Artifactory.docker server: artyServer, host: env.DOCKER_HOST
-
-                    def buildInfo = Artifactory.newBuildInfo()
-                    buildInfo.name = BUILDNAME
-                    buildInfo.env.capture = true
-                    buildInfo.env.collect()
-                    buildInfo = artyDocker.push("${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_ID}", 'docker-dscrum', buildInfo)
-
-                    artyServer.publishBuildInfo buildInfo
+                    docker.image("${DOCKER_IMAGENAME}").push("${BUILD_NUMBER}")
+                    sh "docker rmi ${DOCKER_IMAGENAME}"
                 }
             }
         }
@@ -65,7 +73,7 @@ pipeline {
               if (BRANCH_NAME == 'master') {
                 // Deploy to Kubernetes frontend-staging namespace.
                 build job: 'Openformat/openformat-php/openformat-php-deploy/staging', parameters: [
-                  string(name: 'BuildId', value: BUILD_ID),
+                  string(name: 'BuildId', value: BUILD_NUMBER),
                 ]
               } else {
                 // Deploy to Kubernetes frontend-features namespace.
@@ -79,7 +87,7 @@ pipeline {
         }
         stage('run soapui (integration) test'){
             agent {
-                node { label 'devel9-head' }
+                node { label SOAPUI_NODE }
             }
             environment {
                 TESTURL = "http://openformat-php-develop.frontend-features.svc.cloud.dbc.dk/"
@@ -101,8 +109,7 @@ pipeline {
     post {
       success {
         script {
-          def BUILD = DOCKER_REPO + '/' + PRODUCT + '-' + BRANCH + ':' +  BUILD_ID.toString()
-          echo BUILD
+          echo DOCKER_IMAGENAME
         }
       }
       failure {
@@ -111,7 +118,7 @@ pipeline {
       }
       always {
         echo 'Clean up workspace.'
-        sh "docker rmi ${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_ID}"
+        sh "docker rmi ${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_NUMBER}"
         deleteDir()
         cleanWs()
       }

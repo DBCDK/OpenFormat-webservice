@@ -5,10 +5,11 @@ def WORKER_NODE = "devel10"
 def SOAPUI_NODE = "devel9"
 def BRANCH = BRANCH_NAME.replace("feature", "").replace("/", "").replace("_", "-").replace(".", "-")
 def NAMESPACE = (BRANCH == 'master') ? 'staging' : 'features'
+def TESTURL
 if (BRANCH_NAME == 'master') {
-  def TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
+  TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 } else {
-  def TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
+  TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 }
 def URL = 'http://' + PRODUCT  + '-' + BRANCH + '.' + "frontend-" + NAMESPACE + '.svc.cloud.dbc.dk' + '/'
 
@@ -26,6 +27,7 @@ print "Parameter: PRODUCT = " + PRODUCT +
       "\n           DOCKER_IMAGENAME = " + DOCKER_IMAGENAME +
       "\n           NAMESPACE = " + NAMESPACE +
       "\n           URL = " + URL +
+      "\n           TESTURL = " + TESTURL +
       "\n           BUILD_NUMBER = " + BUILD_NUMBER +
       "\n           WORKER_NODE = " + WORKER_NODE +
       "\n           SOAPUI_NODE = " + SOAPUI_NODE

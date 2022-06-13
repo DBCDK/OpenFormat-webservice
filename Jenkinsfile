@@ -86,6 +86,7 @@ pipeline {
           } else {
             // Deploy to Kubernetes frontend-features namespace.
             build job: 'Openformat/openformat-php/openformat-php-deploy/features', parameters: [
+              string(name: 'BuildId', value: BUILD_NUMBER),
               string(name: 'branch', value: BRANCH_NAME),
               string(name: 'javascriptserver', value: 'develop'),
               ]

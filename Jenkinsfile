@@ -130,7 +130,6 @@ pipeline {
     }
     always {
       echo 'Clean up workspace.'
-      sh "docker rmi ${DOCKER_REPO}/${PRODUCT}-${BRANCH}:${BUILD_NUMBER}"
       deleteDir()
       cleanWs()
     }

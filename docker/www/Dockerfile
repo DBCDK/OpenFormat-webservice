@@ -1,5 +1,5 @@
-FROM docker.dbc.dk/dbc-apache-php7
-MAINTAINER D-scrum <d-scrum@dbc.dk>
+FROM docker-dbc.artifacts.dbccloud.dk/dbc-apache-php7
+MAINTAINER FBIScrum
 
 # clean up apache root
 RUN rm $APACHE_ROOT/index.html
@@ -16,7 +16,7 @@ COPY verbose_class.php $APACHE_ROOT/OLS_class_lib
 # add symbolic link to server.php
 RUN ln -s $APACHE_ROOT/server.php $APACHE_ROOT/index.php
 
-RUN echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> /etc/php/7.3/apache2/php.ini  \
+RUN echo "error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE" >> /etc/php/7.4/apache2/php.ini  \
  && perl -pi -e 's/MaxRequestWorkers.*/MaxRequestWorkers\t 50/' /etc/apache2/mods-available/mpm_prefork.conf
 
 EXPOSE 80

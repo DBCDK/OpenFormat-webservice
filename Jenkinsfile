@@ -9,7 +9,7 @@ def TESTURL
 if (BRANCH_NAME == 'master') {
   TESTURL = "http://${PRODUCT}-master.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 } else {
-  TESTURL = "http://${PRODUCT}-develop.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
+  TESTURL = "http://${PRODUCT}-${BRANCH}.frontend-${NAMESPACE}.svc.cloud.dbc.dk/"
 }
 def URL = 'http://' + PRODUCT  + '-' + BRANCH + '.' + "frontend-" + NAMESPACE + '.svc.cloud.dbc.dk/'
 
